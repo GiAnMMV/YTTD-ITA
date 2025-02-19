@@ -4683,72 +4683,72 @@
       "Sono il Custode della Chiave\nNon dire niente"
     ],
     "5-13-message": [
-      "\\C[3]...All votes have been received.",
-      "\\.\\C[3]Displaying results...",
+      "\\C[3]...Tutti i voti sono stati ricevuti.",
+      "\\.\\C[3]Verranno ora annunciati i risultati...",
       "",
       "\"..........\"",
-      "\\.\\C[3]Fear... is welling up inside me...",
-      "\\.\"Heehee... What do you think of the results?\"",
-      "\\.\"Five will proceed to the final vote.\"",
+      "\\.\\C[3]La paura... si attanaglia dentro di me...",
+      "\\.\"Ihih... Che ne pensate dei risultati?\"",
+      "\\.\"Saranno in cinque a proseguire\n verso la votazione finale.\"",
       "\\.\"\\C[2]Kanna Kizuchi.\\C[0]\"",
       "\\.\"..........\"",
       "\\.\"\\C[2]Kai Satou.\\C[0]\"",
       "\\.\"...\"",
       "\\.\"\\C[2]Jou Tazuna.\\C[0]\"",
-      "\\.\"...Why...?! Why me...?!\"",
+      "\\.\"...Perché...?! Perché io...?!\"",
       "\\.\"\\C[2]Sou Hiyori.\\C[0]\"",
-      "\\.\"...I see...\"",
+      "\\.\"...Capisco...\"",
       "\\.\"\\C[2]Sara Chidouin.\\C[0]\"",
       "\\.\"..........\"",
-      "\\.\\C[3]We'll die...?",
-      "\\.\\C[3]One of us five will, with certainty...",
-      "\\.\\C[3]I don't... want to die.",
-      "\\.\"...I...\"",
-      "\\.\"I'm... the Keymaster...\"",
-      "\\.\"I'm the Keymaster...! Please believe me...\"",
+      "\\.\\C[3]Moriremo...?",
+      "\\.\\C[3]Uno di noi cinque sì, inevitabilmente...",
+      "\\.\\C[3]Non... voglio morire.",
+      "\\.\"...Sono...\"",
+      "\\.\"Sono... il Custode della Chiave...\"",
+      "\\.\"Sono io il Custode della chiave...!\n Dovete credermi...\"",
       "\\.\"...Sara...\"",
-      "\\C[3]Why did that come out now?",
-      "\\.\\C[3]I want to survive...",
-      "\\.\\C[3]I still... want to live...",
+      "\\C[3]Perché mi è uscito adesso?",
+      "\\.\\C[3]Voglio sopravvivere...",
+      "\\.\\C[3]Voglio... continuare a vivere...",
       "\\.\"..........\"",
-      "\\.\"A-Am I... safe...?\"",
-      "\\.\"Y-You're kidding?! Me too?! Woohoo!!\"",
-      "\\.\"Dumbasses!!\n It's the next part that's seriously bad!!\"",
-      "\\.\"Our votes... will decide our fates.\"",
-      "\\.\"D-Do we... have to choose...?\"",
-      "\\.\"Big sis Sara...\"",
-      "\\.\\C[4](...Why me...?)",
-      "\\.\\C[4](I've tried... so hard...)",
-      "\\.\\C[4](And not just for myself...)",
-      "\\.\\C[4](It was... so everyone could escape...\n So why...)",
-      "\\.\\C[4](I don't want to die... I don't...)",
-      "\\.\\{\"Get a grip, Sara!!\"",
+      "\\.\"S-So'... salvo...?\"",
+      "\\.\"S-Sul serio?! Anch'io?! Evvai!!\"",
+      "\\.\"Imbecilli!!\n È proprio ora che viene il peggio!!\"",
+      "\\.\"Saranno i nostri voti...\n a determinare il nostro destino.\"",
+      "\\.\"D-Dobbiamo... scegliere...?\"ù",
+      "\\.\"Sorellona Sara...\"",
+      "\\.\\C[4](...Perché io...?)",
+      "\\.\\C[4](Ce... l'ho messa tutta...)",
+      "\\.\\C[4](E non solo per me stessa...)",
+      "\\.\\C[4](Ma per poter... far scappare tutti...\n Quindi perché...?)",
+      "\\.\\C[4](Non voglio morire... Non voglio...)",
+      "\\.\\{\"Ripigliati, Sara!!\"",
       "\\.\\C[4](...!!)",
-      "\\.\"...Erm, I mean. Hey now, Sara.\n\\! Your friendly policeman's with ya.\"",
+      "\\.\"...Ehm, voglio dire. Ehi, Sara.\n\\! C'è il tuo amichevole poliziotto qua con te.\"",
       "\\.\\C[4](...Keiji...!)",
-      "\\.\"Listen, everybody.\n We need to narrow it down to just one person.\"",
-      "\\.\"Forget your sympathy and your grudges.\n Just remember the \\C[2]roles\\C[0].\"",
-      "\\.\"If we choose the \\C[2]Keymaster\\C[0] or \\C[10]Sacrifice\\C[0],\n we all die...\"",
-      "\\.\"Y-Yes, indeed!!\n We're far from safe at all, absolutely!!\"",
-      "\\.\"Oh! Hey, is one of us a \\C[3]Sage\\C[0]?!\"",
-      "\\.\"If we've got a \\C[3]Sage\\C[0] on our side,\n they'll know who's the \\C[2]Keymaster\\C[0]...!\"",
+      "\\.\"Sentite, gente.\n Dobbiamo restringere il campo a una sola persona.\"",
+      "\\.\"Lasciate perdere la solidarietà o il rancore.\n Concentratevi solo sui \\C[2]ruoli\\C[0].\"",
+      "\\.\"Se scegliamo il \\C[2]Custode della Chiave\\C[0] o il \\C[10]Sacrificio\\C[0]\n siamo tutti morti...\"",
+      "\\.\"S-Sì, giusto!!\n Siamo tutt'altro che salvi, senza dubbio!!\"",
+      "\\.\"Oh! Ehi, qualcuno di noi è il \\C[3]Saggio\\C[0]?!\"",
+      "\\.\"Se avessimo il \\C[3]Saggio\\C[0] dalla nostra parte\n potrebbe dirci chi è il \\C[2]Custode della Chiave\\C[0]...!\"",
       "\\.\\C[3]....................",
-      "\\.\"Don't tell me... There isn't, meow...?!\"",
-      "\\.\"This's the worst...!! So it's one of the five?!\"",
-      "\\.\"Nothing to be done...\n There's only one course of action.\"",
-      "\\.\"Have the five prove it with words.\n ...Isn't that right, Sara?\"",
+      "\\.\"Non ditemi che... Non c'è, miao...?!\"",
+      "\\.\"Siam messi male...!! Quindi l'è uno dei cinque?!\"",
+      "\\.\"Non possiamo farci niente...\n C'è una sola strada percorribile.\"",
+      "\\.\"Fare in modo che i cinque lo dimostrino parlando.\n ...Dico bene, Sara?\"",
       "\\.\\C[4](..........)",
-      "\"Exactly.\"",
-      "\\.\"I'll prove to you who the real Keymaster is!!\"",
-      "\\.\"...Good.\"",
-      "\\.\"Remember people's words and actions in discussion...\n That's where the path to victory lies.\"",
-      "\\.\"Heeheehee... The final 20 minutes...\n Please use this endlessly short time effectively.\"",
-      "\\.\"I'll be praying... you don't all perish.\n Aheehee.\"",
-      "\\.\\C[3]Miley quietly sat in the chair again.",
-      "\\.\\C[3]The final battle begins...!"
+      "\"Esatto.\"",
+      "\\.\"Vi dimostrerò chi è il vero Custode della Chiave!!\"",
+      "\\.\"...Bene.\"",
+      "\\.\"Tenete a mente le parole e le azioni degli altri\n durante la discussione...\n Solo così potremo vincere.\"",
+      "\\.\"Ihihih... Gli ultimi 20 minuti...\n Usate pure questo lasso di tempo\n infinitamente breve al meglio.\"",
+      "\\.\"Pregherò... perché non periate tutti quanti.\n Ahihih.\"",
+      "\\.\\C[3]Tina si è di nuovo seduta con calma sulla sedia.",
+      "\\.\\C[3]La battaglia finale ha inizio...!"
     ],
     "5-13-choice": [
-      "Yes"
+      "Sì"
     ],
     "6-1-message": [
       "\"Questo ancora non lo sappiamo!!\"",
@@ -6155,10 +6155,10 @@
   },
   "map55": {
     "3-1-message": [
-      "\"Now, keep mashing that button.\n Maybe you'll save him? Heeheehee...\""
+      "\"Dai, continua a premere il pulsante.\n Forse alla fine lo salverai. Ihihih...\""
     ],
     "3-3-message": [
-      "\\C[10]Joe expired."
+      "\\C[10]Joe è spirato."
     ]
   },
   "map59": {
@@ -32861,16 +32861,16 @@
       "\"Ma forse è proprio quello che vuole Tina, eh...\"",
       "\"Non è che ci comportiamo sempre\n nel modo più logico, no?!\"",
       "\\.\"Dopo quell'orribile votazione...!\n Se fossi stato io al posto di Nao... avrei...!\"",
-      "\\.\\C[4](Se tu avessi provato quel che ha provato Nao...?)",
+      "\\.\\C[4](Se fossi stato al posto Nao...?)",
       "\"Joe, se avessi perso tu qualcuno a te caro\n in quella votazione, che avresti fatto?\"",
       "\\.\"Se fosse toccato a me...\"",
       "\\.\"Joe, se avessi perso qualcuno a te caro...\n Saresti stato... triste, giusto?\"",
       "\\.\"Piuttosto che sentirmi in lutto...\n penso che avrei sbottato...\"",
       "\\.\"Sbottato?\"",
       "\\.\"Qualcosa tipo \"chi diavolo ha votato per Sara?!\"...\n Mi sarei messo subito a cercare il colpevole!\"",
-      "\\.\"Ovviamente lo so che la colpa è tutta di Tina...\n ma potrei riversare la mia rabbia su qualcun altro.\"",
+      "\\.\"Ovviamente lo so che la colpa è tutta di Tina...\n ma avrei potuto riversare\n la mia rabbia su qualcun altro.\"",
       "\\.\"E questo che dico! Non seguiamo sempre la logica!!\"",
-      "\\.\\C[4](Già... potrebbe essere.\n Se fosse stato \\C[2]qualcun altro\\C[4] ad averlo ucciso...\n arrabbiarsi sarebbe una reazione naturale.)"
+      "\\.\\C[4](Già... potrebbe essere.\n Sapendo che è morto per colpa di \\C[2]qualcun altro\\C[4]...\n arrabbiarsi sarebbe una reazione naturale.)"
     ],
     "204-0-choice": [
       "Usa l'oggetto selezionato\nAnnulla",
@@ -32962,7 +32962,7 @@
       "\"Nao... C'è una cosa che mi incuriosisce.\"",
       "\\.\"Eh...?\"",
       "\\.\"Forse sono io che ho un'indole brusca...\n Ma come mai non hai provato a cercare il colpevole?\"",
-      "\\.\"Cioè, non è stato un \"incidente\"...\n È per colpa dei voti che è successa una cosa\n così brutta a qualcuno che rispettavi...\"",
+      "\\.\"Cioè, non è stato un \"incidente\"...\n Quella cosa bruttissima è successa a una persona\n che rispettavi perché qualcuno ha votato per lui...\"",
       "\\.\"Non è... più naturale arrabbiarsi?\"",
       "\\.\"N-Non... Non direi proprio...\"",
       "\\.\"Visto che sapevo che...\n nessuno aveva votato in mala fede...\"",
@@ -33027,13 +33027,13 @@
       "\\.\"C... Cos'è questa storia, Sou?\"",
       "\\.\"Ahahah, non fateci caso, ragazzi.\"",
       "\\.\"La signorina Sara mi aveva chiesto chi avevo votato,\n quindi ho dovuto dirle qualcosa.\"",
-      "\\.\"È così diligente che deve averla preso seriamente.\"",
+      "\\.\"È così diligente che deve averlo preso seriamente.\"",
       "\\.\\C[4](Questo... Questo qui...!!)",
       "\\.\\C[4](È un grandissimo bugiardo...!!)",
       "\\.\"...Quindi, alla fine...\n Vogliamo davvero ignorare la testa scomparsa?\"",
       "\\.\"L'è ancora un gran bel mistero...\n Ma almeno sappiam che Nao non ha fatto nulla de male.\"",
       "\\.\"Forse l'idea di Reko era giusta\n e a un certo punto è stata scambiata.\"",
-      "\\.\"Non serve a niente discuture di quello, bau!\n Parliamo del gorilla ora, miao!\"",
+      "\\.\"Non serve a niente discuture di quello, bau!\n Ora parliamo del gorilla, miao!\"",
       "\\.\"Ma che davvero?!\"",
       "\\.\"...Ti sta bene ignorare la cosa, Sara?\"",
       "\\.\\C[4](La testa scomparsa...)",
@@ -33078,7 +33078,7 @@
       "\\.\"...\"",
       "\\.\"...\\.\\C[2]Kai\\C[0]...\"",
       "\\.\\C[4](...!!)",
-      "\"Kai mi ha minacciato...\n di colpire Sou alla testa...\"",
+      "\"Kai mi ha minacciato...\n perché colpissi Sou alla testa...\"",
       "\"..........\""
     ],
     "209-0-choice": [
@@ -33087,7 +33087,7 @@
       "Chiedi a Nao\nZittisci Sou"
     ],
     "211-0-message": [
-      "\"Kai mi ha minacciato...\n di colpire Sou alla testa...\"",
+      "\"Kai mi ha minacciato...\n perché colpissi Sou alla testa...\"",
       "\"...\"",
       "\\.\\C[4](Nessuna risposta...)",
       "\"...\"",
@@ -33416,70 +33416,70 @@
       ""
     ],
     "227-0-message": [
-      "Vote for \\C[2]Sara\\C[0]?"
+      "Votare per \\C[2]Sara\\C[0]?"
     ],
     "227-0-choice": [
-      "Yes\nNo"
+      "Sì\nNo"
     ],
     "228-0-message": [
-      "Vote for \\C[2]Joe\\C[0]?"
+      "Votare per \\C[2]Joe\\C[0]?"
     ],
     "228-0-choice": [
-      "Yes\nNo"
+      "Sì\nNo"
     ],
     "229-0-message": [
-      "Vote for \\C[2]Keiji\\C[0]?"
+      "Votare per \\C[2]Keiji\\C[0]?"
     ],
     "229-0-choice": [
-      "Yes\nNo"
+      "Sì\nNo"
     ],
     "230-0-message": [
-      "Vote for \\C[2]Kanna\\C[0]?"
+      "Votare per \\C[2]Kanna\\C[0]?"
     ],
     "230-0-choice": [
-      "Yes\nNo"
+      "Sì\nNo"
     ],
     "231-0-message": [
-      "Vote for \\C[2]Q-taro\\C[0]?"
+      "Votare per \\C[2]Q-taro\\C[0]?"
     ],
     "231-0-choice": [
-      "Yes\nNo"
+      "Sì\nNo"
     ],
     "232-0-message": [
-      "Vote for \\C[2]Sou\\C[0]?"
+      "Votare per \\C[2]Sou\\C[0]?"
     ],
     "232-0-choice": [
-      "Yes\nNo"
+      "Sì\nNo"
     ],
     "233-0-message": [
-      "Vote for \\C[2]Reko\\C[0]?"
+      "Votare per \\C[2]Reko\\C[0]?"
     ],
     "233-0-choice": [
-      "Yes\nNo"
+      "Sì\nNo"
     ],
     "234-0-message": [
-      "Vote for \\C[2]Nao\\C[0]?"
+      "Votare per \\C[2]Nao\\C[0]?"
     ],
     "234-0-choice": [
-      "Yes\nNo"
+      "Sì\nNo"
     ],
     "235-0-message": [
-      "Vote for \\C[2]Kai\\C[0]?"
+      "Votare per \\C[2]Kai\\C[0]?"
     ],
     "235-0-choice": [
-      "Yes\nNo"
+      "Sì\nNo"
     ],
     "236-0-message": [
-      "Vote for \\C[2]Gin\\C[0]?"
+      "Votare per \\C[2]Gin\\C[0]?"
     ],
     "236-0-choice": [
-      "Yes\nNo"
+      "Sì\nNo"
     ],
     "237-0-message": [
-      "Vote for \\C[2]Alice\\C[0]?"
+      "Votare per \\C[2]Alice\\C[0]?"
     ],
     "237-0-choice": [
-      "Yes\nNo"
+      "Sì\nNo"
     ],
     "239-0-message": [
       "\"...Alright, let's not be hasty.\n Anyone wants to confess their role, go ahead...\"",
