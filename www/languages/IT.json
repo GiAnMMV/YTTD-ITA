@@ -2687,7 +2687,7 @@
       "\\.\"...\"",
       "\\.\"Non esploderà, vero...?\"",
       "\\.\"Ahahah, no, non \\C[2]esploderà\\C[0]...\"",
-      "\\.\"Cosa hai detto...?\"",
+      "\\.\"Come dici...?\"",
       "\\.\"P... Professore...?\"",
       "\\.\"Ihihih. Aheh, ahihahahah...!\"",
       "\\.\"...?!\n È caldo...!!\"",
@@ -33544,7 +33544,7 @@
       "\"Vuoi che ti rispieghi i ruoli delle carte?\"",
       "\\.\"Se il \\C[2]Custode della Chiave\\C[0] viene scelto come vittima\n muoiono tutti.\"",
       "\\.\"Se la vittima è il \\C[10]Sacrificio\\C[0], il \\C[10]Sacrificio\\C[0] vince.\n Potrà scappare con una persona a suo piacimento...\n ma tutti gli altri moriranno.\"",
-      "\\.\"Se la vittima è un Popolano o il Saggio sono\n tutti salvi. Beh, se non contiamo che la\n persona scelta e il Sacrificio muoiono, ovviamente...\"",
+      "\\.\"Se la vittima è un \\C[4]Popolano\\C[0] o il \\C[3]Saggio\\C[0] sono\n tutti salvi. Beh, se non contiamo che la\n persona scelta e il \\C[10]Sacrificio\\C[0] muoiono, ovviamente...\"",
       "\\.\"Questo è il succo.\n È scritto tutto nel regolamento.\"",
       "\\.\\C[3]* Dopo aver selezionato gli oggetti, a volte potrai\n  vedere una seconda pagina toccando la descizione."
     ],
@@ -33601,7 +33601,7 @@
       "\"Ahahah, ehm... Quello dovrebbe confutare qualcosa?\"",
       "\\.\\C[4](Cavolo...! Ho sbagliato!)",
       "\"Ahahah. Che occhi spaventosi, Sara.\"",
-      "\\.\\C[4](Non è il momento di preoccuparmi di lui...)"
+      "\\.\\C[4](Non ho tempo di mettermi a discutere con lui...)"
     ],
     "245-0-choice": [
       "Usa l'oggetto selezionato\nAnnulla",
@@ -33644,14 +33644,14 @@
       "Usa affermazione salvata\nAnnulla"
     ],
     "248-0-message": [
-      "\"Sono io dalla parte dei rapitori...?\n La risposta... resta tuttora celata tra le tenebre.\"",
+      "\"Sono io dalla parte dei rapitori...?\n La risposta... resta tuttora avvolta nell'ombra.\"",
       "\"Ho davvero poco da dirvi.\n Siete liberi di ritenere ciò che preferite.\"",
       "\"Oh? Che sarà mai, mi domando.\"",
       "\\.\\C[4](Cavolo...! Ho sbagliato!)",
       "\"Non vedo ragione alcuna di confutare\n le mie affermazioni...\"",
       "\\.\\C[4](Cavolo...! Ho sbagliato!)",
       "\"Averne la conferma è semplicemente impossibile, temo.\"",
-      "\"Dopo l'incidente con Sou la fiducia\n che riponete nei miei confronti è nulla,\n per cui qualunque cosa dica...\"",
+      "\"Dopo l'incidente con Sou la fiducia\n che riponete nei miei confronti è nulla,\n per cui qualunque cosa io dica...\"",
       "\\.\"Ammetti di essere dalla parte dei rapitori?\"",
       "\\.\"Se negassi, davvero mi crederebbe?\"",
       "\\.\"...Controllerò comunque. Lo neghi o no?\"",
@@ -33682,7 +33682,7 @@
       "\\.\"N-Non avevi mai detto quella parola prima, Gin?\"",
       "\\.\"N-No, bau! I miei genitori si arrabbierebbero\n se mi sentissero usare una parola come quella, miao!\"",
       "\\.\"E allora dove l'hai sentita...?\"",
-      "\\.\"L'ha detto il fratellone Joe\n prima della votazione preliminare, miao.\n \"Se scegliete Sara sarà di sicuro massacro!\"...\"",
+      "\\.\"L'ha detta il fratellone Joe\n prima della votazione preliminare, miao.\n \"Se scegliete Sara sarà di sicuro massacro!\"...\"",
       "\\.\\C[4](Eh... È per questo che...?)",
       "\\.\"? Non ho molto capito, ma va bene, bau.\""
     ],
@@ -33703,7 +33703,7 @@
       "\"Siamo entrambi disprezzati...\n Forse andremo d'accordo. Muahahah...\"",
       "\"Quando penso agli alleati di Sou...\"",
       "\\.\"...L'unico sono io, praticamente...\"",
-      "\\.\"Beh, non devo più preoccuparmi\n che potrebbero scegliermi.\n Che spettacolo, muahahah...\"",
+      "\\.\"Beh, essere scelto non è più\n tra le mie preoccupazioni.\n Che spettacolo, muahahah...\"",
       "\\.\\C[4](È davvero spregevole...)",
       "\\.\"...Che? D'accordo, ma...\""
     ],
@@ -33740,7 +33740,7 @@
       "\\.\"Se... fosse questo il caso, Sara...\n L'hai venduto!! Per poter sopravvivere!!\"",
       "\\.\"Non è vero!!\"",
       "\\.\"Sara... sta cercando di salvare tutti quanti!\n Non è il tipo da pensare a sé stessa!!\"",
-      "\\.\"E-Ehi, ma tutto questo...\n È sì molto probabile, ma non certo, giusto...?\"",
+      "\\.\"E-Ehi, ma tutto questo...\n È sì molto probabile, ma non siam sicuri, giusto...?\"",
       "\\.\"Joe! Mica vuoi ammetterlo, vero...?!\"",
       "\\.\"...Ormai è fatta.\"",
       "\\.\"Però! Non intendo morire!!\"",
@@ -33775,16 +33775,16 @@
       "\\.\\C[4](...)",
       "\\.\"Sara, ovviamente!!\"",
       "\\.\\C[4](Joe...!)",
-      "\\.\"Vaaabbene!! Ora ce resta da cercar il Sacrificio\n tra Sou, Kanna e Kai...\"",
+      "\\.\"Vaaabbene!! Ora non ce resta che cercar il Sacrificio\n tra Sou, Kanna e Kai...\"",
       "\\.\"Ehm...\"",
       "\\.\"Sono io... il Saggio.\"",
       "\\.\"Miao?!\"",
       "\\.\"Ho visto... che il \\C[2]Custode della Chiave\\C[0] è Sou.\"",
       "\\.\"E... Ehi...\"",
-      "\\.\"No, no, sono io il Sage.\n Il \\C[2]Custode della Chiave\\C[0] è la signorina Sara.\"",
+      "\\.\"No, no, sono io il Saggio.\n Il \\C[2]Custode della Chiave\\C[0] è la signorina Sara.\"",
       "\\.\"Mi gira la testa, bauuuuu!!\"",
       "\\.\"Ehihih. Ancora 8 minuti, gente. Ahahah.\"",
-      "\\.\"Va bene, basta con le affermazioni, voi cinque.\n Dobbiamo discuterne tra di noi prima.\"",
+      "\\.\"Va bene, basta con le affermazioni, voi cinque.\n Dobbiamo prima discuterne tra di noi.\"",
       "\\.\"Sbrigatevi! Non abbiamo tempo!!\"",
       "\\.\"Sou e Kanna sono in combutta.\n ...Senza ombra di dubbio.\"",
       "\\.\"K-Keiji!!\n È impossibile che Kanna abbia brutte intenzioni!\"",
@@ -33814,7 +33814,7 @@
       "\\.\"Se solo ci fosse un qualche modo per determinarli...\"",
       "\\.\\C[4](C'è un modo per farlo...?)",
       "\"...Oh, davvero?\"",
-      "\\.\"...Molto bene. Allora andrò avanti\n finché capirai qual è, Sara...\"",
+      "\\.\"...Molto bene. Allora andrò avanti\n finché non capirai qual è, Sara...\"",
       "\"...Immaginavo.\""
     ],
     "253-0-choice": [
@@ -33822,7 +33822,7 @@
       "Salva affermazione\nAnnulla",
       "Rimuovi affermazione salvata\nMantienila",
       "Usa affermazione salvata\nAnnulla",
-      "Uno ce n'è\nNon ce n'è nessuno"
+      "Uno c'è\nNon ce n'è nessuno"
     ],
     "254-0-message": [
       "\"Prima stavo lì lì per crede' a Joe...\n Ma è davvero lui il \\C[3]Saggio\\C[0]?!\"",
@@ -33868,7 +33868,7 @@
       "\"Aaah... Dobbiamo risalire ai ruoli in qualche modo...\"",
       "\\.\"Se solo potessimo vedere cosa c'è sulle carte...\n Potremmo sapere i ruoli...\"",
       "\\.\\C[4](Cosa c'è sulle carte...?!)",
-      "\"U-Understood!\""
+      "\"C-Certo!\""
     ],
     "256-0-choice": [
       "Usa l'oggetto selezionato\nAnnulla",
@@ -33914,7 +33914,7 @@
       "\\.\"Aprite le orecchie, gente.\n Questa è l'ultima discussione.\"",
       "\\.\"..........\"",
       "\\.\"Joe, voglio chiederti una cosa.\"",
-      "\\.\"C... Certo! Ciedi pure!\"",
+      "\\.\"C... Certo! Chiedi pure!\"",
       "\\.\"Cosa c'è sulla carta del \\C[2]Custode della Chiave\\C[0]...?\n In altre parole, che \\C[2]disegno\\C[0] c'è sopra?\"",
       "\\.\"...!!\"",
       "\\.\"Oh? La sai la risposta, no? Essendo tu il \\C[3]Saggio\\C[0]...\"",
@@ -33938,64 +33938,64 @@
       "\\.\\C[4](Devo sferrare l'ultimo colpo in una sola azione\n o perderemo tutti...!)"
     ],
     "261-0-message": [
-      "\"The design on Sara's \\C[2]Keymaster\\C[0] card was a key!!\n I saw it clearly with my own eyes!!\"",
-      "\\C[4](This will be my final action...!)",
-      "\\C[4](This will be my final action...!)",
-      "\\C[4](This will be my final action...!)"
+      "\"Il disegno sulla carta \\C[2]Custode della Chiave\\C[0]\n che ha Sara è un chiave!!\n L'ho visto visto chiaramente coi miei occhi!!\"",
+      "\\C[4](Questa sarà la mia ultima azione...!)",
+      "\\C[4](Questa sarà la mia ultima azione...!)",
+      "\\C[4](Questa sarà la mia ultima azione...!)"
     ],
     "261-0-choice": [
-      "Use selected item\nCancel",
-      "Deal the final blow\nCancel\nThink deeply",
-      "Store statement\nCancel",
-      "Clear stored statement\nKeep it",
-      "Apply stored statement\nCancel",
-      "Deal the final blow\nCancel\nThink deeply",
-      "Deal the final blow\nCancel\nThink deeply"
+      "Usa l'oggetto selezionato\nAnnulla",
+      "Sferra l'ultimo colpo\nAnnulla\nRiflettici a fondo",
+      "Salva affermazione\nAnnulla",
+      "Rimuovi affermazione salvata\nMantienila",
+      "Usa affermazione salvata\nAnnulla",
+      "Sferra l'ultimo colpo\nAnnulla\nRiflettici a fondo",
+      "Sferra l'ultimo colpo\nAnnulla\nRiflettici a fondo"
     ],
     "262-0-message": [
-      "\"The \\C[2]Keymaster\\C[0] card Sou had...\n used a design with a lock...\"",
-      "\\C[4](This will be my final action...!)",
-      "\\C[4](This will be my final action...!)",
-      "\\C[4](This will be my final action...!)"
+      "\"Sulla carta \\C[2]Custode della Chiave\\C[0] di Sou\n c'era disegnata una serratura...\"",
+      "\\C[4](Questa sarà la mia ultima azione...!)",
+      "\\C[4](Questa sarà la mia ultima azione...!)",
+      "\\C[4](Questa sarà la mia ultima azione...!)"
     ],
     "262-0-choice": [
-      "Use selected item\nCancel",
-      "Deal the final blow\nCancel\nThink deeply",
-      "Store statement\nCancel",
-      "Clear stored statement\nKeep it",
-      "Apply stored statement\nCancel",
-      "Deal the final blow\nCancel\nThink deeply",
-      "Deal the final blow\nCancel\nThink deeply"
+      "Usa l'oggetto selezionato\nAnnulla",
+      "Sferra l'ultimo colpo\nAnnulla\nRiflettici a fondo",
+      "Salva affermazione\nAnnulla",
+      "Rimuovi affermazione salvata\nMantienila",
+      "Usa affermazione salvata\nAnnulla",
+      "Sferra l'ultimo colpo\nAnnulla\nRiflettici a fondo",
+      "Sferra l'ultimo colpo\nAnnulla\nRiflettici a fondo"
     ],
     "263-0-message": [
-      "\"Too bad, Joe.\n The design for the \\C[2]Keymaster\\C[0] is a lock.\"",
-      "\\C[4](This will be my final action...!)",
-      "\\C[4](This will be my final action...!)",
-      "\\C[4](This will be my final action...!)"
+      "\"Che peccato, Joe.\n Il disegno per il \\C[2]Custode della Chiave\\C[0]\n è una serratura.\"",
+      "\\C[4](Questa sarà la mia ultima azione...!)",
+      "\\C[4](Questa sarà la mia ultima azione...!)",
+      "\\C[4](Questa sarà la mia ultima azione...!)"
     ],
     "263-0-choice": [
-      "Use selected item\nCancel",
-      "Deal the final blow\nCancel\nThink deeply",
-      "Store statement\nCancel",
-      "Clear stored statement\nKeep it",
-      "Apply stored statement\nCancel",
-      "Deal the final blow\nCancel\nThink deeply",
-      "Deal the final blow\nCancel\nThink deeply"
+      "Usa l'oggetto selezionato\nAnnulla",
+      "Sferra l'ultimo colpo\nAnnulla\nRiflettici a fondo",
+      "Salva affermazione\nAnnulla",
+      "Rimuovi affermazione salvata\nMantienila",
+      "Usa affermazione salvata\nAnnulla",
+      "Sferra l'ultimo colpo\nAnnulla\nRiflettici a fondo",
+      "Sferra l'ultimo colpo\nAnnulla\nRiflettici a fondo"
     ],
     "264-0-message": [
       "\\.\"..........\"",
-      "\\C[4](This will be my final action...!)",
-      "\\C[4](This will be my final action...!)",
-      "\\C[4](This will be my final action...!)"
+      "\\C[4](Questa sarà la mia ultima azione...!)",
+      "\\C[4](Questa sarà la mia ultima azione...!)",
+      "\\C[4](Questa sarà la mia ultima azione...!)"
     ],
     "264-0-choice": [
-      "Use selected item\nCancel",
-      "Deal the final blow\nCancel\nThink deeply",
-      "Store statement\nCancel",
-      "Clear stored statement\nKeep it",
-      "Apply stored statement\nCancel",
-      "Deal the final blow\nCancel\nThink deeply",
-      "Deal the final blow\nCancel\nThink deeply"
+      "Usa l'oggetto selezionato\nAnnulla",
+      "Sferra l'ultimo colpo\nAnnulla\nRiflettici a fondo",
+      "Salva affermazione\nAnnulla",
+      "Rimuovi affermazione salvata\nMantienila",
+      "Usa affermazione salvata\nAnnulla",
+      "Sferra l'ultimo colpo\nAnnulla\nRiflettici a fondo",
+      "Sferra l'ultimo colpo\nAnnulla\nRiflettici a fondo"
     ],
     "265-0-message": [
       "\"..........\"",
@@ -34371,69 +34371,69 @@
       "To title\nReselect"
     ],
     "293-0-message": [
-      "\\C[3]It's no good... I can't think anymore.",
-      "\\.\\C[3]Even I can tell I'm confused.",
-      "\\.\\C[3]And yet the discussion continues.",
-      "\\.\\C[3]I can hardly remember anything that came next...",
-      "\\.\\C[3]Not even... who was chosen... and who died."
+      "\\C[3]Non ci siamo... Non riesco più a ragionare.",
+      "\\.\\C[3]Io stessa mi rendo conto di essere confusa.",
+      "\\.\\C[3]Ma comunque la discussione continua.",
+      "\\.\\C[3]Non ricordo quasi nulla di ciò che è successo dopo...",
+      "\\.\\C[3]Neanche... chi è stato scelto... e chi è morto."
     ],
     "295-0-message": [
-      "\\C[3]No... I messed up in the very last moment...",
-      "\\.\\C[3]With no decision made, the voting begins.",
-      "\\.\\C[3]Filled with irritation at my failure\nand fear of suspicion, my vision went black.",
-      "\\.\\C[3]I can hardly remember anything that came next...",
-      "\\.\\C[3]Not even... who was chosen... and who died."
+      "\\C[3]No... Ho fatto un casino proprio all'ultimo...",
+      "\\.\\C[3]Senza che fossimo arrivati a nessuna conclusione,\nla votazione è cominciata.",
+      "\\.\\C[3]Piena di irritazione per il mio fallimento\ne paura che sospettassero di me,\nla mia vista si è oscurata.",
+      "\\.\\C[3]Non ricordo quasi nulla di ciò che è successo dopo...",
+      "\\.\\C[3]Neanche... chi è stato scelto... e chi è morto."
     ],
     "296-0-message": [
-      "\"All mysteries... can be explained with this item!!\"",
-      "\\.\"Can they really...?\"",
-      "\\.\"P-Please don't get in my way now, Sou!\"",
-      "\\.\"And did you think you could prove anything\n with such half-hearted evidence?\"",
-      "\\.\"Urk...!!\"",
-      "\\.\"Everyone, Sara's hit her limit. Leave this to me.\"",
-      "\\.\\C[4](Agh...!! So it's not this...?!)"
+      "\"Tutti i misteri... si possono spiegare\n con quest'oggetto!!\"",
+      "\\.\"Ne sei proprio convinta...?\"",
+      "\\.\"N-Non metterti in mezzo proprio ora, Sou!\"",
+      "\\.\"E tu pensavi di poter dimostrare qualcosa\n con delle prove tanto deboli?\"",
+      "\\.\"Urgh...!!\"",
+      "\\.\"Ragazzi, Sara non ce la fa più. Lasciate fare a me.\"",
+      "\\.\\C[4](Ah...!! Quindi non era questo...?!)"
     ],
     "297-0-message": [
-      "\"All mysteries... can be explained\n with these two statements!!\"",
-      "\\.\"Can they really...?\"",
-      "\\.\"P-Please don't get in my way now, Sou!\"",
-      "\\.\"And did you think you could prove anything\n with such a half-hearted attempt?\"",
-      "\\.\"Urk...!!\"",
-      "\\.\"Everyone, Sara's hit her limit. Leave this to me.\"",
-      "\\.\\C[4](Agh...!! Was I mistaken...?!)"
+      "\"Tutti i misteri... si possono spiegare\n con queste due affermazioni!!\"",
+      "\\.\"Ne sei proprio convinta...?\"",
+      "\\.\"N-Non metterti in mezzo proprio ora, Sou!\"",
+      "\\.\"E tu pensavi di poter dimostrare qualcosa\n con un tentativo così fiacco?\"",
+      "\\.\"Urgh...!!\"",
+      "\\.\"Ragazzi, Sara non ce la fa più. Lasciate fare a me.\"",
+      "\\.\\C[4](Ah...!! Ho sbagliato...?!)"
     ],
     "298-0-message": [
-      "\"Please, elaborate on that statement!\n The answer lies within!\"",
-      "\\.\"Does it really...?\"",
-      "\\.\"P-Please don't get in my way now, Sou!\"",
-      "\\.\"And did you think you could prove anything\n with such a half-hearted attempt?\"",
-      "\\.\"Urk...!!\"",
-      "\\.\"Everyone, Sara's hit her limit. Leave this to me.\"",
-      "\\.\\C[4](Agh...!! Was I mistaken...?!)"
+      "\"Elabora meglio la tua affermazione, per favore!\n È lì che si trova la risposta!\"",
+      "\\.\"Ne sei proprio convinta...?\"",
+      "\\.\"N-Non metterti in mezzo proprio ora, Sou!\"",
+      "\\.\"E tu pensavi di poter dimostrare qualcosa\n con un tentativo così fiacco?\"",
+      "\\.\"Urgh...!!\"",
+      "\\.\"Ragazzi, Sara non ce la fa più. Lasciate fare a me.\"",
+      "\\.\\C[4](Ah...!! Ho sbagliato...?!)"
     ],
     "301-0-message": [
-      "\\.\\C[4](Hold on...! I have all these statements!\n Maybe items aren't necessary!)\\.",
-      "\\.\\C[4](I have lots of statements...! No need for items...\n And if I extract, I can get new statements!)\\.",
-      "\\.\\C[4](I have lots of statements...! No need for items...\n Any statements I extract must be important!\n Even if at a glance, they're nothing...!)\\.",
-      "\\.\\C[4](I have lots of statements...! No need for items...\n Any statements I extract must be important!\n Even if at a glance, they're nothing...!\n Okay, let's contrast those extracted statements!)\\."
+      "",
+      "",
+      "",
+      ""
     ],
     "302-0-message": [
-      "\\C[4](The \\C[3]Sage\\C[4] knows the \\C[2]Keymaster\\C[4]...\n If that's true, some people are telling the truth\n and some are telling lies.)",
-      "\\.\\C[4](There's probably no time to extract\n statements out of people at this point...)",
-      "\\C[4](Contrasting statements... is pointless too.\n People who don't want to be chosen will just stall...)",
-      "\\C[4](Right, all I can do is use an item...!\n But on who... and what?)",
-      "\\C[4](The rules... I'll hit them with the rulebook!\n But there's no time to expose lies with it...)",
-      "\\C[4](I'll show it to someone telling the truth!\n Someone closely adhering to the rulebook...!)",
-      "\\C[4](And I mean, the designs...?\n Does the rulebook mention anything about designs?)",
-      "\\C[4](If it doesn't... then isn't the silent one...\n the one who's \"telling the truth\"...?)"
+      "\\C[4](Il \\C[3]Saggio\\C[4] sa l'identità del \\C[2]Custode della Chiave\\C[4]...\n Se ciò è vero, qualcuno sta dicendo la verità\n e qualun altro sta mentendo.)",
+      "\\.\\C[4](Probabilmente ormai non c'è più tempo\n per estrarre nessuna affermazione...)",
+      "\\C[4](Anche mettere affermazioni in contrasto... è inutile.\n Quelli che non vogliono farsi scegliere\n cercheranno di tergiversare...)",
+      "\\C[4](Giusto, non mi resta che usare un oggetto...!\n Ma su chi... e quale?)",
+      "\\C[4](Il regolamento... Posso usare il regolamento!\n Ma non c'è tempo per rivelare bugie con esso...)",
+      "\\C[4](Devo mostrarlo a qualcuno che sta dicendo la verità!\n A qualcuno che sta seguendo\n rigidamente il regolamento...!)",
+      "\\C[4](Che poi, i disegni...\n Il regolamento dice mai niente sui disegni?)",
+      "\\C[4](Se non li menziona... allora non è chi sta zitto...\n l'unico che sta davvero \"dicendo la verità\"...?)"
     ],
     "302-0-choice": [
-      "Think more (use Clout)\nCancel",
-      "Think more (use Clout)\nCancel",
-      "Think more (use Clout)\nCancel",
-      "Think more (use Clout)\nCancel",
-      "Think more (use Clout)\nCancel",
-      "Think more (use Clout)\nCancel"
+      "Rifletti ancora (usa Carisma)\nAnnulla",
+      "Rifletti ancora (usa Carisma)\nAnnulla",
+      "Rifletti ancora (usa Carisma)\nAnnulla",
+      "Rifletti ancora (usa Carisma)\nAnnulla",
+      "Rifletti ancora (usa Carisma)\nAnnulla",
+      "Rifletti ancora (usa Carisma)\nAnnulla"
     ],
     "304-0-choice": [
       "Select BGM\nCancel"
