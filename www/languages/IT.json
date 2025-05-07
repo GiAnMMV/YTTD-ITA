@@ -6359,6 +6359,442 @@
       "Torna alla schermata del titolo\nRipensaci"
     ]
   },
+  "map63": {
+    "2-1-message": [
+      "Tocca un personaggio per ricordare\nle azioni di ogni persona prima del Capitolo 2.",
+      "Tocca \\C[2]USCITA\\C[0] per iniziare la storia."
+    ]
+  },
+  "map64": {
+    "1-1-message": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ]
+  },
+  "map65": {
+    "1-1-message": [
+      "\"Permesso.\"",
+      "\"Le ho portato il pranzo.\"",
+      "\"Ooh, grazie.\"",
+      "\\.\"Kai, hai un momento?\"",
+      "\"S... Sì?\"",
+      "\"Kai. Quanti anni sono che sei qui?\"",
+      "\\.\"Mh... Non saprei dire...\n Da parecchio tempo oramai, senza dubbio.\"",
+      "\\.\"Gahahah! Ecco perché voglio darti questo,\n gran lavoratore.\"",
+      "\\.\"Di cosa si tratta...?\"",
+      "\\.\"Avanti, avanti, provatelo.\"",
+      "\"..........\"",
+      "\\.\"Uao! Ti sta proprio bene, eh?\"",
+      "\\.\"A cosa, ehm... A cosa devo...\"",
+      "\\.\"Insomma, dai... È un regalo.\"",
+      "\\.\"È grazie a te che mia moglie e Sara\n sono sempre al sicuro.\"",
+      "\\.\"Eh... Ehm... Quindi è un dono\n in pegno di riconoscenza...?\"",
+      "\\.\"No-no. Non è per riconoscenza\n in quanto tuo datore di lavoro.\"",
+      "\\.\"Quel grembiule... era della mia mamma.\"",
+      "\\.\"In altre parole, è la prova della tua iniziazione\n alla tradizione dei domestici!\"",
+      "\\.\"Domestici...?\"",
+      "\\.\"Così come è la prova...\n del tuo legame alla famiglia Chidouin.\"",
+      "\\.\"...!!\"",
+      "\\.\"Per me... Fai parte della famiglia.\"",
+      "\\.\"Sono... parte della famiglia...?\"",
+      "\\.\"Mia moglie è d'accordo.\n È stata lei a suggerirmi di dartelo, in effetti.\"",
+      "\\.\"...S-Sta di certo scherzando...\n Uno come me...\"",
+      "\\.\"..........\"",
+      "\\.\"...\"",
+      "\\.\"Ehi! Che succede?\"",
+      "\\.\"...\"",
+      "\\.\"...N-Niente...\"",
+      "\\.\"Gahahah! Hai gli occhi rossi!\n Non dirmi che stavi piangendo?!\"",
+      "\\.\"S-Se lo dice lei...\"",
+      "\\.\"...Mi fa piacere. Gahahah...\"",
+      "\\.\"...\"",
+      "\\.\"...Se si arriverà a quel punto, ti affido Sara.\"",
+      "\\.\"...!\"",
+      "\\.\"Un giorno quella ragazza...\n verrà a sapere che non sono il suo vero padre.\"",
+      "\\.\"Il destino di quella ragazza ha tanto\n potenziale per cambiare le cose che\n ho messo in gioco la mia stessa vita...\n Non una cosa da poco.\"",
+      "\\.\"Ma mi sento tranquillo.\"",
+      "\\.\"Perché la nostra famiglia ha un eroe\n che veglia su di lei nell'ombra.\"",
+      "\\.\"...La prego, non dica \"eroe\".\"",
+      "\\.\"Non sono null'altro che un traditore...\"",
+      "\\.\"Rimarrò un'ombra, sempre celata...\n e continuerò a proteggere la signorina Sara.\"",
+      "\\.\"...Tale è il mio affetto.\"",
+      "\\.\"...\"",
+      "\\.\"...Ma.\"",
+      "\\.\"Questo...\\.\\. questo grembiule...\"",
+      "\\.\"Lo indosserò con cura...\\.\\. Lo custodirò...!\"",
+      "\"Affetto...?\"",
+      "\\.\\C[10]\"L'avrò anche affidata a te...\n Ma non ti darò mia figlia... Mai...\"",
+      "\\.\"...E-Ehm, signore?\"",
+      "\\.\\C[10]\"Figlia... figlia...\"",
+      "\\.\\C[4](...Quando si tratta della signorina Sara...\n perde completamente di vista ogni altra cosa.)",
+      "\\.\\C[4](Anche sotto questo aspetto...\n devo continuare a tener sott'occhio la signorina Sara.)",
+      "\\.\\C[4](Mi domando se si stia concentrando sullo studio\n in questo periodo...)"
+    ]
+  },
+  "map66": {
+    "1-1-message": [
+      "\"Ehi... Sara... Sara...\"",
+      "\\.\"...Cosa, Joe? Girati, siamo a lezione.\"",
+      "\\.\"Ho sentito che hanno aperto un kebab buonissimo!\n Possiamo andarci mentre torniamo a casa, offro io!\"",
+      "\\.\"Sì, va bene!\n\\! ...Fai troppo rumore. Parliamone più tardi.\"",
+      "\\.\"Oh, e beh, in cambio...\"",
+      "\\.\"...D'accordo. Porterò anche Ryoko.\"",
+      "\\.\"Eh, davvero?!\n\\! ...No, non dicevo quello, comunque!\"",
+      "\\.\"Sul serio, abbassa la voce...!! Cos'è che dicevi?\"",
+      "\\.\"...La prego, mi mostri i compiti, Madama Sara...\"",
+      "\\.\"C... C'è lezione ora, ricordi?\n Non posso mica darteli così.\"",
+      "\\.\"Solo un secondo!! Sono velocissimo a copiare!\"",
+      "\\.\"Non è un talento di cui vantarsi...\"",
+      "\\.\"Scusa, ma non posso. Si chiamano compiti per casa.\n È colpa tua se non li hai fatta a casa.\"",
+      "\\.\"Argh... È vero, ma...!\"",
+      "\\.\"Fare i compiti a casa... Eddai, suuu...\"",
+      "\\.\"E poi, sono morto.\"\\.",
+      "\\.\"...Eh...?\"",
+      "\\.\"Sono morto perché mi hai fatto quella domanda, sai?\"",
+      "\\.\"Non ti senti responsabile neanche un po'?\"",
+      "\\.\"...\"",
+      "\\.\"E sempre per colpa tua ho sofferto\n per un sacco di tempo, no?\"",
+      "\\.\"Cos'hai da dire a riguardo?\"",
+      "\\.\"Ecco... Ecco...\"",
+      "\\.\"Ahahah, ma che ti scusi a fare?\"",
+      "\\.\"Ahahah! Perché ti sei zittita?\"",
+      "\\.\\C[10]\"Maledetta assassina!\"",
+      "\\.\"...No...! Dovevo...!!\"",
+      "\\.\"Dovevo... andare avanti, in qualche modo...!!\"",
+      "\\.\"Ho fatto... quel che ho potuto...!\"",
+      "\\.\\C[10]\"Ed è stato questo il risultato?\"",
+      "\\.\"Ho protetto tutti...! Ho...!!\"",
+      "\\.\\C[10]\"Ma io sono morto.\\! E anche Kai è morto.\"",
+      "\\.\"Ma... ma...!!\"",
+      "\\.\"Ora basta, Joe!!\"",
+      "\\.\"Ti prego... ti prego...!!\"",
+      "\\.\\C[10]\"Non riesci neanche a guardarmi?\"",
+      "\\>       \\C[10]\\{\\{GUARDAMI NEGLI OCCHI...\\<\\|\\.\\.\\^",
+      "\\.\"UAAAAAAAAAAaaaaaahhhhh...!!!!\""
+    ],
+    "1-1-choice": [
+      "Scusa...\n.........."
+    ]
+  },
+  "map67": {
+    "2-1-message": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "3-1-message": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "33-1-message": [
+      "",
+      "",
+      ""
+    ]
+  },
+  "map68": {
+    "2-1-message": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "2-1-choice": [
+      "",
+      ""
+    ],
+    "3-1-message": [
+      ""
+    ],
+    "4-1-message": [
+      ""
+    ],
+    "5-1-message": [
+      ""
+    ],
+    "6-1-message": [
+      ""
+    ],
+    "7-1-message": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "8-1-message": [
+      ""
+    ],
+    "9-1-message": [
+      ""
+    ],
+    "10-1-message": [
+      ""
+    ],
+    "11-1-message": [
+      ""
+    ],
+    "12-1-message": [
+      ""
+    ],
+    "13-1-message": [
+      ""
+    ],
+    "14-1-message": [
+      ""
+    ],
+    "14-2-message": [
+      ""
+    ],
+    "14-3-message": [
+      ""
+    ],
+    "15-1-message": [
+      ""
+    ],
+    "16-1-message": [
+      ""
+    ],
+    "48-1-message": [
+      ""
+    ]
+  },
+  "map69": {
+    "1-1-message": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "1-1-choice": [
+      "",
+      ""
+    ],
+    "2-1-message": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "2-1-choice": [
+      "",
+      ""
+    ]
+  },
+  "map70": {
+    "2-1-message": [
+      "",
+      ""
+    ]
+  },
+  "map71": {
+    "1-1-message": [
+      "",
+      "",
+      ""
+    ]
+  },
+  "map72": {
+    "2-1-message": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "2-1-choice": [
+      "",
+      "",
+      ""
+    ],
+    "3-1-message": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "3-1-choice": [
+      "",
+      ""
+    ]
+  },
   "map73": {
     "1-1-message": [
       "\\.Scegli un capitolo da cui cominciare a giocare."
@@ -6372,6 +6808,470 @@
     ],
     "2-1-choice": [
       "Capitolo 2, parte due\nCapitolo 2, parte uno\nCapitolo 1, parte due\nCapitolo 1, parte uno\n\\C[2]Sottogioco (nuovo!)\nAnnulla"
+    ]
+  },
+  "map74": {
+    "1-2-message": [
+      "\\.\"Tu... Tu non sei Joe!!\"",
+      "\\.\"Tutto questo... è solo un incubo...!!\"",
+      "\\.\\C[10]\"Cacchio, come sei fredda. Non siamo migliori amici?\"",
+      "\\.\"Stai zitto...!!\"",
+      "\\.\"Ah...\"",
+      "\\.\\C[3]Un dolore acuto mi attraversa il corpo.",
+      "\\.\\C[10]\"È meglio se non vai da quella parte!\"\\|\\^",
+      "\\.\"Ah...\"",
+      "\\.\\C[3]Un dolore acuto mi attraversa il corpo.",
+      "\\.\"C... Che male...\"",
+      "\\.\"Aiuto... aiutatemi...\"",
+      "\\.\\C[10]\"Ti metto più a tuo agio.\"",
+      "\\.\"Basta...!! Non respiro... Joe...!!\"",
+      "\\.\\C[10]\"Ti voglio bene... Sara.\"",
+      "\\.\"Ba... sta...!!\"",
+      "\\.\\C[10]\"Sara...\"",
+      "\\.\\C[10]\"Ripigliati!!\\C[0] ...Sara!\"",
+      "\\.\"Riesci a capirmi?\"",
+      "\\.\"Ah...\\.\\. Kei... ji...\"",
+      "\\.\"...Già. Il tuo amichevole poliziotto in carne e ossa.\"",
+      "\\C[3]La stanza... è ancora in ordine.",
+      "\\.\\C[4](Ahi...\n Mi sono messa a correre e mi sono ferita...?)",
+      "\\.\"Fammi vedere le tue ferite.\n Ho sentito un gran baccano... È successo qualcosa?\"",
+      "\\.\"Ehm...\"",
+      "\\.\"Non devi mica nasconderlo. Hai avuto un'\\C[2]allucinazione\\C[0].\n Dico bene, Sara?\"",
+      "\\.\"Come... fai a saperlo...?\"",
+      "\\.\"...Il sig. poliziotto sa tutto.\"",
+      "\\.\"Quindi hai avuto... un'\\C[2]allucinazione\\C[0] di Joe.\"",
+      "\\.\"...Sì.\"",
+      "\\.\"Per fortuna non ti sei fatta niente di serio.\n Dai, siediti sul letto.\"",
+      "\\.\"...Dove ci troviamo?\"",
+      "\\.\"Questo è \\C[2]il terzo piano\\C[0]. Hanno preparato delle camere,\n una a testa. In altre parole \"riposatevi pure\".\"",
+      "\\.\"Oh, capisco...\"",
+      "\\.\"Di niente.\n ...Ma secondo me dovresti dormire un altro po'.\"",
+      "\\.\"Non voglio far preoccupare gli altri...\"",
+      "\\.\"Anche tutti gli altri si stanno riposando.\n Non devi fare tutto da sola.\"",
+      "\\.\"Mmh... Non ho visto orologi qui, quindi...\"",
+      "\\.\"Ma tutti gli altri si stanno ancora riposando.\n E dovresti farlo anche tu, Sara.\"",
+      "\\.\"...Ti reggi a malapena in piedi,\n saresti solo d'intralcio.\"",
+      "\\.\"Per ora riposati, Sara.\n Anche tutti gli altri stanno dormendo.\"",
+      "\\.\"Sei arrivata fin qui senza pause...\n Ti meriti almeno una dormita.\"",
+      "\\.\"...\"",
+      "\\.\"Non.. voglio dormire.\"",
+      "\\.\"Come...?\"",
+      "\\.\"...\"",
+      "\\.\"Certo, rimango qui con te.\n Puoi dormire tra due guanciali.\"",
+      "\\.\"...No. ...Non voglio dormire.\"",
+      "\\.\"...\"",
+      "\\.\"Non pensarci neanche. Non posso farti correre rischi.\"",
+      "\\.\"...Spostati...\n Sarebbe sempre meglio che rimanere qui da sola.\"",
+      "\\.\"...\"",
+      "\\.\"Uff... Va bene, allora.\"",
+      "\\.\"Resterò al tuo fianco. Ma tu riposa ancora un po'.\"",
+      "\\.\"...D'accordo.\"",
+      "\\.\"...Sara.\"",
+      "\\.\"..........\"",
+      "\\.\"...Dormi già, eh...\"",
+      "\\.\"..........\"",
+      "\\.\"Beh, che peccato...\"",
+      "\\.\"Quindi anche tu, eh, Sara...?\"",
+      "\\.\"...\"",
+      "\\.\"...Non puoi... riconoscere le allucinazioni.\"",
+      "\\.\"Una volta che si imprimono nel cervello...\"",
+      "\\.\"...\"",
+      "\\.\"...Non finire come il sig. poliziotto.\"",
+      "\\.\"Alla fine sei riuscita a riposarti un po'.\"",
+      "\\.\"...Sì. Grazie mille.\"",
+      "\\.\"Che ne dici di andare dagli altri?\n Erano preoccupati, quindi...\"",
+      "\\.\"...Sì.\""
+    ],
+    "1-2-choice": [
+      "Rompi il vetro\nScappa dalla stanza",
+      "Niente\nHo visto un'illusione di Joe",
+      "Grazie mille\nPer quanto ho dormito?\nRimettiamoci ad esplorare",
+      "Resta con me\nVoglio andare in giro"
+    ],
+    "2-1-message": [
+      "\\.\"*anf*...!! *anf*...!!\"",
+      "\\.\\C[4](Un sogno... Era solo un sogno...!)",
+      "\\.\\C[4](Devo camlmarmi...! Devo...!)",
+      "\\.\\C[4](Argh... Mi gira la testa...)",
+      "\\.\\C[4](Dove sono...?)"
+    ],
+    "5-1-message": [
+      "\\C[3]Una luce intensa illumina la stanza.",
+      "\\.\\C[4](Sembra una stanza d'albergo...)"
+    ],
+    "5-2-message": [
+      "\\C[3]Una luce intensa illumina la stanza."
+    ],
+    "5-3-message": [
+      "\\C[10]La luce si è spenta."
+    ],
+    "9-1-message": [
+      "\\C[10]Professor Mishima..."
+    ],
+    "10-1-message": [
+      "\\C[10]Kai..."
+    ],
+    "11-1-message": [
+      "\\C[3]Una luce intensa illumina la stanza.",
+      "\\.\\C[4](Sembra una stanza d'albergo...)"
+    ],
+    "11-2-message": [
+      "\\C[3]Una luce intensa illumina la stanza."
+    ],
+    "11-3-message": [
+      "\\C[3]Una luce intensa illumina la stanza."
+    ],
+    "11-4-message": [
+      "\\C[10]C'è qualcosa che gocciola dalla lampada."
+    ],
+    "11-5-message": [
+      "\\C[10]C'è qualcosa che gocciola dalla lampada."
+    ],
+    "11-6-message": [
+      "\\C[10]C'è qualcosa che gocciola dalla lampada."
+    ],
+    "11-7-message": [
+      "\\C[10]C'è qualcosa che gocciola dalla lampada."
+    ],
+    "15-1-message": [
+      "\\C[10]\"Per quanto ancora continuerai a scappare...?\""
+    ],
+    "15-3-message": [
+      "\\C[10]\"Muori con me, Sara.\""
+    ],
+    "16-1-message": [
+      "\\C[3]Vedo il mio riflesso alla finestra.",
+      "\\.\\C[4](Che faccia orribile... Sembro un cadavere.)",
+      "\\C[4](Basta... Non ho tempo di\n guardarmi allo specchio...)",
+      "\\.\\C[10]\"Sara...\"",
+      "\\.\\C[4](Eh...?)"
+    ]
+  },
+  "map75": {
+    "2-1-message": [
+      "\\C[3]Non appena sono entrata nella sala ampia e luminosa\nho notato che c'era qualcun altro.\\|",
+      "\\.\\C[3]Una canzone riecheggiava nella stanza.",
+      "\\.\\C[4](È... la voce di Reko.)",
+      "\\.\"...Ti incanta, Sara Chidouin?\"",
+      "\\.\"Mpf... Hai un aspetto orribile.\"",
+      "\\.\"...Questo dovrebbe rappresentare un requiem per Reko.\"",
+      "\\.\"Non fermarla dal cantare, Sara Chidouin.\"",
+      "\\.\"...Alice...\"",
+      "\\.\"Perché la ascolti da là, vicino al muro?\n Non è tua sorella?\"",
+      "\\.\"Quanto sei fastidioso! Siamo estranei ormai, ti dico!!\"",
+      "\\.\\C[4](Giusto... Reko e Alice erano fratelli, eh...)",
+      "\\.\"...\"",
+      "\\.\"Reko... sta sicuramente cantando con tutto il cuore\n in segno di lutto per i defunti.\"",
+      "\\.\"Non intendo causare futili\n distrazioni con la mia presenza.\"",
+      "\\.\"Ti preoccupi molto per tua sorella, eh?\"",
+      "\\.\"...Non la smetterai mai di provocarmi, vero?\"",
+      "\\.\"..........\"",
+      "\\.\"...Voi...\"",
+      "\\.\"Che ne... pensate di Reko?\"",
+      "\\.\"Eh...?\"",
+      "\"Muahahah... Capisco.\"",
+      "\\.\"Anche se di certo non ha pietà per gli uomini,\n e il sig. poliziotto qui presente non fa eccezione.\"",
+      "\"...Paura, mh...\"",
+      "\\.\"Penso che sia piuttosto gentile con te, Sara...\n Perlomeno rispetto a come tratta me.\"",
+      "\"...Suppongo si possa considerare una cosa positiva.\"",
+      "\\.\"Di certo non si fa mettere i piedi in testa,\n neanche quando ha a che fare con uomini forzuti.\"",
+      "\"Ma che...!! Sei davvero destestabile!!\n Hai capito almeno la mia domanda?!\"",
+      "\\.\"Lei è molto più coraggiosa del suddetto fratello.\n Sebbene faccia un po' paura...\"",
+      "\\.\"Gentile coi più deboli, dura coi più forti...\n Mi dà quell'impressione.\"",
+      "\\.\"...\"",
+      "\\.\"...Non è stata sempre così.\"",
+      "\\.\"No...?\"",
+      "\"...No, l'esatto opposto.\"",
+      "\"...Precisamente.\"",
+      "\\.\"Sin dalla sua nascita, Reko era ricolma di vitalità\n e aveva talento per la musica e\n nell'affascinare gli altri.\"",
+      "\\.\"Era dura persino con sé stessa...\n Ma era particolarmente dura verso i deboli\n che erano tutto fumo e niente arrosto.\"",
+      "\\.\"Poi ha subìto un cambiamento repentino.\"",
+      "\\.\"A causa del tuo omicidio, ci ho preso...?\"",
+      "\\.\"...!\"",
+      "\\.\"Muahahah... Esattamente...\"",
+      "\\.\"...Mi dispiace di avervi fatto sorbire\n tutte queste inezie.\"",
+      "\\.\"Sara!!\"",
+      "\\.\"Sara, eccoti qui!!\"",
+      "\\.\"Sara...!!\"",
+      "\\.\"Sorellona Saraaaaaaaaaa!!\"",
+      "\\.\"Tutto bene?!\"",
+      "\\.\"N... Non sforzarti troppo, capito, Sara...?!\"",
+      "\\.\"S... Sto bene. Sono solo... un po' stanca.\"",
+      "\\.\"Sono felice che ti sei svegliata, miao...\"",
+      "\\.\\C[3]Che tepore...",
+      "\\.\\C[3]Saranno tutti esausti, anima e corpo...",
+      "\\.\\C[3]Ma la loro gentilezza... è confortante.",
+      "\\.\"...\"",
+      "\\.\"...Che diavolo hai da guardare?\"",
+      "\\.\"E-Ehm, mi dispiace...\"",
+      "\\.\"Sara, ti hanno già detto tutto?\"",
+      "\\.\"So che ci hanno portato al 3º piano... e basta.\"",
+      "\\.\"Anche noi eravamo spaesati,\n quindi ci siamo riposati come ci è stato detto...\"",
+      "\\.\"Per ora niente. Dopo quell'orribile Gioco Principale\n ci siamo separati e siamo andati a riposarci.\"",
+      "\\.\"Hanno dato una camera a ognuno di noi, quindi...\n Ti abbiamo portato qui e abbiamo aspettato...\"",
+      "\\.\"Ma quella bambola cattiva non si trova, bau.\n Dovremmo andare a cercarla, miao?\"",
+      "\\.\\C[4](Tina... è scomparsa?)",
+      "\\.\"S... Sara... È meglio se riposi un altro po', no?\"",
+      "\\.\"No... Non voglio restare con le mani in mano.\n Lasciatemi andare, per favore...\"",
+      "\\.\"La troveremo...\"",
+      "\\.\\C[10]\"Tina... Sarò io stessa a fare i conti con te...\"",
+      "\\.\"...Sorellona Sara?\"",
+      "\\.\"Ah... E-Ehm, niente.\"",
+      "\\.\"Prima dovremmo controllare che questo posto è sicuro.\n Potrebbe esserci qualche trappola già attivata...\"",
+      "\\.\"...Cavoli, e io che stavo per dirti di non strafare.\n Fai proprio sul serio, Sara.\"",
+      "\\.\"Va bene, neanche a me piace girarmi i pollici.\n Stiamo attenti mentre esploriamo l'area.\""
+    ],
+    "2-1-choice": [
+      "Che bella voce\nChe canzone triste...",
+      "È gentile\nFa paura\nHa un fare da sorella maggiore\nPeccato per suo fratello",
+      "Era gentile con tutti?\nEra dura con tutti?",
+      "Cos'è successo mentre dormivo?\nChe stanno facendo gli altri?",
+      "Andiamo a cercarla\nDobbiamo combatterla\nDiamo prima un'occhiata in giro"
+    ]
+  },
+  "map77": {
+    "2-1-message": [
+      "\\.\"...!\"",
+      "\\.\"Sara!\\.\\. Tutt'a posto ora?!\"",
+      "\\.\"Q-taro...\"",
+      "\\.\"Grazie al cielo... Ce lo sapevi che eri tosta, ma...\n Non se sa mai, ecco...\"",
+      "\\.\"Non... sono per niente forte...\"",
+      "\\.\"...Sì, lo so. Scusa.\"",
+      "\\.\"Hai sofferto un sacco...\n Dirte de non pensarce dopo quel ch'è successo\n è proprio da insensibili.\"",
+      "\\.\"Ma 'na cosa la dico! Non hai fatto niente de male!!\"",
+      "\\.\"Tina è una bambola schifosa!\n Che non te passi in testa che la colpa è tua, Sara!!\"",
+      "\\.\"...\"",
+      "\\.\"Non me devi ringrazia'...\n Non so' riuscito a far nulla.\"",
+      "\\.\"Quindi Kai... il suo ultimo desiderio...\n voglio che se realizzi...!!\"",
+      "\\.\"Già...! Voglio vendica' il tuo miglior amico...\n E inoltre...\"",
+      "\\.\"Kai...! Il tuo ultimo desiderio se realizzerà...!!\"",
+      "\\.\"Q-taro...\"",
+      "\\.\"Io torno a cerca' in giro.\n Voglio trova' 'che indizio,\n che sia riguardo a un'uscita o sui rapitori.\"",
+      "\\.\"Anch'io... farò del mio meglio.\"",
+      "\\.\"...Quel gorilla... non è poi così cattivo, miao.\""
+    ],
+    "2-1-choice": [
+      "Grazie mille\nTina la pagherà"
+    ],
+    "2-2-message": [
+      "\\.\"Detto questo... me sta venendo un po' de fame.\"",
+      "\\.\\C[4](Neanch'io ho mangiato nulla...)"
+    ],
+    "77-1-message": [
+      "\\C[3]Ci sono macerie dappertutto."
+    ]
+  },
+  "map78": {
+    "2-1-message": [
+      "\\.\"Aah... Io vado a cercare di là.\n Ditemi se volete andare da un'altra parte.\"",
+      "\\.\\C[4](Reko...)",
+      "\\.\"Tu, Sara Chidouin.\n C'è un cortile qui... Non trovi che sia strano?\"",
+      "\\.\"...\"",
+      "\\.\"Umpf... Certo che no.\n È un cortile solo all'apparenza.\"",
+      "\\.\"Un cielo falso... un falso senso di libertà...\n Questo luogo non è diverso da una prigione.\"",
+      "\\.\"Umpf... Non sarebbe vera luce solare, comunque.\n Quel cielo è finto.\"",
+      "\\.\"Se proprio soffochi, tuttavia,\n perché non ti fai un giro là fuori? Muahahah...\"",
+      "\\.\"Posso rubarti un secondo, Alice?\"",
+      "\\.\"Devo declinare. ...Se hai qualcosa da dirmi,\n torna quando sono solo, Keiji Shinogi.\"",
+      "\\.\"Chiaro.\"",
+      "\\.\"Bisogna ammettere che lui fa un po' paura, eh...?\""
+    ],
+    "2-1-choice": [
+      "Potrebbe portare all'esterno?\nVoglio prendermi un po' di sole"
+    ],
+    "2-2-message": [
+      "\\.\"Questo luogo... non è diverso da una prigione.\""
+    ]
+  },
+  "map82": {
+    "1-1-message": [
+      "\\.\"Urca... Quanti schermi.\"",
+      "\\.\"Sembra tipo... una specie di sala di controllo, no?\"",
+      "\\.\\C[4](Mh? Sento un rumore di fondo...)",
+      "\\.\\C[4](Uno degli schermi... è acceso?)"
+    ],
+    "2-1-message": [
+      "\\C[3]Sento un rumore di fondo provenire da questo schermo.",
+      "\\.\\C[4](Che sia... un'altra trappola?)",
+      "\\C[3]...Eh...?",
+      "\\.\\sw[324]\"Cielo, cielo... Che succede, così d'improvviso?\"\\sw[325]",
+      "\\.\\C[3]L'uomo sullo schermo... È senza ombra di dubbio...",
+      "\\.\"...Professor Mishima...?\"",
+      "\\.\\sw[324]\"Ooh! Guarda un po' se non è la signorina Nao!\"\\sw[325]",
+      "\\.\"Non è... un video...?\n Stai parlando? Con me...?\"",
+      "\\.\\sw[324]\"Sì, ti sto guardando negli occhi\n e sto parlando con te, signorina Nao.\"\\sw[325]",
+      "\\.\"È... È... È... inconcepibile...\"",
+      "\\.\\C[3]Già... È davvero inconcepibile.\nIn fin dei conti, il professor Mishima... è morto.",
+      "\\.\\sw[324]\"Quelli dietro di te sono tuoi amici?\n Piacere di conoscervi. Mi chiamo Mishima.\"\\sw[325]",
+      "\\.\"Piacere di conoscerci...?\""
+    ],
+    "2-2-message": [
+      "\\.\\sw[324]\"Sono Kazumi Mishima...\n Insegno giapponese e arte in una scuola superiore.\"\\sw[325]",
+      "\\.\\C[4](Che accidenti sta succedendo...?!)",
+      "\\.\\sw[324]\"...Il vero...?\"\\sw[325]",
+      "\\.\\sw[324]\"...Dunque, vediamo...\"\\sw[325]",
+      "\\.\\sw[324]\"..........\"\\sw[325]",
+      "\\.\\sw[324]\"Aah... Ora capisco. Sono...\"\\sw[325]",
+      "\\.\\sw[324]\"...Ora mi ricordo. Sono un'IA simulativa\n di Kazumi Mishima. Un'intelligenza artificiale.\"\\sw[325]",
+      "\\.\\sw[324]\"Mmh...? Ci conosciamo...?\"\\sw[325]",
+      "\\.\\sw[324]\"...Dunque, vediamo...\"\\sw[325]",
+      "\\.\\sw[324]\"..........\"\\sw[325]",
+      "\\.\\sw[324]\"Aah... Ora capisco. Sono...\"\\sw[325]",
+      "\\.\\sw[324]\"...Ora mi ricordo. Sono un'IA simulativa\n di Kazumi Mishima. Un'intelligenza artificiale.\"\\sw[325]",
+      "\\.\\sw[324]\"In videochiamata? Che intendi dire...?\"\\sw[325]",
+      "\\.\\sw[324]\"Qui qualcosa non torna... Mmh...\"\\sw[325]",
+      "\\.\\sw[324]\"..........\"\\sw[325]",
+      "\\.\\sw[324]\"Aah... Ora capisco. Sono...\"\\sw[325]",
+      "\\.\\sw[324]\"...Ora mi ricordo. Sono un'IA simulativa\n di Kazumi Mishima. Un'intelligenza artificiale.\"\\sw[325]",
+      "\\.\"...Un'\\C[2]intelligenza artificiale\\C[0]...?!\"",
+      "\\.\\sw[324]\"Precisamente. Sono una replica realizzata\n a partire da copie dei ricordi e delle emozioni\n di Kazumi Mishima.\"\\sw[325]",
+      "\\.\\sw[324]\"Suppongo che voi tutti abbiate già fatto\n conoscenza col vero Kazumi Mishima.\"\\sw[325]",
+      "\\.\"Sul retro dello schermo...\n C'è una foto della faccia di Mishima.\"",
+      "\\.\"Se è tutto vero...\n Forse queste sono tutte IA di altre persone...?\"",
+      "\\.\\sw[324]\"Muahahah... Che strana sensazione.\n Sarebbe delizioso poter incontrare me stesso\n e conversarci...!\"\\sw[325]",
+      "\\.\"Il vecchio... non c'è più, bau...\"",
+      "\\.\\sw[324]\"...Come hai detto?\"\\sw[325]",
+      "\\.\"Aah... Il modo in cui parli... tutto quanto...\n È il professore... Come se il professore\n fosse davvero qui...\"",
+      "\\.\"Nao...\"",
+      "\\.\\C[4](Un'IA... di una persona che dovrebbe essere morta?)",
+      "\\.\\C[4](Ma allora... Joe? Ce n'è... una anche di Joe...?)",
+      "\\.\"Sorellona Sara! Che hai, miao?!\"",
+      "\\.\\C[3]Senza che neanche me ne accorgessi...",
+      "\\.\\C[3]Mi ero messa a controllare attentamente\nil retro di ogni schermo.",
+      "\\.\\C[10]Questo no.",
+      "\\.\\C[10]Questo no, questo no, questo no.",
+      "\\.\\C[10]Cosa...? C'è persino uno schermo con la mia foto...",
+      "\\.\\C[10]Eppure quello di Joe non si trova da nessuna parte.",
+      "\\.\"Sorellona... Perché non ci sei...?\n Mi... manchi tanto...\"",
+      "\\.\\C[4](Anche Kanna...)",
+      "\\.\\C[3]Perché solo Nao ha...",
+      "\\.\"Professore...\"",
+      "\\.\"AaaUUUaaahhh?! Che state facendo?!\"",
+      "\\.\\sw[342]\"Ah, uuh, aah...! Chi è stato?!\n Chi è stato ad avviare l'IA di Mishima...?!\"\\sw[343]",
+      "\\.\"M... Ma che?!\"",
+      "\\.\\sw[342]\"Ho capito...! Allora... \\C[2]Pongo\\C[0]...!\n Sei stato tu, vero...?!\"\\sw[343]",
+      "\\.\"Ehi, non c'è bisogno di arrabbiarsi!\n Direi che gli ha fatto piacere, non trovi?\"",
+      "\\.\\C[3]Ci siamo girati verso la voce alle nostre spalle.",
+      "\\.\"Ehilà! Dormito bene, bastardi?\"",
+      "\\.\"T-Tu chi sei, miao?!\"",
+      "\\.\"Sono la bambola travestita, \\C[2]Rikon Pongo\\C[0]!\"",
+      "\\.\"Sarò io a guidarvi in questo piano!\n Saluti a voooi!\"",
+      "\\.\"Ehm... E Tina...?\"",
+      "\\.\"Eeh? Preferite le signore, quindi? Uff, e va bene.\"",
+      "\\.\"Vieni qua, \\C[2]Mosa\\C[0]!\n Hanno umilmente richiesto una ragazza!\"",
+      "\\.\\sw[342]\"Ah, uuh... *sniff*...\n Guarda che sono ancora arrabbiata con te...\"\\sw[343]",
+      "\\.\"Brr, è inquietante quando parlano tutte insieme!\"",
+      "\\.\\sw[342]\"I... Inquietante...?! Sei un mostro!\n Buhuhuhuh...\"\\sw[343]",
+      "\\.\"Dai, scherzavo!\n Sei carinissima, quindi datti una mossa!\"",
+      "\\.\\sw[342]\"D-Dici davvero?\"\\sw[343]",
+      "\\.\"Sei stata un fulmine!\"",
+      "\"Piacere di conoscerviii...\n Sono la Vicemaestra di Piano, la bambola che piange,\n \\C[2]Lakri Mosa\\C[0]...\"",
+      "\\.\"De male in peggio!!\"",
+      "\\.\"...\"",
+      "\\.\"È tutto pronto.\n Possiamo cominciare a spiegare \\C[2]le regole\\C[0] del 3º piano!\"",
+      "\\.\"L-Le regole del 3º piano...?\"",
+      "\\.\"Eggià. Voi bastardi sarete ultra tesi dopo\n quella tempesta di sospetti che era\n il Gioco Principale, giusto?\"",
+      "\\.\"E quindi! Avevamo pensato a dei grandiosi\n festeggiamenti così che possiate riconciliarvi\n prima del prossimo Gioco Principale!\"",
+      "\\.\"Cosa?! Dobbiamo farne un altro?!\n Un altro Gioco Principale...?!\"",
+      "\\.\"Dipende tutto da voi stronzetti! Ahahah!\"",
+      "\\.\\C[4](...)",
+      "\\.\"Checc'èèè? Ti fa paura la mia faccia?\n Essù, Sara Chidouin!\"",
+      "\\.\"Sta' zitto...\"",
+      "\\.\"...Mmh?\"",
+      "\\.\"Prima che cominci con la tua stupida spiegazione...\n \\C[2]toglitela\\C[0]...!\"",
+      "\\.\"..........\"",
+      "\\.\"Quella cosa...\\.\\. che indossi...!!\"\\.\\.",
+      "\"Non è... il fermacapelli di Joe...?!\"",
+      "\\.\"...\"",
+      "\\.\\C[10]\"...Ahah.\"",
+      "\\.\\C[10]\"Pensa te... hai riconosciuto questo fermaglio...?\"",
+      "\\.\\C[10]\"Mi fa sentire bene, sai...\n È come se fosse pieno dei rimpiati dei morti...\"",
+      "\\.\\C[10]\"Dei rimpianti di Joe Tazuna...\n Quel dolce decerebrato costantemente allegro.\"",
+      "\"Non è... la cravatta del professor Mishima...?!\"",
+      "\\.\"...Eh...?\"",
+      "\\.\"...\"",
+      "\\.\\C[10]\"...Ahah.\"",
+      "\\.\\C[10]\"Pensa te...\n hai riconosciuto quest'affare che ho al collo?\"",
+      "\\.\\C[10]\"Mi fa sentire bene, sai...\n È come se fosse piena dei rimpiati dei morti...\"",
+      "\\.\\C[10]\"Dei rimpianti di Kazumi Mishima...\n Quell'ipocrita scambiato per l'insegnante ideale.\"",
+      "\\.\"Il professore... non è ipocrita...!!\"",
+      "\"Non è... il grembiule di Kai...?!\"",
+      "\\.\"C... Che?!\"",
+      "\\.\"...\"",
+      "\\.\\C[10]\"...Ahah.\"",
+      "\\.\\C[10]\"Pensa te...\n hai riconosciuto quest'affare che porto alla vita?\"",
+      "\\.\\C[10]\"Mi fa sentire bene, sai...\n È come se fosse pieno dei rimpiati dei morti...\"",
+      "\\.\\C[10]\"Dei rimpianti di Kai Satou...\n Quello sciocco distrutto dal suo stesso\n spirito di ribellione.\"",
+      "\\.\"Non te azzardare...!! Il vero sciocco sei te!!\"",
+      "\\.\"Ma allora... anche quella gonna...\n Dev'essere quella della sorellona...!!\"",
+      "\\.\"...Fiuuu.\"",
+      "\\.\\C[10]\"Voi bastardi pensate di avere il diritto\n di farmi la predica?\"",
+      "\\.\"...!!\"",
+      "\\.\"Quest'argomento è bello che chiuso!\n Adesso seguitemi e venite a vedere che c'è\n dopo questi schermi!\"",
+      "\\.\"Stiamo per fare un bel gioco divertente... Ahahah...!\"",
+      "\\.\\C[4](Gah...! Perché non sono riuscita a controbattere?!)"
+    ],
+    "2-2-choice": [
+      "Sei il vero Mishima?\nTi ricordi di noi?\nSei in videochiamata...?",
+      "Non è il fermacapelli di Joe?\nNon è la cravatta di Mishima?\nNon è il grembiule di Kai?"
+    ],
+    "2-3-message": [
+      "\\.\\sw[324]\"Per caso, l'originale è... ehm...\"\\sw[325]",
+      "\\.\"..........\"",
+      "\\.\\sw[324]\"...Chiedo scusa.\n Forse adesso la questione è del tutto irrilevante.\"\\sw[325]",
+      "\\.\"...\""
+    ],
+    "4-1-message": [
+      "\\.\"...!\"",
+      "\\.\\C[3]Appena Kanna si è accorta di me ha distolto lo sguardo.",
+      "\\.\\C[4](Non credo...\n che riuscirei a parlare a Kanna\n con calma in questo momento.)",
+      "\\.\\C[4](Kanna... era in combutta con Sou.)",
+      "\\.\\C[4](Lo so che lui la stava solo usando...\n Ma in questo momento proprio non ce la faccio.)"
+    ],
+    "4-2-message": [
+      "\\.\\C[3]Kanna non riesce neanche a guardarmi."
+    ],
+    "12-1-message": [
+      "\\C[3]Uno dei vari schermi."
+    ],
+    "37-1-message": [
+      "\\C[3]Uno dei vari schermi."
+    ],
+    "57-1-message": [
+      "\\C[3]Uno dei vari schermi."
+    ],
+    "59-1-message": [
+      "\\C[3]Uno dei vari schermi."
+    ],
+    "60-1-message": [
+      "\\C[3]Uno dei vari schermi."
+    ],
+    "61-1-message": [
+      "\\C[3]Uno dei vari schermi."
+    ],
+    "62-1-message": [
+      "\\C[3]Uno dei vari schermi."
+    ],
+    "71-1-message": [
+      "\\C[3]Lo sguardo di Nao è fisso in un solo punto."
+    ],
+    "71-2-message": [
+      "\\C[3]Lo sguardo di Nao è fisso in un solo punto."
+    ],
+    "94-1-message": [
+      "\\C[3]Davanti agli schermi c'è un macchinario che,\nseppur molto complesso, ammette solo comandi basilari."
+    ]
+  },
+  "map83": {
+    "1-1-message": [
+      "\\.\"..........\"",
+      "\\.\"...Mi...\\.\\. dispiace...\"",
+      "\\.\"..........\"",
+      "\\.\"...Gorilla muscoloso...\"",
+      "\\.\"...Sorellona Sara...\"",
+      "\\.\"..........\"",
+      "\\.\"M...\\.\\. Mamma...\"",
+      "\\.\"..........\""
     ]
   },
   "map114": {
@@ -6403,27 +7303,6 @@
     ],
     "1-1-choice": [
       "Sì\nNo"
-    ]
-  },
-  "map188": {
-    "1-2-message": [
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      "\\.Il suo destino è stato segnato quando ha\npescato la \\C[10]carta del Sacrificio\\C[0].\nAlla fine del Gioco Principale ha detto\n\"siete tutti brave persone\", poi è perito.",
-      null
     ]
   },
   "commonevents": {
@@ -10649,6 +11528,12 @@
     "304-0-choice": [
       ""
     ],
+    "332-0-message": [
+      "\\C[10]Livello allucinazioni ... \\V[79]",
+      "\\.\\C[3]Il \\C[10]Livello allucinazioni\\C[3] è un numero\nrappresentante le condizioni mentali di Sara.",
+      "\\.\\C[3]Salirà sicuramente ogni volta che si ricorderà di Joe.",
+      "\\.\\C[3]Fa' attenzione a non farlo salire troppo."
+    ],
     "360-0-message": [
       "Sara Chidouin\nProtagonista della storia. Una normale studentessa\npresso la Scuola Superiore Sonobeno.",
       "\\.Mentre tornava a casa da scuola, si trova faccia\na faccia col suo stalker.\nUna volta tornata a casa trova sua madre svenuta.",
@@ -10729,6 +11614,10 @@
     ],
     "373-0-choice": [
       "Sì\nNo"
+    ],
+    "333-0-message": [
+      "\\>Auto-Gettoni di Sara ... \\V[131]\\<\n\\>Medaglie di Superamento ... \\V[130]\\<",
+      "\\.\\>Keiji ... \\V[132]             Kanna ... \\V[133]\\<\n\\>Q-taro ... \\V[134]            Sou ... \\V[135]\\<\n\\>Reko ... \\V[136]              Nao ... \\V[137]\\<\n\\>Gin ... \\V[138]               Alice ... \\V[139]\\<"
     ]
   },
   "actors-1": {
@@ -11181,6 +12070,42 @@
     "name": "Annulla",
     "description": "Annulla scelta."
   },
+  "items-110": {
+    "name": "Atrio",
+    "description": ""
+  },
+  "items-111": {
+    "name": "Corridoio in rovina",
+    "description": ""
+  },
+  "items-112": {
+    "name": "Stanza di ricreazione",
+    "description": ""
+  },
+  "items-113": {
+    "name": "Camera tua",
+    "description": ""
+  },
+  "items-114": {
+    "name": "Stanza degli schermi",
+    "description": ""
+  },
+  "items-115": {
+    "name": "Studio medico",
+    "description": ""
+  },
+  "items-116": {
+    "name": "Lunga scalinata",
+    "description": ""
+  },
+  "items-117": {
+    "name": "Cambio premi",
+    "description": ""
+  },
+  "items-118": {
+    "name": "Camera di Sou",
+    "description": ""
+  },
   "items-150": {
     "name": "Annulla",
     "description": "Annulla scelta."
@@ -11309,6 +12234,10 @@
     "name_人形": "Bambola",
     "name_ホエミー": "Tina",
     "name_ホエミー？": "Tina?",
+    "name_トト": "Rikon",
+    "name_ノエル": "Pongo",
+    "name_ノエルの頭部": "Testa di Pongo",
+    "name_ハンナキー": "Mosa",
     "name_ガシュー": "Gashu",
     "name_ヒヨリソウ": "Sou Hiyori",
     "name_\\n[4]": "\\N[4]",
@@ -11341,6 +12270,8 @@
     "name_赤い人": "Sig.na Rossa",
     "name_像": "Statua",
     "name_みんな": "Tutti",
+    "name_モニターの男": "Uomo sullo schermo",
+    "name_モニターの女": "Donna sullo schermo",
     "name_人工知能": "IA",
     "name_怪物": "Mostro",
     "name_パソコン": "Computer",
@@ -11423,6 +12354,10 @@
     "midori_ホエミー_other": "risatina",
     "midori_ガシュー": "gashu",
     "midori_サトウガシュー": "gashusatou",
+    "midori_ノエル": "pongo",
+    "midori_トトノエル": "rikonpongo",
+    "midori_ハンナキー": "mosa",
+    "midori_ハンナキー_other": "lakrimosa",
     "midori_アルジー": "meister",
     "talkspritename_少年ケイジ": "",
     "talkspritename_ソウの影": "",
@@ -11438,10 +12373,123 @@
     "talkspriteformatwithexpression": "",
     "talkspriteformatwithoutexpression": ""
   },
-  "map63": {
+  "map80": {
+    "3-1-message": [
+      "\\C[3]Una foto di me.",
+      "\\.\\C[4](È inquietante... Che storia è questa?)"
+    ],
+    "4-1-message": [
+      "\\C[3]Una foto di Keiji.",
+      "\\.\\C[4](Ha delle grosse occhiaie...\n Sembra davvero esauto.)"
+    ],
+    "5-1-message": [
+      "\\C[3]Una foto di Kanna.",
+      "\\.\\C[4](...)"
+    ],
+    "6-1-message": [
+      "\\C[3]Una foto di Q-taro.",
+      "\\.\\C[4](Essendo un giocatore di baseball professionista...\n Ha una bella foto.)"
+    ],
+    "7-1-message": [
+      "\\C[3]Una foto di Sou.",
+      "\\.\\C[4](Oh...? Ora che ci penso, dov'è Sou...?)"
+    ],
+    "8-1-message": [
+      "\\C[3]Una foto di Reko.",
+      "\\.\\C[4](È davvero fotogenica...)"
+    ],
+    "9-1-message": [
+      "\\C[3]Una foto di Nao.",
+      "\\.\\C[4](Che espressione serena...\n Chissà quando è stata scattata questa foto.)"
+    ],
+    "10-1-message": [
+      "\\C[3]Una foto di Gin.",
+      "\\.\\C[4](Ora che ci faccio caso...\n È tutto coperto a parte gli occhi.)"
+    ],
+    "11-1-message": [
+      "\\C[3]Una foto di Alice.",
+      "\\.\\C[4](Che taglio di capelli appariscente...)"
+    ],
+    "12-1-message": [
+      "\\C[3]Una specie di medaglietta a forma di stella.",
+      "\\.\\C[4](Questa cos'è...?)"
+    ],
+    "13-1-message": [
+      "\\C[3]Una specie di medaglietta a forma di stella.",
+      "\\.\\C[4](Questa cos'è...?)"
+    ],
+    "14-1-message": [
+      "\\C[3]Un aggeggio meccanico di qualche tipo.",
+      "\\.\\C[4](Questo cos'è...?)"
+    ],
+    "71-1-message": [
+      "\\C[3]Un aggeggio meccanico di qualche tipo.",
+      "\\.\\C[4](Questo cos'è...?)"
+    ],
+    "75-1-message": [
+      "\\C[3]Un aggeggio meccanico di qualche tipo.",
+      "\\.\\C[4](Questo cos'è...?)"
+    ],
+    "79-1-message": [
+      "\\C[3]Quel che sembrerebbe un biglietto.",
+      "\\.\\C[4](Questo cos'è...?)"
+    ],
     "2-1-message": [
-      "Tocca un personaggio per ricordare\nle azioni di ogni persona prima del Capitolo 2.",
-      "Tocca \\C[2]USCITA\\C[0] per iniziare la storia."
+      "\"..........\"",
+      "\\.\"Ehi?! E questo chi è?!\"",
+      "\\.\\C[3]Non muove un muscolo,\ncome se non avesse fatto caso a noi.",
+      "\\.\"Quella è la bambola receptionist.\n E questo è l'ufficio per il cambio dei premi!\"",
+      "\\.\"Safalin, comincia a distribuirli.\"",
+      "\\.\"D'accooordo...\"",
+      "\\C[3]A tutti è stato consegnato una specie di portafogli.",
+      "\\.\\C[4](Dentro ci sono... gettoni con la mia faccia...?)",
+      "\\.\"Quelli sono \\C[2]Auto-Gettoni\\C[0].\n Ne abbiamo dati 100 a ognuno di voi.\"",
+      "\\.\"Ah... Fammi indovinare, puoi cambiare questi gettoni\n per i premi esposti qui?\"",
+      "\\.\"Corretto! Come mi aspettavo da te!\"",
+      "\\.\"Tra i premi ci sono oggetti utili a superare il\n 3º piano, informazioni personali... e molto altro!\"",
+      "\\.\"...Volete mettere in palio le informazioni?\"",
+      "\\.\"Tuttavia...\"",
+      "\\.\"\\C[2]Non potete ottenere premi\\C[0] usando \\C[2]i vostri gettoni\\C[0].\"",
+      "\\.\"In che senso, bau...?\"",
+      "\\.\"\\C[2]Potete usare solo i gettoni degli altri\\C[0]!\"",
+      "\\.\"E se ne ottenete un sacco da una stessa persona,\n potete pure intascarvi le sue informazioni personali.\"",
+      "\\.\"Quei gettoni rappresentano la vostra fiducia.\"",
+      "\\.\"E voi bastardi dovrete vendere, comprare,\n rubare e dar via quei monellacci!\"",
+      "\\.\"In pratica, è \\C[2]un gioco in cui si deve\n comprare e rivendere la fiducia\\C[0]!\"",
+      "\\.\"Comprare e rivendere... la fiducia...\"",
+      "\\.\"Che cretinata... Sicuramente c'è dell'altro.\"",
+      "\\.\"M'è venuta un'idea. Se uno de noi ottiene\n abbastanza gettoni e compra un premio,\n possiamo condividere le informazioni che riceviamo.\"",
+      "\\.\"Eeh? Siete proprio dei bastardi socievoli.\"",
+      "\"Potremmo sempre mettere in comune tutti i nostri\n gettoni e condividere le informazioni che ci servono.\n ...Non si può neanche chiamare gioco.\"",
+      "\\.\"Uuuh! Volete rendere il tutto equo e solidale, eh?\"",
+      "\"Accetterò i gettoni di tutti...!\n E poi condividerò con gli altri\n le informazioni ottenute dai premi!\"",
+      "\\.\"Bel piano, Sara!\n Se c'abbiam tutti le stesse informazioni,\n il gioco l'è già bell'e vinto!\"",
+      "\\.\"Argh, che noiosi che siete!\n Rovinate tutto il divertimento. Mamma mia...\"",
+      "\\.\"Beh, mi spiace per voi, ma c'è dell'altro!\"",
+      "\\.\"Voi tutti incontrerete \\C[2]9 attrazioni\n\\C[0] situate al terzo piano e vi guadagnerete\n il diritto di partecipare al Gioco Principale.\"",
+      "\\.\"M... miao...?\"",
+      "\\.\"Ogni volta che supererete un'attrazione\n riceverete delle \\C[2]Medaglie di Superamento\\C[0]...\"",
+      "\\.\"E se non ne otterrete 10 entro il limite di tempo,\n morirete prima dell'inizio del Gioco Principale!\"",
+      "\\.\"N... No...!!\"",
+      "\\.\"Muahahah...! Rilassati, signorina Nao!\n A differenza del Gioco Principale,\n se vi comportate bene non morirà nessuno!\"",
+      "\\.\"S... Smettila, per favore... Non lo imitare...!!\"",
+      "\\.\"La maggior parte delle attrazioni va fatta in due.\n ...Tuttavia, nessuno può fare la stessa\n attrazione più di una volta.\"",
+      "\\.\"\\C[2]Gettoni\\C[0] e \\C[2]Medaglie di Superamento\\C[0]...\n Comincio a capire dove vuoi arrivare.\"",
+      "\\.\"Bene, capito cosa dovete fare?\"",
+      "\\.\"Superate le attrazioni per ottenere\n 10 Medaglie di Superamento.\"",
+      "\\.\"Usate gli Auto-Gettoni ricevuti come vi pare.\n\\! ...Ma \\C[2]potete comprare roba solo\n con quelli degli altri\\C[0]!\"",
+      "\\.\"E comunque... Più gettoni ottenete, meglio è.\n C'è anche un premio speciale...\"",
+      "\\.\"\\C[2]Un biglietto per la superficie\\C[0]!\n Ce n'è uno solo però,\n quindi chi primo arriva meglio alloggia!\"",
+      "\\.\\C[4](Eh?! Qui non vedo niente del genere...!)",
+      "\\.\"Il limite di tempo è di 3 giorni!\n Tranquilli! Vi verranno forniti cibo e vestiti,\n oltre a del tempo per riposare,\n perciò dormite pure della grossa!\"",
+      "\\.\"Non metteremo trappole o che altro\n nelle vostre stanze personali,\n quindi usatele in tutta tranquillità!\"",
+      "\\.\"E adesso, che il Sotto-Gioco...\n Il \\C[2]Gioco del Baratto di Fiducia\\C[0], abbia inizio!\"",
+      "\\C[4](Quanto ancora... intendono denigrarci?)",
+      "\\.\\C[4](Ma... Dobbiamo fare come ci dicono...\n Non posso morire...)",
+      "\"...Attrazioni... Dovremmo metterci a cercarle?\""
+    ],
+    "2-1-choice": [
+      "Che cretinata\nNon funzionerà mai\nTutto chiaro!"
     ]
   }
 }
