@@ -6459,7 +6459,7 @@
       "\\.\"C... C'è lezione ora, ricordi?\n Non posso mica darteli così.\"",
       "\\.\"Solo un secondo!! Sono velocissimo a copiare!\"",
       "\\.\"Non è un talento di cui vantarsi...\"",
-      "\\.\"Scusa, ma non posso. Si chiamano compiti per casa.\n È colpa tua se non li hai fatta a casa.\"",
+      "\\.\"Scusa, ma non posso. Si chiamano compiti per casa.\n È colpa tua se non li hai fatti a casa.\"",
       "\\.\"Argh... È vero, ma...!\"",
       "\\.\"Fare i compiti a casa... Eddai, suuu...\"",
       "\\.\"E poi, sono morto.\"\\.",
@@ -6471,7 +6471,7 @@
       "\\.\"Cos'hai da dire a riguardo?\"",
       "\\.\"Ecco... Ecco...\"",
       "\\.\"Ahahah, ma che ti scusi a fare?\"",
-      "\\.\"Ahahah! Perché ti sei zittita?\"",
+      "\\.\"Ahahah! Hai perso la lingua?\"",
       "\\.\\C[10]\"Maledetta assassina!\"",
       "\\.\"...No...! Dovevo...!!\"",
       "\\.\"Dovevo... andare avanti, in qualche modo...!!\"",
@@ -6891,7 +6891,7 @@
     "2-1-message": [
       "\\.\"*anf*...!! *anf*...!!\"",
       "\\.\\C[4](Un sogno... Era solo un sogno...!)",
-      "\\.\\C[4](Devo camlmarmi...! Devo...!)",
+      "\\.\\C[4](Devo calmarmi...! Devo...!)",
       "\\.\\C[4](Argh... Mi gira la testa...)",
       "\\.\\C[4](Dove sono...?)"
     ],
@@ -7034,7 +7034,7 @@
       "\\.\"...!\"",
       "\\.\"Sara!\\.\\. Tutt'a posto ora?!\"",
       "\\.\"Q-taro...\"",
-      "\\.\"Grazie al cielo... Ce lo sapevi che eri tosta, ma...\n Non se sa mai, ecco...\"",
+      "\\.\"Grazie al cielo... Ce lo sapevo che eri tosta, ma...\n Non se sa mai, ecco...\"",
       "\\.\"Non... sono per niente forte...\"",
       "\\.\"...Sì, lo so. Scusa.\"",
       "\\.\"Hai sofferto un sacco...\n Dirte de non pensarce dopo quel ch'è successo\n è proprio da insensibili.\"",
@@ -7081,6 +7081,125 @@
     ],
     "2-2-message": [
       "\\.\"Questo luogo... non è diverso da una prigione.\""
+    ]
+  },
+  "map80": {
+    "2-1-message": [
+      "\"..........\"",
+      "\\.\"Ehi?! E questo chi è?!\"",
+      "\\.\\C[3]Non muove un muscolo,\ncome se non avesse fatto caso a noi.",
+      "\\.\"Quella è la bambola receptionist.\n E questo è l'ufficio per il cambio dei premi!\"",
+      "\\.\"Safalin, comincia a distribuirli.\"",
+      "\\.\"D'accooordo...\"",
+      "\\C[3]A tutti è stato consegnato una specie di portafogli.",
+      "\\.\\C[4](Dentro ci sono... gettoni con la mia faccia...?)",
+      "\\.\"Quelli sono \\C[2]Auto-Gettoni\\C[0].\n Ne abbiamo dati 100 a ognuno di voi.\"",
+      "\\.\"Ah... Fammi indovinare, puoi cambiare questi gettoni\n per i premi esposti qui?\"",
+      "\\.\"Corretto! Come mi aspettavo da te!\"",
+      "\\.\"Tra i premi ci sono oggetti utili a superare il\n 3º piano, informazioni personali... e molto altro!\"",
+      "\\.\"...Volete mettere in palio le informazioni?\"",
+      "\\.\"Tuttavia...\"",
+      "\\.\"\\C[2]Non potete ottenere premi\\C[0] usando \\C[2]i vostri gettoni\\C[0].\"",
+      "\\.\"In che senso, bau...?\"",
+      "\\.\"\\C[2]Potete usare solo i gettoni degli altri\\C[0]!\"",
+      "\\.\"E se ne ottenete un sacco da una stessa persona,\n potete pure intascarvi le sue informazioni personali.\"",
+      "\\.\"Quei gettoni rappresentano la vostra fiducia.\"",
+      "\\.\"E voi bastardi dovrete vendere, comprare,\n rubare e dar via quei monellacci!\"",
+      "\\.\"In pratica, è \\C[2]un gioco in cui si deve\n comprare e rivendere la fiducia\\C[0]!\"",
+      "\\.\"Comprare e rivendere... la fiducia...\"",
+      "\\.\"Che cretinata... Sicuramente c'è dell'altro.\"",
+      "\\.\"M'è venuta un'idea. Se uno de noi ottiene\n abbastanza gettoni e compra un premio,\n possiamo condividere le informazioni che riceviamo.\"",
+      "\\.\"Eeh? Siete proprio dei bastardi socievoli.\"",
+      "\"Potremmo sempre mettere in comune tutti i nostri\n gettoni e condividere le informazioni che ci servono.\n ...Non si può neanche chiamare gioco.\"",
+      "\\.\"Uuuh! Volete rendere il tutto equo e solidale, eh?\"",
+      "\"Accetterò i gettoni di tutti...!\n E poi condividerò con gli altri\n le informazioni ottenute dai premi!\"",
+      "\\.\"Bel piano, Sara!\n Se c'abbiam tutti le stesse informazioni,\n il gioco l'è già bell'e vinto!\"",
+      "\\.\"Argh, che noiosi che siete!\n Rovinate tutto il divertimento. Mamma mia...\"",
+      "\\.\"Beh, mi spiace per voi, ma c'è dell'altro!\"",
+      "\\.\"Voi tutti incontrerete \\C[2]9 attrazioni\n\\C[0] situate al terzo piano e vi guadagnerete\n il diritto di partecipare al Gioco Principale.\"",
+      "\\.\"M... miao...?\"",
+      "\\.\"Ogni volta che supererete un'attrazione\n riceverete delle \\C[2]Medaglie di Superamento\\C[0]...\"",
+      "\\.\"E se non ne otterrete 10 entro il limite di tempo,\n morirete prima dell'inizio del Gioco Principale!\"",
+      "\\.\"N... No...!!\"",
+      "\\.\"Muahahah...! Rilassati, signorina Nao!\n A differenza del Gioco Principale,\n se vi comportate bene non morirà nessuno!\"",
+      "\\.\"S... Smettila, per favore... Non lo imitare...!!\"",
+      "\\.\"La maggior parte delle attrazioni va fatta in due.\n ...Tuttavia, nessuno può fare la stessa\n attrazione più di una volta.\"",
+      "\\.\"\\C[2]Gettoni\\C[0] e \\C[2]Medaglie di Superamento\\C[0]...\n Comincio a capire dove vuoi arrivare.\"",
+      "\\.\"Bene, capito cosa dovete fare?\"",
+      "\\.\"Superate le attrazioni per ottenere\n 10 Medaglie di Superamento.\"",
+      "\\.\"Usate gli Auto-Gettoni ricevuti come vi pare.\n\\! ...Ma \\C[2]potete comprare roba solo\n con quelli degli altri\\C[0]!\"",
+      "\\.\"E comunque... Più gettoni ottenete, meglio è.\n C'è anche un premio speciale...\"",
+      "\\.\"\\C[2]Un biglietto per la superficie\\C[0]!\n Ce n'è uno solo però,\n quindi chi primo arriva meglio alloggia!\"",
+      "\\.\\C[4](Eh?! Qui non vedo niente del genere...!)",
+      "\\.\"Il limite di tempo è di 3 giorni!\n Tranquilli! Vi verranno forniti cibo e vestiti,\n oltre a del tempo per riposare,\n perciò dormite pure della grossa!\"",
+      "\\.\"Non metteremo trappole o che altro\n nelle vostre stanze personali,\n quindi usatele in tutta tranquillità!\"",
+      "\\.\"E adesso, che il Sotto-Gioco...\n Il \\C[2]Gioco del Baratto di Fiducia\\C[0], abbia inizio!\"",
+      "\\C[4](Quanto ancora... intendono denigrarci?)",
+      "\\.\\C[4](Ma... Dobbiamo fare come ci dicono...\n Non posso morire...)",
+      "\"...Attrazioni... Dovremmo metterci a cercarle?\""
+    ],
+    "2-1-choice": [
+      "Che cretinata\nNon funzionerà mai\nTutto chiaro!"
+    ],
+    "3-1-message": [
+      "\\C[3]Una foto di me.",
+      "\\.\\C[4](È inquietante... Che storia è questa?)"
+    ],
+    "4-1-message": [
+      "\\C[3]Una foto di Keiji.",
+      "\\.\\C[4](Ha delle grosse occhiaie...\n Sembra davvero esauto.)"
+    ],
+    "5-1-message": [
+      "\\C[3]Una foto di Kanna.",
+      "\\.\\C[4](...)"
+    ],
+    "6-1-message": [
+      "\\C[3]Una foto di Q-taro.",
+      "\\.\\C[4](Essendo un giocatore di baseball professionista...\n Ha una bella foto.)"
+    ],
+    "7-1-message": [
+      "\\C[3]Una foto di Sou.",
+      "\\.\\C[4](Oh...? Ora che ci penso, dov'è Sou...?)"
+    ],
+    "8-1-message": [
+      "\\C[3]Una foto di Reko.",
+      "\\.\\C[4](È davvero fotogenica...)"
+    ],
+    "9-1-message": [
+      "\\C[3]Una foto di Nao.",
+      "\\.\\C[4](Che espressione serena...\n Chissà quando è stata scattata questa foto.)"
+    ],
+    "10-1-message": [
+      "\\C[3]Una foto di Gin.",
+      "\\.\\C[4](Ora che ci faccio caso...\n È tutto coperto a parte gli occhi.)"
+    ],
+    "11-1-message": [
+      "\\C[3]Una foto di Alice.",
+      "\\.\\C[4](Che taglio di capelli appariscente...)"
+    ],
+    "12-1-message": [
+      "\\C[3]Una specie di medaglietta a forma di stella.",
+      "\\.\\C[4](Questa cos'è...?)"
+    ],
+    "13-1-message": [
+      "\\C[3]Una specie di medaglietta a forma di stella.",
+      "\\.\\C[4](Questa cos'è...?)"
+    ],
+    "14-1-message": [
+      "\\C[3]Un aggeggio meccanico di qualche tipo.",
+      "\\.\\C[4](Questo cos'è...?)"
+    ],
+    "71-1-message": [
+      "\\C[3]Un aggeggio meccanico di qualche tipo.",
+      "\\.\\C[4](Questo cos'è...?)"
+    ],
+    "75-1-message": [
+      "\\C[3]Un aggeggio meccanico di qualche tipo.",
+      "\\.\\C[4](Questo cos'è...?)"
+    ],
+    "79-1-message": [
+      "\\C[3]Quel che sembrerebbe un biglietto.",
+      "\\.\\C[4](Questo cos'è...?)"
     ]
   },
   "map82": {
@@ -11534,6 +11653,10 @@
       "\\.\\C[3]Salirà sicuramente ogni volta che si ricorderà di Joe.",
       "\\.\\C[3]Fa' attenzione a non farlo salire troppo."
     ],
+    "333-0-message": [
+      "\\>Auto-Gettoni di Sara ... \\V[131]\\<\n\\>Medaglie di Superamento ... \\V[130]\\<",
+      "\\.\\>Keiji ... \\V[132]             Kanna ... \\V[133]\\<\n\\>Q-taro ... \\V[134]            Sou ... \\V[135]\\<\n\\>Reko ... \\V[136]              Nao ... \\V[137]\\<\n\\>Gin ... \\V[138]               Alice ... \\V[139]\\<"
+    ],
     "360-0-message": [
       "Sara Chidouin\nProtagonista della storia. Una normale studentessa\npresso la Scuola Superiore Sonobeno.",
       "\\.Mentre tornava a casa da scuola, si trova faccia\na faccia col suo stalker.\nUna volta tornata a casa trova sua madre svenuta.",
@@ -11614,10 +11737,6 @@
     ],
     "373-0-choice": [
       "Sì\nNo"
-    ],
-    "333-0-message": [
-      "\\>Auto-Gettoni di Sara ... \\V[131]\\<\n\\>Medaglie di Superamento ... \\V[130]\\<",
-      "\\.\\>Keiji ... \\V[132]             Kanna ... \\V[133]\\<\n\\>Q-taro ... \\V[134]            Sou ... \\V[135]\\<\n\\>Reko ... \\V[136]              Nao ... \\V[137]\\<\n\\>Gin ... \\V[138]               Alice ... \\V[139]\\<"
     ]
   },
   "actors-1": {
@@ -12372,124 +12491,5 @@
     "talkspritename_音楽教育の男": "",
     "talkspriteformatwithexpression": "",
     "talkspriteformatwithoutexpression": ""
-  },
-  "map80": {
-    "3-1-message": [
-      "\\C[3]Una foto di me.",
-      "\\.\\C[4](È inquietante... Che storia è questa?)"
-    ],
-    "4-1-message": [
-      "\\C[3]Una foto di Keiji.",
-      "\\.\\C[4](Ha delle grosse occhiaie...\n Sembra davvero esauto.)"
-    ],
-    "5-1-message": [
-      "\\C[3]Una foto di Kanna.",
-      "\\.\\C[4](...)"
-    ],
-    "6-1-message": [
-      "\\C[3]Una foto di Q-taro.",
-      "\\.\\C[4](Essendo un giocatore di baseball professionista...\n Ha una bella foto.)"
-    ],
-    "7-1-message": [
-      "\\C[3]Una foto di Sou.",
-      "\\.\\C[4](Oh...? Ora che ci penso, dov'è Sou...?)"
-    ],
-    "8-1-message": [
-      "\\C[3]Una foto di Reko.",
-      "\\.\\C[4](È davvero fotogenica...)"
-    ],
-    "9-1-message": [
-      "\\C[3]Una foto di Nao.",
-      "\\.\\C[4](Che espressione serena...\n Chissà quando è stata scattata questa foto.)"
-    ],
-    "10-1-message": [
-      "\\C[3]Una foto di Gin.",
-      "\\.\\C[4](Ora che ci faccio caso...\n È tutto coperto a parte gli occhi.)"
-    ],
-    "11-1-message": [
-      "\\C[3]Una foto di Alice.",
-      "\\.\\C[4](Che taglio di capelli appariscente...)"
-    ],
-    "12-1-message": [
-      "\\C[3]Una specie di medaglietta a forma di stella.",
-      "\\.\\C[4](Questa cos'è...?)"
-    ],
-    "13-1-message": [
-      "\\C[3]Una specie di medaglietta a forma di stella.",
-      "\\.\\C[4](Questa cos'è...?)"
-    ],
-    "14-1-message": [
-      "\\C[3]Un aggeggio meccanico di qualche tipo.",
-      "\\.\\C[4](Questo cos'è...?)"
-    ],
-    "71-1-message": [
-      "\\C[3]Un aggeggio meccanico di qualche tipo.",
-      "\\.\\C[4](Questo cos'è...?)"
-    ],
-    "75-1-message": [
-      "\\C[3]Un aggeggio meccanico di qualche tipo.",
-      "\\.\\C[4](Questo cos'è...?)"
-    ],
-    "79-1-message": [
-      "\\C[3]Quel che sembrerebbe un biglietto.",
-      "\\.\\C[4](Questo cos'è...?)"
-    ],
-    "2-1-message": [
-      "\"..........\"",
-      "\\.\"Ehi?! E questo chi è?!\"",
-      "\\.\\C[3]Non muove un muscolo,\ncome se non avesse fatto caso a noi.",
-      "\\.\"Quella è la bambola receptionist.\n E questo è l'ufficio per il cambio dei premi!\"",
-      "\\.\"Safalin, comincia a distribuirli.\"",
-      "\\.\"D'accooordo...\"",
-      "\\C[3]A tutti è stato consegnato una specie di portafogli.",
-      "\\.\\C[4](Dentro ci sono... gettoni con la mia faccia...?)",
-      "\\.\"Quelli sono \\C[2]Auto-Gettoni\\C[0].\n Ne abbiamo dati 100 a ognuno di voi.\"",
-      "\\.\"Ah... Fammi indovinare, puoi cambiare questi gettoni\n per i premi esposti qui?\"",
-      "\\.\"Corretto! Come mi aspettavo da te!\"",
-      "\\.\"Tra i premi ci sono oggetti utili a superare il\n 3º piano, informazioni personali... e molto altro!\"",
-      "\\.\"...Volete mettere in palio le informazioni?\"",
-      "\\.\"Tuttavia...\"",
-      "\\.\"\\C[2]Non potete ottenere premi\\C[0] usando \\C[2]i vostri gettoni\\C[0].\"",
-      "\\.\"In che senso, bau...?\"",
-      "\\.\"\\C[2]Potete usare solo i gettoni degli altri\\C[0]!\"",
-      "\\.\"E se ne ottenete un sacco da una stessa persona,\n potete pure intascarvi le sue informazioni personali.\"",
-      "\\.\"Quei gettoni rappresentano la vostra fiducia.\"",
-      "\\.\"E voi bastardi dovrete vendere, comprare,\n rubare e dar via quei monellacci!\"",
-      "\\.\"In pratica, è \\C[2]un gioco in cui si deve\n comprare e rivendere la fiducia\\C[0]!\"",
-      "\\.\"Comprare e rivendere... la fiducia...\"",
-      "\\.\"Che cretinata... Sicuramente c'è dell'altro.\"",
-      "\\.\"M'è venuta un'idea. Se uno de noi ottiene\n abbastanza gettoni e compra un premio,\n possiamo condividere le informazioni che riceviamo.\"",
-      "\\.\"Eeh? Siete proprio dei bastardi socievoli.\"",
-      "\"Potremmo sempre mettere in comune tutti i nostri\n gettoni e condividere le informazioni che ci servono.\n ...Non si può neanche chiamare gioco.\"",
-      "\\.\"Uuuh! Volete rendere il tutto equo e solidale, eh?\"",
-      "\"Accetterò i gettoni di tutti...!\n E poi condividerò con gli altri\n le informazioni ottenute dai premi!\"",
-      "\\.\"Bel piano, Sara!\n Se c'abbiam tutti le stesse informazioni,\n il gioco l'è già bell'e vinto!\"",
-      "\\.\"Argh, che noiosi che siete!\n Rovinate tutto il divertimento. Mamma mia...\"",
-      "\\.\"Beh, mi spiace per voi, ma c'è dell'altro!\"",
-      "\\.\"Voi tutti incontrerete \\C[2]9 attrazioni\n\\C[0] situate al terzo piano e vi guadagnerete\n il diritto di partecipare al Gioco Principale.\"",
-      "\\.\"M... miao...?\"",
-      "\\.\"Ogni volta che supererete un'attrazione\n riceverete delle \\C[2]Medaglie di Superamento\\C[0]...\"",
-      "\\.\"E se non ne otterrete 10 entro il limite di tempo,\n morirete prima dell'inizio del Gioco Principale!\"",
-      "\\.\"N... No...!!\"",
-      "\\.\"Muahahah...! Rilassati, signorina Nao!\n A differenza del Gioco Principale,\n se vi comportate bene non morirà nessuno!\"",
-      "\\.\"S... Smettila, per favore... Non lo imitare...!!\"",
-      "\\.\"La maggior parte delle attrazioni va fatta in due.\n ...Tuttavia, nessuno può fare la stessa\n attrazione più di una volta.\"",
-      "\\.\"\\C[2]Gettoni\\C[0] e \\C[2]Medaglie di Superamento\\C[0]...\n Comincio a capire dove vuoi arrivare.\"",
-      "\\.\"Bene, capito cosa dovete fare?\"",
-      "\\.\"Superate le attrazioni per ottenere\n 10 Medaglie di Superamento.\"",
-      "\\.\"Usate gli Auto-Gettoni ricevuti come vi pare.\n\\! ...Ma \\C[2]potete comprare roba solo\n con quelli degli altri\\C[0]!\"",
-      "\\.\"E comunque... Più gettoni ottenete, meglio è.\n C'è anche un premio speciale...\"",
-      "\\.\"\\C[2]Un biglietto per la superficie\\C[0]!\n Ce n'è uno solo però,\n quindi chi primo arriva meglio alloggia!\"",
-      "\\.\\C[4](Eh?! Qui non vedo niente del genere...!)",
-      "\\.\"Il limite di tempo è di 3 giorni!\n Tranquilli! Vi verranno forniti cibo e vestiti,\n oltre a del tempo per riposare,\n perciò dormite pure della grossa!\"",
-      "\\.\"Non metteremo trappole o che altro\n nelle vostre stanze personali,\n quindi usatele in tutta tranquillità!\"",
-      "\\.\"E adesso, che il Sotto-Gioco...\n Il \\C[2]Gioco del Baratto di Fiducia\\C[0], abbia inizio!\"",
-      "\\C[4](Quanto ancora... intendono denigrarci?)",
-      "\\.\\C[4](Ma... Dobbiamo fare come ci dicono...\n Non posso morire...)",
-      "\"...Attrazioni... Dovremmo metterci a cercarle?\""
-    ],
-    "2-1-choice": [
-      "Che cretinata\nNon funzionerà mai\nTutto chiaro!"
-    ]
   }
 }
