@@ -7057,6 +7057,29 @@
       "\\.\"Detto questo... me sta venendo un po' de fame.\"",
       "\\.\\C[4](Neanch'io ho mangiato nulla...)"
     ],
+    "3-1-message": [
+      "\\C[3]C'è un berretto verde a terra.",
+      "\\.\"Questo è... il cappello di Sou...?\"",
+      "\\.\"Dev'essere qui da qualche parte!\"",
+      "\\.\"Dovremmo chiamare Reko e gli altri...?\"",
+      "\\.\"Dev'essere qui da qualche parte!\"",
+      "\\.\"E... Ehi, guardate! C'è un passaggio a destra,\n e pure uno là dietro...\"",
+      "\\.\"Penso che sono quelle le attrazioni, miao!\"",
+      "\\.\\C[4](Non è che per caso... Sou ci è andato da solo?)",
+      "\\.\"Si dovrebbe poter entrare solo in coppia, ma...\"",
+      "\\.\"Alla fine... Sarebbe comunque meglio controllare.\"",
+      "\\.\\C[4](..........)",
+      "\"Vado io...!\"",
+      "\\.\"S... Sicura, Sara?!\"",
+      "\"Voi andate pure a controllare le altre aree.\"",
+      "\\.\"Qui... ci penso io!\"",
+      "\\.\"S... Sicura, Sara?!\"",
+      "\\.\"Direi che è inutile cercare di fermarti.\n In tal caso meglio se decidi \\C[2]che attrazione fare\\C[0].\"",
+      "\\.\"...E anche \\C[2]chi portare con te\\C[0].\""
+    ],
+    "3-1-choice": [
+      "Vado io\nAndate a cercare da un'altra parte"
+    ],
     "77-1-message": [
       "\\C[3]Ci sono macerie dappertutto."
     ]
@@ -7088,7 +7111,7 @@
       "\"..........\"",
       "\\.\"Ehi?! E questo chi è?!\"",
       "\\.\\C[3]Non muove un muscolo,\ncome se non avesse fatto caso a noi.",
-      "\\.\"Quella è la bambola receptionist.\n E questo è l'ufficio per il cambio dei premi!\"",
+      "\\.\"Quella è la bambola receptionist.\n E questo è il Banco cambiapremi!\"",
       "\\.\"Safalin, comincia a distribuirli.\"",
       "\\.\"D'accooordo...\"",
       "\\C[3]A tutti è stato consegnato una specie di portafogli.",
@@ -7141,65 +7164,230 @@
     "2-1-choice": [
       "Che cretinata\nNon funzionerà mai\nTutto chiaro!"
     ],
+    "2-2-message": [
+      "\"Questo è il Banco cambiapremi.\n La invito a consultarmi in caso di dubbi.\"",
+      "\\.\"A quali dei suoi quesiti posso rispondere?\"",
+      "\"Sono una bambola receptionist al vostro servizio\n durante la vostra permanenza al terzo piano.\n Posso spiegare e cambiare i premi.\"",
+      "\"Ci sono premi di due tipi.\n \\C[4]Premi col prezzo azzurro\\C[0] e \\C[10]premi col prezzo rosso\\C[0].\"",
+      "\\.\"I \\C[4]premi col prezzo azzurro\\C[0] sono normali.\n È possibile cambiarli usando\n il numero di gettoni indicato.\"",
+      "\\.\"I \\C[10]premi col prezzo rosso\\C[0] sono esclusivi.\n È possibile cambiarli usando i gettoni\n della persona associata a tale premio.\"",
+      "\\.\"Ad esempio, si possono acquisire\n le informazioni personali del sig. Keiji\n solamente usando i gettoni del sig. Keiji.\"",
+      "\"Non c'è niente del genere qui.\"",
+      "\\.\\C[4](Non c'è niente \\C[2]qui\\C[4], eh...?)"
+    ],
+    "2-2-choice": [
+      "Fai delle domande\nAnnulla",
+      "Tu cosa sei?\nTipi di premio\nBiglietto di fuga?\nAnnulla"
+    ],
     "3-1-message": [
       "\\C[3]Una foto di me.",
       "\\.\\C[4](È inquietante... Che storia è questa?)"
+    ],
+    "3-2-message": [
+      "\\C[3][Premio] Informazioni personali di Sara\n\nGettoni richiesti ... 50 gettoni di Sara",
+      "\\.\\C[4](Visto che non si possono usare i propri gettoni...\n non si possono comprare le proprie\n informazioni personali.)"
     ],
     "4-1-message": [
       "\\C[3]Una foto di Keiji.",
       "\\.\\C[4](Ha delle grosse occhiaie...\n Sembra davvero esauto.)"
     ],
+    "4-2-message": [
+      "\\C[3][Premio] Informazioni personali di Keiji\n\nGettoni richiesti ... 50 gettoni di Keiji",
+      "\\.\\C[3]Cambiare i gettoni per il premio?",
+      "\\C[3]Gettoni insufficienti!"
+    ],
+    "4-2-choice": [
+      "Sì\nNo"
+    ],
     "5-1-message": [
       "\\C[3]Una foto di Kanna.",
       "\\.\\C[4](...)"
+    ],
+    "5-2-message": [
+      "\\C[3][Premio] Informazioni personali di Kanna\n\nGettoni richiesti ... 50 gettoni di Kanna",
+      "\\.\\C[3]Cambiare i gettoni per il premio?",
+      "\\C[3]Gettoni insufficienti!"
+    ],
+    "5-2-choice": [
+      "Sì\nNo"
     ],
     "6-1-message": [
       "\\C[3]Una foto di Q-taro.",
       "\\.\\C[4](Essendo un giocatore di baseball professionista...\n Ha una bella foto.)"
     ],
+    "6-2-message": [
+      "\\C[3][Premio] Informazioni personali di Q-taro\n\nGià acquistate.",
+      "\\C[3][Premio] Informazioni personali di Q-taro\n\nGettoni richiesti ... 50 gettoni di Q-taro",
+      "\\.\\C[3]Cambiare i gettoni per il premio?",
+      "\\C[3]Gettoni cambiati!",
+      "\\C[3]Gettoni insufficienti!"
+    ],
+    "6-2-choice": [
+      "Sì\nNo"
+    ],
     "7-1-message": [
       "\\C[3]Una foto di Sou.",
       "\\.\\C[4](Oh...? Ora che ci penso, dov'è Sou...?)"
+    ],
+    "7-2-message": [
+      "\\C[3][Premio] Informazioni personali di Sou\n\nGettoni richiesti ... 50 gettoni di Sou",
+      "\\.\\C[3]Cambiare i gettoni per il premio?",
+      "\\C[3]Gettoni insufficienti!"
+    ],
+    "7-2-choice": [
+      "Sì\nNo"
     ],
     "8-1-message": [
       "\\C[3]Una foto di Reko.",
       "\\.\\C[4](È davvero fotogenica...)"
     ],
+    "8-2-message": [
+      "\\C[3][Premio] Informazioni personali di Reko\n\nGià acquistate.",
+      "\\C[3][Premio] Informazioni personali di Reko\n\nGettoni richiesti ... 50 gettoni di Reko",
+      "\\.\\C[3]Cambiare i gettoni per il premio?",
+      "\\C[3]Gettoni cambiati!",
+      "\\C[3]Gettoni insufficienti!"
+    ],
+    "8-2-choice": [
+      "Sì\nNo"
+    ],
     "9-1-message": [
       "\\C[3]Una foto di Nao.",
       "\\.\\C[4](Che espressione serena...\n Chissà quando è stata scattata questa foto.)"
+    ],
+    "9-2-message": [
+      "\\C[3][Premio] Informazioni personali di Nao\n\nGià acquistate.",
+      "\\C[3][Premio] Informazioni personali di Nao\n\nGettoni richiesti ... 50 gettoni di Nao",
+      "\\.\\C[3]Cambiare i gettoni per il premio?",
+      "\\C[3]Gettoni cambiati!",
+      "\\C[3]Gettoni insufficienti!"
+    ],
+    "9-2-choice": [
+      "Sì\nNo"
     ],
     "10-1-message": [
       "\\C[3]Una foto di Gin.",
       "\\.\\C[4](Ora che ci faccio caso...\n È tutto coperto a parte gli occhi.)"
     ],
+    "10-2-message": [
+      "\\C[3][Premio] Informazioni personali di Gin\n\nGià acquistate.",
+      "\\C[3][Premio] Informazioni personali di Gin\n\nGettoni richiesti ... 50 gettoni di Gin",
+      "\\.\\C[3]Cambiare i gettoni per il premio?",
+      "\\C[3]Gettoni cambiati!",
+      "\\C[3]Gettoni insufficienti!"
+    ],
+    "10-2-choice": [
+      "Sì\nNo"
+    ],
     "11-1-message": [
       "\\C[3]Una foto di Alice.",
       "\\.\\C[4](Che taglio di capelli appariscente...)"
+    ],
+    "11-2-message": [
+      "\\C[3][Premio] Informazioni personali di Alice\n\nGettoni richiesti ... 50 gettoni di Alice",
+      "\\.\\C[3]Cambiare i gettoni per il premio?",
+      "\\C[3]Gettoni insufficienti!"
+    ],
+    "11-2-choice": [
+      "Sì\nNo"
     ],
     "12-1-message": [
       "\\C[3]Una specie di medaglietta a forma di stella.",
       "\\.\\C[4](Questa cos'è...?)"
     ],
+    "12-2-message": [
+      "\\C[3][Premio] Medaglia di superamento\n\n\\C[2]Già acquistata.",
+      "\\C[3][Premio] Medaglia di superamento\n\nGettoni richiesti ... 30 gettoni",
+      "\\.\\C[3]Cambiare i gettoni per il premio?",
+      "\\.\\C[4](Forse dovrei cominciare a preoccuparmi delle\n Medaglie di superamento quando cominceremo\n a fare le attrazioni...)"
+    ],
+    "12-2-choice": [
+      "Sì\nNo"
+    ],
     "13-1-message": [
       "\\C[3]Una specie di medaglietta a forma di stella.",
       "\\.\\C[4](Questa cos'è...?)"
+    ],
+    "13-2-message": [
+      "\\C[3][Premio] Medaglia di superamento\n\n\\C[2]Già acquistata.",
+      "\\C[3][Premio] Medaglia di superamento\n\nGettoni richiesti ... 30 gettoni",
+      "\\.\\C[3]Cambiare i gettoni per il premio?",
+      "\\.\\C[4](Forse dovrei cominciare a preoccuparmi delle\n Medaglie di superamento quando cominceremo\n a fare le attrazioni...)"
+    ],
+    "13-2-choice": [
+      "Sì\nNo"
     ],
     "14-1-message": [
       "\\C[3]Un aggeggio meccanico di qualche tipo.",
       "\\.\\C[4](Questo cos'è...?)"
     ],
+    "14-2-message": [
+      "\\C[3][Premio] Video della vittima 1\n\n\\C[2]Già acquistato.",
+      "\\C[3][Premio] Video della vittima 1\n\nGettoni richiesti ... 20 gettoni",
+      "\\.\\C[3]Cambiare i gettoni per il premio?"
+    ],
+    "14-2-choice": [
+      "Sì\nNo"
+    ],
+    "67-3-message": [
+      "\"Ottimo, ecco il suo premio.\"",
+      "\\.\\C[3]Ottenuta una Medaglia di completamento!",
+      "\\.\\C[3]Ottenuta una Medaglia di completamento!",
+      "\\.\\C[3]Ottenuto il Video della vittima 1!",
+      "\"Può vedere i video delle vittime\n usandoli all'interno della Sala degli schermi.\"",
+      "\\.\\C[3]Ottenuto il Video della vittima 2!",
+      "\"Può vedere i video delle vittime\n usandoli all'interno della Sala degli schermi.\"",
+      "\\.\\C[3]Ottenuto il Video della vittima 3!",
+      "\"Può vedere i video delle vittime\n usandoli all'interno della Sala degli schermi.\"",
+      "\\.\\C[3]Ottenuto un Biglietto facilitante!",
+      "\"Il semplice possesso ne attiva gli effetti.\n Un vero affare, concorda?\"",
+      "\\.\\C[3]Ottenute le informazioni personali di Q-taro!",
+      "\"Usi questo dispositivo di avvio\n nella Sala degli schermi per visionare\n le informazioni personali.\"",
+      "\\.\\C[3]Ottenute le informazioni personali di Reko!",
+      "\"Usi questo dispositivo di avvio\n nella Sala degli schermi per visionare\n le informazioni personali.\"",
+      "\\.\\C[3]Ottenute le informazioni personali di Nao!",
+      "\"Mh... Queste sono in formato cartaceo.\n Legga pure quanto vuole.\"",
+      "\\.\\C[3]Ottenute le informazioni personali di Gin!",
+      "\"Usi questo dispositivo di avvio\n nella Sala degli schermi per visionare\n le informazioni personali.\"",
+      "\"Ha cambiato idea?\"",
+      "\\.\"Arrivederla.\""
+    ],
     "71-1-message": [
       "\\C[3]Un aggeggio meccanico di qualche tipo.",
       "\\.\\C[4](Questo cos'è...?)"
+    ],
+    "71-2-message": [
+      "\\C[3][Premio] Video della vittima 2\n\n\\C[2]Già acquistato.",
+      "\\C[3][Premio] Video della vittima 2\n\nGettoni richiesti ... 20 gettoni",
+      "\\.\\C[3]Cambiare i gettoni per il premio?"
+    ],
+    "71-2-choice": [
+      "Sì\nNo"
     ],
     "75-1-message": [
       "\\C[3]Un aggeggio meccanico di qualche tipo.",
       "\\.\\C[4](Questo cos'è...?)"
     ],
+    "75-2-message": [
+      "\\C[3][Premio] Video della vittima 3\n\n\\C[2]Già acquistato.",
+      "\\C[3][Premio] Video della vittima 3\n\nGettoni richiesti ... 20 gettoni",
+      "\\.\\C[3]Cambiare i gettoni per il premio?"
+    ],
+    "75-2-choice": [
+      "Sì\nNo"
+    ],
     "79-1-message": [
       "\\C[3]Quel che sembrerebbe un biglietto.",
       "\\.\\C[4](Questo cos'è...?)"
+    ],
+    "79-2-message": [
+      "\\C[3][Premio] Biglietto facilitante\n\n\\C[2]Già acquistato.",
+      "\\C[3][Premio] Biglietto facilitante\n\nGettoni richiesti ... 10 gettoni",
+      "\\.\\C[3]Numero limitato! 1 rimasto!\nTenerlo con sé fa calare\nla difficoltà delle attrazioni.",
+      "\\.\\C[3]Cambiare i gettoni per il premio?"
+    ],
+    "79-2-choice": [
+      "Sì\nNo"
     ]
   },
   "map82": {
@@ -7340,6 +7528,14 @@
       "\\.\\sw[324]\"...Chiedo scusa.\n Forse adesso la questione è del tutto irrilevante.\"\\sw[325]",
       "\\.\"...\""
     ],
+    "2-4-message": [
+      "\\.\"...E poi... professore...\"",
+      "\\.\\sw[324]\"Sì, capisco... È così?\"\\sw[325]",
+      "\\.\\sw[324]\"Cielo, signorina Nao. Sembri piuttosto giù di corda.\"\\sw[325]",
+      "\\.\"...Professore...\"",
+      "\\.\\sw[324]\"Se un'IA ti va bene,\n sarei lieto di parlare con te.\"\\sw[325]",
+      "\\.\"...Professore... Possiamo parlare un po'...?\""
+    ],
     "4-1-message": [
       "\\.\"...!\"",
       "\\.\\C[3]Appena Kanna si è accorta di me ha distolto lo sguardo.",
@@ -7350,26 +7546,92 @@
     "4-2-message": [
       "\\.\\C[3]Kanna non riesce neanche a guardarmi."
     ],
+    "9-7-message": [
+      "\\C[3]Lo schermo è in frantumi...!",
+      "\"E... Ehi!\n Non era tutto intero fino a poco fa?!\"",
+      "\\.\"...Di chi è questo schermo?\"",
+      "\\.\\C[4](Che sta succedendo...?!)",
+      "\\.\\C[3]La foto sul retro dello schermo\nè stata strappata via.",
+      "\\.\\C[4](Qui... qui ci dev'essere stata la foto di qualcuno!)",
+      "\\.\\C[3]Mi sono guardata intorno senza perdere tempo,\nma non ho percepito nessuno nei paraggi.",
+      "\\.\"Aah... Che peccato.\n La foto sul retro è stata strappa via.\"",
+      "\\.\"Mishima, tu hai visto\n chi è stato a distruggere lo schermo...?\"",
+      "\\.\\sw[324]\"Sono davvero spiacente.\n Temo di no...\"\\sw[325]",
+      "\\.\"Ora che ci penso...\n Non ho visto Sou da nessuna parte...\"",
+      "\\.\"Ancora lui...?!\n Maledizione, che diavolo pensa di fare stavolta?!\"",
+      "\\.\"Mmh... Cercare attrazioni, o cercare Sou...\n Tu che vorresti fare, Sara?\"",
+      "\\.\"Vorrei...\"",
+      "\\.\"Voglio... stargli lontano, per un po'.\n Visto che... ancora non sono calma...\"",
+      "\\.\"...Mi sembra ragionevole.\"",
+      "\\.\"Capito. Sara, tu vai con gli altri\n a cercare le attrazioni.\n Io cercherò berretto.\"",
+      "\\.\"Non gli lascerò fare le sue solite stronzate...!\"",
+      "\\.\"Non essere avventata, ok?\"",
+      "\\.\"Sento che... non possiamo lasciarlo a piede libero.\"",
+      "\\.\"...Concordo. Mi piacerebbe ammanettarlo\n e portarlo al fresco.\"",
+      "\\.\"Diamine!! Vado a trovarlo!!\"",
+      "\\.\"Dai! Andiamo a cercarlo tutti insieme!\"",
+      "\\.\"Ehm... Scusate, ma...\n Potrei parlare col professore ancora un po'...?\"",
+      "\\.\"Eh...? C-Certo...\"",
+      "\\.\"Grazie mille...\""
+    ],
+    "9-7-choice": [
+      "Guarda il retro\nControlla se c'è qualcuno nei paraggi",
+      "Cercare attrazioni\nCercare Sou"
+    ],
+    "9-8-message": [
+      "\\C[3]Lo schermo è rotto."
+    ],
+    "9-10-message": [
+      "\\C[3]Lo schermo è rotto."
+    ],
     "12-1-message": [
       "\\C[3]Uno dei vari schermi."
+    ],
+    "12-2-message": [
+      "\\C[3]Uno dei vari schermi.",
+      "\\.\\C[3]C'è una mia foto sul retro."
     ],
     "37-1-message": [
       "\\C[3]Uno dei vari schermi."
     ],
+    "37-2-message": [
+      "\\C[3]Uno dei vari schermi.",
+      "\\.\\C[3]C'è una foto di Keiji sul retro."
+    ],
     "57-1-message": [
       "\\C[3]Uno dei vari schermi."
+    ],
+    "57-2-message": [
+      "\\C[3]Uno dei vari schermi.",
+      "\\.\\C[3]C'è una foto di Alice sul retro."
     ],
     "59-1-message": [
       "\\C[3]Uno dei vari schermi."
     ],
+    "59-2-message": [
+      "\\C[3]Uno dei vari schermi.",
+      "\\.\\C[3]C'è una foto di Reko sul retro."
+    ],
     "60-1-message": [
       "\\C[3]Uno dei vari schermi."
+    ],
+    "60-2-message": [
+      "\\C[3]Uno dei vari schermi.",
+      "\\.\\C[3]C'è una foto di Q-taro sul retro."
     ],
     "61-1-message": [
       "\\C[3]Uno dei vari schermi."
     ],
+    "61-2-message": [
+      "\\C[3]Uno dei vari schermi.",
+      "\\.\\C[3]C'è una foto di Kanna sul retro."
+    ],
     "62-1-message": [
       "\\C[3]Uno dei vari schermi."
+    ],
+    "62-2-message": [
+      "\\C[3]Uno dei vari schermi.",
+      "\\.\\C[3]C'è una foto di Gin sul retro."
     ],
     "71-1-message": [
       "\\C[3]Lo sguardo di Nao è fisso in un solo punto."
@@ -7391,6 +7653,339 @@
       "\\.\"..........\"",
       "\\.\"M...\\.\\. Mamma...\"",
       "\\.\"..........\""
+    ]
+  },
+  "map85": {
+    "5-1-message": [
+      "\"In quanto terrestre...\n Non mi farò sconfiggere da un alieno.\"",
+      "\"Un pistolero...\n Col mio spirito da samurai, lo sovrasterò!\"",
+      "\"I conigli mi piacciono,\n ma questa battaglia è tutta un'altra storia!\""
+    ],
+    "5-2-message": [
+      "\"Tutto ciò che posso fare... è supporto morale...!\""
+    ],
+    "8-1-message": [
+      "\"Il nostro avversario è un alieno, eh...?\n Un vero incontro con l'ignoto.\"",
+      "\"Non si direbbe molto sveglio.\n Non attacca spesso con la 1ª e con la 2ª carta.\"",
+      "\"Al nostro nemico piace risparmiare...\n L'unica volta in cui attacca è con la 3ª carta.\"",
+      "\"Un cowboy... Il nostro avversario viene da un western?\"",
+      "\"Il nostro nemico sembra voler caricare con la carta 1.\n Allora non dovrebbe attaccarci.\"",
+      "\"Al nostro nemico piace proprio caricare con la carta 1.\n E poi attacca con la carta 2...\n Come un vero pistolero.\"",
+      "\"Ecco che arriva un coniglio molto non-carino.\"",
+      "\"Difficile prevederlo.\n Ma sembra attaccare relativamente meno con la carta 1.\"",
+      "\"Il nemico o carica o attacca con la carta 1.\n Il resto non è molto chiaro...\""
+    ],
+    "8-2-message": [
+      "\"L'è 'n alieno!\"",
+      "\"Il nemico... non sta a attacca' molto\n con la 1ª e la 2ª carta, direi.\"",
+      "\"Sembra che il nemico attacca solo con la carta 3.\n Te blocca con la carta 3 e stiam a posto!\"",
+      "\"'Sto nemico qua è schifoso e viscido!\"",
+      "\"Me pare che il nemico non attacca molto\n colla prima carta.\"",
+      "\"Il nemico carica sempre colla carta 1!\n E glie gusta attacca' colla carta 2!\"",
+      "\"Un coniglio, eh? Facciamoce uno stufato!\"",
+      "\"Me pare che il nemico non attacca molto colla carta 1.\"",
+      "\"Il nemico de solito carica colla carta 1,\n ma non sempre. È abbastanza incoerente alla fine.\""
+    ],
+    "8-3-message": [
+      "\"Mia?! Un alieno, bau!\n Ci riprogrammerà il cervello, miao!\"",
+      "\"Fa paura, ma non sembra tanto forte, miao!\"",
+      "\\.\"Fai del tuo meglio, miao!!\"",
+      "\"Quell'alieno attacca solo con la carta 3, bau!\n Dovresti vincere bloccando con la carta 3, miao?\"",
+      "\\.\"Fai del tuo meglio, miao!!\"",
+      "\"Un tizio melmoso, miao! Stai lontana\n e non lo toccare, bau!\"",
+      "\"...Un po' sono curioso di sapere\n che consistenza ha, miao.\"",
+      "\\.\"Fai del tuo meglio, miao!!\"",
+      "\"L'uomo melmoso prova sempre a caricare con la\n carta 1 e ad attaccare con la carta 2, bau! ...Forse.\"",
+      "\\.\"Fai del tuo meglio, miao!!\"",
+      "\"È... È un coniglietto, bau...\n Un coniglietto inquietante, miao...\"",
+      "\"Che paura, bau...\n Ti do delle carote, va bene? Però vai via, miao...\"",
+      "\\.\"Fai del tuo meglio, miao!!\"",
+      "\"Quella cosa... di solito carica con la carta 1, miao...\n Cha pauuura...\"",
+      "\\.\"Fai del tuo meglio, miao!!\""
+    ],
+    "25-1-message": [
+      "\\.\"Comincio io...!\"",
+      "\\.\"Ti guardo le spalle.\"",
+      "\\.\"Falli neri, Sara!\"",
+      "\\.\"Miao! In bocca al lupo, sorellona Sara!\n Faccio il tifo per te, bau!!\"",
+      "Battaglia di carte ~Regole~",
+      "\\.Seleziona tre carte con cui combattere\ntra quattro tipi.",
+      "\\.\\C[4]Carica\\C[0] .... Carica 1 di energia.\n\\C[2]Raggio\\C[0] .... Spende 1 di energia per attaccare.\n\\C[6]Speciale\\C[0] .. Spende 3 di energia per un attacco potente.\n\\C[3]Blocca\\C[0] .... Blocca completamente gli attacchi.",
+      "\\.Se l'altro sceglie \\C[4]Carica\\C[0] e tu scegli \\C[2]Raggio\\C[0], colpisci!\nMa devi prima \\C[4]Carica\\C[0]re per poter attaccare!\n\n...È questo il succo del gioco.",
+      "\\.Da notare che in caso di \\C[2]Raggio\\C[0] verso \\C[6]Speciale\\C[0],\n\\C[6]Speciale\\C[0] ha la meglio e vince.",
+      "\\.Toccando l'icona del tuo compagno riceverai\nconsigli e altro, quindi... Buona fortuna."
+    ],
+    "25-1-choice": [
+      "Riascolta la spiegazione\nProvaci"
+    ]
+  },
+  "map87": {
+    "1-1-message": [
+      "\\C[3]Una luce intensa illumina la stanza."
+    ]
+  },
+  "map89": {
+    "1-1-message": [
+      "\"Con calma... Devo solo ripetere\n le stesse mosse del mio avversario.\"",
+      "\"Quando diventa giallo, mi metterò in posa...!\"\n\\C[4](Toccando il mio corpo...!)",
+      "\"Non posso farmi distrarre dal suo aspetto strano!\n Devo ricordarmi le sue mosse!\"",
+      "\"Quando l'avversario lampeggia, mi metterò in posa!\"\n\\C[4](Toccando il mio corpo...!)",
+      "\"Ecco un avversario maledettamente carino...!\"",
+      "\"Quando l'avversario lampeggia, mi metterò in posa!\"\n\\C[4](Toccando il mio corpo...!)"
+    ],
+    "1-2-message": [
+      "\"Fai... del tuo... meglio...!\""
+    ],
+    "2-1-message": [
+      "\"...Uuf... Che avversario inquietante...\"",
+      "\"Anche Kanna può ricordare tre mosse...!\"",
+      "\"Uaaah... Che avversario inavvicinabile...\"",
+      "\"Le prime mosse sono veloci...\n Ma probabilmente c'è uno schema.\"",
+      "\"L'avversario finale...! È carina...\"",
+      "\"Uuh... Che mosse difficili...\"",
+      "\"..........\""
+    ],
+    "2-2-message": [
+      "\"Mi ricorderò di queste mosse alla perfezione...!\"\n\n\\C[3](Ricorderà tutte le mosse, ma per una volta sola.)",
+      "\"Ricordate...!\"",
+      "\"Un bulbo oculare capelluto che balla?\n Questo sì che rock and roll!\"",
+      "\"Ti ricorderai delle mosse di danza così semplici.\"",
+      "\"Che look e che danza orribili...\n Un po' lo vorrei nella mia band.\"",
+      "\"Scommetto che c'è uno schema\n nella mosse veloci d'apertura!\"",
+      "\"Gah...!! Questa qua ci sa fare!!\"",
+      "\"Il mio orgoglio non mi farà perdere contro\n questa ragazzetta!\""
+    ],
+    "2-2-choice": [
+      "Usa memoria perfetta\nAnnulla"
+    ],
+    "2-3-message": [
+      "\\.\"Fai del tuo meglio, miao!!\"",
+      "\"Bauuuuu! In bocca al lupo, sorellona Sara!\"",
+      "\"I mostri a forma di occhio fanno impressione, miao!\"",
+      "\"Quella cosa fa senso, ma buona fortuna, miao!\"",
+      "\\.\"Fai del tuo meglio, miao!!\"",
+      "\"Bauuuuu! In bocca al lupo, sorellona Sara!\"",
+      "\"Che schifo! È tutta rossa e viscida...\n Pure questa fa senso, miao!\"",
+      "\"Miao! Ti proteggerò, sorellona Sara!\"",
+      "\\.\"Fai del tuo meglio, miao!!\"",
+      "\"Bauuuuu! In bocca al lupo, sorellona Sara!\"",
+      "\"L'avversario è una ragazza, miao!\n Ma tu sei molto meglio, sorellona Sara! Bau!\"",
+      "\"Solo io posso proteggere la sorellona Sara, miao!\""
+    ],
+    "6-1-message": [
+      "\\.\"Comincio io...!\"",
+      "\\.\"Fai del tuo meglio, Sara...!\"",
+      "\\.\"Fai del tuo meglio, Sara...!\"",
+      "\\.\"D... D'accordo...\"",
+      "\\.\"Divertiti!\"",
+      "\\.\"Miao! In bocca al lupo, sorellona Sara!\n Faccio il tifo per te, bau!!\"",
+      "Danza di memoria ~Regole~",
+      "\\.Ricorda l'ordine delle mosse del tuo avversario\ne ripetile correttamente.",
+      "\\.Le mosse sono \\C[2]Su, Giù, Destra, Sinistra e Corpo\\C[0].\n\\C[2]Corpo\\C[0] si fa toccando il corpo del personaggio.",
+      "\\.Alcuni personaggi potrebbero ricordare le mosse per te.\nLe mosse ricordate sono mostrate in basso.",
+      "\\.Toccando l'icona del tuo compagno riceverai\nconsigli e altro, quindi... Buona fortuna."
+    ],
+    "6-1-choice": [
+      "Riascolta la spiegazione\nProvaci"
+    ]
+  },
+  "map92": {
+    "3-1-message": [
+      "\\C[3]Sou è svenuto a terra.",
+      "\\.\"Mmh... Ha delle schegge di legno sulla testa...\n Oltre a un bernoccolo.\"",
+      "\\C[3]Sou è svenuto a terra.",
+      "\\.\"È... È la stessa situazione, miao...! Come prima..!\"",
+      "\\.\"Già...\"",
+      "\\.\"Tranquilli... Sta respirando.\"",
+      "\\.\"Sulla testa c'ha... delle schegge?\""
+    ],
+    "4-1-message": [
+      "\\C[3]C'è una solida asse di legno sul letto.",
+      "\\.\"Proprio la misura giusta per portarsela in giro\n e colpirci qualcuno.\"",
+      "\\C[3]C'è una solida asse di legno sul letto.",
+      "\\.\"E... Ehi, e questa che diavolo è...?\"",
+      "\\.\"Mmh, beh... Si direbbe della misura giusta\n per essere trasportata e brandita.\"",
+      "\\.\"Vuoi dire che... Sou è stato...\""
+    ],
+    "5-1-message": [
+      "\\C[3]Questa scena... era davvero la stessa\ndell'altra volta.",
+      "\\.\\C[3]La stessa di quando Sou era stato aggredito\nnella stanza segreta...",
+      "\\.\"Argh...\"",
+      "\\.\"S... Sou!\"",
+      "\\.\"Uuuuf...\"",
+      "\\.\"Eh... Ehm...\"",
+      "\\.\"Ahi, cavoli... Mi sento uno schifo...\"",
+      "\\.\"Che accidenti è successo?\"",
+      "\\.\"Eh...?\"",
+      "\\.\"È... È quello che vorrei sapere io...\"",
+      "\\.\"Che posto è questo... Quando sono arrivato qui...?\"",
+      "\\.\"Tappati quella bocca, bastardo...!\n Non gliene frega niente a nessuno di te!\"",
+      "\\.\"Che stai tramando?! Dimmelo!\"",
+      "\\.\"E... Eeeh?! Aspetta...!\"",
+      "\\.\"Dai, dai. Con la violenza non si risolve nulla, Reko.\"",
+      "\\.\"Tsk...!!\"",
+      "\\.\"C... Che succede...? Ve la prendete tutti con me...\"",
+      "\\.\"Sou...\"",
+      "\\.\"N... Non lo so... Mi hanno aggredito...?\"",
+      "\\.\"Come?! Beh, per quale altra ragione\n dovresti essere svenuto?!\"",
+      "\\.\"Eeh... e-ehm... Credo che...\n stavo investigando il portatile\n nella stanza segreta...\"",
+      "\\.\"E poi, ho... ...?\"",
+      "\\.\"S... Schermo? Vuoi dire il portatile...?\"",
+      "\\.\"Senti, non l'avrei mai rotto\n solo perché non sapevo la password...\"",
+      "\\.\"Eeh... e-ehm... Credo che...\n stavo investigando il portatile\n nella stanza segreta...\"",
+      "\\.\"E poi, ho... ...?\"",
+      "\\.\\C[4](Ma che sta dicendo...?)",
+      "\\.\"Ma sta' zitto!! Tutta la faccenda del portatile\n era prima del Gioco Principale!!\"",
+      "\\.\"Il Gioco Principale...! Giusto!\n Prima che inizi il Gioco Principale, devo...\"",
+      "\\.\"Devo controllare i dati nel portatile...!\n Ma la password... ehmm...\"",
+      "\\.\"C... Che te sei completamente impazzito, amico?!\"",
+      "\\.\"...Il Gioco Principale è finito da un bel po'.\"",
+      "\\.\"I... In che senso, Keiji?!\"",
+      "\\.\"Finito...? Tutto quanto...?!\"",
+      "\\.\"C...\"",
+      "\\.\"Chi è... morto...?\"",
+      "\\C[10]Eh...?",
+      "\\.\\C[10]...",
+      "\\.\\C[10]Sou...",
+      "\\.\\C[10]Che... sta dicendo Sou...?",
+      "\\.\"Chi...?! Chi è manca... Nao...?!\"",
+      "\\.\"E-Ehi... Che per caso, la tua memoria...\"",
+      "\\.\"Oppure... Kai...?\"",
+      "\\C[10]Smettila.",
+      "\\.\\C[10]Smettila subito...",
+      "\\.\"Non può essere... Joe...?!\"",
+      "\\.\\{\\C[10]Smettila.\\.\\. Smettila...",
+      "\\.\"Signorina Sara, non è così, vero?!\n Joe... Joe è morto?! Perché?!\"",
+      "\\.\\{\\C[10]Smettila!!\\.\\. Smettila!!!\\.\\. Smettila!!!!\\.\\.\\.\\^",
+      "\\.\\C[10] \\{\\{\\{      SMETTILA!!!!\\.\\.\\.\\^",
+      "\"...Tutto bene, Sara?\"",
+      "\\.\"S-Sì... Sto bene.\"",
+      "\\.\"Che pezzo di merda!\n Continua a sparare bugie sempre più stupide!!\"",
+      "\\.\"Quindi siam sicuri che è 'na bugia...?\"",
+      "\\.\"Ma certo!! È in posizione di svantaggio,\n quindi fa finta di non ricordarsi!!\"",
+      "\\.\"Detto ciò... finché è così\n non ci risponderà, però.\"",
+      "\\.\"Ehm... Potreste affidare la faccenda a Kanna?\"",
+      "\\.\"Kanna...!\"",
+      "\\.\"Cercherò di scoprire cosa Sou pensa davvero...!\"",
+      "\\.\"Sono sicura che sarà meno prudente con me\n che con voi...!\"",
+      "\\.\"...Bella idea.\"",
+      "\\.\"Ma che diavolo stai dicendo?!\n Quel tizio ha, tipo... una brutta influenza su Kanna!\"",
+      "\\.\"...Stiamo un po' sottovalutando Kanna, secondo me.\"",
+      "\\.\"Potrebbe essere una ragazzina più forte\n di quel che crediamo.\"",
+      "\\.\"Sig. poliziotto...!\"",
+      "\\.\"...Ma non farti usare da lui, Kanna.\"",
+      "\\.\"Gli adulti con brutte intenzioni...\n fanno più paura di quel che pensi.\"",
+      "\\.\"...Certo!\"",
+      "\\.\"Non riesco ad accettarlo... È che...\"",
+      "\\.\"Abbi fiducia, Reko.\"",
+      "\\.\"..........\"",
+      "\\.\\C[4](Kanna...)",
+      "\\.\"...E ora che facciamo, miao?\"",
+      "\\.\"C'abbiam tre giorni interi. L'è inutile sbrigarse\n a fa' le attrazioni in e farce male.\"",
+      "\\.\"...Sarebbe saggio discutere\n come vogliamo usare questi gettoni, inoltre.\"",
+      "\\.\"...Gettoni... miao...\"",
+      "~Contrattazioni~",
+      "\\.Dopo aver finito un'Attrazione mortale,\npuoi selezionare una persona nell'altro con cui\ncontrattare scambi di gettoni e altro.",
+      "\\.È buona cosa sia raccogliere gettoni\nche rafforzare i tuoi legami...\n\nLe tue azioni potrebbero scrivere i loro destini."
+    ],
+    "5-1-choice": [
+      "Chi ti ha aggredito?\nSei stato tu a rompere lo schermo, vero?\nDove sei stato?"
+    ]
+  },
+  "map95": {
+    "5-1-message": [
+      "\"Il braccio di ferro è una gara di spirito...!\n Non di forza!\"",
+      "\"Mmh...?! Ma così non è... due contro uno?\"",
+      "\"Perché una singola persona deve affrontarne tre...?!\""
+    ],
+    "5-2-message": [
+      "\"Tutto ciò che posso fare... è supporto morale...!\""
+    ],
+    "8-1-message": [
+      "\"È molto forte...\n Non possiamo perdere contro\n un avversario del genere... giusto?\"",
+      "\"Un'ultima spinta...!\n Mettiamocela tutta per quest'attacco.\"",
+      "\"Questo dovrebbe essere solo il primo avversario...\n Non possiamo già avere problemi.\"",
+      "\"Resistere fino all'ultimo...\n Me l'hai insegnato tu, Sara.\"",
+      "\"Un altro po'...! Voglio liberarmi di questo qui!\"",
+      "\"Sembra un po' più forte dell'altra...\n Non promette bene.\"",
+      "\"Non possiamo perdere ora...!\n Bisogna resistere...!\"",
+      "\"È ora di completare l'opera...\"",
+      "\"Ha proprio l'aria di nemico finale.\n Finiamolo in fretta e riposiamoci, ok?\""
+    ],
+    "8-2-message": [
+      "\"Uoooooh! Non se può perde' contro il primo!!\"",
+      "\"Sembrerà pure 'na bestia,\n ma la sua forza non è niente de che!\"",
+      "\"Il nostro fortissimo duo te farrà fuori in un lampo!\"",
+      "\"Nnnngh...! Stiam per perdere!! Ma che sul serio?!\"",
+      "\"Pure l'avversario sta a fatica'!\n Finiamolo!\"",
+      "\"Non possiam perdere!\n Possiamo affronta' chiunque!\"",
+      "\"Uoooooh!\n Non possiam perdere arrivati a 'sto punto!\"",
+      "\"Troppo facile! Ce siam quasi!\"",
+      "\"Il nemico finale...!\n C'ha un'aura completamente diversa!\""
+    ],
+    "8-3-message": [
+      "\"Mannaggia! Stiamo per perdere?!\"",
+      "\"Solo un altro po'! Crepa, tu!!\"",
+      "\"Muahahah... Dubito che vincerei in una rissa.\n Ma braccio di ferro? Una passeggiata...\"",
+      "\"Aaaaah...?! Che ha questo qui?! Quanta forza?!\"",
+      "\"Mpf... A quanto pare neanche questo era\n un avversario alla mia altezza.\"",
+      "\"Capisci, Sara Chidouin?\n Il braccio di ferro richiede saggezza...\n Non l'ho praticato molto, ma sono certo che\n la saggezza sia fondamentale...\"",
+      "\"Iiiiiiiiiiah!! Vacci piano!!\"",
+      "\"Mpf... È finita. Flebile perdente...\n Peccato per la tua mancanza di fiducia...\n e, ehm... nasconditi...?\"",
+      "\"...Ah? Un terzo avversario?\n Così non è due contro tre?! Quanta codardia...!\""
+    ],
+    "19-1-message": [
+      "\\.\"Comincio io...!\"",
+      "\\.\"Il tuo amichevole poliziotto è qua con te.\n Puoi stare tranquilla.\"",
+      "\\.\"Sei motivata?!\n Fagli vede' chi comanda!\"",
+      "\\.\"Mpf... Giudicherò quanto forti possono essere\n quelle tue esili braccine.\"",
+      "Braccio di ferro ~Regole~",
+      "\\.Premi il pulsante quando la barra della forza è quasi\npiena. Se fatto correttamente riuscirai a spingere\nil braccio dell'avversario.",
+      "\\.Durante l'ultimo attacco, o quando stai per essere\nsconfitta, apparirà un pulsante con un pugno - \ntieni il cursore sopra di esso.",
+      "\\.Durante l'ultimo attacco, o quando stai per essere\nsconfitta, apparirà un pulsante con un pugno - \npremilo più volte che puoi.",
+      "\\.Toccando l'icona del tuo compagno riceverai\nconsigli e altro, quindi... Buona fortuna."
+    ],
+    "19-1-choice": [
+      "Riascolta la spiegazione\nProvaci"
+    ]
+  },
+  "map97": {
+    "5-2-message": [
+      "\"Tutto ciò che posso fare... è supporto morale...!\""
+    ],
+    "8-3-message": [
+      "\\.\"Fai del tuo meglio, miao!!\"",
+      null,
+      null,
+      null,
+      "\\.\"Fai del tuo meglio, miao!!\"",
+      null,
+      null,
+      null,
+      "\\.\"Fai del tuo meglio, miao!!\"",
+      null,
+      null,
+      null
+    ]
+  },
+  "map99": {
+    "5-2-message": [
+      "\"Tutto ciò che posso fare... è supporto morale...!\""
+    ]
+  },
+  "map103": {
+    "5-2-message": [
+      "\"Tutto ciò che posso fare... è supporto morale...!\""
+    ]
+  },
+  "map105": {
+    "5-2-message": [
+      "\"Tutto ciò che posso fare... è supporto morale...!\""
+    ]
+  },
+  "map108": {
+    "5-2-message": [
+      "\"Tutto ciò che posso fare... è supporto morale...!\""
     ]
   },
   "map114": {
@@ -7693,8 +8288,8 @@
       "\\.\"Non chiamarmi \"il ragazzo ammiccante\"...\"",
       "\\.\"Avevamo finalmente ingranato.\n Un roseo futuro ci si presentava davanti...\"",
       "\\.\"Ehm... quel trucco è... per i concerti?\"",
-      "\\.\"Col cavolo! I fan piangerebbero se\n salissi sul palco con un trucco così anonimo.\"",
-      "\\.\\C[4](Quello sarebbe \"anonimo\"?)",
+      "\\.\"Col cavolo! I fan piangerebbero se\n salissi sul palco con un trucco così blando.\"",
+      "\\.\\C[4](Quello sarebbe \"blando\"?)",
       "\\.\"Avevo finito di scrivere un nuovo pezzo, quindi\n dovevo incontrarmi con gli altri membri...\n e poi è successo 'sto casino!!\"",
       "\\.\\C[4](Per una sessione di registrazione, immagino.)",
       "\\.\"...Probabile.\n Diamine... Perdere qualcosa di tanto importante...\"",
@@ -11462,7 +12057,7 @@
     ],
     "282-0-message": [
       "Reko Yabusame\nUna cantautrice famosa abbastanza da essere\nfinita sulle riviste di recente.",
-      "\\.Suona in una band, ha uno stile appariscente ed è\npreoccupata per i suoi preziosi bonghi.\nA detta sua quello che ha è un trucco \"anonimo\".\nHa solo parole dure per gli uomini.",
+      "\\.Suona in una band, ha uno stile appariscente ed è\npreoccupata per i suoi preziosi bonghi.\nA detta sua quello che ha è un trucco \"blando\".\nHa solo parole dure per gli uomini.",
       "\\.Ma è comunque gentilissima con me, Nao e Kanna.\nSembra anche un preoccuparsi un po' per Sou, quindi\npotrebbe essere gentile coi più deboli\ne dura coi più forti..."
     ],
     "283-0-message": [
@@ -11647,6 +12242,71 @@
     "304-0-choice": [
       ""
     ],
+    "318-0-choice": [
+      "Combatti con queste\nRiseleziona"
+    ],
+    "319-0-message": [
+      "\"'Sta qui è... un'intuizione da investigatore.\"",
+      "\"Vai così!! Sorellona Saraaa!!\"",
+      "\"La vedo...! La carta dell'avversario...!\""
+    ],
+    "324-0-message": [
+      "\"Argh...!! È finita per me...?!\"",
+      "\\.\"O-cappa, lascia fare al sig. poliziotto.\"",
+      "\\.\"Ora fa fare a me!\"",
+      "\\.\"Non trattare male la sorellona Sara, bau!!\n Mi hai fatto arrabbiare, miao!!\"",
+      "\"Uahahah... Non... ci siamo...\"",
+      "\\.\"N-No... Keiji...!\"",
+      "\"Son... fregato...\"",
+      "\\.\"Q... Q-taro...!\"",
+      "\"Fa male, miao... Ho paura, bau...\"",
+      "\\.\"Gin! Re... sisti...!\"",
+      "\"Scusa... Il sig. poliziotto...\n non ha potuto fare niente...\"",
+      "\\.\"..........\"",
+      "\"Scusame... Sara... Almeno... mettete in salvo...\"",
+      "\\.\"..........\"",
+      "\"G... Gin... Ehi...\"",
+      "\\.\"..........\"",
+      "\\.\"No... no...\""
+    ],
+    "325-0-message": [
+      "\\C[3]Battaglia vinta."
+    ],
+    "326-0-message": [
+      "\\C[3]Battaglia vinta."
+    ],
+    "330-0-message": [
+      "\\.\"Ce l'abbiamo fatta... Sono esausto.\"",
+      "\\.\"Ecco le Medaglie di superamento.\n Prendiamone una a testa.\"",
+      "\\.\\C[3]Ottenuta 1 Medaglia di superamento.",
+      "\\.\"Bel lavoro! Sei proprio una in gamba!\"",
+      "\\.\"Eccote qua le Medaglie de superamento...\n Prendiamole una a testa!\"",
+      "\\.\\C[3]Ottenuta 1 Medaglia di superamento.",
+      "\\.\"Benòn, e come promesso, scambiam i gettoni!\n È uno scambio de fiducia, sai.\"",
+      "\\.\\C[3]Scambiati 10 Auto-Gettoni con Q-taro.",
+      "\\.\"Evvai, miao! Sorellona Sara!\n Siamo la squadra definitiva, bau!\"",
+      "\\.\"Condividiamo le stelle, miao!\n Una alla sorellona Sara e una a me!\"",
+      "\\.\\C[3]Ottenuta 1 Medaglia di superamento.",
+      "\\.\"Comunque... Sou non era qui, vero?\"",
+      "\\.\"Direi proprio di no... Forse alla fine non si possono\n proprio fare le attrazioni se si è da soli.\"",
+      "\\.\"Comunque... Sou non era qui, vero?\"",
+      "\\.\"Diamine... Eravam fuori strada...?\"",
+      "\\.\"Comunque... Sou non era qui, eh.\"",
+      "\\.\"Bau... L'asociale è furbo, miao...\"",
+      "\\.\"Ah! State bene?!\n Scusate, ma dovete venire con me!!\"",
+      "\\.\"Eh...?\"",
+      "\\.\"Ho trovato il bastardo col berretto in camera sua!\"",
+      "\\.\\C[4](Ma che...?!)",
+      "\\.\"Comunque... Sou non era qui, vero?\"",
+      "\\.\"Penso di aver capito come funzionano le attrazioni...\n Direi che dovremmo riunirci tutti e cercare Sou.\"",
+      "\\.\"O-cappa.\n Noi seguiamo te, Sara.\"",
+      "\\.\"Comunque... Sou non era qui, vero?\"",
+      "\\.\"Penso di aver capito come funzionano le attrazioni...\n Direi che dovremmo riunirci tutti e cercare Sou.\"",
+      "\\.\"Non voglio che se mette a fa' porcate\n mentre noi siamo occupati qua, dopo tutto...\"",
+      "\\.\"Comunque... Sou non era qui, eh.\"",
+      "\\.\"Penso di aver capito come funzionano le attrazioni...\n Direi che dovremmo riunirci tutti e cercare Sou.\"",
+      "\\.\"Cercare l'asociale, bau...?\n Che scocciatura, miao...\""
+    ],
     "332-0-message": [
       "\\C[10]Livello allucinazioni ... \\V[79]",
       "\\.\\C[3]Il \\C[10]Livello allucinazioni\\C[3] è un numero\nrappresentante le condizioni mentali di Sara.",
@@ -11656,6 +12316,279 @@
     "333-0-message": [
       "\\>Auto-Gettoni di Sara ... \\V[131]\\<\n\\>Medaglie di Superamento ... \\V[130]\\<",
       "\\.\\>Keiji ... \\V[132]             Kanna ... \\V[133]\\<\n\\>Q-taro ... \\V[134]            Sou ... \\V[135]\\<\n\\>Reko ... \\V[136]              Nao ... \\V[137]\\<\n\\>Gin ... \\V[138]               Alice ... \\V[139]\\<"
+    ],
+    "342-0-message": [
+      "\"Vai così!! Sorellona Saraaa!!\"",
+      "\"Vai così!! Sorellona Saraaa!!\"",
+      "\\.\"Mi... dispiace... Sara...\"",
+      "\\.\"Resta con me... Kan... na...!\"",
+      "\\.\"...A... aah...\"",
+      "\\.\"...Kan... na...!\"",
+      "\\.\"L'ho... sotto... valutato... Diamine...!\"",
+      "\\.\"No...! Reko...!\"",
+      "\\.\"La sorellona Sara... Non l'ho riuscita a proteggere...\"",
+      "\\.\"Gin...! Resta con me...!\"",
+      "\"Argh...!! È finita per me...?!\"",
+      "\\.\"Kanna... darà il massimo...!\"",
+      "\\.\"...Andrà... Kanna...\"",
+      "\\.\"Fai fare a me, Sara!\n Riposati e fidati di me con questo!\"",
+      "\\.\"Sorellona Sara! Lascia il resto a me, miao!\""
+    ],
+    "350-0-message": [
+      "\"Sorellona Sara!! Sei incredibile, miao!!\"",
+      "\"Il nemico finale, miao!!\n Buona fortuna, sorellona Sara!!\"",
+      "\\C[3]Battaglia vinta."
+    ],
+    "354-0-message": [
+      "\\.\"E-Ehm... Potete andare voi a cercare le attrazioni...\n mentre io cerco Sou...?\"",
+      "\\.\"Kanna...!\"",
+      "\\.\"..........\"",
+      "\\.\\C[3]Kanna mi ha guardato direttamente negli occhi.",
+      "\\.\"È naturale per voi odiare Kanna... ma...\n Lei cercherà almeno di tenere d'occhio Sou...\"",
+      "\\.\"...Fidatevi di lei, per favore...\"",
+      "\\.\\C[4](...)",
+      "\\.\"Neanche per sogno, Kanna!!\n Non avvicinarti a quel tizio da sola!!\"",
+      "\\.\"È... mia responsibilità...\"",
+      "\\.\\C[4](Kanna... era in combutta con Sou...)",
+      "\\.\\C[4](No, forse lui la stava solo usando...)",
+      "\\.\\C[4](..........)",
+      "\"...Va bene...\"",
+      "\\C[10]\"...Fai come ti pare...\"",
+      "\\.\"S... Sara!!\"",
+      "\\.\"Quello che fai, Kanna...\"",
+      "\\.\\C[10]\"Non ha... niente a che vedere con me.\"",
+      "\\.\"..........\"",
+      "\"...No. Vengo con te.\"",
+      "\\.\"Sara...\"",
+      "\\.\\C[10]\"Se va Kanna da sola...\n Verrà di nuovo usata da Sou.\"",
+      "\\.\"E... Ehi! Vedendola così, però...!\"",
+      "\\.\"Non ti... fidi di me...?\"",
+      "\\.\"..........\"",
+      "\\.\\{\"Basta così!!\"",
+      "\\.\"Eh...?\"",
+      "\\.\"Questa tensione è esattamente\n ciò che vogliono i rapitori!\n Siete stupide o cosa?!\"",
+      "\\.\"A vedervi... Sembrate due sorelle che bisticciano...\n Mi fate venire il nervoso!!\"",
+      "\\.\"..........\"",
+      "\\.\"Riappacificatevi, anche solo per finta!!\"",
+      "\\.\"I sentimenti...\\.\\. possono essere rimandati\n a un secondo momento!!\"",
+      "\\.\"...\"",
+      "\\.\\C[4](Riappacificarci...?)",
+      "\\.\\C[4](...)",
+      "\\.\"..........\"",
+      "\\.\\C[4](Ma...)",
+      "\\.\\C[4](Ma cosa sto facendo...?)",
+      "\\.\\C[3]Nessuno ha fatto niente di male.",
+      "\\.\\C[3]È come se stessi incolpando\nKanna e Sou della morte di Joe.",
+      "\\.\"..........\"",
+      "\\.\"...Ho...\"",
+      "\\.\"Ho perso la calma...\"",
+      "\\.\"Siamo tutte vittime, costrette a votare...\n ...Mentre perdiamo persone care.\"",
+      "\\.\"Il destino di Joe... era già stato deciso\n quando ha pescato la \\C[10]carta del Sacrificio\\C[0].\"",
+      "\\.\"Non è... colpa di Kanna.\"",
+      "\\.\"Scusami, Kanna.\n Possiamo... tornare amici?\"",
+      "\\.\"..........\"",
+      "\\.\\C[4](Perché...)",
+      "\\.\\C[4](Perché... mi sto comportando in maniera così\n odiosa nei confronti di Kanna?)",
+      "\\.\\C[3]Nessuno ha fatto niente di male.",
+      "\\.\\C[3]È come se stessi incolpando\nKanna e Sou della morte di Joe.",
+      "\\.\"...\"",
+      "\\.\"...Ho...\"",
+      "\\.\"Ho perso un mio caro amico...\"",
+      "\\.\"Ma tu, Kanna... Hai perso tua sorella...\"",
+      "\\.\"Siamo tutte vittime, costrette a votare...\n ...Lo so che non dovremmo odiarci a vicenda.\"",
+      "\\.\"E so anche che... il destino di Joe era già stato\n deciso quando ha pescato la \\C[10]carta del Sacrificio\\C[0].\"",
+      "\\.\"Ma...\"",
+      "\\.\"Ci vuole tempo... per liberarsi di certi sentimenti...\"",
+      "\\.\"Perciò... Anche se ancora non riesco\n a togliermi le schegge dal cuore...\"",
+      "\\.\"Kanna, anche se solo all'apparenza...\n Possiamo fare pace?\"",
+      "\\.\"Sara...!\"",
+      "\\.\"...Ben detto, Sara.\"",
+      "\\.\"E quello che mi fa davvero incacchiare è\n il sig. berretto là.\"",
+      "\\.\"È lui che ti ha usata, no, Kanna?\n Non sentirti responsabile, ok?\"",
+      "\\.\"..........\"",
+      "\\.\"...Non è vero.\"",
+      "\\.\"Kanna... ha valutato la situazione...!\"",
+      "\\.\"Valutato...?\"",
+      "\\.\"Kai ha detto di aver avuto\n dei contatti coi rapitori...\"",
+      "\\.\"Ma poi... Ha pescato la \\C[3]carta del Saggio\\C[0]\n ed è diventato la vittima...\"",
+      "\\.\"Sono sicura che quindi...\n non conosceva tutti i dettagli del Gioco Principale.\"",
+      "\\.\"Ma invece... Sou...\"",
+      "\\.\"\\C[2]Sapeva cose\\C[0] sul Gioco Principale...!\"",
+      "\\.\"Cosa...?\"",
+      "\\.\"Mi stavo prendendo una pausa con Sou\n prima che iniziasse il Gioco Principale.\"",
+      "\\.\"Poi... ho trovato una carta brillante\n dietro l'anta scorrevole nel bar...\"",
+      "\\.\"Questa cos'è...?\"",
+      "\\.\"\\C[10]Sacrificio\\C[0]...?\"",
+      "\\.\"Meglio se te ne liberi.\"",
+      "\\.\"A... Aah... Questa è... ehm...!!\"",
+      "\\.\"Se qualcuno scopre che hai quella carta, tu muori...\n\\! ...C'è scritto qualcosa del genere?\"",
+      "\\.\"...!!\"",
+      "\\.\"Tranquilla. È una regola finta.\"",
+      "\\.\"Come...?\"",
+      "\\.\"A quanto pare i rapitori vogliono distribuire\n una di queste carte a ognuno di noi.\"",
+      "\\.\"...Comunque, quella lì è una carta pericolosa.\n Fidati e dalla a me, capito...?\"",
+      "\\.\"Ho dato a Sou la \\C[10]carta del Sacrificio\\C[0]...\"",
+      "\\.\"E Sou... ha dato a me la carta del \\C[4]Popolano\\C[0]...\"",
+      "\\.\"Mi ha dato informazioni sul Gioco Principale\n che stava per cominciare...\"",
+      "\\.\"E... su una strategia per sopravvivere...!\"",
+      "\\.\"Tutto corrispondeva con la spiegazione di Sou...\n Ed è per questo... è per questo che Kanna...\"",
+      "\\.\"Ha pensato che al posto di Kai...\n sarebbe stato meglio lasciare in vita Sou...!!\"",
+      "\\.\\C[4](...)",
+      "\\.\\C[4](Le cose... sono andate così?)",
+      "\\.\\C[4](Quindi Kanna... non stava necessariamente\n venendo usata da Sou...)",
+      "\\.\"Una regola finta... Non possiamo dimostrarlo, però.\"",
+      "\\.\"...No, aspetta un attimo.\"",
+      "\\.\"Nella stanza segreta dove stava\n il portatile di Kai...\"",
+      "\\.\"Mentre Sou era ancora svenuto\n dopo essere stato colpito da Nao...\"",
+      "\\.\"Ho visto una carta sotto alla scrivania.\"",
+      "\\.\"Sì... Era la \\C[10]carta del Sacrificio\\C[0]!\"",
+      "\\.\"Se quella era la carta di Sou,\n è strano che non sia morto dopo che io l'ho vista...\"",
+      "\\.\"In breve... È davvero una regola finta!\"",
+      "\\.\"Non ho visto che carta fosse...\"",
+      "\\.\"Ma se fosse stata la \\C[10]carta del Sacrificio\\C[0] di Sou...\n è strano che non sia morto dopo che io l'ho vista.\"",
+      "\\.\"In breve... È davvero una regola finta!\"",
+      "\\.\"Miao...? Però è strano, bau...\"",
+      "\\.\"Perché l'asociale \\C[2]è stato messo KO prima\\C[0] che lui\n e la ragazza col secchio erano andati al bar, miao!\"",
+      "\\.\"L'ordine non è strano, bau?\"",
+      "\\.\"R... Ragazza col secchio...\"",
+      "\\.\\C[4](In che ordine hanno ottenuto\n la \\C[10]carta del Sacrificio\\C[4]...?)",
+      "\\.\\C[4](No... Non è così.)",
+      "\\.\\C[4](Gin ha ragione. Sou è stato tramortito\n \\C[2]prima\\C[4] che Kanna gli desse la \\C[10]carta del Sacrificio\\C[4].)",
+      "\\.\"Magari...\"",
+      "\\.\"Prima Sou è stato aggredito\n nella stanza nascosta ed è svenuto.\"",
+      "\\.\"Poi ha preso la \\C[10]carta del Sacrificio\\C[0]\n e una \\C[4]carta del Popolano\\C[0], ed è andato a riposarsi.\"",
+      "\\.\"Ha piazzato la \\C[10]carta del Sacrificio\\C[0]\n in un posto dove Kanna l'avrebbe trovata...\"",
+      "\\.\"E quando Kanna l'ha presa...\"",
+      "\\.\"Sou si è offerto di scambiarla\n per una \\C[4]carta del Popolano\\C[0]...\"",
+      "\\.\"...Così da metterla in debito con lui.\"",
+      "\\.\\C[4](...!)",
+      "\\.\\C[4](Forse...!)",
+      "\\.\\C[4](È solo una teoria, supponendo che la carta che non\n ho ispezionato fosse la \\C[10]carta del Sacrificio\\C[4], ma...)",
+      "\\.\"Prima, Sou è stato aggredito\n nella stanza segreta ed è svenuto.\"",
+      "\\.\"Dopodiché ha preso la \\C[10]carta del Sacrificio\\C[0]\n e una \\C[4]carta del Popolano\\C[0] ed è andato a riposarsi.\"",
+      "\\.\"Ha posizionato volontariamente la\n \\C[10]carta del Sacrificio\\C[0] perché Kanna la trovasse...\"",
+      "\\.\"E quando Kanna l'ha presa...\"",
+      "\\.\"Sou ha offerto uno scambio\n con la \\C[4]carta del Popolano\\C[0]...\"",
+      "\\.\"Così da metterla in debito con lui...!\"",
+      "\\.\"Magari...\"",
+      "\\.\"Prima Sou è stato aggredito\n nella stanza nascosta ed è svenuto.\"",
+      "\\.\"Poi ha preso la \\C[10]carta del Sacrificio\\C[0]\n e una \\C[4]carta del Popolano\\C[0], ed è andato a riposarsi.\"",
+      "\\.\"Ha piazzato la \\C[10]carta del Sacrificio\\C[0]\n in un posto dove Kanna l'avrebbe trovata...\"",
+      "\\.\"E quando Kanna l'ha presa...\"",
+      "\\.\"Sou si è offerto di scambiarla\n per una \\C[4]carta del Popolano\\C[0]...\"",
+      "\\.\"Sou si è offerto di scambiarla\n per una \\C[4]carta del Popolano\\C[0]...\"",
+      "\\.\"È impossibile...!!\"",
+      "\\.\"Poco ma sicuro, quel diavolo di berretto\n stava completamente usando Kanna!!\"",
+      "\\.\"Non solo...\"",
+      "\\.\"La \\C[10]carta del Sacrifio\\C[0] alla fine\n è finita in mano a Joe.\"",
+      "\\.\"Vale a dire che... forse ha fatto\n in modo che Joe la prendesse.\""
+    ],
+    "354-0-choice": [
+      "Fai come vuoi\nVengo con te",
+      "Riappacificati\nRiappacificati superficialmente",
+      "L'ha avuta prima Kanna\nL'ha avuta prima Sou\nKeiji, tu cosa ne pensi?"
+    ],
+    "355-0-message": [
+      "\\C[3]Adesso non è ora di fare le attrazioni.",
+      "\\C[3]Ho già superato quest'attrazione.",
+      "\\C[3][Battaglia di carte]\nPartecipanti: 2\nMedaglie di superamento: ★★\nDifficoltà: Normale",
+      "\\.\\C[3]Un gioco di carte in cui si devono affrontare\ndegli avversari selezionando tre carte alla volta.\nSconfiggi le tre bambole per vincere.",
+      "\\.Keiji Shinogi\nCome Keiji, il tuo fiuto da investigatore a volte\nrivela 2 delle carte dell'avversario.\nDifficoltà: Facile",
+      "\\.\"Uahahah... Fare coppia con Sara...\n Non suona poi così male.\"",
+      "\\.Q-taro Burgerberg\nCome Q-taro, le tuoi caratteristiche potrebbero\naumentare di molto il tuo potere d'attacco.\nDifficoltà: Difficile",
+      "\\.\"C'ho un'idea, Sara! Se andiamo insieme,\n possiam scambiare 10 Auto-Gettoni, già che ce siamo!\"",
+      "\\.\"Fa' fare a me!\n Te farò vedere che non so' solo muscoli!!\"",
+      "\\.Gin Ibushi\nCome Sara, Gin a volte le fa recuperare salute.\nInoltre lui recupera salute se tocchi la sua icona\nDifficoltà: Difficile",
+      "\\.\"H... Ho paura, ma ci proverò, bau!\n Proteggerò la sorellona Sara, miaooo!\""
+    ],
+    "355-0-choice": [
+      "Seleziona compagno\nAnnulla",
+      "Keiji\nQ-taro\nGin\nAnnulla",
+      "Fai coppia con Keiji\nRiseleziona",
+      "Fai coppia con Q-taro\nRiseleziona",
+      "Fai coppia con Gin\nRiseleziona"
+    ],
+    "356-0-message": [
+      "\\.\"Fate fare quest'attrazione a noi!\n Tutti gli altri... cerchino nelle altre!\"",
+      "\\.\"Ragazzi, se trovate Sou... fate molta attenzione.\""
+    ],
+    "357-0-message": [
+      "\\C[3]Adesso non è ora di fare le attrazioni.",
+      "\\C[3]Ho già superato quest'attrazione.",
+      "\\C[3][Danza di memoria]\nPartecipanti: 2\nMedaglie di superamento: \\C[2]★★★★\\C[3]\nDifficoltà: \\C[2]Molto difficile",
+      "\\.\\C[3]Un gioco in cui si devono memorizzare i passi di danza\ndel tuo avversario e replicarli correttamente.\nSconfiggi le tre bambole per vincere.",
+      "\\.Kanna Kizuchi\nCome Kanna, ricordi una parte delle mosse.\n\nDifficoltà: Difficile",
+      "\\.\"..........\"",
+      "\\.Kanna Kizuchi\nCome Kanna, ricordi una parte delle mosse.\n\nDifficoltà: Difficile",
+      "\\.\"S... Sì...! Cercherò di rendermi utile...!\"",
+      "\\.Kanna Kizuchi\nCome Kanna, ricordi una parte delle mosse.\n\nDifficoltà: Difficile",
+      "\\.\"S... Sì...! Cercherò di rendermi utile...!\"",
+      "\\.\"...Farò del mio meglio.\"",
+      "\\.Reko Yabusame\nCome Reko, memorizzi l'ultima metà delle mosse.\nToccando la sua icona te le fa ricordare tutte.\nDifficoltà: Normale",
+      "\\.\"Grande! Qui gioco in casa!\n Sei in buone mani, Sara!\"",
+      "\\.Gin Ibushi\nCome Sara, Gin a volte le fa recuperare salute.\nInoltre lui recupera salute se tocchi la sua icona\nDifficoltà: Difficile",
+      "\\.\"H... Ho paura, ma ci proverò, bau!\n Proteggerò sicuramente la sorellona Sara, miao!\""
+    ],
+    "357-0-choice": [
+      "Seleziona compagno\nAnnulla",
+      "Kanna\nReko\nGin\nAnnulla",
+      "Fai coppia con Kanna\nRiseleziona",
+      "Fai coppia con Kanna\nRiseleziona",
+      "Fai coppia con Kanna\nRiseleziona",
+      "Fai coppia con Reko\nRiseleziona",
+      "Fai coppia con Gin\nRiseleziona"
+    ],
+    "358-0-message": [
+      "\\.\"Diamine... Non era da nessuna parte!!\n Quel bastardo col berretto...!!\"",
+      "\\.\"È proprio un tipo rognoso. Andrebbe arrestato.\"",
+      "\\.\"Lo dovremmo lascia' stare?\n Ce sta un limite de tempo in 'sto Sotto-Gioco, no?\"\n",
+      "\\.\"Più che altro io sarei preoccupato per lui, miao!\n Se non fa coppia con nessuno e resta da solo\n non può superare le attrazioni, bau!\"",
+      "\\.\"Mmh...\"",
+      "\\.\"Giuro che troverò quel bastardo...!!\"",
+      "\\.\"Scommetto che si è nascosto sotto al letto\n in camera sua o qualcosa del genere, bau!!\"",
+      "\\.\"Il posto perfetto per uno stronzo viscido come lui!\n Andiamo a vedere!\"",
+      "\\.\\C[4](Ma che...?!)"
+    ],
+    "359-0-message": [
+      "\"E-Ehm! Sono stata... utile?!\"",
+      "\\.\"Adesso... dividiamoci le Medaglie di superamento, ok?\"",
+      "\"E-Ehm! Sono stata... utile?!\"",
+      "\\.\"Adesso... dividiamoci le Medaglie di superamento, ok?\"",
+      "\"..........\"",
+      "\\.\"..........\n Dividiamoci le Medaglie di superamento.\"",
+      "\\.\\C[3]Ottenute 2 Medaglie di superamento.",
+      "\"U-Un gioco da ragazzi, eh, Sara?!\"",
+      "\\.\"Ecco a te, le Medaglie di superamento! 50 e 50!\"",
+      "\\.\\C[3]Ottenute 2 Medaglie di superamento.",
+      "\\.\"Evvai, miao! Sorellona Sara!\n Siamo la squadra definitiva, bau!\"",
+      "\\.\"Condividiamo le stelle, miao!\n Due alla sorellona Sara e due a me!\"",
+      "\\.\\C[3]Ottenute 2 Medaglie di superamento.",
+      "\\.\"Comunque... Sou non era qui, eh.\"",
+      "\\.\"Hai ragione... Mmh...\"",
+      "\\.\"Comunque... Sou non era qui, eh.\"",
+      "\\.\"È vero! Diamine!\n Dove si sarà cacciato quel tizio col berretto?!\"",
+      "\\.\"Comunque... Sou non era qui, eh.\"",
+      "\\.\"Bau... L'asociale è furbo, miao...\"",
+      "\\.\"Uoh! Tutto bene, voi due?!\n Forza, venite con me!!\"",
+      "\\.\"Eh...?\"",
+      "\\.\"Ho trovato Sou in camera sua!\"",
+      "\\.\"Ah! State bene?!\n Scusate, ma dovete venire con me!!\"",
+      "\\.\"Eh...?\"",
+      "\\.\"Ho trovato il bastardo col berretto in camera sua!\"",
+      "\\.\\C[4](Ma che...?!)",
+      "\\.\"Comunque... Sou non era qui, eh.\"",
+      "\\.\"..........\"",
+      "\\.\"...Tu non sai dov'è o che altro,\n vero, Kanna...?\"",
+      "\\.\"...!\n D-Dubiti di Kanna...?\"",
+      "\\.\"No, certo...\"",
+      "\\.\"...Dovremmo riunirci e cercare Sou tutti insieme.\n Penso di aver capito come funzionano le attrazioni.\"",
+      "\\.\"...Va bene...\"",
+      "\\.\"Comunque... Sou non era qui, eh.\"",
+      "\\.\"Penso di aver capito come funzionano le attrazioni...\n Direi che dovremmo riunirci tutti e cercare Sou.\"",
+      "\\.\"Non c'è altra scelta...!\n Chissà che farà se lo lasciamo da solo!\"",
+      "\\.\"Comunque... Sou non era qui, eh.\"",
+      "\\.\"Penso di aver capito come funzionano le attrazioni...\n Direi che dovremmo riunirci tutti e cercare Sou.\"",
+      "\\.\"Cercare l'asociale, bau...?\n Che scocciatura, miao...\""
     ],
     "360-0-message": [
       "Sara Chidouin\nProtagonista della storia. Una normale studentessa\npresso la Scuola Superiore Sonobeno.",
@@ -11736,6 +12669,181 @@
       "Hai finito con il riassunto?"
     ],
     "373-0-choice": [
+      "Sì\nNo"
+    ],
+    "382-0-message": [
+      "\\C[3]Adesso non è ora di fare le attrazioni.",
+      "\\C[3]Ho già superato quest'attrazione.",
+      "\\C[3][Braccio di ferro]\nPartecipanti: 2\nMedaglie di superamento: ★★\nDifficoltà: Normale",
+      "\\.\\C[3]Premi il pulsante quando la barra è piena\nper spingere il braccio dell'avversario.\nSconfiggi le tre bambole per vincere.",
+      "\\.Keiji Shinogi\nCome Keiji, il tuo intuito da investigatore\nrende il tempismo più facile.\nDifficoltà: Facile",
+      "\\.\"Vado piuttosto fiero della forza delle mie braccia.\"",
+      "\\.Q-taro Burgerberg\nCome Q-taro, la tua potenza sovrastante fa spingere il\nbraccio dell'avversario il doppio in caso di successo.\nDifficoltà: Normale",
+      "\\.\"C'ho un'idea, Sara! Se andiamo insieme,\n possiam scambiare 10 Auto-Gettoni, già che ce siamo!\"",
+      "\\.\"So' prontissimo!\n Puoi star serena con me, Sara!\"",
+      "\\.Alice Yabusame\nCome Alice, le tue difese a gabbia riducono il numero\ndi volte in cui devi schiacciare mentre ti difendi.\nDifficoltà: Normale",
+      "\\.\"Mpf... Intendi richiedere la mia assistenza?\n Buon giudizio, se non altro, Sara Chidouin...\""
+    ],
+    "382-0-choice": [
+      "Seleziona compagno\nAnnulla",
+      "Keiji\nQ-taro\nAlice\nAnnulla",
+      "Fai coppia con Keiji\nRiseleziona",
+      "Fai coppia con Q-taro\nRiseleziona",
+      "Fai coppia con Alice\nRiseleziona"
+    ],
+    "403-0-message": [
+      "\\C[3]Battaglia vinta."
+    ],
+    "404-0-message": [
+      "\"Uff... Che forza...\n Non avrei mai pensato di perdere...\"",
+      "\\.\"N-No... Keiji...!\"",
+      "\"Ho... perso a una prova de forza...?!\n Non può esse' vero...\"",
+      "\\.\"Q... Q-taro...!\"",
+      "\"Il mio braccio... il mio bracciooo...!!\"",
+      "\\.\"No!! Alice...!!\"",
+      "\\.\\sp[10]\"U... a... ah... Basta...\"",
+      "\\.\\sp[10]\"...g... aah...\"",
+      "\\.\\sp[10]\"La... sciami...!\"",
+      "\\.\\sp[10]\"Ti prego... ba... sta...\""
+    ],
+    "405-0-message": [
+      "\\.\"Ce l'abbiamo fatta... Sono esausto.\"",
+      "\\.\"Ecco le Medaglie di superamento.\n Prendiamone una a testa.\"",
+      "\\.\\C[3]Ottenuta 1 Medaglia di superamento.",
+      "\\.\"Bel lavoro! Sei proprio una in gamba!\"",
+      "\\.\"Eccote qua le Medaglie de superamento...\n Prendiamole una a testa!\"",
+      "\\.\\C[3]Ottenuta 1 Medaglia di superamento.",
+      "\\.\"Benòn, e come promesso, scambiam i gettoni!\n È uno scambio de fiducia, sai.\"",
+      "\\.\\C[3]Scambiati 10 Auto-Gettoni con Q-taro.",
+      "\\.\"Umpf... Non era niente di che...\"",
+      "\\.\"Non ti preoccupare, Sara Chidouin.\n Spartiremo le Medaglie di superamento in modo equo.\"",
+      "\\.\\C[3]Ottenuta 1 Medaglia di superamento.",
+      "\\.\"Comunque... Sou non era qui, vero?\"",
+      "\\.\"Direi proprio di no... Forse alla fine non si possono\n proprio fare le attrazioni se si è da soli.\"",
+      "\\.\"Comunque... Sou non era qui, vero?\"",
+      "\\.\"Diamine... Eravam fuori strada...?\"",
+      "\\.\"Comunque... Sou non era qui, vero?\"",
+      "\\.\"Sou Hiyori, mh...\"",
+      "\\.\"Uoh! Tutto bene, voi due?!\n Forza, venite con me!!\"",
+      "\\.\"Eh...?\"",
+      "\\.\"Ho trovato Sou in camera sua!\"",
+      "\\.\"Ah! State bene?!\n Scusate, ma dovete venire con me!!\"",
+      "\\.\"Eh...?\"",
+      "\\.\"Ho trovato il bastardo col berretto in camera sua!\"",
+      "\\.\\C[4](Ma che...?!)",
+      "\\.\"Comunque... Sou non era qui, vero?\"",
+      "\\.\"Penso di aver capito come funzionano le attrazioni...\n Direi che dovremmo riunirci tutti e cercare Sou.\"",
+      "\\.\"O-cappa.\n Noi seguiamo te, Sara.\"",
+      "\\.\"Comunque... Sou non era qui, vero?\"",
+      "\\.\"Penso di aver capito come funzionano le attrazioni...\n Direi che dovremmo riunirci tutti e cercare Sou.\"",
+      "\\.\"Non voglio che se mette a fa' porcate\n mentre noi siamo occupati qua, dopo tutto...\"",
+      "\\.\"Comunque... Sou non era qui, vero?\"",
+      "\\.\"Penso di aver capito come funzionano le attrazioni...\n Direi che dovremmo riunirci tutti e cercare Sou.\"",
+      "\\.\"Sou Hiyori, mh...\""
+    ],
+    "418-0-message": [
+      "\"Argh...!! È finita per me...?!\"",
+      "\\.\"K-Kanna combatterà!\"",
+      "\\.\"Stai bene?! Ora riposati!\"",
+      "\\.\"Sorellona Sara!!\n Mi hanno fatto arrabbiare, bau!\n Combatterò io, miao!!\"",
+      "\"Aah... non... va bene...\"",
+      "\\.\"Aah... Kanna! Resta con me...!\"",
+      "\"Non riesco... a muovermi... Aiuto... professore...\"",
+      "\\.\"No! Nao...!\"",
+      "\"Miaooo... Salverò... la sorellona Sara...\"",
+      "\\.\"Gin!! No...!!\"",
+      "\\.\"A... Aspetta! Fermo...!\""
+    ],
+    "419-0-message": [
+      "\\C[3]Battaglia vinta.",
+      "\"Sorellona Sara!! Sei incredibile, miao!!\"",
+      "\"Sorellona Sara!! Sei incredibile, miao!!\""
+    ],
+    "427-0-message": [
+      "\"Argh...!! È finita per me...?!\"",
+      "\\.\"C-Combatterò io! Sara... Fatti da parte!\"",
+      "\\.\"Accidentaccio... Direi che tocca a me...!\"",
+      "\\.\"Come osi fare questo a Sara!!\n Ti distruggerò!\"",
+      "\"È troppo forte... Non ho... potuto fare...\"",
+      "\\.\"Aah... Nao! Apri gli occhi...!\"",
+      "\"Che strano... sbagliare arrivati fin qui...\"",
+      "\\.\"Sou! Ti prego, resta con me...!\"",
+      "\"Diamine... Scusa... Sara...\"",
+      "\\.\"Reko...! No... non puoi...!!\"",
+      "\\.\"N... Non ti avvicinare! Non...!\"",
+      "\\.\"Non... può essere...\"",
+      "\\.\"B... Basta...!\"",
+      "\"Graaaah!! Sara! Scappa!\"",
+      "\\.\"B... Basta...!\"",
+      "\\.\"Mettiti in salvo, Sara... Scappa...!\"",
+      "\\.\"N... Non riesco a muovermi...\""
+    ],
+    "428-0-message": [
+      "\\C[3]Battaglia vinta.",
+      "\\C[3]Il Biglietto facilitante sta proiettando il segnale...!",
+      "\"Ho avuto una premonizione...\""
+    ],
+    "445-0-message": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      "\"Argh...!! È finita per me...?!\"",
+      null,
+      null,
+      null
+    ],
+    "446-0-message": [
+      "\\C[3]Battaglia vinta."
+    ],
+    "451-0-message": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      "\"Argh...!! È finita per me...?!\"",
+      null,
+      null,
+      null
+    ],
+    "452-0-message": [
+      "\\C[3]Battaglia vinta."
+    ],
+    "462-0-message": [
+      "\\C[3]Battaglia vinta."
+    ],
+    "464-0-message": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      "\"Argh...!! È finita per me...?!\"",
+      null,
+      null,
+      null
+    ],
+    "506-0-message": [
+      "\\C[3]Annullare lo scambio?"
+    ],
+    "506-0-choice": [
+      "Sì\nNo"
+    ],
+    "507-0-message": [
+      "\\C[3]Confermare lo scambio?",
+      "\\C[3]Transazione effettuata!"
+    ],
+    "507-0-choice": [
       "Sì\nNo"
     ]
   },
@@ -12189,6 +13297,42 @@
     "name": "Annulla",
     "description": "Annulla scelta."
   },
+  "items-101": {
+    "name": "",
+    "description": ""
+  },
+  "items-102": {
+    "name": "",
+    "description": ""
+  },
+  "items-103": {
+    "name": "",
+    "description": ""
+  },
+  "items-104": {
+    "name": "",
+    "description": ""
+  },
+  "items-105": {
+    "name": "",
+    "description": ""
+  },
+  "items-106": {
+    "name": "",
+    "description": ""
+  },
+  "items-107": {
+    "name": "",
+    "description": ""
+  },
+  "items-108": {
+    "name": "",
+    "description": ""
+  },
+  "items-109": {
+    "name": "",
+    "description": ""
+  },
   "items-110": {
     "name": "Atrio",
     "description": ""
@@ -12206,7 +13350,7 @@
     "description": ""
   },
   "items-114": {
-    "name": "Stanza degli schermi",
+    "name": "Sala degli schermi",
     "description": ""
   },
   "items-115": {
@@ -12218,11 +13362,23 @@
     "description": ""
   },
   "items-117": {
-    "name": "Cambio premi",
+    "name": "Banco cambiapremi",
     "description": ""
   },
   "items-118": {
     "name": "Camera di Sou",
+    "description": ""
+  },
+  "items-131": {
+    "name": "★Danza di memoria",
+    "description": ""
+  },
+  "items-132": {
+    "name": "★Battaglia di carte",
+    "description": ""
+  },
+  "items-133": {
+    "name": "★Braccio di ferro",
     "description": ""
   },
   "items-150": {
@@ -12260,14 +13416,17 @@
     "defaultfont": "GameFont",
     "messagespeed": "1.33x",
     "animationconvert_4": "{\"id\":4,\"animation1Hue\":0,\"animation1Name\":\"IT\",\"animation2Hue\":0,\"animation2Name\":\"\",\"frames\":[[],[],[],[],[[93,-192,-216,100,0,0,30,0],[94,0,-216,100,0,0,30,0]],[[93,-192,-216,100,0,0,130,0],[94,0,-216,100,0,0,130,0]],[[93,-211.2,-216,120,0,0,255,0],[94,19.2,-216,120,0,0,255,0]],[[93,-192,-216,100,0,0,255,0],[94,0,-216,100,0,0,255,0],[95,-380,-24,100,0,0,30,0],[96,-188,-24,100,0,0,30,0]],[[93,-192,-216,100,0,0,255,0],[94,0,-216,100,0,0,255,0],[95,-380,-24,100,0,0,130,0],[96,-188,-24,100,0,0,130,0]],[[93,-192,-216,100,0,0,255,0],[94,0,-216,100,0,0,255,0],[95,-399.2,-24,120,0,0,255,0],[96,-168.8,-24,120,0,0,255,0]],[[93,-192,-216,100,0,0,255,0],[94,0,-216,100,0,0,255,0],[95,-380,-24,100,0,0,255,0],[96,-188,-24,100,0,0,255,0],[97,-174,-24,100,0,0,30,0],[98,18,-24,100,0,0,30,0]],[[93,-192,-216,100,0,0,255,0],[94,0,-216,100,0,0,255,0],[95,-380,-24,100,0,0,255,0],[96,-188,-24,100,0,0,255,0],[97,-174,-24,100,0,0,130,0],[98,18,-24,100,0,0,130,0]],[[93,-192,-216,100,0,0,255,0],[94,0,-216,100,0,0,255,0],[95,-380,-24,100,0,0,255,0],[96,-188,-24,100,0,0,255,0],[97,-193.2,-24,120,0,0,255,0],[98,37.2,-24,120,0,0,255,0]],[[93,-192,-216,100,0,0,255,0],[94,0,-216,100,0,0,255,0],[95,-380,-24,100,0,0,255,0],[96,-188,-24,100,0,0,255,0],[97,-174,-24,100,0,0,255,0],[98,18,-24,100,0,0,255,0],[99,101,-63,100,0,0,30,0]],[[93,-192,-216,100,0,0,255,0],[94,0,-216,100,0,0,255,0],[95,-380,-24,100,0,0,255,0],[96,-188,-24,100,0,0,255,0],[97,-174,-24,100,0,0,255,0],[98,18,-24,100,0,0,255,0],[99,101,-63,100,0,0,130,0]],[[93,-192,-216,100,0,0,255,0],[94,0,-216,100,0,0,255,0],[95,-380,-24,100,0,0,255,0],[96,-188,-24,100,0,0,255,0],[97,-174,-24,100,0,0,255,0],[98,18,-24,100,0,0,255,0],[99,101,-63,120,0,0,255,0]],[[93,-192,-216,100,0,0,255,0],[94,0,-216,100,0,0,255,0],[95,-380,-24,100,0,0,255,0],[96,-188,-24,100,0,0,255,0],[97,-174,-24,100,0,0,255,0],[98,18,-24,100,0,0,255,0],[99,101,-63,100,0,0,255,0]],[[93,-192,-216,100,0,0,255,0],[94,0,-216,100,0,0,255,0],[95,-380,-24,100,0,0,255,0],[96,-188,-24,100,0,0,255,0],[97,-174,-24,100,0,0,255,0],[98,18,-24,100,0,0,255,0],[99,101,-63,100,0,0,255,0]],[[93,-192,-216,100,0,0,255,0],[94,0,-216,100,0,0,255,0],[95,-380,-24,100,0,0,255,0],[96,-188,-24,100,0,0,255,0],[97,-174,-24,100,0,0,255,0],[98,18,-24,100,0,0,255,0],[99,101,-63,100,0,0,255,0]],[[93,-192,-216,100,0,0,255,0],[94,0,-216,100,0,0,255,0],[95,-380,-24,100,0,0,255,0],[96,-188,-24,100,0,0,255,0],[97,-174,-24,100,0,0,255,0],[98,18,-24,100,0,0,255,0],[99,101,-63,100,0,0,255,0]],[[93,-192,-216,100,0,0,255,0],[94,0,-216,100,0,0,255,0],[95,-380,-24,100,0,0,255,0],[96,-188,-24,100,0,0,255,0],[97,-174,-24,100,0,0,255,0],[98,18,-24,100,0,0,255,0],[99,101,-63,100,0,0,255,0]],[[93,-192,-216,100,0,0,255,0],[94,0,-216,100,0,0,255,0],[95,-380,-24,100,0,0,255,0],[96,-188,-24,100,0,0,255,0],[97,-174,-24,100,0,0,255,0],[98,18,-24,100,0,0,255,0],[99,101,-63,100,0,0,255,0]],[[93,-192,-216,100,0,0,255,0],[94,0,-216,100,0,0,255,0],[95,-380,-24,100,0,0,255,0],[96,-188,-24,100,0,0,255,0],[97,-174,-24,100,0,0,255,0],[98,18,-24,100,0,0,255,0],[99,101,-63,100,0,0,255,0]],[[93,-192,-216,100,0,0,255,0],[94,0,-216,100,0,0,255,0],[95,-380,-24,100,0,0,255,0],[96,-188,-24,100,0,0,255,0],[97,-174,-24,100,0,0,255,0],[98,18,-24,100,0,0,255,0],[99,101,-63,100,0,0,255,0]]],\"name\":\"Ci sono!\",\"position\":3,\"timings\":[{\"flashColor\":[255,255,255,170],\"flashDuration\":5,\"flashScope\":2,\"frame\":6,\"se\":{\"name\":\"feed1\",\"pan\":0,\"pitch\":100,\"volume\":90}},{\"flashColor\":[255,255,255,170],\"flashDuration\":5,\"flashScope\":2,\"frame\":9,\"se\":{\"name\":\"feed1\",\"pan\":0,\"pitch\":100,\"volume\":90}},{\"flashColor\":[255,255,255,170],\"flashDuration\":5,\"flashScope\":2,\"frame\":12,\"se\":{\"name\":\"feed1\",\"pan\":0,\"pitch\":100,\"volume\":90}},{\"flashColor\":[255,255,255,170],\"flashDuration\":5,\"flashScope\":2,\"frame\":15,\"se\":{\"name\":\"feed1\",\"pan\":0,\"pitch\":100,\"volume\":90}}]}",
-    "animationconvert_8": "{\"id\":8,\"animation1Hue\":0,\"animation1Name\":\"IT\",\"animation2Hue\":0,\"animation2Name\":\"\",\"frames\":[[],[[9,-192,0,100,0,0,90,0]],[[9,-192,0,100,0,0,180,0],[10,-64,0,100,0,0,90,0]],[[9,-192,0,100,0,0,255,0],[10,-64,0,100,0,0,180,0],[11,64,0,100,0,0,90,0]],[[9,-192,0,100,0,0,255,0],[10,-64,0,100,0,0,255,0],[11,64,0,100,0,0,180,0],[12,192,0,100,0,0,90,0]],[[9,-192,0,100,0,0,255,0],[10,-64,0,100,0,0,255,0],[11,64,0,100,0,0,255,0],[12,192,0,100,0,0,180,0]],[[9,-192,0,100,0,0,255,0],[10,-64,0,100,0,0,255,0],[11,64,0,100,0,0,255,0],[12,192,0,100,0,0,255,0]],[[9,-192,0,100,0,0,255,0],[10,-64,0,100,0,0,255,0],[11,64,0,100,0,0,255,0],[12,192,0,100,0,0,255,0]],[[9,-192,0,100,0,0,255,0],[10,-64,0,100,0,0,255,0],[11,64,0,100,0,0,255,0],[12,192,0,100,0,0,255,0]],[[9,-192,0,100,0,0,255,0],[10,-64,0,100,0,0,255,0],[11,64,0,100,0,0,255,0],[12,192,0,100,0,0,255,0]],[[9,-192,0,100,0,0,255,0],[10,-64,0,100,0,0,255,0],[11,64,0,100,0,0,255,0],[12,192,0,100,0,0,255,0]],[[9,-192,0,100,0,0,255,0],[10,-64,0,100,0,0,255,0],[11,64,0,100,0,0,255,0],[12,192,0,100,0,0,255,0]],[[9,-192,0,100,0,0,180,0],[10,-64,0,100,0,0,255,0],[11,64,0,100,0,0,255,0],[12,192,0,100,0,0,255,0]],[[9,-192,0,100,0,0,90,0],[10,-64,0,100,0,0,180,0],[11,64,0,100,0,0,255,0],[12,192,0,100,0,0,255,0]],[[10,-64,0,100,0,0,90,0],[11,64,0,100,0,0,180,0],[12,192,0,100,0,0,255,0]],[[11,64,0,100,0,0,90,0],[12,192,0,100,0,0,180,0]],[[12,192,0,100,0,0,90,0]],[]],\"name\":\"Sviluppo\",\"position\":3,\"timings\":[{\"flashColor\":[255,255,255,255],\"flashDuration\":5,\"flashScope\":0,\"frame\":0,\"se\":{\"name\":\"Fire1\",\"pan\":0,\"pitch\":100,\"volume\":90}}]}",
-    "animationconvert_9": "{\"id\":9,\"animation1Hue\":0,\"animation1Name\":\"IT\",\"animation2Hue\":0,\"animation2Name\":\"\",\"frames\":[[],[[23,-176,0,50,0,0,90,0]],[[23,-176,0,50,0,0,180,0],[24,-112,0,50,0,0,90,0]],[[23,-176,0,50,0,0,255,0],[24,-112,0,50,0,0,180,0],[25,-48,0,50,0,0,90,0]],[[23,-176,0,50,0,0,255,0],[24,-112,0,50,0,0,255,0],[25,-48,0,50,0,0,180,0],[2,16,0,50,0,0,90,0]],[[23,-176,0,50,0,0,255,0],[24,-112,0,50,0,0,255,0],[25,-48,0,50,0,0,255,0],[2,16,0,50,0,0,180,0],[26,80,0,50,0,0,90,0]],[[23,-176,0,50,0,0,255,0],[24,-112,0,50,0,0,255,0],[25,-48,0,50,0,0,255,0],[2,16,0,50,0,0,255,0],[26,80,0,50,0,0,180,0],[17,144,0,50,0,0,90,0]],[[23,-176,0,50,0,0,255,0],[24,-112,0,50,0,0,255,0],[25,-48,0,50,0,0,255,0],[2,16,0,50,0,0,255,0],[26,80,0,50,0,0,255,0],[17,144,0,50,0,0,180,0],[27,208,0,50,0,0,90,0]],[[23,-176,0,50,0,0,255,0],[24,-112,0,50,0,0,255,0],[25,-48,0,50,0,0,255,0],[2,16,0,50,0,0,255,0],[26,80,0,50,0,0,255,0],[17,144,0,50,0,0,255,0],[27,208,0,50,0,0,180,0]],[[23,-176,0,50,0,0,255,0],[24,-112,0,50,0,0,255,0],[25,-48,0,50,0,0,255,0],[2,16,0,50,0,0,255,0],[26,80,0,50,0,0,255,0],[17,144,0,50,0,0,255,0],[27,208,0,50,0,0,255,0]],[[23,-176,0,50,0,0,255,0],[24,-112,0,50,0,0,255,0],[25,-48,0,50,0,0,255,0],[2,16,0,50,0,0,255,0],[26,80,0,50,0,0,255,0],[17,144,0,50,0,0,255,0],[27,208,0,50,0,0,255,0]],[[23,-176,0,50,0,0,255,0],[24,-112,0,50,0,0,255,0],[25,-48,0,50,0,0,255,0],[2,16,0,50,0,0,255,0],[26,80,0,50,0,0,255,0],[17,144,0,50,0,0,255,0],[27,208,0,50,0,0,255,0]],[[23,-176,0,50,0,0,255,0],[24,-112,0,50,0,0,255,0],[25,-48,0,50,0,0,255,0],[2,16,0,50,0,0,255,0],[26,80,0,50,0,0,255,0],[17,144,0,50,0,0,255,0],[27,208,0,50,0,0,255,0]],[[23,-176,0,50,0,0,255,0],[24,-112,0,50,0,0,255,0],[25,-48,0,50,0,0,255,0],[2,16,0,50,0,0,255,0],[26,80,0,50,0,0,255,0],[17,144,0,50,0,0,255,0],[27,208,0,50,0,0,255,0]],[[23,-176,0,50,0,0,255,0],[24,-112,0,50,0,0,255,0],[25,-48,0,50,0,0,255,0],[2,16,0,50,0,0,255,0],[26,80,0,50,0,0,255,0],[17,144,0,50,0,0,255,0],[27,208,0,50,0,0,255,0]],[[23,-176,0,50,0,0,180,0],[24,-112,0,50,0,0,255,0],[25,-48,0,50,0,0,255,0],[2,16,0,50,0,0,255,0],[26,80,0,50,0,0,255,0],[17,144,0,50,0,0,255,0],[27,208,0,50,0,0,255,0]],[[23,-176,0,50,0,0,90,0],[24,-112,0,50,0,0,180,0],[25,-48,0,50,0,0,255,0],[2,16,0,50,0,0,255,0],[26,80,0,50,0,0,255,0],[17,144,0,50,0,0,255,0],[27,208,0,50,0,0,255,0]],[[24,-112,0,50,0,0,90,0],[25,-48,0,50,0,0,180,0],[2,16,0,50,0,0,255,0],[26,80,0,50,0,0,255,0],[17,144,0,50,0,0,255,0],[27,208,0,50,0,0,255,0]],[[25,-48,0,50,0,0,90,0],[2,16,0,50,0,0,180,0],[26,80,0,50,0,0,255,0],[17,144,0,50,0,0,255,0],[27,208,0,50,0,0,255,0]],[[2,16,0,50,0,0,90,0],[26,80,0,50,0,0,180,0],[17,144,0,50,0,0,255,0],[27,208,0,50,0,0,255,0]],[[26,80,0,50,0,0,90,0],[17,144,0,50,0,0,180,0],[27,208,0,50,0,0,255,0]],[[17,144,0,50,0,0,90,0],[27,208,0,50,0,0,180,0]],[[27,208,0,50,0,0,90,0]],[]],\"name\":\"Presentazioni\",\"position\":3,\"timings\":[{\"flashColor\":[255,255,255,255],\"flashDuration\":5,\"flashScope\":0,\"frame\":0,\"se\":{\"name\":\"Fire1\",\"pan\":0,\"pitch\":100,\"volume\":90}}]}",
-    "animationconvert_10": "{\"id\":\"10\",\"animation1Hue\":0,\"animation1Name\":\"IT\",\"animation2Hue\":0,\"animation2Name\":\"\",\"frames\":[[],[[0,-160,-39,50,0,0,90,0]],[[0,-160,-39,50,0,0,180,0],[1,-96,-39,50,0,0,90,0]],[[0,-160,-39,50,0,0,255,0],[1,-96,-39,50,0,0,180,0],[2,-32,-39,50,0,0,90,0]],[[0,-160,-39,50,0,0,255,0],[1,-96,-39,50,0,0,255,0],[2,-32,-39,50,0,0,180,0],[3,64,-39,50,0,0,90,0]],[[0,-160,-39,50,0,0,255,0],[1,-96,-39,50,0,0,255,0],[2,-32,-39,50,0,0,255,0],[3,64,-39,50,0,0,180,0],[1,96,-39,50,0,0,90,0]],[[0,-160,-39,50,0,0,255,0],[1,-96,-39,50,0,0,255,0],[2,-32,-39,50,0,0,255,0],[3,64,-39,50,0,0,255,0],[1,96,-39,50,0,0,180,0],[4,160,-39,50,0,0,90,0]],[[0,-160,-39,50,0,0,255,0],[1,-96,-39,50,0,0,255,0],[2,-32,-39,50,0,0,255,0],[3,64,-39,50,0,0,255,0],[1,96,-39,50,0,0,255,0],[4,160,-39,50,0,0,180,0],[5,-96,39,50,0,0,90,0]],[[0,-160,-39,50,0,0,255,0],[1,-96,-39,50,0,0,255,0],[2,-32,-39,50,0,0,255,0],[3,64,-39,50,0,0,255,0],[1,96,-39,50,0,0,255,0],[4,160,-39,50,0,0,255,0],[5,-96,39,50,0,0,180,0],[6,-32,39,50,0,0,90,0]],[[0,-160,-39,50,0,0,255,0],[1,-96,-39,50,0,0,255,0],[2,-32,-39,50,0,0,255,0],[3,64,-39,50,0,0,255,0],[1,96,-39,50,0,0,255,0],[4,160,-39,50,0,0,255,0],[5,-96,39,50,0,0,255,0],[6,-32,39,50,0,0,180,0],[7,32,39,50,0,0,90,0]],[[0,-160,-39,50,0,0,255,0],[1,-96,-39,50,0,0,255,0],[2,-32,-39,50,0,0,255,0],[3,64,-39,50,0,0,255,0],[1,96,-39,50,0,0,255,0],[4,160,-39,50,0,0,255,0],[5,-96,39,50,0,0,255,0],[6,-32,39,50,0,0,255,0],[7,32,39,50,0,0,180,0],[8,96,39,50,0,0,90,0]],[[0,-160,-39,50,0,0,255,0],[1,-96,-39,50,0,0,255,0],[2,-32,-39,50,0,0,255,0],[3,64,-39,50,0,0,255,0],[1,96,-39,50,0,0,255,0],[4,160,-39,50,0,0,255,0],[5,-96,39,50,0,0,255,0],[6,-32,39,50,0,0,255,0],[7,32,39,50,0,0,255,0],[8,96,39,50,0,0,180,0]],[[0,-160,-39,50,0,0,255,0],[1,-96,-39,50,0,0,255,0],[2,-32,-39,50,0,0,255,0],[3,64,-39,50,0,0,255,0],[1,96,-39,50,0,0,255,0],[4,160,-39,50,0,0,255,0],[5,-96,39,50,0,0,255,0],[6,-32,39,50,0,0,255,0],[7,32,39,50,0,0,255,0],[8,96,39,50,0,0,255,0]],[[0,-160,-39,50,0,0,255,0],[1,-96,-39,50,0,0,255,0],[2,-32,-39,50,0,0,255,0],[3,64,-39,50,0,0,255,0],[1,96,-39,50,0,0,255,0],[4,160,-39,50,0,0,255,0],[5,-96,39,50,0,0,255,0],[6,-32,39,50,0,0,255,0],[7,32,39,50,0,0,255,0],[8,96,39,50,0,0,255,0]],[[0,-160,-39,50,0,0,255,0],[1,-96,-39,50,0,0,255,0],[2,-32,-39,50,0,0,255,0],[3,64,-39,50,0,0,255,0],[1,96,-39,50,0,0,255,0],[4,160,-39,50,0,0,255,0],[5,-96,39,50,0,0,255,0],[6,-32,39,50,0,0,255,0],[7,32,39,50,0,0,255,0],[8,96,39,50,0,0,255,0]],[[0,-160,-39,50,0,0,255,0],[1,-96,-39,50,0,0,255,0],[2,-32,-39,50,0,0,255,0],[3,64,-39,50,0,0,255,0],[1,96,-39,50,0,0,255,0],[4,160,-39,50,0,0,255,0],[5,-96,39,50,0,0,255,0],[6,-32,39,50,0,0,255,0],[7,32,39,50,0,0,255,0],[8,96,39,50,0,0,255,0]],[[0,-160,-39,50,0,0,255,0],[1,-96,-39,50,0,0,255,0],[2,-32,-39,50,0,0,255,0],[3,64,-39,50,0,0,255,0],[1,96,-39,50,0,0,255,0],[4,160,-39,50,0,0,255,0],[5,-96,39,50,0,0,255,0],[6,-32,39,50,0,0,255,0],[7,32,39,50,0,0,255,0],[8,96,39,50,0,0,255,0]],[[0,-160,-39,50,0,0,255,0],[1,-96,-39,50,0,0,255,0],[2,-32,-39,50,0,0,255,0],[3,64,-39,50,0,0,255,0],[1,96,-39,50,0,0,255,0],[4,160,-39,50,0,0,255,0],[5,-96,39,50,0,0,255,0],[6,-32,39,50,0,0,255,0],[7,32,39,50,0,0,255,0],[8,96,39,50,0,0,255,0]],[[0,-160,-39,50,0,0,180,0],[1,-96,-39,50,0,0,255,0],[2,-32,-39,50,0,0,255,0],[3,64,-39,50,0,0,255,0],[1,96,-39,50,0,0,255,0],[4,160,-39,50,0,0,255,0],[5,-96,39,50,0,0,255,0],[6,-32,39,50,0,0,255,0],[7,32,39,50,0,0,255,0],[8,96,39,50,0,0,255,0]],[[0,-160,-39,50,0,0,90,0],[1,-96,-39,50,0,0,180,0],[2,-32,-39,50,0,0,255,0],[3,64,-39,50,0,0,255,0],[1,96,-39,50,0,0,255,0],[4,160,-39,50,0,0,255,0],[5,-96,39,50,0,0,255,0],[6,-32,39,50,0,0,255,0],[7,32,39,50,0,0,255,0],[8,96,39,50,0,0,255,0]],[[1,-96,-39,50,0,0,90,0],[2,-32,-39,50,0,0,180,0],[3,64,-39,50,0,0,255,0],[1,96,-39,50,0,0,255,0],[4,160,-39,50,0,0,255,0],[5,-96,39,50,0,0,255,0],[6,-32,39,50,0,0,255,0],[7,32,39,50,0,0,255,0],[8,96,39,50,0,0,255,0]],[[2,-32,-39,50,0,0,90,0],[3,64,-39,50,0,0,180,0],[1,96,-39,50,0,0,255,0],[4,160,-39,50,0,0,255,0],[5,-96,39,50,0,0,255,0],[6,-32,39,50,0,0,255,0],[7,32,39,50,0,0,255,0],[8,96,39,50,0,0,255,0]],[[3,64,-39,50,0,0,90,0],[1,96,-39,50,0,0,180,0],[4,160,-39,50,0,0,255,0],[5,-96,39,50,0,0,255,0],[6,-32,39,50,0,0,255,0],[7,32,39,50,0,0,255,0],[8,96,39,50,0,0,255,0]],[[1,96,-39,50,0,0,90,0],[4,160,-39,50,0,0,180,0],[5,-96,39,50,0,0,255,0],[6,-32,39,50,0,0,255,0],[7,32,39,50,0,0,255,0],[8,96,39,50,0,0,255,0]],[[4,160,-39,50,0,0,90,0],[5,-96,39,50,0,0,180,0],[6,-32,39,50,0,0,255,0],[7,32,39,50,0,0,255,0],[8,96,39,50,0,0,255,0]],[[5,-96,39,50,0,0,90,0],[6,-32,39,50,0,0,180,0],[7,32,39,50,0,0,255,0],[8,96,39,50,0,0,255,0]],[[6,-32,39,50,0,0,90,0],[7,32,39,50,0,0,180,0],[8,96,39,50,0,0,255,0]],[[7,32,39,50,0,0,90,0],[8,96,39,50,0,0,180,0]],[[8,96,39,50,0,0,90,0]],[]],\"name\":\"Scelta dello Sfidante\",\"position\":3,\"timings\":[{\"flashColor\":[255,255,255,255],\"flashDuration\":5,\"flashScope\":0,\"frame\":0,\"se\":{\"name\":\"Fire1\",\"pan\":0,\"pitch\":100,\"volume\":90}}]}",
-    "animationconvert_12": "{\"id\":12,\"animation1Hue\":0,\"animation1Name\":\"IT\",\"animation2Hue\":0,\"animation2Name\":\"\",\"frames\":[[],[[13,-288,-78,100,0,0,90,0]],[[13,-288,-78,100,0,0,180,0],[14,-160,-78,100,0,0,90,0]],[[13,-288,-78,100,0,0,255,0],[14,-160,-78,100,0,0,180,0],[15,-32,-78,100,0,0,90,0]],[[13,-288,-78,100,0,0,255,0],[14,-160,-78,100,0,0,255,0],[15,-32,-78,100,0,0,180,0],[16,96,-78,100,0,0,90,0]],[[13,-288,-78,100,0,0,255,0],[14,-160,-78,100,0,0,255,0],[15,-32,-78,100,0,0,255,0],[16,96,-78,100,0,0,180,0],[17,224,-78,100,0,0,90,0]],[[13,-288,-78,100,0,0,255,0],[14,-160,-78,100,0,0,255,0],[15,-32,-78,100,0,0,255,0],[16,96,-78,100,0,0,255,0],[17,224,-78,100,0,0,180,0],[18,352,-78,100,0,0,90,0]],[[13,-288,-78,100,0,0,255,0],[14,-160,-78,100,0,0,255,0],[15,-32,-78,100,0,0,255,0],[16,96,-78,100,0,0,255,0],[17,224,-78,100,0,0,255,0],[18,352,-78,100,0,0,180,0],[19,-192,78,100,0,0,90,0]],[[13,-288,-78,100,0,0,255,0],[14,-160,-78,100,0,0,255,0],[15,-32,-78,100,0,0,255,0],[16,96,-78,100,0,0,255,0],[17,224,-78,100,0,0,255,0],[18,352,-78,100,0,0,255,0],[19,-192,78,100,0,0,180,0],[20,-64,78,100,0,0,90,0]],[[13,-288,-78,100,0,0,255,0],[14,-160,-78,100,0,0,255,0],[15,-32,-78,100,0,0,255,0],[16,96,-78,100,0,0,255,0],[17,224,-78,100,0,0,255,0],[18,352,-78,100,0,0,255,0],[19,-192,78,100,0,0,255,0],[20,-64,78,100,0,0,180,0],[21,64,78,100,0,0,90,0]],[[13,-288,-78,100,0,0,255,0],[14,-160,-78,100,0,0,255,0],[15,-32,-78,100,0,0,255,0],[16,96,-78,100,0,0,255,0],[17,224,-78,100,0,0,255,0],[18,352,-78,100,0,0,255,0],[19,-192,78,100,0,0,255,0],[20,-64,78,100,0,0,255,0],[21,64,78,100,0,0,180,0],[22,192,78,100,0,0,90,0]],[[13,-288,-78,100,0,0,255,0],[14,-160,-78,100,0,0,255,0],[15,-32,-78,100,0,0,255,0],[16,96,-78,100,0,0,255,0],[17,224,-78,100,0,0,255,0],[18,352,-78,100,0,0,255,0],[19,-192,78,100,0,0,255,0],[20,-64,78,100,0,0,255,0],[21,64,78,100,0,0,255,0],[22,192,78,100,0,0,180,0]],[[13,-288,-78,100,0,0,255,0],[14,-160,-78,100,0,0,255,0],[15,-32,-78,100,0,0,255,0],[16,96,-78,100,0,0,255,0],[17,224,-78,100,0,0,255,0],[18,352,-78,100,0,0,255,0],[19,-192,78,100,0,0,255,0],[20,-64,78,100,0,0,255,0],[21,64,78,100,0,0,255,0],[22,192,78,100,0,0,255,0]],[[13,-288,-78,100,0,0,255,0],[14,-160,-78,100,0,0,255,0],[15,-32,-78,100,0,0,255,0],[16,96,-78,100,0,0,255,0],[17,224,-78,100,0,0,255,0],[18,352,-78,100,0,0,255,0],[19,-192,78,100,0,0,255,0],[20,-64,78,100,0,0,255,0],[21,64,78,100,0,0,255,0],[22,192,78,100,0,0,255,0]],[[13,-288,-78,100,0,0,255,0],[14,-160,-78,100,0,0,255,0],[15,-32,-78,100,0,0,255,0],[16,96,-78,100,0,0,255,0],[17,224,-78,100,0,0,255,0],[18,352,-78,100,0,0,255,0],[19,-192,78,100,0,0,255,0],[20,-64,78,100,0,0,255,0],[21,64,78,100,0,0,255,0],[22,192,78,100,0,0,255,0]],[[13,-288,-78,100,0,0,255,0],[14,-160,-78,100,0,0,255,0],[15,-32,-78,100,0,0,255,0],[16,96,-78,100,0,0,255,0],[17,224,-78,100,0,0,255,0],[18,352,-78,100,0,0,255,0],[19,-192,78,100,0,0,255,0],[20,-64,78,100,0,0,255,0],[21,64,78,100,0,0,255,0],[22,192,78,100,0,0,255,0]],[[13,-288,-78,100,0,0,255,0],[14,-160,-78,100,0,0,255,0],[15,-32,-78,100,0,0,255,0],[16,96,-78,100,0,0,255,0],[17,224,-78,100,0,0,255,0],[18,352,-78,100,0,0,255,0],[19,-192,78,100,0,0,255,0],[20,-64,78,100,0,0,255,0],[21,64,78,100,0,0,255,0],[22,192,78,100,0,0,255,0]],[[13,-288,-78,100,0,0,255,0],[14,-160,-78,100,0,0,255,0],[15,-32,-78,100,0,0,255,0],[16,96,-78,100,0,0,255,0],[17,224,-78,100,0,0,255,0],[18,352,-78,100,0,0,255,0],[19,-192,78,100,0,0,255,0],[20,-64,78,100,0,0,255,0],[21,64,78,100,0,0,255,0],[22,192,78,100,0,0,255,0]],[[13,-288,-78,100,0,0,180,0],[14,-160,-78,100,0,0,255,0],[15,-32,-78,100,0,0,255,0],[16,96,-78,100,0,0,255,0],[17,224,-78,100,0,0,255,0],[18,352,-78,100,0,0,255,0],[19,-192,78,100,0,0,255,0],[20,-64,78,100,0,0,255,0],[21,64,78,100,0,0,255,0],[22,192,78,100,0,0,255,0]],[[13,-288,-78,100,0,0,90,0],[14,-160,-78,100,0,0,180,0],[15,-32,-78,100,0,0,255,0],[16,96,-78,100,0,0,255,0],[17,224,-78,100,0,0,255,0],[18,352,-78,100,0,0,255,0],[19,-192,78,100,0,0,255,0],[20,-64,78,100,0,0,255,0],[21,64,78,100,0,0,255,0],[22,192,78,100,0,0,255,0]],[[14,-160,-78,100,0,0,90,0],[15,-32,-78,100,0,0,180,0],[16,96,-78,100,0,0,255,0],[17,224,-78,100,0,0,255,0],[18,352,-78,100,0,0,255,0],[19,-192,78,100,0,0,255,0],[20,-64,78,100,0,0,255,0],[21,64,78,100,0,0,255,0],[22,192,78,100,0,0,255,0]],[[15,-32,-78,100,0,0,90,0],[16,96,-78,100,0,0,180,0],[17,224,-78,100,0,0,255,0],[18,352,-78,100,0,0,255,0],[19,-192,78,100,0,0,255,0],[20,-64,78,100,0,0,255,0],[21,64,78,100,0,0,255,0],[22,192,78,100,0,0,255,0]],[[16,96,-78,100,0,0,90,0],[17,224,-78,100,0,0,180,0],[18,352,-78,100,0,0,255,0],[19,-192,78,100,0,0,255,0],[20,-64,78,100,0,0,255,0],[21,64,78,100,0,0,255,0],[22,192,78,100,0,0,255,0]],[[17,224,-78,100,0,0,90,0],[18,352,-78,100,0,0,180,0],[19,-192,78,100,0,0,255,0],[20,-64,78,100,0,0,255,0],[21,64,78,100,0,0,255,0],[22,192,78,100,0,0,255,0]],[[18,352,-78,100,0,0,90,0],[19,-192,78,100,0,0,180,0],[20,-64,78,100,0,0,255,0],[21,64,78,100,0,0,255,0],[22,192,78,100,0,0,255,0]],[[19,-192,78,100,0,0,90,0],[20,-64,78,100,0,0,180,0],[21,64,78,100,0,0,255,0],[22,192,78,100,0,0,255,0]],[[20,-64,78,100,0,0,90,0],[21,64,78,100,0,0,180,0],[22,192,78,100,0,0,255,0]],[[21,64,78,100,0,0,90,0],[22,192,78,100,0,0,180,0]],[[22,192,78,100,0,0,90,0]],[]],\"name\":\"Discussione conclusa\",\"position\":3,\"timings\":[{\"flashColor\":[255,255,255,255],\"flashDuration\":5,\"flashScope\":0,\"frame\":0,\"se\":{\"name\":\"clock-tower-bell1\",\"pan\":0,\"pitch\":100,\"volume\":90}}]}",
-    "animationconvert_13": "{\"id\":13,\"animation1Hue\":0,\"animation1Name\":\"IT\",\"animation2Hue\":0,\"animation2Name\":\"\",\"frames\":[[],[[28,-288,0,100,0,0,90,0]],[[28,-288,0,100,0,0,180,0],[7,-160,0,100,0,0,90,0]],[[28,-288,0,100,0,0,255,0],[7,-160,0,100,0,0,180,0],[29,-32,0,100,0,0,90,0]],[[28,-288,0,100,0,0,255,0],[7,-160,0,100,0,0,255,0],[29,-32,0,100,0,0,180,0],[30,96,0,100,0,0,90,0]],[[28,-288,0,100,0,0,255,0],[7,-160,0,100,0,0,255,0],[29,-32,0,100,0,0,255,0],[30,96,0,100,0,0,180,0],[31,224,0,100,0,0,90,0]],[[28,-288,0,100,0,0,255,0],[7,-160,0,100,0,0,255,0],[29,-32,0,100,0,0,255,0],[30,96,0,100,0,0,255,0],[31,224,0,100,0,0,180,0],[32,352,0,100,0,0,90,0]],[[28,-288,0,100,0,0,255,0],[7,-160,0,100,0,0,255,0],[29,-32,0,100,0,0,255,0],[30,96,0,100,0,0,255,0],[31,224,0,100,0,0,255,0],[32,352,0,100,0,0,180,0]],[[28,-288,0,100,0,0,255,0],[7,-160,0,100,0,0,255,0],[29,-32,0,100,0,0,255,0],[30,96,0,100,0,0,255,0],[31,224,0,100,0,0,255,0],[32,352,0,100,0,0,255,0]],[[28,-288,0,100,0,0,255,0],[7,-160,0,100,0,0,255,0],[29,-32,0,100,0,0,255,0],[30,96,0,100,0,0,255,0],[31,224,0,100,0,0,255,0],[32,352,0,100,0,0,255,0]],[[28,-288,0,100,0,0,255,0],[7,-160,0,100,0,0,255,0],[29,-32,0,100,0,0,255,0],[30,96,0,100,0,0,255,0],[31,224,0,100,0,0,255,0],[32,352,0,100,0,0,255,0]],[[28,-288,0,100,0,0,255,0],[7,-160,0,100,0,0,255,0],[29,-32,0,100,0,0,255,0],[30,96,0,100,0,0,255,0],[31,224,0,100,0,0,255,0],[32,352,0,100,0,0,255,0]],[[28,-288,0,100,0,0,255,0],[7,-160,0,100,0,0,255,0],[29,-32,0,100,0,0,255,0],[30,96,0,100,0,0,255,0],[31,224,0,100,0,0,255,0],[32,352,0,100,0,0,255,0]],[[28,-288,0,100,0,0,255,0],[7,-160,0,100,0,0,255,0],[29,-32,0,100,0,0,255,0],[30,96,0,100,0,0,255,0],[31,224,0,100,0,0,255,0],[32,352,0,100,0,0,255,0]],[[28,-288,0,100,0,0,180,0],[7,-160,0,100,0,0,255,0],[29,-32,0,100,0,0,255,0],[30,96,0,100,0,0,255,0],[31,224,0,100,0,0,255,0],[32,352,0,100,0,0,255,0]],[[28,-288,0,100,0,0,90,0],[7,-160,0,100,0,0,180,0],[29,-32,0,100,0,0,255,0],[30,96,0,100,0,0,255,0],[31,224,0,100,0,0,255,0],[32,352,0,100,0,0,255,0]],[[7,-160,0,100,0,0,90,0],[29,-32,0,100,0,0,180,0],[30,96,0,100,0,0,255,0],[31,224,0,100,0,0,255,0],[32,352,0,100,0,0,255,0]],[[29,-32,0,100,0,0,90,0],[30,96,0,100,0,0,180,0],[31,224,0,100,0,0,255,0],[32,352,0,100,0,0,255,0]],[[30,96,0,100,0,0,90,0],[31,224,0,100,0,0,180,0],[32,352,0,100,0,0,255,0]],[[31,224,0,100,0,0,90,0],[32,352,0,100,0,0,180,0]],[[32,352,0,100,0,0,90,0]],[]],\"name\":\"Avanzamento\",\"position\":3,\"timings\":[{\"flashColor\":[255,255,255,255],\"flashDuration\":5,\"flashScope\":0,\"frame\":0,\"se\":{\"name\":\"Fire1\",\"pan\":0,\"pitch\":100,\"volume\":90}}]}",
-    "animationconvert_14": "{\"id\":14,\"animation1Hue\":0,\"animation1Name\":\"IT\",\"animation2Hue\":0,\"animation2Name\":\"\",\"frames\":[[],[[33,-224,0,100,0,0,90,0]],[[33,-224,0,100,0,0,180,0],[2,-96,0,100,0,0,90,0]],[[33,-224,0,100,0,0,255,0],[2,-96,0,100,0,0,180,0],[26,32,0,100,0,0,90,0]],[[33,-224,0,100,0,0,255,0],[2,-96,0,100,0,0,255,0],[26,32,0,100,0,0,180,0],[17,160,0,100,0,0,90,0]],[[33,-224,0,100,0,0,255,0],[2,-96,0,100,0,0,255,0],[26,32,0,100,0,0,255,0],[17,160,0,100,0,0,180,0],[18,288,0,100,0,0,90,0]],[[33,-224,0,100,0,0,255,0],[2,-96,0,100,0,0,255,0],[26,32,0,100,0,0,255,0],[17,160,0,100,0,0,255,0],[18,288,0,100,0,0,180,0]],[[33,-224,0,100,0,0,255,0],[2,-96,0,100,0,0,255,0],[26,32,0,100,0,0,255,0],[17,160,0,100,0,0,255,0],[18,288,0,100,0,0,255,0]],[[33,-224,0,100,0,0,255,0],[2,-96,0,100,0,0,255,0],[26,32,0,100,0,0,255,0],[17,160,0,100,0,0,255,0],[18,288,0,100,0,0,255,0]],[[33,-224,0,100,0,0,255,0],[2,-96,0,100,0,0,255,0],[26,32,0,100,0,0,255,0],[17,160,0,100,0,0,255,0],[18,288,0,100,0,0,255,0]],[[33,-224,0,100,0,0,255,0],[2,-96,0,100,0,0,255,0],[26,32,0,100,0,0,255,0],[17,160,0,100,0,0,255,0],[18,288,0,100,0,0,255,0]],[[33,-224,0,100,0,0,255,0],[2,-96,0,100,0,0,255,0],[26,32,0,100,0,0,255,0],[17,160,0,100,0,0,255,0],[18,288,0,100,0,0,255,0]],[[33,-224,0,100,0,0,255,0],[2,-96,0,100,0,0,255,0],[26,32,0,100,0,0,255,0],[17,160,0,100,0,0,255,0],[18,288,0,100,0,0,255,0]],[[33,-224,0,100,0,0,180,0],[2,-96,0,100,0,0,255,0],[26,32,0,100,0,0,255,0],[17,160,0,100,0,0,255,0],[18,288,0,100,0,0,255,0]],[[33,-224,0,100,0,0,90,0],[2,-96,0,100,0,0,180,0],[26,32,0,100,0,0,255,0],[17,160,0,100,0,0,255,0],[18,288,0,100,0,0,255,0]],[[2,-96,0,100,0,0,90,0],[26,32,0,100,0,0,180,0],[17,160,0,100,0,0,255,0],[18,288,0,100,0,0,255,0]],[[26,32,0,100,0,0,90,0],[17,160,0,100,0,0,180,0],[18,288,0,100,0,0,255,0]],[[17,160,0,100,0,0,90,0],[18,288,0,100,0,0,180,0]],[[18,288,0,100,0,0,90,0]],[]],\"name\":\"Votazione\",\"position\":3,\"timings\":[{\"flashColor\":[255,255,255,255],\"flashDuration\":5,\"flashScope\":0,\"frame\":0,\"se\":{\"name\":\"Fire1\",\"pan\":0,\"pitch\":100,\"volume\":90}}]}",
-    "animationconvert_15": "{\"id\":15,\"animation1Hue\":0,\"animation1Name\":\"IT\",\"animation2Hue\":0,\"animation2Name\":\"\",\"frames\":[[],[[33,-176,-39,50,0,0,90,0]],[[33,-176,-39,50,0,0,180,0],[2,-112,-39,50,0,0,90,0]],[[33,-176,-39,50,0,0,255,0],[2,-112,-39,50,0,0,180,0],[26,-48,-39,50,0,0,90,0]],[[33,-176,-39,50,0,0,255,0],[2,-112,-39,50,0,0,255,0],[26,-48,-39,50,0,0,180,0],[17,16,-39,50,0,0,90,0]],[[33,-176,-39,50,0,0,255,0],[2,-112,-39,50,0,0,255,0],[26,-48,-39,50,0,0,255,0],[17,16,-39,50,0,0,180,0],[18,80,-39,50,0,0,90,0]],[[33,-176,-39,50,0,0,255,0],[2,-112,-39,50,0,0,255,0],[26,-48,-39,50,0,0,255,0],[17,16,-39,50,0,0,255,0],[18,80,-39,50,0,0,180,0],[34,144,-39,50,0,0,90,0]],[[33,-176,-39,50,0,0,255,0],[2,-112,-39,50,0,0,255,0],[26,-48,-39,50,0,0,255,0],[17,16,-39,50,0,0,255,0],[18,80,-39,50,0,0,255,0],[34,144,-39,50,0,0,180,0],[27,208,-39,50,0,0,90,0]],[[33,-176,-39,50,0,0,255,0],[2,-112,-39,50,0,0,255,0],[26,-48,-39,50,0,0,255,0],[17,16,-39,50,0,0,255,0],[18,80,-39,50,0,0,255,0],[34,144,-39,50,0,0,255,0],[27,208,-39,50,0,0,180,0],[35,-112,39,50,0,0,90,0]],[[33,-176,-39,50,0,0,255,0],[2,-112,-39,50,0,0,255,0],[26,-48,-39,50,0,0,255,0],[17,16,-39,50,0,0,255,0],[18,80,-39,50,0,0,255,0],[34,144,-39,50,0,0,255,0],[27,208,-39,50,0,0,255,0],[35,-112,39,50,0,0,180,0],[36,-48,39,50,0,0,90,0]],[[33,-176,-39,50,0,0,255,0],[2,-112,-39,50,0,0,255,0],[26,-48,-39,50,0,0,255,0],[17,16,-39,50,0,0,255,0],[18,80,-39,50,0,0,255,0],[34,144,-39,50,0,0,255,0],[27,208,-39,50,0,0,255,0],[35,-112,39,50,0,0,255,0],[36,-48,39,50,0,0,180,0],[6,16,39,50,0,0,90,0]],[[33,-176,-39,50,0,0,255,0],[2,-112,-39,50,0,0,255,0],[26,-48,-39,50,0,0,255,0],[17,16,-39,50,0,0,255,0],[18,80,-39,50,0,0,255,0],[34,144,-39,50,0,0,255,0],[27,208,-39,50,0,0,255,0],[35,-112,39,50,0,0,255,0],[36,-48,39,50,0,0,255,0],[6,16,39,50,0,0,180,0],[37,80,39,50,0,0,90,0]],[[33,-176,-39,50,0,0,255,0],[2,-112,-39,50,0,0,255,0],[26,-48,-39,50,0,0,255,0],[17,16,-39,50,0,0,255,0],[18,80,-39,50,0,0,255,0],[34,144,-39,50,0,0,255,0],[27,208,-39,50,0,0,255,0],[35,-112,39,50,0,0,255,0],[36,-48,39,50,0,0,255,0],[6,16,39,50,0,0,255,0],[37,80,39,50,0,0,180,0],[27,144,39,50,0,0,90,0]],[[33,-176,-39,50,0,0,255,0],[2,-112,-39,50,0,0,255,0],[26,-48,-39,50,0,0,255,0],[17,16,-39,50,0,0,255,0],[18,80,-39,50,0,0,255,0],[34,144,-39,50,0,0,255,0],[27,208,-39,50,0,0,255,0],[35,-112,39,50,0,0,255,0],[36,-48,39,50,0,0,255,0],[6,16,39,50,0,0,255,0],[37,80,39,50,0,0,255,0],[27,144,39,50,0,0,180,0]],[[33,-176,-39,50,0,0,255,0],[2,-112,-39,50,0,0,255,0],[26,-48,-39,50,0,0,255,0],[17,16,-39,50,0,0,255,0],[18,80,-39,50,0,0,255,0],[34,144,-39,50,0,0,255,0],[27,208,-39,50,0,0,255,0],[35,-112,39,50,0,0,255,0],[36,-48,39,50,0,0,255,0],[6,16,39,50,0,0,255,0],[37,80,39,50,0,0,255,0],[27,144,39,50,0,0,255,0]],[[33,-176,-39,50,0,0,255,0],[2,-112,-39,50,0,0,255,0],[26,-48,-39,50,0,0,255,0],[17,16,-39,50,0,0,255,0],[18,80,-39,50,0,0,255,0],[34,144,-39,50,0,0,255,0],[27,208,-39,50,0,0,255,0],[35,-112,39,50,0,0,255,0],[36,-48,39,50,0,0,255,0],[6,16,39,50,0,0,255,0],[37,80,39,50,0,0,255,0],[27,144,39,50,0,0,255,0]],[[33,-176,-39,50,0,0,255,0],[2,-112,-39,50,0,0,255,0],[26,-48,-39,50,0,0,255,0],[17,16,-39,50,0,0,255,0],[18,80,-39,50,0,0,255,0],[34,144,-39,50,0,0,255,0],[27,208,-39,50,0,0,255,0],[35,-112,39,50,0,0,255,0],[36,-48,39,50,0,0,255,0],[6,16,39,50,0,0,255,0],[37,80,39,50,0,0,255,0],[27,144,39,50,0,0,255,0]],[[33,-176,-39,50,0,0,255,0],[2,-112,-39,50,0,0,255,0],[26,-48,-39,50,0,0,255,0],[17,16,-39,50,0,0,255,0],[18,80,-39,50,0,0,255,0],[34,144,-39,50,0,0,255,0],[27,208,-39,50,0,0,255,0],[35,-112,39,50,0,0,255,0],[36,-48,39,50,0,0,255,0],[6,16,39,50,0,0,255,0],[37,80,39,50,0,0,255,0],[27,144,39,50,0,0,255,0]],[[33,-176,-39,50,0,0,255,0],[2,-112,-39,50,0,0,255,0],[26,-48,-39,50,0,0,255,0],[17,16,-39,50,0,0,255,0],[18,80,-39,50,0,0,255,0],[34,144,-39,50,0,0,255,0],[27,208,-39,50,0,0,255,0],[35,-112,39,50,0,0,255,0],[36,-48,39,50,0,0,255,0],[6,16,39,50,0,0,255,0],[37,80,39,50,0,0,255,0],[27,144,39,50,0,0,255,0]],[[33,-176,-39,50,0,0,255,0],[2,-112,-39,50,0,0,255,0],[26,-48,-39,50,0,0,255,0],[17,16,-39,50,0,0,255,0],[18,80,-39,50,0,0,255,0],[34,144,-39,50,0,0,255,0],[27,208,-39,50,0,0,255,0],[35,-112,39,50,0,0,255,0],[36,-48,39,50,0,0,255,0],[6,16,39,50,0,0,255,0],[37,80,39,50,0,0,255,0],[27,144,39,50,0,0,255,0]],[[33,-176,-39,50,0,0,180,0],[2,-112,-39,50,0,0,255,0],[26,-48,-39,50,0,0,255,0],[17,16,-39,50,0,0,255,0],[18,80,-39,50,0,0,255,0],[34,144,-39,50,0,0,255,0],[27,208,-39,50,0,0,255,0],[35,-112,39,50,0,0,255,0],[36,-48,39,50,0,0,255,0],[6,16,39,50,0,0,255,0],[37,80,39,50,0,0,255,0],[27,144,39,50,0,0,255,0]],[[33,-176,-39,50,0,0,90,0],[2,-112,-39,50,0,0,180,0],[26,-48,-39,50,0,0,255,0],[17,16,-39,50,0,0,255,0],[18,80,-39,50,0,0,255,0],[34,144,-39,50,0,0,255,0],[27,208,-39,50,0,0,255,0],[35,-112,39,50,0,0,255,0],[36,-48,39,50,0,0,255,0],[6,16,39,50,0,0,255,0],[37,80,39,50,0,0,255,0],[27,144,39,50,0,0,255,0]],[[2,-112,-39,50,0,0,90,0],[26,-48,-39,50,0,0,180,0],[17,16,-39,50,0,0,255,0],[18,80,-39,50,0,0,255,0],[34,144,-39,50,0,0,255,0],[27,208,-39,50,0,0,255,0],[35,-112,39,50,0,0,255,0],[36,-48,39,50,0,0,255,0],[6,16,39,50,0,0,255,0],[37,80,39,50,0,0,255,0],[27,144,39,50,0,0,255,0]],[[26,-48,-39,50,0,0,90,0],[17,16,-39,50,0,0,180,0],[18,80,-39,50,0,0,255,0],[34,144,-39,50,0,0,255,0],[27,208,-39,50,0,0,255,0],[35,-112,39,50,0,0,255,0],[36,-48,39,50,0,0,255,0],[6,16,39,50,0,0,255,0],[37,80,39,50,0,0,255,0],[27,144,39,50,0,0,255,0]],[[17,16,-39,50,0,0,90,0],[18,80,-39,50,0,0,180,0],[34,144,-39,50,0,0,255,0],[27,208,-39,50,0,0,255,0],[35,-112,39,50,0,0,255,0],[36,-48,39,50,0,0,255,0],[6,16,39,50,0,0,255,0],[37,80,39,50,0,0,255,0],[27,144,39,50,0,0,255,0]],[[18,80,-39,50,0,0,90,0],[34,144,-39,50,0,0,180,0],[27,208,-39,50,0,0,255,0],[35,-112,39,50,0,0,255,0],[36,-48,39,50,0,0,255,0],[6,16,39,50,0,0,255,0],[37,80,39,50,0,0,255,0],[27,144,39,50,0,0,255,0]],[[34,144,-39,50,0,0,90,0],[27,208,-39,50,0,0,180,0],[35,-112,39,50,0,0,255,0],[36,-48,39,50,0,0,255,0],[6,16,39,50,0,0,255,0],[37,80,39,50,0,0,255,0],[27,144,39,50,0,0,255,0]],[[27,208,-39,50,0,0,90,0],[35,-112,39,50,0,0,180,0],[36,-48,39,50,0,0,255,0],[6,16,39,50,0,0,255,0],[37,80,39,50,0,0,255,0],[27,144,39,50,0,0,255,0]],[[35,-112,39,50,0,0,90,0],[36,-48,39,50,0,0,180,0],[6,16,39,50,0,0,255,0],[37,80,39,50,0,0,255,0],[27,144,39,50,0,0,255,0]],[[36,-48,39,50,0,0,90,0],[6,16,39,50,0,0,180,0],[37,80,39,50,0,0,255,0],[27,144,39,50,0,0,255,0]],[[6,16,39,50,0,0,90,0],[37,80,39,50,0,0,180,0],[27,144,39,50,0,0,255,0]],[[37,80,39,50,0,0,90,0],[27,144,39,50,0,0,180,0]],[[27,144,39,50,0,0,90,0]],[]],\"name\":\"Votazione dei Candidati\",\"position\":3,\"timings\":[{\"flashColor\":[255,255,255,255],\"flashDuration\":5,\"flashScope\":0,\"frame\":0,\"se\":{\"name\":\"Fire1\",\"pan\":0,\"pitch\":100,\"volume\":90}}]}",
-    "animationconvert_16": "{\"id\":16,\"animation1Hue\":0,\"animation1Name\":\"IT\",\"animation2Hue\":0,\"animation2Name\":\"\",\"frames\":[[],[[38,-160,0,50,0,0,90,0]],[[38,-160,0,50,0,0,180,0],[39,-96,0,50,0,0,90,0]],[[38,-160,0,50,0,0,255,0],[39,-96,0,50,0,0,180,0],[32,-32,0,50,0,0,90,0]],[[38,-160,0,50,0,0,255,0],[39,-96,0,50,0,0,255,0],[32,-32,0,50,0,0,180,0],[40,32,0,50,0,0,90,0]],[[38,-160,0,50,0,0,255,0],[39,-96,0,50,0,0,255,0],[32,-32,0,50,0,0,255,0],[40,32,0,50,0,0,180,0],[41,96,0,50,0,0,90,0]],[[38,-160,0,50,0,0,255,0],[39,-96,0,50,0,0,255,0],[32,-32,0,50,0,0,255,0],[40,32,0,50,0,0,255,0],[41,96,0,50,0,0,180,0],[42,160,0,50,0,0,90,0]],[[38,-160,0,50,0,0,255,0],[39,-96,0,50,0,0,255,0],[32,-32,0,50,0,0,255,0],[40,32,0,50,0,0,255,0],[41,96,0,50,0,0,255,0],[42,160,0,50,0,0,180,0]],[[38,-160,0,50,0,0,255,0],[39,-96,0,50,0,0,255,0],[32,-32,0,50,0,0,255,0],[40,32,0,50,0,0,255,0],[41,96,0,50,0,0,255,0],[42,160,0,50,0,0,255,0]],[[38,-160,0,50,0,0,255,0],[39,-96,0,50,0,0,255,0],[32,-32,0,50,0,0,255,0],[40,32,0,50,0,0,255,0],[41,96,0,50,0,0,255,0],[42,160,0,50,0,0,255,0]],[[38,-160,0,50,0,0,255,0],[39,-96,0,50,0,0,255,0],[32,-32,0,50,0,0,255,0],[40,32,0,50,0,0,255,0],[41,96,0,50,0,0,255,0],[42,160,0,50,0,0,255,0]],[[38,-160,0,50,0,0,255,0],[39,-96,0,50,0,0,255,0],[32,-32,0,50,0,0,255,0],[40,32,0,50,0,0,255,0],[41,96,0,50,0,0,255,0],[42,160,0,50,0,0,255,0]],[[38,-160,0,50,0,0,255,0],[39,-96,0,50,0,0,255,0],[32,-32,0,50,0,0,255,0],[40,32,0,50,0,0,255,0],[41,96,0,50,0,0,255,0],[42,160,0,50,0,0,255,0]],[[38,-160,0,50,0,0,255,0],[39,-96,0,50,0,0,255,0],[32,-32,0,50,0,0,255,0],[40,32,0,50,0,0,255,0],[41,96,0,50,0,0,255,0],[42,160,0,50,0,0,255,0]],[[38,-160,0,50,0,0,180,0],[39,-96,0,50,0,0,255,0],[32,-32,0,50,0,0,255,0],[40,32,0,50,0,0,255,0],[41,96,0,50,0,0,255,0],[42,160,0,50,0,0,255,0]],[[38,-160,0,50,0,0,90,0],[39,-96,0,50,0,0,180,0],[32,-32,0,50,0,0,255,0],[40,32,0,50,0,0,255,0],[41,96,0,50,0,0,255,0],[42,160,0,50,0,0,255,0]],[[39,-96,0,50,0,0,90,0],[32,-32,0,50,0,0,180,0],[40,32,0,50,0,0,255,0],[41,96,0,50,0,0,255,0],[42,160,0,50,0,0,255,0]],[[32,-32,0,50,0,0,90,0],[40,32,0,50,0,0,180,0],[41,96,0,50,0,0,255,0],[42,160,0,50,0,0,255,0]],[[40,32,0,50,0,0,90,0],[41,96,0,50,0,0,180,0],[42,160,0,50,0,0,255,0]],[[41,96,0,50,0,0,90,0],[42,160,0,50,0,0,180,0]],[[42,160,0,50,0,0,90,0]],[]],\"name\":\"Turno finale\",\"position\":3,\"timings\":[{\"flashColor\":[255,255,255,255],\"flashDuration\":5,\"flashScope\":0,\"frame\":0,\"se\":{\"name\":\"Fire1\",\"pan\":0,\"pitch\":100,\"volume\":90}}]}",
+    "animationconvert_8": "{\"id\":8,\"animation1Hue\":0,\"animation1Name\":\"IT\",\"animation2Hue\":0,\"animation2Name\":\"\",\"frames\":[[],[[9,-192,0,100,0,0,90,0]],[[9,-192,0,100,0,0,180,0],[10,-64,0,100,0,0,90,0]],[[9,-192,0,100,0,0,255,0],[10,-64,0,100,0,0,180,0],[11,64,0,100,0,0,90,0]],[[9,-192,0,100,0,0,255,0],[10,-64,0,100,0,0,255,0],[11,64,0,100,0,0,180,0],[12,192,0,100,0,0,90,0]],[[9,-192,0,100,0,0,255,0],[10,-64,0,100,0,0,255,0],[11,64,0,100,0,0,255,0],[12,192,0,100,0,0,180,0]],[[9,-192,0,100,0,0,255,0],[10,-64,0,100,0,0,255,0],[11,64,0,100,0,0,255,0],[12,192,0,100,0,0,255,0]],[[9,-192,0,100,0,0,255,0],[10,-64,0,100,0,0,255,0],[11,64,0,100,0,0,255,0],[12,192,0,100,0,0,255,0]],[[9,-192,0,100,0,0,255,0],[10,-64,0,100,0,0,255,0],[11,64,0,100,0,0,255,0],[12,192,0,100,0,0,255,0]],[[9,-192,0,100,0,0,255,0],[10,-64,0,100,0,0,255,0],[11,64,0,100,0,0,255,0],[12,192,0,100,0,0,255,0]],[[9,-192,0,100,0,0,255,0],[10,-64,0,100,0,0,255,0],[11,64,0,100,0,0,255,0],[12,192,0,100,0,0,255,0]],[[9,-192,0,100,0,0,255,0],[10,-64,0,100,0,0,255,0],[11,64,0,100,0,0,255,0],[12,192,0,100,0,0,255,0]],[[9,-192,0,100,0,0,180,0],[10,-64,0,100,0,0,255,0],[11,64,0,100,0,0,255,0],[12,192,0,100,0,0,255,0]],[[9,-192,0,100,0,0,90,0],[10,-64,0,100,0,0,180,0],[11,64,0,100,0,0,255,0],[12,192,0,100,0,0,255,0]],[[10,-64,0,100,0,0,90,0],[11,64,0,100,0,0,180,0],[12,192,0,100,0,0,255,0]],[[11,64,0,100,0,0,90,0],[12,192,0,100,0,0,180,0]],[[12,192,0,100,0,0,90,0]]],\"name\":\"Sviluppo\",\"position\":3,\"timings\":[{\"flashColor\":[255,255,255,255],\"flashDuration\":5,\"flashScope\":0,\"frame\":0,\"se\":{\"name\":\"Fire1\",\"pan\":0,\"pitch\":100,\"volume\":90}}]}",
+    "animationconvert_9": "{\"id\":9,\"animation1Hue\":0,\"animation1Name\":\"IT\",\"animation2Hue\":0,\"animation2Name\":\"\",\"frames\":[[],[[23,-176,0,50,0,0,90,0]],[[23,-176,0,50,0,0,180,0],[24,-112,0,50,0,0,90,0]],[[23,-176,0,50,0,0,255,0],[24,-112,0,50,0,0,180,0],[25,-48,0,50,0,0,90,0]],[[23,-176,0,50,0,0,255,0],[24,-112,0,50,0,0,255,0],[25,-48,0,50,0,0,180,0],[2,16,0,50,0,0,90,0]],[[23,-176,0,50,0,0,255,0],[24,-112,0,50,0,0,255,0],[25,-48,0,50,0,0,255,0],[2,16,0,50,0,0,180,0],[26,80,0,50,0,0,90,0]],[[23,-176,0,50,0,0,255,0],[24,-112,0,50,0,0,255,0],[25,-48,0,50,0,0,255,0],[2,16,0,50,0,0,255,0],[26,80,0,50,0,0,180,0],[17,144,0,50,0,0,90,0]],[[23,-176,0,50,0,0,255,0],[24,-112,0,50,0,0,255,0],[25,-48,0,50,0,0,255,0],[2,16,0,50,0,0,255,0],[26,80,0,50,0,0,255,0],[17,144,0,50,0,0,180,0],[27,208,0,50,0,0,90,0]],[[23,-176,0,50,0,0,255,0],[24,-112,0,50,0,0,255,0],[25,-48,0,50,0,0,255,0],[2,16,0,50,0,0,255,0],[26,80,0,50,0,0,255,0],[17,144,0,50,0,0,255,0],[27,208,0,50,0,0,180,0]],[[23,-176,0,50,0,0,255,0],[24,-112,0,50,0,0,255,0],[25,-48,0,50,0,0,255,0],[2,16,0,50,0,0,255,0],[26,80,0,50,0,0,255,0],[17,144,0,50,0,0,255,0],[27,208,0,50,0,0,255,0]],[[23,-176,0,50,0,0,255,0],[24,-112,0,50,0,0,255,0],[25,-48,0,50,0,0,255,0],[2,16,0,50,0,0,255,0],[26,80,0,50,0,0,255,0],[17,144,0,50,0,0,255,0],[27,208,0,50,0,0,255,0]],[[23,-176,0,50,0,0,255,0],[24,-112,0,50,0,0,255,0],[25,-48,0,50,0,0,255,0],[2,16,0,50,0,0,255,0],[26,80,0,50,0,0,255,0],[17,144,0,50,0,0,255,0],[27,208,0,50,0,0,255,0]],[[23,-176,0,50,0,0,255,0],[24,-112,0,50,0,0,255,0],[25,-48,0,50,0,0,255,0],[2,16,0,50,0,0,255,0],[26,80,0,50,0,0,255,0],[17,144,0,50,0,0,255,0],[27,208,0,50,0,0,255,0]],[[23,-176,0,50,0,0,255,0],[24,-112,0,50,0,0,255,0],[25,-48,0,50,0,0,255,0],[2,16,0,50,0,0,255,0],[26,80,0,50,0,0,255,0],[17,144,0,50,0,0,255,0],[27,208,0,50,0,0,255,0]],[[23,-176,0,50,0,0,255,0],[24,-112,0,50,0,0,255,0],[25,-48,0,50,0,0,255,0],[2,16,0,50,0,0,255,0],[26,80,0,50,0,0,255,0],[17,144,0,50,0,0,255,0],[27,208,0,50,0,0,255,0]],[[23,-176,0,50,0,0,180,0],[24,-112,0,50,0,0,255,0],[25,-48,0,50,0,0,255,0],[2,16,0,50,0,0,255,0],[26,80,0,50,0,0,255,0],[17,144,0,50,0,0,255,0],[27,208,0,50,0,0,255,0]],[[23,-176,0,50,0,0,90,0],[24,-112,0,50,0,0,180,0],[25,-48,0,50,0,0,255,0],[2,16,0,50,0,0,255,0],[26,80,0,50,0,0,255,0],[17,144,0,50,0,0,255,0],[27,208,0,50,0,0,255,0]],[[24,-112,0,50,0,0,90,0],[25,-48,0,50,0,0,180,0],[2,16,0,50,0,0,255,0],[26,80,0,50,0,0,255,0],[17,144,0,50,0,0,255,0],[27,208,0,50,0,0,255,0]],[[25,-48,0,50,0,0,90,0],[2,16,0,50,0,0,180,0],[26,80,0,50,0,0,255,0],[17,144,0,50,0,0,255,0],[27,208,0,50,0,0,255,0]],[[2,16,0,50,0,0,90,0],[26,80,0,50,0,0,180,0],[17,144,0,50,0,0,255,0],[27,208,0,50,0,0,255,0]],[[26,80,0,50,0,0,90,0],[17,144,0,50,0,0,180,0],[27,208,0,50,0,0,255,0]],[[17,144,0,50,0,0,90,0],[27,208,0,50,0,0,180,0]],[[27,208,0,50,0,0,90,0]]],\"name\":\"Presentazioni\",\"position\":3,\"timings\":[{\"flashColor\":[255,255,255,255],\"flashDuration\":5,\"flashScope\":0,\"frame\":0,\"se\":{\"name\":\"Fire1\",\"pan\":0,\"pitch\":100,\"volume\":90}}]}",
+    "animationconvert_10": "{\"id\":\"10\",\"animation1Hue\":0,\"animation1Name\":\"IT\",\"animation2Hue\":0,\"animation2Name\":\"\",\"frames\":[[],[[0,-160,-39,50,0,0,90,0]],[[0,-160,-39,50,0,0,180,0],[1,-96,-39,50,0,0,90,0]],[[0,-160,-39,50,0,0,255,0],[1,-96,-39,50,0,0,180,0],[2,-32,-39,50,0,0,90,0]],[[0,-160,-39,50,0,0,255,0],[1,-96,-39,50,0,0,255,0],[2,-32,-39,50,0,0,180,0],[3,64,-39,50,0,0,90,0]],[[0,-160,-39,50,0,0,255,0],[1,-96,-39,50,0,0,255,0],[2,-32,-39,50,0,0,255,0],[3,64,-39,50,0,0,180,0],[1,96,-39,50,0,0,90,0]],[[0,-160,-39,50,0,0,255,0],[1,-96,-39,50,0,0,255,0],[2,-32,-39,50,0,0,255,0],[3,64,-39,50,0,0,255,0],[1,96,-39,50,0,0,180,0],[4,160,-39,50,0,0,90,0]],[[0,-160,-39,50,0,0,255,0],[1,-96,-39,50,0,0,255,0],[2,-32,-39,50,0,0,255,0],[3,64,-39,50,0,0,255,0],[1,96,-39,50,0,0,255,0],[4,160,-39,50,0,0,180,0],[5,-96,39,50,0,0,90,0]],[[0,-160,-39,50,0,0,255,0],[1,-96,-39,50,0,0,255,0],[2,-32,-39,50,0,0,255,0],[3,64,-39,50,0,0,255,0],[1,96,-39,50,0,0,255,0],[4,160,-39,50,0,0,255,0],[5,-96,39,50,0,0,180,0],[6,-32,39,50,0,0,90,0]],[[0,-160,-39,50,0,0,255,0],[1,-96,-39,50,0,0,255,0],[2,-32,-39,50,0,0,255,0],[3,64,-39,50,0,0,255,0],[1,96,-39,50,0,0,255,0],[4,160,-39,50,0,0,255,0],[5,-96,39,50,0,0,255,0],[6,-32,39,50,0,0,180,0],[7,32,39,50,0,0,90,0]],[[0,-160,-39,50,0,0,255,0],[1,-96,-39,50,0,0,255,0],[2,-32,-39,50,0,0,255,0],[3,64,-39,50,0,0,255,0],[1,96,-39,50,0,0,255,0],[4,160,-39,50,0,0,255,0],[5,-96,39,50,0,0,255,0],[6,-32,39,50,0,0,255,0],[7,32,39,50,0,0,180,0],[8,96,39,50,0,0,90,0]],[[0,-160,-39,50,0,0,255,0],[1,-96,-39,50,0,0,255,0],[2,-32,-39,50,0,0,255,0],[3,64,-39,50,0,0,255,0],[1,96,-39,50,0,0,255,0],[4,160,-39,50,0,0,255,0],[5,-96,39,50,0,0,255,0],[6,-32,39,50,0,0,255,0],[7,32,39,50,0,0,255,0],[8,96,39,50,0,0,180,0]],[[0,-160,-39,50,0,0,255,0],[1,-96,-39,50,0,0,255,0],[2,-32,-39,50,0,0,255,0],[3,64,-39,50,0,0,255,0],[1,96,-39,50,0,0,255,0],[4,160,-39,50,0,0,255,0],[5,-96,39,50,0,0,255,0],[6,-32,39,50,0,0,255,0],[7,32,39,50,0,0,255,0],[8,96,39,50,0,0,255,0]],[[0,-160,-39,50,0,0,255,0],[1,-96,-39,50,0,0,255,0],[2,-32,-39,50,0,0,255,0],[3,64,-39,50,0,0,255,0],[1,96,-39,50,0,0,255,0],[4,160,-39,50,0,0,255,0],[5,-96,39,50,0,0,255,0],[6,-32,39,50,0,0,255,0],[7,32,39,50,0,0,255,0],[8,96,39,50,0,0,255,0]],[[0,-160,-39,50,0,0,255,0],[1,-96,-39,50,0,0,255,0],[2,-32,-39,50,0,0,255,0],[3,64,-39,50,0,0,255,0],[1,96,-39,50,0,0,255,0],[4,160,-39,50,0,0,255,0],[5,-96,39,50,0,0,255,0],[6,-32,39,50,0,0,255,0],[7,32,39,50,0,0,255,0],[8,96,39,50,0,0,255,0]],[[0,-160,-39,50,0,0,255,0],[1,-96,-39,50,0,0,255,0],[2,-32,-39,50,0,0,255,0],[3,64,-39,50,0,0,255,0],[1,96,-39,50,0,0,255,0],[4,160,-39,50,0,0,255,0],[5,-96,39,50,0,0,255,0],[6,-32,39,50,0,0,255,0],[7,32,39,50,0,0,255,0],[8,96,39,50,0,0,255,0]],[[0,-160,-39,50,0,0,255,0],[1,-96,-39,50,0,0,255,0],[2,-32,-39,50,0,0,255,0],[3,64,-39,50,0,0,255,0],[1,96,-39,50,0,0,255,0],[4,160,-39,50,0,0,255,0],[5,-96,39,50,0,0,255,0],[6,-32,39,50,0,0,255,0],[7,32,39,50,0,0,255,0],[8,96,39,50,0,0,255,0]],[[0,-160,-39,50,0,0,255,0],[1,-96,-39,50,0,0,255,0],[2,-32,-39,50,0,0,255,0],[3,64,-39,50,0,0,255,0],[1,96,-39,50,0,0,255,0],[4,160,-39,50,0,0,255,0],[5,-96,39,50,0,0,255,0],[6,-32,39,50,0,0,255,0],[7,32,39,50,0,0,255,0],[8,96,39,50,0,0,255,0]],[[0,-160,-39,50,0,0,180,0],[1,-96,-39,50,0,0,255,0],[2,-32,-39,50,0,0,255,0],[3,64,-39,50,0,0,255,0],[1,96,-39,50,0,0,255,0],[4,160,-39,50,0,0,255,0],[5,-96,39,50,0,0,255,0],[6,-32,39,50,0,0,255,0],[7,32,39,50,0,0,255,0],[8,96,39,50,0,0,255,0]],[[0,-160,-39,50,0,0,90,0],[1,-96,-39,50,0,0,180,0],[2,-32,-39,50,0,0,255,0],[3,64,-39,50,0,0,255,0],[1,96,-39,50,0,0,255,0],[4,160,-39,50,0,0,255,0],[5,-96,39,50,0,0,255,0],[6,-32,39,50,0,0,255,0],[7,32,39,50,0,0,255,0],[8,96,39,50,0,0,255,0]],[[1,-96,-39,50,0,0,90,0],[2,-32,-39,50,0,0,180,0],[3,64,-39,50,0,0,255,0],[1,96,-39,50,0,0,255,0],[4,160,-39,50,0,0,255,0],[5,-96,39,50,0,0,255,0],[6,-32,39,50,0,0,255,0],[7,32,39,50,0,0,255,0],[8,96,39,50,0,0,255,0]],[[2,-32,-39,50,0,0,90,0],[3,64,-39,50,0,0,180,0],[1,96,-39,50,0,0,255,0],[4,160,-39,50,0,0,255,0],[5,-96,39,50,0,0,255,0],[6,-32,39,50,0,0,255,0],[7,32,39,50,0,0,255,0],[8,96,39,50,0,0,255,0]],[[3,64,-39,50,0,0,90,0],[1,96,-39,50,0,0,180,0],[4,160,-39,50,0,0,255,0],[5,-96,39,50,0,0,255,0],[6,-32,39,50,0,0,255,0],[7,32,39,50,0,0,255,0],[8,96,39,50,0,0,255,0]],[[1,96,-39,50,0,0,90,0],[4,160,-39,50,0,0,180,0],[5,-96,39,50,0,0,255,0],[6,-32,39,50,0,0,255,0],[7,32,39,50,0,0,255,0],[8,96,39,50,0,0,255,0]],[[4,160,-39,50,0,0,90,0],[5,-96,39,50,0,0,180,0],[6,-32,39,50,0,0,255,0],[7,32,39,50,0,0,255,0],[8,96,39,50,0,0,255,0]],[[5,-96,39,50,0,0,90,0],[6,-32,39,50,0,0,180,0],[7,32,39,50,0,0,255,0],[8,96,39,50,0,0,255,0]],[[6,-32,39,50,0,0,90,0],[7,32,39,50,0,0,180,0],[8,96,39,50,0,0,255,0]],[[7,32,39,50,0,0,90,0],[8,96,39,50,0,0,180,0]],[[8,96,39,50,0,0,90,0]]],\"name\":\"Scelta dello Sfidante\",\"position\":3,\"timings\":[{\"flashColor\":[255,255,255,255],\"flashDuration\":5,\"flashScope\":0,\"frame\":0,\"se\":{\"name\":\"Fire1\",\"pan\":0,\"pitch\":100,\"volume\":90}}]}",
+    "animationconvert_12": "{\"id\":12,\"animation1Hue\":0,\"animation1Name\":\"IT\",\"animation2Hue\":0,\"animation2Name\":\"\",\"frames\":[[],[[13,-288,-78,100,0,0,90,0]],[[13,-288,-78,100,0,0,180,0],[14,-160,-78,100,0,0,90,0]],[[13,-288,-78,100,0,0,255,0],[14,-160,-78,100,0,0,180,0],[15,-32,-78,100,0,0,90,0]],[[13,-288,-78,100,0,0,255,0],[14,-160,-78,100,0,0,255,0],[15,-32,-78,100,0,0,180,0],[16,96,-78,100,0,0,90,0]],[[13,-288,-78,100,0,0,255,0],[14,-160,-78,100,0,0,255,0],[15,-32,-78,100,0,0,255,0],[16,96,-78,100,0,0,180,0],[17,224,-78,100,0,0,90,0]],[[13,-288,-78,100,0,0,255,0],[14,-160,-78,100,0,0,255,0],[15,-32,-78,100,0,0,255,0],[16,96,-78,100,0,0,255,0],[17,224,-78,100,0,0,180,0],[18,352,-78,100,0,0,90,0]],[[13,-288,-78,100,0,0,255,0],[14,-160,-78,100,0,0,255,0],[15,-32,-78,100,0,0,255,0],[16,96,-78,100,0,0,255,0],[17,224,-78,100,0,0,255,0],[18,352,-78,100,0,0,180,0],[19,-192,78,100,0,0,90,0]],[[13,-288,-78,100,0,0,255,0],[14,-160,-78,100,0,0,255,0],[15,-32,-78,100,0,0,255,0],[16,96,-78,100,0,0,255,0],[17,224,-78,100,0,0,255,0],[18,352,-78,100,0,0,255,0],[19,-192,78,100,0,0,180,0],[20,-64,78,100,0,0,90,0]],[[13,-288,-78,100,0,0,255,0],[14,-160,-78,100,0,0,255,0],[15,-32,-78,100,0,0,255,0],[16,96,-78,100,0,0,255,0],[17,224,-78,100,0,0,255,0],[18,352,-78,100,0,0,255,0],[19,-192,78,100,0,0,255,0],[20,-64,78,100,0,0,180,0],[21,64,78,100,0,0,90,0]],[[13,-288,-78,100,0,0,255,0],[14,-160,-78,100,0,0,255,0],[15,-32,-78,100,0,0,255,0],[16,96,-78,100,0,0,255,0],[17,224,-78,100,0,0,255,0],[18,352,-78,100,0,0,255,0],[19,-192,78,100,0,0,255,0],[20,-64,78,100,0,0,255,0],[21,64,78,100,0,0,180,0],[22,192,78,100,0,0,90,0]],[[13,-288,-78,100,0,0,255,0],[14,-160,-78,100,0,0,255,0],[15,-32,-78,100,0,0,255,0],[16,96,-78,100,0,0,255,0],[17,224,-78,100,0,0,255,0],[18,352,-78,100,0,0,255,0],[19,-192,78,100,0,0,255,0],[20,-64,78,100,0,0,255,0],[21,64,78,100,0,0,255,0],[22,192,78,100,0,0,180,0]],[[13,-288,-78,100,0,0,255,0],[14,-160,-78,100,0,0,255,0],[15,-32,-78,100,0,0,255,0],[16,96,-78,100,0,0,255,0],[17,224,-78,100,0,0,255,0],[18,352,-78,100,0,0,255,0],[19,-192,78,100,0,0,255,0],[20,-64,78,100,0,0,255,0],[21,64,78,100,0,0,255,0],[22,192,78,100,0,0,255,0]],[[13,-288,-78,100,0,0,255,0],[14,-160,-78,100,0,0,255,0],[15,-32,-78,100,0,0,255,0],[16,96,-78,100,0,0,255,0],[17,224,-78,100,0,0,255,0],[18,352,-78,100,0,0,255,0],[19,-192,78,100,0,0,255,0],[20,-64,78,100,0,0,255,0],[21,64,78,100,0,0,255,0],[22,192,78,100,0,0,255,0]],[[13,-288,-78,100,0,0,255,0],[14,-160,-78,100,0,0,255,0],[15,-32,-78,100,0,0,255,0],[16,96,-78,100,0,0,255,0],[17,224,-78,100,0,0,255,0],[18,352,-78,100,0,0,255,0],[19,-192,78,100,0,0,255,0],[20,-64,78,100,0,0,255,0],[21,64,78,100,0,0,255,0],[22,192,78,100,0,0,255,0]],[[13,-288,-78,100,0,0,255,0],[14,-160,-78,100,0,0,255,0],[15,-32,-78,100,0,0,255,0],[16,96,-78,100,0,0,255,0],[17,224,-78,100,0,0,255,0],[18,352,-78,100,0,0,255,0],[19,-192,78,100,0,0,255,0],[20,-64,78,100,0,0,255,0],[21,64,78,100,0,0,255,0],[22,192,78,100,0,0,255,0]],[[13,-288,-78,100,0,0,255,0],[14,-160,-78,100,0,0,255,0],[15,-32,-78,100,0,0,255,0],[16,96,-78,100,0,0,255,0],[17,224,-78,100,0,0,255,0],[18,352,-78,100,0,0,255,0],[19,-192,78,100,0,0,255,0],[20,-64,78,100,0,0,255,0],[21,64,78,100,0,0,255,0],[22,192,78,100,0,0,255,0]],[[13,-288,-78,100,0,0,255,0],[14,-160,-78,100,0,0,255,0],[15,-32,-78,100,0,0,255,0],[16,96,-78,100,0,0,255,0],[17,224,-78,100,0,0,255,0],[18,352,-78,100,0,0,255,0],[19,-192,78,100,0,0,255,0],[20,-64,78,100,0,0,255,0],[21,64,78,100,0,0,255,0],[22,192,78,100,0,0,255,0]],[[13,-288,-78,100,0,0,180,0],[14,-160,-78,100,0,0,255,0],[15,-32,-78,100,0,0,255,0],[16,96,-78,100,0,0,255,0],[17,224,-78,100,0,0,255,0],[18,352,-78,100,0,0,255,0],[19,-192,78,100,0,0,255,0],[20,-64,78,100,0,0,255,0],[21,64,78,100,0,0,255,0],[22,192,78,100,0,0,255,0]],[[13,-288,-78,100,0,0,90,0],[14,-160,-78,100,0,0,180,0],[15,-32,-78,100,0,0,255,0],[16,96,-78,100,0,0,255,0],[17,224,-78,100,0,0,255,0],[18,352,-78,100,0,0,255,0],[19,-192,78,100,0,0,255,0],[20,-64,78,100,0,0,255,0],[21,64,78,100,0,0,255,0],[22,192,78,100,0,0,255,0]],[[14,-160,-78,100,0,0,90,0],[15,-32,-78,100,0,0,180,0],[16,96,-78,100,0,0,255,0],[17,224,-78,100,0,0,255,0],[18,352,-78,100,0,0,255,0],[19,-192,78,100,0,0,255,0],[20,-64,78,100,0,0,255,0],[21,64,78,100,0,0,255,0],[22,192,78,100,0,0,255,0]],[[15,-32,-78,100,0,0,90,0],[16,96,-78,100,0,0,180,0],[17,224,-78,100,0,0,255,0],[18,352,-78,100,0,0,255,0],[19,-192,78,100,0,0,255,0],[20,-64,78,100,0,0,255,0],[21,64,78,100,0,0,255,0],[22,192,78,100,0,0,255,0]],[[16,96,-78,100,0,0,90,0],[17,224,-78,100,0,0,180,0],[18,352,-78,100,0,0,255,0],[19,-192,78,100,0,0,255,0],[20,-64,78,100,0,0,255,0],[21,64,78,100,0,0,255,0],[22,192,78,100,0,0,255,0]],[[17,224,-78,100,0,0,90,0],[18,352,-78,100,0,0,180,0],[19,-192,78,100,0,0,255,0],[20,-64,78,100,0,0,255,0],[21,64,78,100,0,0,255,0],[22,192,78,100,0,0,255,0]],[[18,352,-78,100,0,0,90,0],[19,-192,78,100,0,0,180,0],[20,-64,78,100,0,0,255,0],[21,64,78,100,0,0,255,0],[22,192,78,100,0,0,255,0]],[[19,-192,78,100,0,0,90,0],[20,-64,78,100,0,0,180,0],[21,64,78,100,0,0,255,0],[22,192,78,100,0,0,255,0]],[[20,-64,78,100,0,0,90,0],[21,64,78,100,0,0,180,0],[22,192,78,100,0,0,255,0]],[[21,64,78,100,0,0,90,0],[22,192,78,100,0,0,180,0]],[[22,192,78,100,0,0,90,0]]],\"name\":\"Discussione conclusa\",\"position\":3,\"timings\":[{\"flashColor\":[255,255,255,255],\"flashDuration\":5,\"flashScope\":0,\"frame\":0,\"se\":{\"name\":\"clock-tower-bell1\",\"pan\":0,\"pitch\":100,\"volume\":90}}]}",
+    "animationconvert_13": "{\"id\":13,\"animation1Hue\":0,\"animation1Name\":\"IT\",\"animation2Hue\":0,\"animation2Name\":\"\",\"frames\":[[],[[28,-288,0,100,0,0,90,0]],[[28,-288,0,100,0,0,180,0],[7,-160,0,100,0,0,90,0]],[[28,-288,0,100,0,0,255,0],[7,-160,0,100,0,0,180,0],[29,-32,0,100,0,0,90,0]],[[28,-288,0,100,0,0,255,0],[7,-160,0,100,0,0,255,0],[29,-32,0,100,0,0,180,0],[30,96,0,100,0,0,90,0]],[[28,-288,0,100,0,0,255,0],[7,-160,0,100,0,0,255,0],[29,-32,0,100,0,0,255,0],[30,96,0,100,0,0,180,0],[31,224,0,100,0,0,90,0]],[[28,-288,0,100,0,0,255,0],[7,-160,0,100,0,0,255,0],[29,-32,0,100,0,0,255,0],[30,96,0,100,0,0,255,0],[31,224,0,100,0,0,180,0],[32,352,0,100,0,0,90,0]],[[28,-288,0,100,0,0,255,0],[7,-160,0,100,0,0,255,0],[29,-32,0,100,0,0,255,0],[30,96,0,100,0,0,255,0],[31,224,0,100,0,0,255,0],[32,352,0,100,0,0,180,0]],[[28,-288,0,100,0,0,255,0],[7,-160,0,100,0,0,255,0],[29,-32,0,100,0,0,255,0],[30,96,0,100,0,0,255,0],[31,224,0,100,0,0,255,0],[32,352,0,100,0,0,255,0]],[[28,-288,0,100,0,0,255,0],[7,-160,0,100,0,0,255,0],[29,-32,0,100,0,0,255,0],[30,96,0,100,0,0,255,0],[31,224,0,100,0,0,255,0],[32,352,0,100,0,0,255,0]],[[28,-288,0,100,0,0,255,0],[7,-160,0,100,0,0,255,0],[29,-32,0,100,0,0,255,0],[30,96,0,100,0,0,255,0],[31,224,0,100,0,0,255,0],[32,352,0,100,0,0,255,0]],[[28,-288,0,100,0,0,255,0],[7,-160,0,100,0,0,255,0],[29,-32,0,100,0,0,255,0],[30,96,0,100,0,0,255,0],[31,224,0,100,0,0,255,0],[32,352,0,100,0,0,255,0]],[[28,-288,0,100,0,0,255,0],[7,-160,0,100,0,0,255,0],[29,-32,0,100,0,0,255,0],[30,96,0,100,0,0,255,0],[31,224,0,100,0,0,255,0],[32,352,0,100,0,0,255,0]],[[28,-288,0,100,0,0,255,0],[7,-160,0,100,0,0,255,0],[29,-32,0,100,0,0,255,0],[30,96,0,100,0,0,255,0],[31,224,0,100,0,0,255,0],[32,352,0,100,0,0,255,0]],[[28,-288,0,100,0,0,180,0],[7,-160,0,100,0,0,255,0],[29,-32,0,100,0,0,255,0],[30,96,0,100,0,0,255,0],[31,224,0,100,0,0,255,0],[32,352,0,100,0,0,255,0]],[[28,-288,0,100,0,0,90,0],[7,-160,0,100,0,0,180,0],[29,-32,0,100,0,0,255,0],[30,96,0,100,0,0,255,0],[31,224,0,100,0,0,255,0],[32,352,0,100,0,0,255,0]],[[7,-160,0,100,0,0,90,0],[29,-32,0,100,0,0,180,0],[30,96,0,100,0,0,255,0],[31,224,0,100,0,0,255,0],[32,352,0,100,0,0,255,0]],[[29,-32,0,100,0,0,90,0],[30,96,0,100,0,0,180,0],[31,224,0,100,0,0,255,0],[32,352,0,100,0,0,255,0]],[[30,96,0,100,0,0,90,0],[31,224,0,100,0,0,180,0],[32,352,0,100,0,0,255,0]],[[31,224,0,100,0,0,90,0],[32,352,0,100,0,0,180,0]],[[32,352,0,100,0,0,90,0]]],\"name\":\"Avanzamento\",\"position\":3,\"timings\":[{\"flashColor\":[255,255,255,255],\"flashDuration\":5,\"flashScope\":0,\"frame\":0,\"se\":{\"name\":\"Fire1\",\"pan\":0,\"pitch\":100,\"volume\":90}}]}",
+    "animationconvert_14": "{\"id\":14,\"animation1Hue\":0,\"animation1Name\":\"IT\",\"animation2Hue\":0,\"animation2Name\":\"\",\"frames\":[[],[[33,-224,0,100,0,0,90,0]],[[33,-224,0,100,0,0,180,0],[2,-96,0,100,0,0,90,0]],[[33,-224,0,100,0,0,255,0],[2,-96,0,100,0,0,180,0],[26,32,0,100,0,0,90,0]],[[33,-224,0,100,0,0,255,0],[2,-96,0,100,0,0,255,0],[26,32,0,100,0,0,180,0],[17,160,0,100,0,0,90,0]],[[33,-224,0,100,0,0,255,0],[2,-96,0,100,0,0,255,0],[26,32,0,100,0,0,255,0],[17,160,0,100,0,0,180,0],[18,288,0,100,0,0,90,0]],[[33,-224,0,100,0,0,255,0],[2,-96,0,100,0,0,255,0],[26,32,0,100,0,0,255,0],[17,160,0,100,0,0,255,0],[18,288,0,100,0,0,180,0]],[[33,-224,0,100,0,0,255,0],[2,-96,0,100,0,0,255,0],[26,32,0,100,0,0,255,0],[17,160,0,100,0,0,255,0],[18,288,0,100,0,0,255,0]],[[33,-224,0,100,0,0,255,0],[2,-96,0,100,0,0,255,0],[26,32,0,100,0,0,255,0],[17,160,0,100,0,0,255,0],[18,288,0,100,0,0,255,0]],[[33,-224,0,100,0,0,255,0],[2,-96,0,100,0,0,255,0],[26,32,0,100,0,0,255,0],[17,160,0,100,0,0,255,0],[18,288,0,100,0,0,255,0]],[[33,-224,0,100,0,0,255,0],[2,-96,0,100,0,0,255,0],[26,32,0,100,0,0,255,0],[17,160,0,100,0,0,255,0],[18,288,0,100,0,0,255,0]],[[33,-224,0,100,0,0,255,0],[2,-96,0,100,0,0,255,0],[26,32,0,100,0,0,255,0],[17,160,0,100,0,0,255,0],[18,288,0,100,0,0,255,0]],[[33,-224,0,100,0,0,255,0],[2,-96,0,100,0,0,255,0],[26,32,0,100,0,0,255,0],[17,160,0,100,0,0,255,0],[18,288,0,100,0,0,255,0]],[[33,-224,0,100,0,0,180,0],[2,-96,0,100,0,0,255,0],[26,32,0,100,0,0,255,0],[17,160,0,100,0,0,255,0],[18,288,0,100,0,0,255,0]],[[33,-224,0,100,0,0,90,0],[2,-96,0,100,0,0,180,0],[26,32,0,100,0,0,255,0],[17,160,0,100,0,0,255,0],[18,288,0,100,0,0,255,0]],[[2,-96,0,100,0,0,90,0],[26,32,0,100,0,0,180,0],[17,160,0,100,0,0,255,0],[18,288,0,100,0,0,255,0]],[[26,32,0,100,0,0,90,0],[17,160,0,100,0,0,180,0],[18,288,0,100,0,0,255,0]],[[17,160,0,100,0,0,90,0],[18,288,0,100,0,0,180,0]],[[18,288,0,100,0,0,90,0]]],\"name\":\"Votazione\",\"position\":3,\"timings\":[{\"flashColor\":[255,255,255,255],\"flashDuration\":5,\"flashScope\":0,\"frame\":0,\"se\":{\"name\":\"Fire1\",\"pan\":0,\"pitch\":100,\"volume\":90}}]}",
+    "animationconvert_15": "{\"id\":15,\"animation1Hue\":0,\"animation1Name\":\"IT\",\"animation2Hue\":0,\"animation2Name\":\"\",\"frames\":[[],[[33,-176,-39,50,0,0,90,0]],[[33,-176,-39,50,0,0,180,0],[2,-112,-39,50,0,0,90,0]],[[33,-176,-39,50,0,0,255,0],[2,-112,-39,50,0,0,180,0],[26,-48,-39,50,0,0,90,0]],[[33,-176,-39,50,0,0,255,0],[2,-112,-39,50,0,0,255,0],[26,-48,-39,50,0,0,180,0],[17,16,-39,50,0,0,90,0]],[[33,-176,-39,50,0,0,255,0],[2,-112,-39,50,0,0,255,0],[26,-48,-39,50,0,0,255,0],[17,16,-39,50,0,0,180,0],[18,80,-39,50,0,0,90,0]],[[33,-176,-39,50,0,0,255,0],[2,-112,-39,50,0,0,255,0],[26,-48,-39,50,0,0,255,0],[17,16,-39,50,0,0,255,0],[18,80,-39,50,0,0,180,0],[34,144,-39,50,0,0,90,0]],[[33,-176,-39,50,0,0,255,0],[2,-112,-39,50,0,0,255,0],[26,-48,-39,50,0,0,255,0],[17,16,-39,50,0,0,255,0],[18,80,-39,50,0,0,255,0],[34,144,-39,50,0,0,180,0],[27,208,-39,50,0,0,90,0]],[[33,-176,-39,50,0,0,255,0],[2,-112,-39,50,0,0,255,0],[26,-48,-39,50,0,0,255,0],[17,16,-39,50,0,0,255,0],[18,80,-39,50,0,0,255,0],[34,144,-39,50,0,0,255,0],[27,208,-39,50,0,0,180,0],[35,-112,39,50,0,0,90,0]],[[33,-176,-39,50,0,0,255,0],[2,-112,-39,50,0,0,255,0],[26,-48,-39,50,0,0,255,0],[17,16,-39,50,0,0,255,0],[18,80,-39,50,0,0,255,0],[34,144,-39,50,0,0,255,0],[27,208,-39,50,0,0,255,0],[35,-112,39,50,0,0,180,0],[36,-48,39,50,0,0,90,0]],[[33,-176,-39,50,0,0,255,0],[2,-112,-39,50,0,0,255,0],[26,-48,-39,50,0,0,255,0],[17,16,-39,50,0,0,255,0],[18,80,-39,50,0,0,255,0],[34,144,-39,50,0,0,255,0],[27,208,-39,50,0,0,255,0],[35,-112,39,50,0,0,255,0],[36,-48,39,50,0,0,180,0],[6,16,39,50,0,0,90,0]],[[33,-176,-39,50,0,0,255,0],[2,-112,-39,50,0,0,255,0],[26,-48,-39,50,0,0,255,0],[17,16,-39,50,0,0,255,0],[18,80,-39,50,0,0,255,0],[34,144,-39,50,0,0,255,0],[27,208,-39,50,0,0,255,0],[35,-112,39,50,0,0,255,0],[36,-48,39,50,0,0,255,0],[6,16,39,50,0,0,180,0],[37,80,39,50,0,0,90,0]],[[33,-176,-39,50,0,0,255,0],[2,-112,-39,50,0,0,255,0],[26,-48,-39,50,0,0,255,0],[17,16,-39,50,0,0,255,0],[18,80,-39,50,0,0,255,0],[34,144,-39,50,0,0,255,0],[27,208,-39,50,0,0,255,0],[35,-112,39,50,0,0,255,0],[36,-48,39,50,0,0,255,0],[6,16,39,50,0,0,255,0],[37,80,39,50,0,0,180,0],[27,144,39,50,0,0,90,0]],[[33,-176,-39,50,0,0,255,0],[2,-112,-39,50,0,0,255,0],[26,-48,-39,50,0,0,255,0],[17,16,-39,50,0,0,255,0],[18,80,-39,50,0,0,255,0],[34,144,-39,50,0,0,255,0],[27,208,-39,50,0,0,255,0],[35,-112,39,50,0,0,255,0],[36,-48,39,50,0,0,255,0],[6,16,39,50,0,0,255,0],[37,80,39,50,0,0,255,0],[27,144,39,50,0,0,180,0]],[[33,-176,-39,50,0,0,255,0],[2,-112,-39,50,0,0,255,0],[26,-48,-39,50,0,0,255,0],[17,16,-39,50,0,0,255,0],[18,80,-39,50,0,0,255,0],[34,144,-39,50,0,0,255,0],[27,208,-39,50,0,0,255,0],[35,-112,39,50,0,0,255,0],[36,-48,39,50,0,0,255,0],[6,16,39,50,0,0,255,0],[37,80,39,50,0,0,255,0],[27,144,39,50,0,0,255,0]],[[33,-176,-39,50,0,0,255,0],[2,-112,-39,50,0,0,255,0],[26,-48,-39,50,0,0,255,0],[17,16,-39,50,0,0,255,0],[18,80,-39,50,0,0,255,0],[34,144,-39,50,0,0,255,0],[27,208,-39,50,0,0,255,0],[35,-112,39,50,0,0,255,0],[36,-48,39,50,0,0,255,0],[6,16,39,50,0,0,255,0],[37,80,39,50,0,0,255,0],[27,144,39,50,0,0,255,0]],[[33,-176,-39,50,0,0,255,0],[2,-112,-39,50,0,0,255,0],[26,-48,-39,50,0,0,255,0],[17,16,-39,50,0,0,255,0],[18,80,-39,50,0,0,255,0],[34,144,-39,50,0,0,255,0],[27,208,-39,50,0,0,255,0],[35,-112,39,50,0,0,255,0],[36,-48,39,50,0,0,255,0],[6,16,39,50,0,0,255,0],[37,80,39,50,0,0,255,0],[27,144,39,50,0,0,255,0]],[[33,-176,-39,50,0,0,255,0],[2,-112,-39,50,0,0,255,0],[26,-48,-39,50,0,0,255,0],[17,16,-39,50,0,0,255,0],[18,80,-39,50,0,0,255,0],[34,144,-39,50,0,0,255,0],[27,208,-39,50,0,0,255,0],[35,-112,39,50,0,0,255,0],[36,-48,39,50,0,0,255,0],[6,16,39,50,0,0,255,0],[37,80,39,50,0,0,255,0],[27,144,39,50,0,0,255,0]],[[33,-176,-39,50,0,0,255,0],[2,-112,-39,50,0,0,255,0],[26,-48,-39,50,0,0,255,0],[17,16,-39,50,0,0,255,0],[18,80,-39,50,0,0,255,0],[34,144,-39,50,0,0,255,0],[27,208,-39,50,0,0,255,0],[35,-112,39,50,0,0,255,0],[36,-48,39,50,0,0,255,0],[6,16,39,50,0,0,255,0],[37,80,39,50,0,0,255,0],[27,144,39,50,0,0,255,0]],[[33,-176,-39,50,0,0,255,0],[2,-112,-39,50,0,0,255,0],[26,-48,-39,50,0,0,255,0],[17,16,-39,50,0,0,255,0],[18,80,-39,50,0,0,255,0],[34,144,-39,50,0,0,255,0],[27,208,-39,50,0,0,255,0],[35,-112,39,50,0,0,255,0],[36,-48,39,50,0,0,255,0],[6,16,39,50,0,0,255,0],[37,80,39,50,0,0,255,0],[27,144,39,50,0,0,255,0]],[[33,-176,-39,50,0,0,180,0],[2,-112,-39,50,0,0,255,0],[26,-48,-39,50,0,0,255,0],[17,16,-39,50,0,0,255,0],[18,80,-39,50,0,0,255,0],[34,144,-39,50,0,0,255,0],[27,208,-39,50,0,0,255,0],[35,-112,39,50,0,0,255,0],[36,-48,39,50,0,0,255,0],[6,16,39,50,0,0,255,0],[37,80,39,50,0,0,255,0],[27,144,39,50,0,0,255,0]],[[33,-176,-39,50,0,0,90,0],[2,-112,-39,50,0,0,180,0],[26,-48,-39,50,0,0,255,0],[17,16,-39,50,0,0,255,0],[18,80,-39,50,0,0,255,0],[34,144,-39,50,0,0,255,0],[27,208,-39,50,0,0,255,0],[35,-112,39,50,0,0,255,0],[36,-48,39,50,0,0,255,0],[6,16,39,50,0,0,255,0],[37,80,39,50,0,0,255,0],[27,144,39,50,0,0,255,0]],[[2,-112,-39,50,0,0,90,0],[26,-48,-39,50,0,0,180,0],[17,16,-39,50,0,0,255,0],[18,80,-39,50,0,0,255,0],[34,144,-39,50,0,0,255,0],[27,208,-39,50,0,0,255,0],[35,-112,39,50,0,0,255,0],[36,-48,39,50,0,0,255,0],[6,16,39,50,0,0,255,0],[37,80,39,50,0,0,255,0],[27,144,39,50,0,0,255,0]],[[26,-48,-39,50,0,0,90,0],[17,16,-39,50,0,0,180,0],[18,80,-39,50,0,0,255,0],[34,144,-39,50,0,0,255,0],[27,208,-39,50,0,0,255,0],[35,-112,39,50,0,0,255,0],[36,-48,39,50,0,0,255,0],[6,16,39,50,0,0,255,0],[37,80,39,50,0,0,255,0],[27,144,39,50,0,0,255,0]],[[17,16,-39,50,0,0,90,0],[18,80,-39,50,0,0,180,0],[34,144,-39,50,0,0,255,0],[27,208,-39,50,0,0,255,0],[35,-112,39,50,0,0,255,0],[36,-48,39,50,0,0,255,0],[6,16,39,50,0,0,255,0],[37,80,39,50,0,0,255,0],[27,144,39,50,0,0,255,0]],[[18,80,-39,50,0,0,90,0],[34,144,-39,50,0,0,180,0],[27,208,-39,50,0,0,255,0],[35,-112,39,50,0,0,255,0],[36,-48,39,50,0,0,255,0],[6,16,39,50,0,0,255,0],[37,80,39,50,0,0,255,0],[27,144,39,50,0,0,255,0]],[[34,144,-39,50,0,0,90,0],[27,208,-39,50,0,0,180,0],[35,-112,39,50,0,0,255,0],[36,-48,39,50,0,0,255,0],[6,16,39,50,0,0,255,0],[37,80,39,50,0,0,255,0],[27,144,39,50,0,0,255,0]],[[27,208,-39,50,0,0,90,0],[35,-112,39,50,0,0,180,0],[36,-48,39,50,0,0,255,0],[6,16,39,50,0,0,255,0],[37,80,39,50,0,0,255,0],[27,144,39,50,0,0,255,0]],[[35,-112,39,50,0,0,90,0],[36,-48,39,50,0,0,180,0],[6,16,39,50,0,0,255,0],[37,80,39,50,0,0,255,0],[27,144,39,50,0,0,255,0]],[[36,-48,39,50,0,0,90,0],[6,16,39,50,0,0,180,0],[37,80,39,50,0,0,255,0],[27,144,39,50,0,0,255,0]],[[6,16,39,50,0,0,90,0],[37,80,39,50,0,0,180,0],[27,144,39,50,0,0,255,0]],[[37,80,39,50,0,0,90,0],[27,144,39,50,0,0,180,0]],[[27,144,39,50,0,0,90,0]]],\"name\":\"Votazione dei Candidati\",\"position\":3,\"timings\":[{\"flashColor\":[255,255,255,255],\"flashDuration\":5,\"flashScope\":0,\"frame\":0,\"se\":{\"name\":\"Fire1\",\"pan\":0,\"pitch\":100,\"volume\":90}}]}",
+    "animationconvert_16": "{\"id\":16,\"animation1Hue\":0,\"animation1Name\":\"IT\",\"animation2Hue\":0,\"animation2Name\":\"\",\"frames\":[[],[[38,-160,0,50,0,0,90,0]],[[38,-160,0,50,0,0,180,0],[39,-96,0,50,0,0,90,0]],[[38,-160,0,50,0,0,255,0],[39,-96,0,50,0,0,180,0],[32,-32,0,50,0,0,90,0]],[[38,-160,0,50,0,0,255,0],[39,-96,0,50,0,0,255,0],[32,-32,0,50,0,0,180,0],[40,32,0,50,0,0,90,0]],[[38,-160,0,50,0,0,255,0],[39,-96,0,50,0,0,255,0],[32,-32,0,50,0,0,255,0],[40,32,0,50,0,0,180,0],[41,96,0,50,0,0,90,0]],[[38,-160,0,50,0,0,255,0],[39,-96,0,50,0,0,255,0],[32,-32,0,50,0,0,255,0],[40,32,0,50,0,0,255,0],[41,96,0,50,0,0,180,0],[42,160,0,50,0,0,90,0]],[[38,-160,0,50,0,0,255,0],[39,-96,0,50,0,0,255,0],[32,-32,0,50,0,0,255,0],[40,32,0,50,0,0,255,0],[41,96,0,50,0,0,255,0],[42,160,0,50,0,0,180,0]],[[38,-160,0,50,0,0,255,0],[39,-96,0,50,0,0,255,0],[32,-32,0,50,0,0,255,0],[40,32,0,50,0,0,255,0],[41,96,0,50,0,0,255,0],[42,160,0,50,0,0,255,0]],[[38,-160,0,50,0,0,255,0],[39,-96,0,50,0,0,255,0],[32,-32,0,50,0,0,255,0],[40,32,0,50,0,0,255,0],[41,96,0,50,0,0,255,0],[42,160,0,50,0,0,255,0]],[[38,-160,0,50,0,0,255,0],[39,-96,0,50,0,0,255,0],[32,-32,0,50,0,0,255,0],[40,32,0,50,0,0,255,0],[41,96,0,50,0,0,255,0],[42,160,0,50,0,0,255,0]],[[38,-160,0,50,0,0,255,0],[39,-96,0,50,0,0,255,0],[32,-32,0,50,0,0,255,0],[40,32,0,50,0,0,255,0],[41,96,0,50,0,0,255,0],[42,160,0,50,0,0,255,0]],[[38,-160,0,50,0,0,255,0],[39,-96,0,50,0,0,255,0],[32,-32,0,50,0,0,255,0],[40,32,0,50,0,0,255,0],[41,96,0,50,0,0,255,0],[42,160,0,50,0,0,255,0]],[[38,-160,0,50,0,0,255,0],[39,-96,0,50,0,0,255,0],[32,-32,0,50,0,0,255,0],[40,32,0,50,0,0,255,0],[41,96,0,50,0,0,255,0],[42,160,0,50,0,0,255,0]],[[38,-160,0,50,0,0,180,0],[39,-96,0,50,0,0,255,0],[32,-32,0,50,0,0,255,0],[40,32,0,50,0,0,255,0],[41,96,0,50,0,0,255,0],[42,160,0,50,0,0,255,0]],[[38,-160,0,50,0,0,90,0],[39,-96,0,50,0,0,180,0],[32,-32,0,50,0,0,255,0],[40,32,0,50,0,0,255,0],[41,96,0,50,0,0,255,0],[42,160,0,50,0,0,255,0]],[[39,-96,0,50,0,0,90,0],[32,-32,0,50,0,0,180,0],[40,32,0,50,0,0,255,0],[41,96,0,50,0,0,255,0],[42,160,0,50,0,0,255,0]],[[32,-32,0,50,0,0,90,0],[40,32,0,50,0,0,180,0],[41,96,0,50,0,0,255,0],[42,160,0,50,0,0,255,0]],[[40,32,0,50,0,0,90,0],[41,96,0,50,0,0,180,0],[42,160,0,50,0,0,255,0]],[[41,96,0,50,0,0,90,0],[42,160,0,50,0,0,180,0]],[[42,160,0,50,0,0,90,0]]],\"name\":\"Turno finale\",\"position\":3,\"timings\":[{\"flashColor\":[255,255,255,255],\"flashDuration\":5,\"flashScope\":0,\"frame\":0,\"se\":{\"name\":\"Fire1\",\"pan\":0,\"pitch\":100,\"volume\":90}}]}",
+    "animationconvert_18": "{\"id\":18,\"animation1Hue\":0,\"animation1Name\":\"IT\",\"animation2Hue\":0,\"animation2Name\":\"\",\"frames\":[[],[[0,-160,0,50,0,0,90,0]],[[0,-160,0,50,0,0,180,0],[1,-96,0,50,0,0,90,0]],[[0,-160,0,50,0,0,255,0],[1,-96,0,50,0,0,180,0],[2,-32,0,50,0,0,90,0]],[[0,-160,0,50,0,0,255,0],[1,-96,0,50,0,0,255,0],[2,-32,0,50,0,0,180,0],[43,64,0,50,0,0,90,0]],[[0,-160,0,50,0,0,255,0],[1,-96,0,50,0,0,255,0],[2,-32,0,50,0,0,255,0],[43,64,0,50,0,0,180,0],[44,96,0,50,0,0,90,0]],[[0,-160,0,50,0,0,255,0],[1,-96,0,50,0,0,255,0],[2,-32,0,50,0,0,255,0],[43,64,0,50,0,0,255,0],[44,96,0,50,0,0,180,0],[8,160,0,50,0,0,90,0]],[[0,-160,0,50,0,0,255,0],[1,-96,0,50,0,0,255,0],[2,-32,0,50,0,0,255,0],[43,64,0,50,0,0,255,0],[44,96,0,50,0,0,255,0],[8,160,0,50,0,0,180,0]],[[0,-160,0,50,0,0,255,0],[1,-96,0,50,0,0,255,0],[2,-32,0,50,0,0,255,0],[43,64,0,50,0,0,255,0],[44,96,0,50,0,0,255,0],[8,160,0,50,0,0,255,0]],[[0,-160,0,50,0,0,180,0],[1,-96,0,50,0,0,255,0],[2,-32,0,50,0,0,255,0],[43,64,0,50,0,0,255,0],[44,96,0,50,0,0,255,0],[8,160,0,50,0,0,255,0]],[[0,-160,0,50,0,0,90,0],[1,-96,0,50,0,0,180,0],[2,-32,0,50,0,0,255,0],[43,64,0,50,0,0,255,0],[44,96,0,50,0,0,255,0],[8,160,0,50,0,0,255,0]],[[1,-96,0,50,0,0,90,0],[2,-32,0,50,0,0,180,0],[43,64,0,50,0,0,255,0],[44,96,0,50,0,0,255,0],[8,160,0,50,0,0,255,0]],[[2,-32,0,50,0,0,90,0],[43,64,0,50,0,0,180,0],[44,96,0,50,0,0,255,0],[8,160,0,50,0,0,255,0]],[[43,64,0,50,0,0,90,0],[44,96,0,50,0,0,180,0],[8,160,0,50,0,0,255,0]],[[44,96,0,50,0,0,90,0],[8,160,0,50,0,0,180,0]],[[8,160,0,50,0,0,90,0]]],\"name\":\"Scelta delle carte\",\"position\":3,\"timings\":[{\"flashColor\":[255,255,255,255],\"flashDuration\":5,\"flashScope\":0,\"frame\":0,\"se\":{\"name\":\"Fire1\",\"pan\":0,\"pitch\":100,\"volume\":90}}]}",
+    "animationconvert_19": "{\"id\":19,\"animation1Hue\":0,\"animation1Name\":\"IT\",\"animation2Hue\":0,\"animation2Name\":\"\",\"frames\":[[],[[45,-112,0,50,0,0,90,0]],[[45,-112,0,50,0,0,180,0],[46,-48,0,50,0,0,90,0]],[[45,-112,0,50,0,0,255,0],[46,-48,0,50,0,0,180,0],[47,16,0,50,0,0,90,0]],[[45,-112,0,50,0,0,255,0],[46,-48,0,50,0,0,255,0],[47,16,0,50,0,0,180,0],[48,80,0,50,0,0,90,0]],[[45,-112,0,50,0,0,255,0],[46,-48,0,50,0,0,255,0],[47,16,0,50,0,0,255,0],[48,80,0,50,0,0,180,0],[49,144,0,50,0,0,90,0]],[[45,-112,0,50,0,0,255,0],[46,-48,0,50,0,0,255,0],[47,16,0,50,0,0,255,0],[48,80,0,50,0,0,255,0],[49,144,0,50,0,0,180,0]],[[45,-112,0,50,0,0,255,0],[46,-48,0,50,0,0,255,0],[47,16,0,50,0,0,255,0],[48,80,0,50,0,0,255,0],[49,144,0,50,0,0,255,0]],[[45,-112,0,50,0,0,180,0],[46,-48,0,50,0,0,255,0],[47,16,0,50,0,0,255,0],[48,80,0,50,0,0,255,0],[49,144,0,50,0,0,255,0]],[[45,-112,0,50,0,0,90,0],[46,-48,0,50,0,0,180,0],[47,16,0,50,0,0,255,0],[48,80,0,50,0,0,255,0],[49,144,0,50,0,0,255,0]],[[46,-48,0,50,0,0,90,0],[47,16,0,50,0,0,180,0],[48,80,0,50,0,0,255,0],[49,144,0,50,0,0,255,0]],[[47,16,0,50,0,0,90,0],[48,80,0,50,0,0,180,0],[49,144,0,50,0,0,255,0]],[[48,80,0,50,0,0,90,0],[49,144,0,50,0,0,180,0]],[[49,144,0,50,0,0,90,0]]],\"name\":\"Battaglia\",\"position\":3,\"timings\":[{\"flashColor\":[255,255,255,255],\"flashDuration\":5,\"flashScope\":0,\"frame\":0,\"se\":{\"name\":\"Fire1\",\"pan\":0,\"pitch\":100,\"volume\":90}}]}",
+    "animationconvert_22": "{\"id\":22,\"animation1Hue\":0,\"animation1Name\":\"IT\",\"animation2Hue\":0,\"animation2Name\":\"\",\"frames\":[[],[[50,-112,-39,50,0,0,90,0]],[[50,-112,-39,50,0,0,180,0],[51,-48,-39,50,0,0,90,0]],[[50,-112,-39,50,0,0,255,0],[51,-48,-39,50,0,0,180,0],[52,16,-39,50,0,0,90,0]],[[50,-112,-39,50,0,0,255,0],[51,-48,-39,50,0,0,255,0],[52,16,-39,50,0,0,180,0],[3,112,-39,50,0,0,90,0]],[[50,-112,-39,50,0,0,255,0],[51,-48,-39,50,0,0,255,0],[52,16,-39,50,0,0,255,0],[3,112,-39,50,0,0,180,0],[27,144,-39,50,0,0,90,0]],[[50,-112,-39,50,0,0,255,0],[51,-48,-39,50,0,0,255,0],[52,16,-39,50,0,0,255,0],[3,112,-39,50,0,0,255,0],[27,144,-39,50,0,0,180,0],[22,-144,39,50,0,0,90,0]],[[50,-112,-39,50,0,0,255,0],[51,-48,-39,50,0,0,255,0],[52,16,-39,50,0,0,255,0],[3,112,-39,50,0,0,255,0],[27,144,-39,50,0,0,255,0],[22,-144,39,50,0,0,180,0],[53,-80,39,50,0,0,90,0]],[[50,-112,-39,50,0,0,255,0],[51,-48,-39,50,0,0,255,0],[52,16,-39,50,0,0,255,0],[3,112,-39,50,0,0,255,0],[27,144,-39,50,0,0,255,0],[22,-144,39,50,0,0,255,0],[53,-80,39,50,0,0,180,0],[37,-16,39,50,0,0,90,0]],[[50,-112,-39,50,0,0,255,0],[51,-48,-39,50,0,0,255,0],[52,16,-39,50,0,0,255,0],[3,112,-39,50,0,0,255,0],[27,144,-39,50,0,0,255,0],[22,-144,39,50,0,0,255,0],[53,-80,39,50,0,0,255,0],[37,-16,39,50,0,0,180,0],[47,48,39,50,0,0,90,0]],[[50,-112,-39,50,0,0,255,0],[51,-48,-39,50,0,0,255,0],[52,16,-39,50,0,0,255,0],[3,112,-39,50,0,0,255,0],[27,144,-39,50,0,0,255,0],[22,-144,39,50,0,0,255,0],[53,-80,39,50,0,0,255,0],[37,-16,39,50,0,0,255,0],[47,48,39,50,0,0,180,0],[54,112,39,50,0,0,90,0]],[[50,-112,-39,50,0,0,255,0],[51,-48,-39,50,0,0,255,0],[52,16,-39,50,0,0,255,0],[3,112,-39,50,0,0,255,0],[27,144,-39,50,0,0,255,0],[22,-144,39,50,0,0,255,0],[53,-80,39,50,0,0,255,0],[37,-16,39,50,0,0,255,0],[47,48,39,50,0,0,255,0],[54,112,39,50,0,0,180,0],[32,176,39,50,0,0,90,0]],[[50,-112,-39,50,0,0,255,0],[51,-48,-39,50,0,0,255,0],[52,16,-39,50,0,0,255,0],[3,112,-39,50,0,0,255,0],[27,144,-39,50,0,0,255,0],[22,-144,39,50,0,0,255,0],[53,-80,39,50,0,0,255,0],[37,-16,39,50,0,0,255,0],[47,48,39,50,0,0,255,0],[54,112,39,50,0,0,255,0],[32,176,39,50,0,0,180,0]],[[50,-112,-39,50,0,0,255,0],[51,-48,-39,50,0,0,255,0],[52,16,-39,50,0,0,255,0],[3,112,-39,50,0,0,255,0],[27,144,-39,50,0,0,255,0],[22,-144,39,50,0,0,255,0],[53,-80,39,50,0,0,255,0],[37,-16,39,50,0,0,255,0],[47,48,39,50,0,0,255,0],[54,112,39,50,0,0,255,0],[32,176,39,50,0,0,255,0]],[[50,-112,-39,50,0,0,255,0],[51,-48,-39,50,0,0,255,0],[52,16,-39,50,0,0,255,0],[3,112,-39,50,0,0,255,0],[27,144,-39,50,0,0,255,0],[22,-144,39,50,0,0,255,0],[53,-80,39,50,0,0,255,0],[37,-16,39,50,0,0,255,0],[47,48,39,50,0,0,255,0],[54,112,39,50,0,0,255,0],[32,176,39,50,0,0,255,0]],[[50,-112,-39,50,0,0,255,0],[51,-48,-39,50,0,0,255,0],[52,16,-39,50,0,0,255,0],[3,112,-39,50,0,0,255,0],[27,144,-39,50,0,0,255,0],[22,-144,39,50,0,0,255,0],[53,-80,39,50,0,0,255,0],[37,-16,39,50,0,0,255,0],[47,48,39,50,0,0,255,0],[54,112,39,50,0,0,255,0],[32,176,39,50,0,0,255,0]],[[50,-112,-39,50,0,0,255,0],[51,-48,-39,50,0,0,255,0],[52,16,-39,50,0,0,255,0],[3,112,-39,50,0,0,255,0],[27,144,-39,50,0,0,255,0],[22,-144,39,50,0,0,255,0],[53,-80,39,50,0,0,255,0],[37,-16,39,50,0,0,255,0],[47,48,39,50,0,0,255,0],[54,112,39,50,0,0,255,0],[32,176,39,50,0,0,255,0]],[[50,-112,-39,50,0,0,255,0],[51,-48,-39,50,0,0,255,0],[52,16,-39,50,0,0,255,0],[3,112,-39,50,0,0,255,0],[27,144,-39,50,0,0,255,0],[22,-144,39,50,0,0,255,0],[53,-80,39,50,0,0,255,0],[37,-16,39,50,0,0,255,0],[47,48,39,50,0,0,255,0],[54,112,39,50,0,0,255,0],[32,176,39,50,0,0,255,0]],[[50,-112,-39,50,0,0,180,0],[51,-48,-39,50,0,0,255,0],[52,16,-39,50,0,0,255,0],[3,112,-39,50,0,0,255,0],[27,144,-39,50,0,0,255,0],[22,-144,39,50,0,0,255,0],[53,-80,39,50,0,0,255,0],[37,-16,39,50,0,0,255,0],[47,48,39,50,0,0,255,0],[54,112,39,50,0,0,255,0],[32,176,39,50,0,0,255,0]],[[50,-112,-39,50,0,0,90,0],[51,-48,-39,50,0,0,180,0],[52,16,-39,50,0,0,255,0],[3,112,-39,50,0,0,255,0],[27,144,-39,50,0,0,255,0],[22,-144,39,50,0,0,255,0],[53,-80,39,50,0,0,255,0],[37,-16,39,50,0,0,255,0],[47,48,39,50,0,0,255,0],[54,112,39,50,0,0,255,0],[32,176,39,50,0,0,255,0]],[[51,-48,-39,50,0,0,90,0],[52,16,-39,50,0,0,180,0],[3,112,-39,50,0,0,255,0],[27,144,-39,50,0,0,255,0],[22,-144,39,50,0,0,255,0],[53,-80,39,50,0,0,255,0],[37,-16,39,50,0,0,255,0],[47,48,39,50,0,0,255,0],[54,112,39,50,0,0,255,0],[32,176,39,50,0,0,255,0]],[[52,16,-39,50,0,0,90,0],[3,112,-39,50,0,0,180,0],[27,144,-39,50,0,0,255,0],[22,-144,39,50,0,0,255,0],[53,-80,39,50,0,0,255,0],[37,-16,39,50,0,0,255,0],[47,48,39,50,0,0,255,0],[54,112,39,50,0,0,255,0],[32,176,39,50,0,0,255,0]],[[3,112,-39,50,0,0,90,0],[27,144,-39,50,0,0,180,0],[22,-144,39,50,0,0,255,0],[53,-80,39,50,0,0,255,0],[37,-16,39,50,0,0,255,0],[47,48,39,50,0,0,255,0],[54,112,39,50,0,0,255,0],[32,176,39,50,0,0,255,0]],[[27,144,-39,50,0,0,90,0],[22,-144,39,50,0,0,180,0],[53,-80,39,50,0,0,255,0],[37,-16,39,50,0,0,255,0],[47,48,39,50,0,0,255,0],[54,112,39,50,0,0,255,0],[32,176,39,50,0,0,255,0]],[[22,-144,39,50,0,0,90,0],[53,-80,39,50,0,0,180,0],[37,-16,39,50,0,0,255,0],[47,48,39,50,0,0,255,0],[54,112,39,50,0,0,255,0],[32,176,39,50,0,0,255,0]],[[53,-80,39,50,0,0,90,0],[37,-16,39,50,0,0,180,0],[47,48,39,50,0,0,255,0],[54,112,39,50,0,0,255,0],[32,176,39,50,0,0,255,0]],[[37,-16,39,50,0,0,90,0],[47,48,39,50,0,0,180,0],[54,112,39,50,0,0,255,0],[32,176,39,50,0,0,255,0]],[[47,48,39,50,0,0,90,0],[54,112,39,50,0,0,180,0],[32,176,39,50,0,0,255,0]],[[54,112,39,50,0,0,90,0],[32,176,39,50,0,0,180,0]],[[32,176,39,50,0,0,90,0]]],\"name\":\"Metodi di salvataggio\",\"position\":3,\"timings\":[{\"flashColor\":[255,255,255,255],\"flashDuration\":5,\"flashScope\":0,\"frame\":0,\"se\":{\"name\":\"Fire1\",\"pan\":0,\"pitch\":100,\"volume\":90}}]}",
     "makebalancebattleshorizontal": "1",
     "totaltokensdisplayx": "764",
     "totaltokensdisplayy": "372",
@@ -12314,6 +13473,7 @@
     "firsttrialcode": "3141",
     "dtext_発言力：": "Carisma: ",
     "name_サラ": "Sara",
+    "name_サラ（モニター）": "Sara (schermo)",
     "name_\\c[10]サラ": "\\C[10]Sara",
     "name_ジョー": "Joe",
     "name_ジョー？": "Joe?",
@@ -12322,17 +13482,23 @@
     "name_スーツの男": "Uomo in completo",
     "name_ミシマ": "Mishima",
     "name_ミシマ？": "Mishima?",
+    "name_ミシマの声": "Voce di Mishima",
     "name_パンクな女": "Ragazza punk",
     "name_レコ": "Reko",
+    "name_レコの声": "Voce di Reko",
+    "name_左のレコ": "Reko sinistra",
+    "name_右のレコ": "Reko destra",
     "name_エプロンの男": "Uomo col grembiule",
     "name_カイ": "Kai",
     "name_金髪の男": "Uomo biondo",
     "name_ケイジ": "Keiji",
     "name_ケイジ？": "Keiji?",
+    "name_ケイジの声": "Voce di Keiji",
     "name_メグミ": "Megumi",
     "name_怯えた女の子": "Ragazzina terrorizzata",
     "name_怯えた女": "Ragazzina terrorizzata",
     "name_カンナ": "Kanna",
+    "name_カンナのai": "IA di Kanna",
     "name_クギエ": "Kugie",
     "name_ニット帽の男": "Uomo col berretto",
     "name_ソウ": "Sou",
@@ -12343,12 +13509,16 @@
     "name_巨漢": "Gigante",
     "name_qタロウ": "Q-taro",
     "name_qタロウさん": "Q-taro",
+    "name_qタロウの声": "Voce di Q-taro",
+    "name_qタロウのai": "IA di Q-taro",
     "name_変わった子供": "Bambino strano",
     "name_ギン": "Gin",
     "name_シマシマの男": "Uomo vestito a righe",
     "name_ゴンベエ": "Gonbee",
     "name_ゴンゾウ": "Gonbee",
     "name_アリス": "Alice",
+    "name_アリスの声": "Voce di Alice",
+    "name_アリスのai": "IA di Alice",
     "name_\\c[2]アリス": "\\C[2]Alice",
     "name_人形": "Bambola",
     "name_ホエミー": "Tina",
@@ -12356,10 +13526,13 @@
     "name_トト": "Rikon",
     "name_ノエル": "Pongo",
     "name_ノエルの頭部": "Testa di Pongo",
+    "name_セイ": "Sei",
     "name_ハンナキー": "Mosa",
+    "name_受付人形": "Bambola receptionist",
     "name_ガシュー": "Gashu",
     "name_ヒヨリソウ": "Sou Hiyori",
     "name_\\n[4]": "\\N[4]",
+    "name_\\n[4]の声": "Voce di \\N[4]",
     "name_アンズ": "Anzu",
     "name_ランマル": "Ranmaru",
     "name_クルマダ": "Kurumada",
@@ -12367,6 +13540,8 @@
     "name_ハヤサカ": "Hayasaka",
     "name_ヒナコ": "Hinako",
     "name_シン": "Shin",
+    "name_シンのai": "IA di Shin",
+    "name_怪物？": "Mostro?",
     "name_アルジー": "Mastro",
     "name_トウコ": "Touko",
     "name_ジン": "Jin",
@@ -12391,6 +13566,8 @@
     "name_みんな": "Tutti",
     "name_モニターの男": "Uomo sullo schermo",
     "name_モニターの女": "Donna sullo schermo",
+    "name_母": "Mamma",
+    "name_父": "Papà",
     "name_人工知能": "IA",
     "name_怪物": "Mostro",
     "name_パソコン": "Computer",
@@ -12398,6 +13575,12 @@
     "name_２通目のメール": "2ª e-mail",
     "name_３通目のメール": "3ª e-mail",
     "name_４通目のメール": "4ª e-mail",
+    "name_送信メール①": "E-mail inviata 1",
+    "name_送信メール②": "E-mail inviata 2",
+    "name_送信メール③": "E-mail inviata 3",
+    "name_送信メール④": "E-mail inviata 4",
+    "name_受信メール": "E-mail ricevuta",
+    "name_送信メール": "E-mail inviata",
     "name_タブレット": "Tablet",
     "name_ファイル": "File",
     "name_ヒヨリ": "Hiyori",
