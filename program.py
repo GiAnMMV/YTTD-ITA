@@ -7,9 +7,13 @@ HEADERLENGTH = 16
 KEY = 0xd41d8cd98f00b204e9800998ecf8427e
 SIGNATURE = b'RPGMV\x00\x00\x00'
 VER = b'\x00\x03\x01'
-GAMEDIR = 'C:\\Program Files (x86)\\Steam\\steamapps\\common\\yttd\\'
+GAMEDIR = 'C:\\Program Files (x86)\\Steam\\steamapps\\common\\yttd\\www\\'
 
 def decrypter(encImg):
+    if type(encImg) is str:
+        with open(encImg, 'rb') as f:
+            encImg = f.read()
+            f.close()
     if encImg[:HEADERLENGTH] != (SIGNATURE+VER).ljust(16, b'\x00'):
         raise Exception('Header is wrong.')
 
@@ -26,7 +30,7 @@ def json2cte(file):
 def cte2json(file):
     return json.dumps(json.loads(lzstring.LZString().decompressFromBase64(B64)), indent=2, ensure_ascii=False)
 
-loop = True
+loop = (__name__ == '__main__')
 while loop:
     os.system('cls' if os.name == 'nt' else 'clear')
     if len(sys.argv) <= 1:
@@ -42,8 +46,8 @@ while loop:
         for d in os.walk('www\\img'):
             for i in d[2]:
                 if i.endswith('.png'):
-                    path = os.path.join(d[0], i)
-                    f = open(path, 'rb')
+                    path = os.path.join(d[0][4:], i)
+                    f = open('www\\' + path, 'rb')
                     rpgmvp = encrypter(f.read())
                     f.close()
 
@@ -53,7 +57,7 @@ while loop:
                     print(GAMEDIR + path[:-4] + '.rpgmvp')
                     f.close()
     if 't' in sel:
-        path = 'www\\languages\\IT.json'
+        path = 'languages\\IT.json'
         f = open(path, 'r', encoding='utf-8')
         cte = json2cte(f.read())
         f.close()
