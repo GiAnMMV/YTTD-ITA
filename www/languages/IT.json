@@ -7176,6 +7176,93 @@
       "\\.\"Anche in questo piano ci sono un sacco di passaggi...\n Sembra facile perdersi.\""
     ]
   },
+  "map76": {
+    "2-1-message": [
+      "\\.\\C[3]Keiji si sta prendendo cura della ferita di Gin.",
+      "\\.\"È meno profonda di quel che pensavo.\n Fa male, Gin?\"",
+      "\\.\"No, ma voglio che sia\n la sorellona Sara a curarmela, miao!\"",
+      "\\.\"Oh, beh... Hai toccato un tasto dolente.\"",
+      "\\.\"Ferite come questa sono a posto\n una volta lavate con acqua e fasciate.\"",
+      "\\.\"Ah! Ho un unguento che accelera\n la riparazione cellulare,\n quindi se usate anche quello guarirà prima...\"",
+      "\\.\"Sicura che non sia pericoloso?\"",
+      "\\.\"..........\"",
+      "\\.\"Ho capito. Guardate qui.\"",
+      "\\.\\C[3]Mosa si è fatta un taglio alla mano,\nfacendola sanguinare.",
+      "\\.\"E poi lo applicate così nella zona della ferita...!\"",
+      "\\.\"Visto? Non è pericoloso, no?\"",
+      "\\.\"...\"",
+      "\\.\"L'hai dimostrato sul tuo stesso corpo, eh...\n Chiaro.\"",
+      "\\.\"Eheheh...\""
+    ],
+    "2-2-message": [
+      "\\.\\C[3]Gin e Keiji stanno bisbigliando.",
+      "\\.\"Sig. poliziotto... Sig. poliziotto...\"",
+      "\\.\"Che c'è?\"",
+      "\\.\"Va bene se do questo alla sorellona Sara, miao...?\"",
+      "\\.\"...!\"",
+      "\\.\"No... Meglio non darglielo.\"",
+      "\\.\\C[4](Chissà di che stanno parlando...?)",
+      "\\.\"Ehm... Hai qualcosa per me...?\"",
+      "\\.\"Miaooo?! Non è niente, bau!!\"",
+      "\\.\\C[4](Mmh...? Beh, molto sospetto.)",
+      "\\.\"Fammi vedere, Gin.\"",
+      "\\.\"No... Non posso, bau...\"",
+      "\\.\"Dai, per favore...\"",
+      "\\.\\C[3]Nella sua mano c'era...",
+      "\\.\"...È...!!\"",
+      "\\.\"Quella cosa... che aveva il fratellone Joe... bau.\"",
+      "\\.\\C[4](Il portachiavi a forma di cane che\n teneva sempre nel taschino...)",
+      "\\.\\C[4](Quello... che avevo dato a Joe.)",
+      "\\.\"L'ho... raccolto io poco dopo, bau...\"",
+      "\\.\"Non volevo che lo prendessero i rapitori, miao...\"",
+      "\\.\"Scusa, bau...\"",
+      "\\C[10]Le allucinazioni sono peggiorate di 30.",
+      "\\.\"..........\"",
+      "\\.\"Gin, sei stato bravo.\"",
+      "\\.\"Posso prenderlo io...?\"",
+      "\\.\"Ti... ha fatto piacere, miao?\"",
+      "\\.\"Sì...\"",
+      "\\.\"È un oggetto molto prezioso per me...\"",
+      "\\.\"Grazie, Gin.\"",
+      "\\.\"Meno male, miao! Eheheh...\"",
+      "\\.\"..........\"",
+      "\\.\"...Niente da fare, direi.\"",
+      "\\.\\C[4](Non so cosa mi stia nascondendo,\n ma farò finta di non aver visto nulla...)",
+      "\\.\"Non è niente, miao...\n Non farci caso, bau...\"",
+      "\\.\"Va bene. Mi fido di te, Gin.\"",
+      "\\.\"G-Già! Eheheh...\"",
+      "\\.\"Beh, Gin l'abbiamo curato, ora andiamocene.\"",
+      "\\.\"D'accordo.\"",
+      "\\.\"Se vi fate male... Tornate pure quando volete.\"",
+      "\\.\"...\"",
+      "\\.\"...Va bene. Faremo attenzione.\"",
+      "\\.\"..........\"",
+      "\\.\"...Grazie.\n Useremo ancora questo posto.\"",
+      "\\.\"Non abbiamo motivo di ringraziarla, miao!\n È per colpa di questi tizi che ci facciamo male, bau!\"",
+      "\\.\"...Mi scuso.\"",
+      "\\.\\C[4](Grr...!\n Di chi pensa che sia la colpa\n se ci facciamo male in primo luogo...?!)",
+      "\\.\\C[3]Ho fulminato Mosa con lo sguardo.",
+      "\\.\"...Iii... scusa...\"",
+      "\\.\\C[3]Ma sono stata presa alla sprovvista\ndai modi timidi di Mosa.",
+      "\\.\\C[4](...Non dovrei farmi prendere dalla rabbia...)",
+      "\\.\"Su, andiamo.\"",
+      "\\.\\C[3]Ci siamo lasciati l'infermeria alle spalle.",
+      "\\.\"..........\"",
+      "\\.\\C[4](Mmh? Reko sta guardando verso di me,\n facendomi cenno di avvicinarmi...)",
+      "\\.\\C[4](Mi chiedo di che si tratti...)"
+    ],
+    "2-2-choice": [
+      "Guarda cosa nasconde\nFai finta di non aver visto",
+      "Va bene\nGrazie\n.........."
+    ],
+    "5-1-message": [
+      "\\.\\C[3]Mosa sta guardando verso di me.",
+      "\\.\"Prendetevela pure con comodo...\""
+    ],
+    "7-1-message": [
+      "\\.\\C[3]Una cassetta di primo soccorso\ncon delle attrezzature mediche."
+    ]
+  },
   "map77": {
     "2-1-message": [
       "\\.\"...!\"",
@@ -7248,6 +7335,11 @@
     "17-6-message": [
       "\"'Sto corridoio... È più complicato d'un labirinto.\""
     ],
+    "18-1-message": [
+      "\\.\"Anche qui ci sono delle schegge di legno.\n Mi chiedo se l'arma con cui è stato colpito Sou\n sia stata presa da qui...\"",
+      "\\.\"E-Ehi... Possiamo riposarci un attimo?\"",
+      "\\.\"...Non riusciremo a esplorare praticamente niente\n se continuiamo a riposare così tanto.\""
+    ],
     "64-1-message": [
       "\"Non farò fa' a Pongo quel che glie pare...!\""
     ],
@@ -7319,6 +7411,34 @@
       "\\.\"Vorrei poter ritornare presto alla gattabuia vera...\"",
       "\\.\\C[4](Non mi piace la parola \"gattabuia\"...)"
     ],
+    "2-7-message": [
+      "\\.\"Il mio cuore non è ancora pronto!!\n Concedimi dell'altro tempo!!\"",
+      "\\.\"Mpf... Sara Chidouin...\n Che ne è dei gettoni di Reko?\"",
+      "\\.\\C[4](Mh...)",
+      "\\.\"Te li ho presi.\"",
+      "\\.\"Ah?! Così in fretta?!\"",
+      "\\.\"Ho rispettato la mia parte della promessa.\n Ora tocca a te, Alice.\"",
+      "\\.\"Aspetta, per favore!\n Mi serve più tempo per prepararmi psicologicamente!!\"",
+      "\\.\"Allora intanto te li do.\n Dimmi tu quando sei pronto.\"",
+      "\\.\\C[3]Consegnati ad Alice 20 Gettoni di Reko.",
+      "\\.\"D... D'accordo. Ce li ho io...\n Sono un uomo, non fuggirò...!\"",
+      "\\.\"Come...?! Mostrameli!!\"",
+      "\\.\"Ah, scherzavo.\"",
+      "\\.\"Ti userò come straccio per pulire, hai capito?!\"",
+      "\\.\"Mmh, sembra tu stia avendo più difficoltà\n di quanto le tue precedenti affermazioni\n davano a intendere.\"",
+      "\\.\"Sì. Ma li otterrò sicuramente.\"",
+      "\\.\"Argh... H-Ho capito.\n Anch'io... mi preparerò psicologicamente.\"",
+      "\\.\"Muoversi con queste manette, catene\n e la palla di ferro è una tale seccatura...\n È logorante.\"",
+      "\\.\\C[4](Già... Le indossa sempre.)",
+      "\\.\"Non mi fa certo piacere!!\n Se a qualcuno \"stanno bene\" vuol dire\n che è una persona orribile, no?!\"",
+      "\\.\\C[4](Non gli è piaciuto.)",
+      "\\.\"Ho tentato, ma... non c'era niente da fare.\"",
+      "\\.\\C[4](Allora ci ha provato...?)"
+    ],
+    "2-7-choice": [
+      "Li ho ottenuti\nAncora non ce li ho",
+      "Ti stanno bene\nRompiamole"
+    ],
     "17-1-message": [
       "\\.\"Mpf... Cosa c'è, Sara Chidouin?\"",
       "\\.\"Alice.\"",
@@ -7333,11 +7453,46 @@
     "18-1-message": [
       "\\.\"Anche se è un esterno finto, non è male, miao!\""
     ],
+    "18-3-message": [
+      "\\.\"Sorellona Sara, hai raccolto abbastanza stelle, miao?\"",
+      "\\.\"Intendi le Medaglie di superamento?\n ...Non ancora.\"",
+      "\\.\"Allora verrò con te a fare\n le attrazioni quando vuoi, bau!\"",
+      "\\.\\C[4](Gin ne ha raccolte abbastanza...?)"
+    ],
+    "21-1-message": [
+      "\\.\"...Da quand'è che il mio corpo è così...?\""
+    ],
     "22-1-message": [
       "\\.\"Ehm... non c'è ragione di avere paura.\"",
       "\\.\"C-Certo! N-Non ho per niente paura!\n A-Allora, di che volevi p-parlare...?\"",
       "\\.\"Ehm, sì, ecco... Volevo sapere, ehm...\n con chi hai scambiato i gettoni...\"",
       "\\.\\C[4](Alice... Sta facendo del suo meglio per ottenere\n i gettoni di Reko...!\\! Da persone che non siano Reko!)"
+    ],
+    "22-3-message": [
+      "\\.\"Probabilmente... mi converrebbe comprare un premio...\"",
+      "\\.\"Ah... Sara.\"",
+      "\\.\"Sara, come stai usando i gettoni che hai ottenuto?\"",
+      "\\.\"I miei gettoni...?\"",
+      "\\.\"Sì, certo... Non sappiamo nulla sul Gioco Mortale,\n quindi è meglio ottenere più informazioni...\"",
+      "\\.\"Davvero...?\n Neanch'io so come dovrei usarli...\n Sono incerta sul da farsi.\"",
+      "\\.\"Anche se... Probabilmente comprando i premi\n potremo saperne di più sul Gioco Mortale...\"",
+      "\\.\"Davvero?\n Anche Gin sta facendo come te...\"",
+      "\\.\"Io ne ho pochi, quindi...\n Mi chiedo se dovrei andare al Banco cambiapremi\n per cercare informazioni sul Gioco Mortale.\"",
+      "\\.\"Dovrei comprare un premio, magari...?\""
+    ],
+    "22-3-choice": [
+      "Li sto scambiando\nNon li ho usati\nNon ne ho ottenuti"
+    ],
+    "22-5-message": [
+      "\\.\"Ehm... Ho poche Medaglie di superamento...\n Quindi mi chiedevo se potessi scambiarmene un po'...\"",
+      "\\.\"Ah, non ne hai ancora abbastanza...?\n Ma... chiederlo a me, fra tutti...\"",
+      "\\.\"Non voglio causare problemi a Sara o a Reko...\"",
+      "\\.\"D-D'accordo... Ci penserò su.\""
+    ],
+    "22-6-message": [
+      "\\.\"Grazie... Grazie mille davvero.\"",
+      "\\.\"Mpf... Buon per te.\"",
+      "\\.\\C[4](Che succede?\n Sono più in confidenza rispetto a prima...)"
     ]
   },
   "map80": {
@@ -7346,7 +7501,7 @@
       "\\.\"Ehi?! E questo chi è?!\"",
       "\\.\\C[3]Non muove un muscolo,\ncome se non avesse fatto caso a noi.",
       "\\.\"Quella è la bambola receptionist.\n E questo è il Banco cambiapremi!\"",
-      "\\.\"Safalin, comincia a distribuirli.\"",
+      "\\.\"Mosa, comincia a distribuirli.\"",
       "\\.\"D'accooordo...\"",
       "\\C[3]A tutti è stato consegnato una specie di portafogli.",
       "\\.\\C[4](Dentro ci sono... gettoni con la mia faccia...?)",
@@ -9281,6 +9436,11 @@
     "53-0-choice": [
       "Usa l'oggetto selezionato\nAnnulla",
       "Joe\nQualcuno di affidabile\nQualcuno da tenere d'occhio\nMuoviti da sola"
+    ],
+    "55-0-message": [
+      "\\.\"Sei pronta per la discussione?\"",
+      "\"Sono sempre dalla tua parte.\"",
+      "\"Allora dovrò aspettare un pochino di più.\""
     ],
     "55-0-choice": [
       "Sì\nNo"
@@ -13701,8 +13861,8 @@
       "\\.\\C[4](Quindi vorrebbero scambiarli così\n invece di distribuirli equamente...)",
       "\\.\"Sara, puoi scegliere tu il verso che preferisci!\"",
       "\\.\"Sì. E se non ti va di scambiare,\n lo faremo solo noi due, quindi non preoccuparti.\"",
-      "\\.\\C[4](Vorrei ricevere gettoni da coloro\n che voglio accumularli...)",
-      "\\.\\C[4](Ho detto ad Alice che l'avrei aiutato\n a raccogliere i gettoni di Reko, ma...)",
+      "\\.\\C[4](Vorrei ricevere gettoni da coloro\n che vogliono accumularli...)",
+      "\\.\\C[4](Ho detto ad Alice che l'avrei aiutato\n a raccogliere i gettoni di Reko, però...)",
       "\\.\\C[4](E se ottieni 50 dei gettoni di qualcuno\n puoi vedere le sue informazioni personali, giusto?)",
       "\\.\\C[4](Mh... A chi dovrei darli...\n e da chi dovrei riceverli?)",
       "\"Do i miei gettoni a Nao.\n Reko, posso avere i tuoi?\"",
@@ -13779,7 +13939,7 @@
       "\\.\"Ma mia sorella...\"",
       "\\.\"Non era sempre gentile quando l'ho conosciuta.\"",
       "\\.\\C[4](Quando l'ha conosciuta...?)",
-      "\\.\"...Kanna.\n Tu e tua sorella non avete legami di sangue...?\"",
+      "\\.\"...Kanna.\n Tu e tua sorella non siete imparentate...?\"",
       "\\.\"...Già...\"",
       "\\.\"Sono stata gentile sin dall'inizio,\n quindi direi che ho vinto io.\"",
       "\\.\"Ah... Dici anche cose strane come mia sorella...\"",
@@ -13843,7 +14003,54 @@
     "385-0-choice": [
       "Tratta\nSenti l'offerta in breve\nAnnulla",
       "Non preoccuparti\nTi senti in colpa?\nDovresti riflettere",
-      null
+      "Non siete imparentate?\nDirei che ho vinto io"
+    ],
+    "387-0-message": [
+      "\\.\"Bauuuuu! Che male, miao...\"",
+      "\\.\"C-Che c'è, Gin?!\"",
+      "\\.\"Noi due siamo andati a fare un'attrazione,\n ma non sono riuscito a proteggerlo abbastanza...\"",
+      "\\.\"Sorellona Sara! S-Sto bene, miao!\n È solo un graffio, bau!\"",
+      "\\.\"Ma... stai sanguinando!\"",
+      "\\.\"Posso leccarci sopra, bau...\"",
+      "\\.\"Sarebbe carino se si potessero curare le ferite\n qui da qualche parte...\"",
+      "\\.\"Ehm...\"",
+      "\\.\"Vorreste andare... all'infermeria?\"",
+      "\\.\"T-Tu che vuoi?! Va' via, bau!\"",
+      "\\.\"M-Ma... Se la ferita non verrà medicata\n farà infezione...\"",
+      "\\.\"Non hai il diritto di preoccuparti per me,\n signora bibita al melone! Miao!\"",
+      "\\.\"*sniff*... Fornire cure mediche ai partecipanti\n è solo parte del mio lavoro, sai...\"",
+      "\\.\"Mmh, non posso certo crederti così facilmente.\"",
+      "\\.\"O sei disposta a giurarlo, Mosa?\"",
+      "\\.\"Giuro... Giuro che non gli arrecherò alcun danno...\n Non mi rimengerò la parola.\"",
+      "\\.\"...Mmh.\"",
+      "\\.\"Non mi fido di lei, bau! Mi arrabbierei se\n rimodellasse il mio corpo per rendermi\n una specie di superuomo, miao!!\"",
+      "\\.\"Ehi, sembra una figata.\"",
+      "\\.\"Fallo TU se ci tieni tanto, miao!\"",
+      "\\.\"Non voglio forzarti, ma...\n Sono certa che necessiti di cure...\"",
+      "\\.\\C[4](Che si fa...?)",
+      "\\.\"Proviamo a fidarci di Mosa.\"",
+      "\\.\"Sorellona Sara! Sei seria, miao?!\"",
+      "\\.\"Sì. Se cercherà di fare cose brutte\n ci saremo io e Keiji a proteggerti.\"",
+      "\\.\"Mi sta bene.\"",
+      "\\.\"Eheheh, grazie milleee...\"",
+      "\\.\"Non riesco a fidarmi di Mosa.\"",
+      "\\.\"*sniff*...\"",
+      "\\.\"Ma ti chiedo di guidarci a questa infermeria.\"",
+      "\\.\"...Aha. Se davvero c'è un'infermeria\n potremo curarlo noi stessi.\"",
+      "\\.\"Sì! Se vi sta bene...\"",
+      "\\.\"Prego, da questa parte.\"",
+      "\\.\"Questa è l'infermeria.\"",
+      "\\.\"Cos'è questo posto, miao?!\n Porta all'esterno, bau?!\"",
+      "\\.\"Aah... no, tutto ciò che sembra l'\"esterno\"\n è un'immagine proiettata sulle vetrine.\"",
+      "\\.\"Un'immagine...?\"",
+      "\\.\"Sì! Al momento è mostrato un rilassante\n paesaggio tropicale! È di vostro gradimento?\"",
+      "\\.\"Oh... È vero, si sta proprio bene.\n Mi pare che anche l'aria condizionata\n sia stata regolata alla perfezione.\"",
+      "\\.\"Eheheh, sei molto attento.\n In effetti ho allestito io stessa questa stanza...\n La uso anche come laboratorio...\"",
+      "\\.\"Ehm... Dunque, possiamo curare Gin?\"",
+      "\\.\"Ah... sì...\n Le attrezzature mediche sono qui...\""
+    ],
+    "387-0-choice": [
+      "Fidati di Mosa\nNon fidarti di Mosa"
     ],
     "389-0-message": [
       null,
@@ -14906,6 +15113,11 @@
       "\\.\"Argh...!!\"",
       "\\.\\C[4](Cos'è stato...)",
       "\\.\\C[4](Calma... Devo stare calma...)"
+    ],
+    "604-0-message": [
+      "\\.\"Arggh...!!\"",
+      "\\.\\C[4](Cos'è stato, di punto in bianco...?!)",
+      "\\.\\C[4](Un'allucinazione... Meglio ignorarla...)"
     ]
   },
   "actors-1": {
