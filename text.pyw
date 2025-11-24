@@ -10,6 +10,7 @@ from io import BytesIO
 import pyglet
 import os.path
 import sys
+import win32clipboard as w32cb
 
 GAMEDIR = 'C:\\Program Files (x86)\\Steam\\steamapps\\common\\yttd\\www\\'
 
@@ -41,6 +42,37 @@ def edit(b):
     elif not b and edited:
         root.title(root.title()[1:])
     edited = b
+
+
+CUSTOM_FORMAT_ID = 9999
+def get_clipboard(formatted=True):
+    clipboard_dict = {}
+    
+    w32cb.OpenClipboard()
+    
+    cf = [w32cb.EnumClipboardFormats(0)]
+    while cf[-1]:
+        cf.append(w32cb.EnumClipboardFormats(cf[-1]))
+    cf.pop()
+    
+    res = ''
+    if CUSTOM_FORMAT_ID in cf and formatted:
+        res = w32cb.GetClipboardData(CUSTOM_FORMAT_ID).decode('utf-8')
+    elif w32cb.CF_UNICODETEXT in cf:
+        res = w32cb.GetClipboardData(w32cb.CF_UNICODETEXT)
+    elif w32cb.CF_TEXT in cf:
+        res = w32cb.GetClipboardData(w32cb.CF_TEXT).decode('utf-8')
+
+    w32cb.CloseClipboard()
+    return res
+
+def set_clipboard(txt_rich, txt_plain):
+	w32cb.OpenClipboard()
+	w32cb.EmptyClipboard()
+	w32cb.SetClipboardData(w32cb.CF_TEXT, txt_plain.encode('utf-8'))
+	w32cb.SetClipboardData(w32cb.CF_UNICODETEXT, txt_plain)
+	w32cb.SetClipboardData(CUSTOM_FORMAT_ID, txt_rich.encode('utf-8'))
+	w32cb.CloseClipboard()
 
 root = tk.Tk()
 root.title('Text Editor')
@@ -246,8 +278,9 @@ root.bind_class('cursor', '<<CursorMoved>>', update_all)
 def text_copy(event):
     text = event.widget
     if text.tag_nextrange('sel', '1.0'):
-        root.clipboard_clear()
-        root.clipboard_append(get_text(text, 'sel.first', 'sel.last'))
+        txt_rich = get_text(text, 'sel.first', 'sel.last')
+        txt_plain = text.selection_get().replace('\u035C', '')
+        set_clipboard(txt_rich, txt_plain)
 root.bind_class('Text', '<<Copy>>', text_copy)
 
 def text_paste(event):
@@ -259,18 +292,15 @@ def text_paste(event):
 
     undo_new('inserted')
     beg = text.index('insert')
-    set_text(root.clipboard_get(), 'insert', text)
+    set_text(get_clipboard(not (event.state & 1)), 'insert', text)
     text.tag_add('inserted', beg, 'insert')
     cursor_moved(event)
 root.bind_class('Text', '<<Paste>>', text_paste)
+root.bind_class('Text', '<Control-V>', text_paste)
 
 def text_cut(event):
-    text = event.widget
-    if text.tag_nextrange('sel', '1.0'):
-        root.clipboard_clear()
-        root.clipboard_append(get_text(text, 'sel.first', 'sel.last'))
-        text_removed(event)
-        cursor_moved(event)
+    text_copy(event)
+    text_delete(event)
 root.bind_class('Text', '<<Cut>>', text_cut)
 
 def text_backspace(event):
