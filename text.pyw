@@ -9,6 +9,7 @@ from program import decrypter
 from io import BytesIO
 import pyglet
 import os.path
+import sys
 
 GAMEDIR = 'C:\\Program Files (x86)\\Steam\\steamapps\\common\\yttd\\www\\'
 
@@ -30,10 +31,6 @@ negative_colors = ('#000000', '#000000', '#000000', '#000000', '#000000', '#0000
 hidden = {}
 edited = False
 
-undo_stack = []
-redo_stack = []
-undo_lastaction = ''
-
 pyglet.options['win32_gdi_font'] = True
 pyglet.font.add_file(GAMEDIR + 'fonts\\mplus-1m-regular.ttf')
 
@@ -50,16 +47,31 @@ root.title('Text Editor')
 root.minsize(800, 600)
 root.resizable(False, False)
 
+#ttk.Style().theme_use('default')
+
 icons = Image.open(BytesIO(decrypter(GAMEDIR + 'img\\system\\IconSet.rpgmvp')))
 iconsW, iconsH = (i//32 for i in icons.size)
 iconImages = {}
 
-text = tk.Text(root, width=56, height=4, wrap='none', name='text')
-text.config(font=('M+ 1m regular', -28), bg='black', fg='white', insertbackground='white')
-text.bindtags(('.text', 'Text', 'cursor', '.', 'all'))
-text.pack()
+texts = [0,0]
 
-text.tag_config('hidden', elide=1)
+for a in range(2):
+    texts[a] = tk.Text(root, width=56, height=4, wrap='none', name=f'text{a}')
+    texts[a].config(font=('M+ 1m regular', -28), bg='black', fg='white', insertbackground='white')
+    texts[a].bindtags(('.text', 'Text', 'cursor', '.', 'all'))
+    texts[a].pack()
+
+    texts[a].tag_config('hidden', elide=1)
+
+    for c in range(len(colors)):
+        texts[a].tag_config('C'+str(c), foreground=colors[c])
+
+    texts[a].tag_config('removed', elide=1)
+    texts[a].tag_config('inserted')
+    
+    texts[a].undo_stack = []
+    texts[a].redo_stack = []
+    texts[a].undo_lastaction = ''
 
 color = tk.IntVar(root, 0, 'color')
 size = tk.IntVar(root, 28, 'size')
@@ -73,6 +85,7 @@ hidden_box_2.config(font=('Courier', -20), width=5)
 hidden_box_2.pack()
 
 def hidden_box_enter(event):
+    text = texts[0]
     undo_new('inserted')
     beg = text.index('insert')
     
@@ -90,34 +103,28 @@ def hidden_box_enter(event):
 hidden_box.bind('<Return>', hidden_box_enter)
 hidden_box_2.bind('<Return>', hidden_box_enter)
 
-
-for c in range(len(colors)):
-    text.tag_config('C'+str(c), foreground=colors[c])
-
 sizes = []
 def set_size(s):
     if not s in sizes:
-        text.tag_config('size'+str(s), font=('M+ 1m regular', -s))
+        for text in texts:
+            text.tag_config('size'+str(s), font=('M+ 1m regular', -s))
         sizes.append(s)
     size.set(s)
     return s
 
-def change_text(dialog):
-    global undo_stack
-    global redo_stack
-    global undo_lastaction
+def change_text(dialog, text=texts[0]):
     for h in list(hidden):
         del hidden[h]
     text.delete('1.0', 'end')
     color.set(0)
     size.set(28)
-    undo_stack = []
-    redo_stack = []
-    undo_lastaction = ''
-    set_text(dialog, tk.END)
+    text.undo_stack = []
+    text.redo_stack = []
+    text.undo_lastaction = ''
+    set_text(dialog, tk.END, text)
 
 reg = re.compile(r'([\$\.\|\^!><\{\}\\]|([A-Z]+))(?(2)\[([^\[\]]+)\]|)', re.I)
-def insert_hidden(code, param='', index=tk.INSERT):
+def insert_hidden(code, param='', index=tk.INSERT, text=texts[0]):
     match code.upper():
         case '\\':
             text.insert(index, '\\', ('C'+str(color.get()), 'size'+str(size.get())))
@@ -148,7 +155,7 @@ def insert_hidden(code, param='', index=tk.INSERT):
             if param:
                 text.insert(index, f'[{param}]', 'hidden')
 
-def set_text(dialog, index):
+def set_text(dialog, index, text=texts[0]):
     dialog = dialog.replace('\\', '\x1b');
     dialog = dialog.replace('\x1b\x1b', '\\');
 
@@ -158,13 +165,15 @@ def set_text(dialog, index):
             l += 1
             code, _, param = reg.findall(dialog, l)[0]
             l += len(reg.match(dialog, l)[0])
-            insert_hidden(code, param, index)
+            insert_hidden(code, param, index, text)
         else:
             text.insert(index, dialog[l], ('C'+str(color.get()), 'size'+str(size.get())))
             l += 1
 
 change_text('\\.Ciao, come \\C[10]stai\\C[0]?\\!\\!\nIo \\fs[40]benone\\}, grazie!\\I[16]')
-def get_text(beg = '1.0', end = 'end-1c', tags = True):
+change_text('\\.Hi, how are you \\C[10]doin\'\\C[0]?\\!\\!\nI\'m \\fs[40]real\\} good, thanks!\\I[16]', texts[1])
+texts[1].config(state="disabled")
+def get_text(text, beg = '1.0', end = 'end-1c', tags = True):
     if text.compare(end, '==', 'end'):
         end += '-1c'
     
@@ -210,7 +219,7 @@ def get_text(beg = '1.0', end = 'end-1c', tags = True):
                 res += a[1].replace('\u035C', '').replace('\\', '\\\\')
     return res
 
-def update_tags():
+def update_tags(text=texts[0]):
     global color
     global size
     
@@ -220,7 +229,7 @@ def update_tags():
         elif i[:4] == 'size':
             size.set(i[4:])
 
-def update_hidden():
+def update_hidden(text=texts[0]):
     hidden_box.delete('@0', tk.END)
     hidden_box_2.delete('@0', tk.END)
     if text.get('insert-1displayindices') == '\u035C' and text.index('insert') != '1.0':
@@ -232,72 +241,70 @@ def update_hidden():
 def update_all(*event):
     update_tags()
     update_hidden()
-text.bind_class('cursor', '<<CursorMoved>>', update_all)
+root.bind_class('cursor', '<<CursorMoved>>', update_all)
 
 def text_copy(event):
+    text = event.widget
     if text.tag_nextrange('sel', '1.0'):
         root.clipboard_clear()
-        root.clipboard_append(get_text('sel.first', 'sel.last'))
-text.bind_class('Text', '<<Copy>>', text_copy)
+        root.clipboard_append(get_text(text, 'sel.first', 'sel.last'))
+root.bind_class('Text', '<<Copy>>', text_copy)
 
 def text_paste(event):
-    global undo_stack
+    text = event.widget
     color.set(0)
     size.set(28)
     if text.tag_nextrange('sel', '1.0'):
-        text_removed()
+        text_removed(event)
 
     undo_new('inserted')
     beg = text.index('insert')
-    set_text(root.clipboard_get(), 'insert')
+    set_text(root.clipboard_get(), 'insert', text)
     text.tag_add('inserted', beg, 'insert')
-    cursor_moved()
-text.bind_class('Text', '<<Paste>>', text_paste)
+    cursor_moved(event)
+root.bind_class('Text', '<<Paste>>', text_paste)
 
 def text_cut(event):
+    text = event.widget
     if text.tag_nextrange('sel', '1.0'):
         root.clipboard_clear()
-        root.clipboard_append(get_text('sel.first', 'sel.last'))
-        text_removed()
-        cursor_moved()
-text.bind_class('Text', '<<Cut>>', text_cut)
+        root.clipboard_append(get_text(text, 'sel.first', 'sel.last'))
+        text_removed(event)
+        cursor_moved(event)
+root.bind_class('Text', '<<Cut>>', text_cut)
 
 def text_backspace(event):
-    global undo_stack
+    text = event.widget
     undo_new('backspaced')
     if text.tag_nextrange('sel', '1.0'):
-        text_removed()
-        cursor_moved()
+        text_removed(event)
+        cursor_moved(event)
     else:
         text.tag_add('removed', 'insert-1displayindices', 'insert')
     update_all()
-text.bind_class('Text', '<BackSpace>', text_backspace)
+root.bind_class('Text', '<BackSpace>', text_backspace)
 
 def text_delete(event):
+    text = event.widget
     if text.tag_nextrange('sel', '1.0'):
-        text_removed()
-        cursor_moved()
+        text_removed(event)
+        cursor_moved(event)
     else:
         undo_new('deleted')
         text.tag_add('removed', 'insert', 'insert+1displayindices')
         text.mark_set('insert', 'removed.last')
-text.bind_class('Text', '<Delete>', text_delete)
+root.bind_class('Text', '<Delete>', text_delete)
 
 def add_hidden_1(event):
     hidden_box.delete('@0', tk.END)
     hidden_box.focus_set()
-text.bind_class('Text', '<\\>', add_hidden_1)
+root.bind_class('Text', '<\\>', add_hidden_1)
 
-text.unbind_class('Text', '<<PasteSelection>>')
-text.unbind_class('Text', '<Control-Button-1>')
+root.unbind_class('Text', '<<PasteSelection>>')
+root.unbind_class('Text', '<Control-Button-1>')
 
-text.tag_config('removed', elide=1)
-text.tag_config('inserted')
-def undo_new(action):
-    global undo_stack
-    global undo_lastaction
-    global redo_stack
-    res = undo_lastaction != action
+def undo_new(action, text=texts[0]):
+    res = text.undo_lastaction != action
     if res:
         last0 = last1 = None
         if text.tag_nextrange('removed', '1.0'):
@@ -310,17 +317,19 @@ def undo_new(action):
             text.tag_remove('inserted', beg, end)
             last1 = (beg, end, text.dump(beg, end), text.tag_names(beg))
         if last0 or last1:
-            undo_stack.append((last0, last1))
-            if redo_stack:
-                redo_stack = []
-        undo_lastaction = action
+            text.undo_stack.append((last0, last1))
+            if text.redo_stack:
+                text.redo_stack = []
+        text.undo_lastaction = action
     return res
 
-def cursor_moved(*event):
-    undo_new('moved')
-text.bind_class('Text', '<<CursorMoved>>', cursor_moved)
+def cursor_moved(event):
+    text = event.widget
+    undo_new('moved', text)
+root.bind_class('Text', '<<CursorMoved>>', cursor_moved)
 
-def text_removed(*event):
+def text_removed(event):
+    text = event.widget
     undo_new('inserted')
     beg = text.index('sel.first')
     end = text.index('sel.last')
@@ -330,27 +339,26 @@ def text_removed(*event):
     text.tag_add('removed', beg, end)
     text.tag_add('sel2', beg, end)
     text.mark_set('insert', end)
-text.bind_class('Text', '<<TextRemoved>>', text_removed)
+root.bind_class('Text', '<<TextRemoved>>', text_removed)
 
-def text_inserted(*event):
+def text_inserted(event):
     undo_new('inserted')
-    text.tag_add('inserted', 'insert-1displayindices', 'insert')
-text.bind_class('Text', '<<TextInserted>>', text_inserted)
+    event.widget.tag_add('inserted', 'insert-1displayindices', 'insert')
+root.bind_class('Text', '<<TextInserted>>', text_inserted)
 
 
-def text_undo_redo(action):
+def text_undo_redo(action, event):
     #Undo: True
     #Redo: False
-    global undo_stack
-    global redo_stack
-    cursor_moved()
+    text = event.widget
+    cursor_moved(event)
     if action:
-        stack = undo_stack
-        stack2 = redo_stack
+        stack = text.undo_stack
+        stack2 = text.redo_stack
         n0, n1 = 0, 1
     else:
-        stack = redo_stack
-        stack2 = undo_stack
+        stack = text.redo_stack
+        stack2 = text.undo_stack
         n0, n1 = 1, 0
     
     if len(stack):
@@ -375,14 +383,25 @@ def text_undo_redo(action):
                     case 'text':
                         text.insert(t[2], t[1], tuple(tags))
     update_all()
-text.bind_class('Text', '<<Undo>>', lambda i=1: text_undo_redo(True))
-text.bind_class('Text', '<<Redo>>', lambda i=1: text_undo_redo(False))
+
+def text_undo(event):
+    text_undo_redo(True, event)
+root.bind_class('Text', '<<Undo>>', text_undo)
+
+def text_redo(event):
+    text_undo_redo(False, event)
+root.bind_class('Text', '<<Redo>>', text_redo)
 
 
-text.bind('<Alt-q>', lambda i=0: text.tag_config('removed', elide = 0, underline = 1))
-text.bind('<Alt-KeyRelease-q>', lambda i=0: text.tag_config('removed', elide = 1, underline = 0))
+def show_hide_elided_text(event):
+    if event.type == tk.EventType.KeyPress:
+        event.widget.tag_config('hidden', elide = 0, underline = 1)
+    elif event.type == tk.EventType.KeyRelease:
+        event.widget.tag_config('hidden', elide = 1, underline = 0)
+root.bind_class('Text', '<Alt-q>', show_hide_elided_text)
+root.bind_class('Text', '<Alt-KeyRelease-q>', show_hide_elided_text)
 
-text.tk.eval('''
+root.tk.eval('''
 proc ::tk::TextInsert {w s} {
     if {$s eq "" || [$w cget -state] eq "disabled"} {
 	return
@@ -444,6 +463,11 @@ bind Text <<SelectAll>> {
     %W tag add sel 1.0 end-1c
     %W mark set insert 1.0
     event generate %W <<CursorMoved>>
+
+    tk::CancelRepeat
+    set anchorname [tk::TextAnchor %W]
+    set cur [tk::TextClosestGap %W %x %y]
+    catch {%W mark set $anchorname sel.last}
 }
 
 bind Text <<PrevChar>> {
@@ -463,7 +487,7 @@ bind Text <<NextChar>> {
 
 ''')
 
-def change_size(n):
+def change_size(n, text=texts[0]):
     try:
         sel_start, sel_end = text.tag_ranges('sel')
         for t in text.tag_names():
@@ -560,27 +584,28 @@ class Tree():
         elif i in self.item1:
             return self.item1[i]
 
-    def __delchildren(self):
-        for a in dict(self.item2):
-            if type(self[a]) is Tree:
-                self[a].__delchildren()
-            del self.item2[a]
-            self.update(a)
-    
-    def __delitem__(self, i):
-        if i in self.item2:
+    def __delitem__(self, indexes):
+        def __delchildren(self, i):
             if type(self[i]) is Tree:
-                self[i].__delchildren()
-            obj = self
-            ind = i
-            while obj:
-                if (type(obj[ind]) is Tree and not obj[ind].item2) or type(obj[ind]) is str:
-                    del obj.item2[ind]
-                obj.update(ind)
-                try: ind = list(obj.parent.item1.keys())[list(obj.parent.item1.values()).index(obj)]
-                except: pass
-                obj = obj.parent
+                for a in dict(self[i].item2):
+                    __delchildren(self[i], a)
+            del self.item2[i]
             self.update(i)
+
+        if type(indexes) is not list:
+             indexes = (indexes,)
+
+        for i in indexes:
+            if i in self.item2:
+                __delchildren(self, i)
+
+        obj = self
+        while obj.parent:
+            ind = list(obj.parent.item1.keys())[list(obj.parent.item1.values()).index(obj)]
+            obj = obj.parent
+            if not obj[ind].item2 and ind in obj.item2:
+                del obj.item2[ind]
+            obj.update(ind)
     
     def __setitem__(self, i, v):
         obj = self
@@ -679,9 +704,12 @@ class Tree():
                         tree.detach(self.children[a])
                 else:
                     if ((lang[a].find(s) + 1 and search_case_var.get()) or
-                        (lang[a].lower().find(s.lower()) + 1 and not search_case_var.get())):
+                        (lang[a].lower().find(s.lower()) + 1 and not search_case_var.get()) or
+                        (re.search(s, lang[a]) and search_regex_var.get() and search_case_var.get()) or
+                        (re.search(s, lang[a], re.I)) and search_regex_var.get() and not search_case_var.get()):
                         res += 1
                     else:
+                        #tree.selection_remove(self.children[a])
                         tree.detach(self.children[a])
             else:
                 tree.detach(self.children[a])
@@ -699,13 +727,14 @@ class Tree():
 
     searching = False
         
-tree = ttk.Treeview(root, selectmode='extended', columns=['value', 'search'], name='tree', height=32)
+tree = ttk.Treeview(root, selectmode='browse', columns=['value', 'search'], name='tree', height=24)
 tree.yview_scroll = True
 tree.column('value', width=600)
 tree.column('search', width=30)
 tree['displaycolumns'] = 'value'
 tree.tag_configure('completed', background='light green')
 tree.tag_configure('translated', background='gold')
+tree.editing = False
 t = Tree(JSON, JSON_IT, '', None)
 tree.pack()
 
@@ -729,19 +758,27 @@ def destroy_search_window(event):
 
 search_window = None
 search_case_var = tk.BooleanVar()
+search_regex_var = tk.BooleanVar()
 search_lang = tk.IntVar()
 def create_search_window(event):
     global search_window
     if not search_window:
-        search_window = tk.Toplevel(root)
+        search_window = tk.Toplevel(root, name='search_window')
+        search_window.title('Search...')
+        search_window.resizable(False, False)
+        search_window.wm_attributes('-toolwindow', True)
         
-        search_entry = tk.Entry(search_window)
+        search_entry = tk.Entry(search_window, name='search_entry')
         search_entry.pack()
         search_entry.bind('<Return>', search_binding)
 
         global search_case_var
-        search_case = tk.Checkbutton(search_window, text='Match case', variable = search_case_var)
+        search_case = tk.Checkbutton(search_window, text='Case sensitive', variable = search_case_var)
         search_case.pack()
+
+        global search_regex_var
+        search_regex = tk.Checkbutton(search_window, text='Regular expression', variable = search_regex_var)
+        search_regex.pack()
         
         global search_lang
         search_radio1 = tk.Radiobutton(search_window, text='Translated', variable = search_lang, value = 0)
@@ -749,46 +786,88 @@ def create_search_window(event):
         search_radio2 = tk.Radiobutton(search_window, text='Original', variable = search_lang, value = 1)
         search_radio2.pack(side = tk.LEFT)
         
-        search_entry.focus_set()
-        
         search_window.bind('<Destroy>', destroy_search_window)
+    search_window.tk.call('focus', '.search_window.search_entry')
 tree.bind_class('Treeview', '<Control-f>', create_search_window)
 
+def focus(event):
+    if tree.editing and root.focus_get() == tree:
+        cursor_moved(event)
+        t, i = Tree.ids[tree.editing]
+        t[i] = get_text(texts[0])
+        tree.editing = False
+        edit(True)
+root.bind_class('Text', '<FocusOut>', focus)
+
 def open_dialog(event):
-    change_text(Tree.__getitem__(*Tree.focus()))
-tree.tag_bind('string', '<Return>', open_dialog)
-tree.tag_bind('string', '<Double-Button-1>', open_dialog)
+    if tree.tag_has('string', tree.focus()):
+        t, i = Tree.focus()
+        texts[0].config(state="normal")
+        change_text(t[i])
+        texts[1].config(state="normal")
+        change_text(t.item1[i], texts[1])
+        texts[1].config(state="disabled")
+        tree.editing = tree.focus()
+    else:
+        for a in range(2):
+            texts[a].config(state="normal")
+            change_text('', texts[a])
+            texts[a].config(state="disabled")
+        tree.editing = False
+tree.bind('<<TreeviewSelect>>', open_dialog)
+
+def edit_dialog(event):
+    texts[0].focus_set()
+    texts[0].event_generate('<<SelectAll>>')
+tree.tag_bind('string', '<Return>', edit_dialog)
+tree.tag_bind('string', '<Double-Button-1>', edit_dialog)
 
 def set_dialog(event):
-    cursor_moved()
-    for a in Tree.selection():
-        Tree.__setitem__(*a, get_text())
-    tree.focus_set()
-    edit(True)
-text.bind_class('Text', '<Control-Return>', set_dialog)
+    if tree.editing:
+        tree.focus(tree.next(tree.editing) or tree.editing)
+        tree.see(tree.focus())
+        tree.selection_set(tree.focus())
+        text = texts[0]
+        cursor_moved(event)
+        tree.focus_set()
+root.bind_class('Text', '<Control-Return>', set_dialog)
+
+def esc_dialog(event):
+    if tree.editing:
+        tree.editing = False
+        tree.selection_set(tree.focus())
+        cursor_moved(event)
+        tree.focus_set()
+root.bind_class('Text', '<Escape>', esc_dialog)
 
 def del_dialog(event):
     for a in Tree.selection():
         Tree.__delitem__(*a)
     edit(True)
+    open_dialog(event)
 tree.tag_bind('string', '<BackSpace>', del_dialog)
 tree.tag_bind('string', '<Delete>', del_dialog)
 tree.bind_class('Treeview', '<BackSpace>', del_dialog)
 
+
+def select(f):
+    selection = tree.selection()
+    if len(selection) < 2:
+        tree.cur_sel = tree.focus()
+    new = f(tree.cur_sel)
+    if new:
+        tree.selection_add(new)
+        if new in selection:
+            tree.selection_remove(tree.cur_sel)
+        tree.see(new)
+        tree.cur_sel = new
+
 def select_down(event):
-    if tree.next(tree.focus()) in tree.selection():
-        tree.selection_toggle(tree.focus())
-    tree.selection_add(tree.next(tree.focus()))
-    tree.focus(tree.next(tree.focus()) or tree.focus())
-    tree.see(tree.focus())
+    select(tree.next)
 tree.bind_class('Treeview', '<<SelectNextLine>>', select_down)
 
 def select_up(event):
-    if tree.prev(tree.focus()) in tree.selection():
-        tree.selection_toggle(tree.focus())
-    tree.selection_add(tree.prev(tree.focus()))
-    tree.focus(tree.prev(tree.focus()) or tree.focus())
-    tree.see(tree.focus())
+    select(tree.prev)
 tree.bind_class('Treeview', '<<SelectPrevLine>>', select_up)
 
 def select_toggle(event):
@@ -806,6 +885,7 @@ def select_all(event):
     tree.focus(children[-1])
 tree.bind_class('Treeview', '<<SelectAll>>', select_all)
 
+#---------------------------#
 
 def save(*event):
     d = t.extract()
@@ -816,10 +896,10 @@ def save(*event):
 root.bind('<Control-s>', save)
 
 def exported_save(*event):
-    save()
     with open(GAMEDIR + 'languages\\IT.cte', 'w') as f:
         f.write(lzstring.LZString().compressToBase64(json.dumps(t.extract_merged())))
         f.close()
+    save()
 root.bind('<Control-S>', exported_save)
 
 def on_close():
@@ -830,6 +910,14 @@ def on_close():
     if m is not None:
         if m is True:
             exported_save()
+
+        if sys.platform == 'win32':
+            from ctypes import windll
+            u32 = windll.user32
+            u32.OpenClipboard(0)
+            u32.GetClipboardData(1)
+            u32.CloseClipboard()
+
         root.destroy()
 root.protocol('WM_DELETE_WINDOW',on_close)
 
