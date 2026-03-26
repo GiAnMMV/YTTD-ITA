@@ -116,6 +116,28 @@ hidden_box_2 = ttk.Spinbox(root, name='hidden_box_2')
 hidden_box_2.config(font=('Courier', -20), width=5)
 hidden_box_2.pack()
 
+
+text_mode = True
+def toggle_text_mode(event):
+    global text_mode
+    text_mode = not text_mode
+    texts[0].event_generate('<<CursorMoved>>')
+    texts[1].config(state="normal")
+    for text in texts:
+        if text_mode:
+            s = text.get('1.0', 'end-1c')
+            change_text(s, text)
+            root.bind_class('Text', '<\\>', add_hidden_1)
+        else:
+            text_mode = True
+            s = get_text(text)
+            text_mode = False
+            text.delete('1.0', 'end')
+            text.insert('1.0', s)
+            root.unbind_class('Text', '<\\>')
+    texts[1].config(state="disabled")
+root.bind('<Alt-a>', toggle_text_mode)
+
 def hidden_box_enter(event):
     text = texts[0]
     undo_new('inserted')
@@ -157,6 +179,9 @@ def change_text(dialog, text=texts[0]):
 
 reg = re.compile(r'([\$\.\|\^!><\{\}\\]|([A-Z]+))(?(2)\[([^\[\]]+)\]|)', re.I)
 def insert_hidden(code, param='', index=tk.INSERT, text=texts[0]):
+    if not text_mode:
+        text.insert(index, '\\' + code + (param and f'[{param}]'))
+        return
     match code.upper():
         case '\\':
             text.insert(index, '\\', ('C'+str(color.get()), 'size'+str(size.get())))
@@ -188,8 +213,9 @@ def insert_hidden(code, param='', index=tk.INSERT, text=texts[0]):
                 text.insert(index, f'[{param}]', 'hidden')
 
 def set_text(dialog, index, text=texts[0]):
-    dialog = dialog.replace('\\', '\x1b');
-    dialog = dialog.replace('\x1b\x1b', '\\');
+    dialog = dialog.replace('\\n', '\n') \
+    .replace('\\', '\x1b') \
+    .replace('\x1b\x1b', '\x1b\\')
 
     l = 0
     while l < len(dialog):
@@ -206,6 +232,8 @@ change_text('\\.Ciao, come \\C[10]stai\\C[0]?\\!\\!\nIo \\fs[40]benone\\}, grazi
 change_text('\\.Hi, how are you \\C[10]doin\'\\C[0]?\\!\\!\nI\'m \\fs[40]real\\} good, thanks!\\I[16]', texts[1])
 texts[1].config(state="disabled")
 def get_text(text, beg = '1.0', end = 'end-1c', tags = True):
+    if not text_mode:
+        return text.get(beg, end)
     if text.compare(end, '==', 'end'):
         end += '-1c'
     
@@ -402,11 +430,11 @@ def text_undo_redo(action, event):
             text.delete(l1[0], l1[1])
 
         if l0:
-            tags = list(l0[3])
+            tags = set(l0[3])
             for t in l0[2]:
                 match t[0]:
                     case 'tagon':
-                        tags.append(t[1].replace('sel2', 'sel'))
+                        tags.add(t[1].replace('sel2', 'sel'))
                     case 'tagoff':
                         try: tags.remove(t[1].replace('sel2', 'sel'))
                         except: pass
@@ -566,7 +594,7 @@ def open_colorpicker():
     colorpicker.geometry(f'+{x}+{y}')
 color_button.config(command = open_colorpicker)
 
-def change_color(n, win=None):
+def change_color(n, win=None, text=texts[0]):
     try:
         sel_start, sel_end = text.tag_ranges('sel')
         for t in text.tag_names():
@@ -636,6 +664,7 @@ class Tree():
             if not obj[ind].item2 and ind in obj.item2:
                 del obj.item2[ind]
             obj.update(ind)
+        update_heading()
     
     def __setitem__(self, i, v):
         obj = self
@@ -647,7 +676,7 @@ class Tree():
                 obj.item2[ind] = v
             obj.update(ind)
             try: ind = list(obj.parent.item1.keys())[list(obj.parent.item1.values()).index(obj)]
-            except: pass
+            except: update_heading()
             obj = obj.parent
         self.update(i)
     
@@ -656,6 +685,23 @@ class Tree():
     
     def __repr__(self):
         return f'{self.item2}'
+
+    def count_strings(self, original=False):
+        res = 0
+        if original:
+            if hasattr(self, 'total_strings'):
+                return self.total_strings
+            _dict = dict(self.item1)
+        else:
+            _dict = dict(self.item2)
+        for a in _dict:
+            if isinstance(self[a], Tree):
+                res += self[a].count_strings(original)
+            else:
+                res += 1
+        if original:
+            self.total_strings = res
+        return res
     
     def extract(self):
         if not self.item2:
@@ -686,7 +732,7 @@ class Tree():
     def update(self, i):
         tags = []
         if type(self[i]) is not Tree:
-            values = '{'+self[i].replace('\n', '\u21b5')+'}'
+            values = self[i].replace('\n', '\u21b5')
             tags.append('string')
             if i in self.item2:
                 tags.append('completed')
@@ -698,9 +744,10 @@ class Tree():
             try: l2 = len(self.item1[i].completed)
             except: l2 = 0
             if self[i].type is dict:
-                values = f'{{{{{l2}/{l1}}}}}'
+                values = f'{{{l2}/{l1}}}'
             elif self[i].type is list:
                 values = f'[{l2}/{l1}]'
+            values += f' <{self[i].count_strings()}/{self[i].count_strings(True)}>'
             if l2 == l1:
                 tags.append('completed')
                 self.completed.add(i)
@@ -710,7 +757,7 @@ class Tree():
                 if self[i].item2:
                     tags.append('translated')
                 
-        tree.item(self.children[i], values = values, tags = tags)
+        tree.item(self.children[i], values = (values,), tags = tags)
     
     def focus():
         return Tree.ids[tree.focus()]
@@ -723,39 +770,22 @@ class Tree():
             lang = self.item2
         else:
             lang = self.item1
-        tree['displaycolumns'] = ('search', 'value')
-        res = 0
+        res = []
         for a in self.item1:
             if a in lang:
-                if type(lang[a]) == Tree:
+                if type(lang[a]) is Tree:
                     sub_search = lang[a].search(s)
                     res += sub_search
-                    if not sub_search:
-                        tree.detach(self.children[a])
                 else:
-                    if ((lang[a].find(s) + 1 and search_case_var.get()) or
-                        (lang[a].lower().find(s.lower()) + 1 and not search_case_var.get()) or
-                        (re.search(s, lang[a]) and search_regex_var.get() and search_case_var.get()) or
-                        (re.search(s, lang[a], re.I)) and search_regex_var.get() and not search_case_var.get()):
-                        res += 1
-                    else:
-                        #tree.selection_remove(self.children[a])
-                        tree.detach(self.children[a])
-            else:
-                tree.detach(self.children[a])
-        tree.set(self.iid, 'search', f'{res}')
+                    
+                    if ((search_case_var.get() and lang[a].find(s) + 1) or
+                        (not search_case_var.get() and lang[a].lower().find(s.lower()) + 1) or
+                        (search_regex_var.get() and search_case_var.get() and re.search(s, lang[a])) or
+                        (search_regex_var.get() and not search_case_var.get() and re.search(s, lang[a], re.I))):
+                        res.append((self, a))
         return res
     
-    def cancel_search(self):
-        if Tree.searching:
-            tree['displaycolumns'] = 'value'
-            keys = list(self.item1.keys())
-            for a in keys:
-                tree.move(self.children[a], self.iid, keys.index(a))
-                if type(self[a]) == Tree:
-                    self[a].cancel_search()
-
-    searching = False
+    search_results = []
         
 tree = ttk.Treeview(root, selectmode='browse', columns=['value', 'search'], name='tree', height=24)
 tree.yview_scroll = True
@@ -768,66 +798,112 @@ tree.editing = False
 t = Tree(JSON, JSON_IT, '', None)
 tree.pack()
 
-def search_binding(event):
-    t.cancel_search()
-    s = event.widget.get()
-    if s:
-        t.search(s)
-        Tree.searching = True
-    else:
-        Tree.searching = False
+def update_heading():
+    count = t.count_strings()
+    total = t.count_strings(True)
+    tree.heading('#1', text=f'<{count}/{total}> ({count/total*100:0.04f}%)', anchor=tk.W)
 
-def destroy_search_window(event):
-    global search_window
-    search_window = None
-    if event.widget == event.widget.winfo_toplevel():
-        t.cancel_search()
-        Tree.searching = False
-    tree.see(tree.focus())
+update_heading()
 
+#-------#
 
-search_window = None
 search_case_var = tk.BooleanVar()
 search_regex_var = tk.BooleanVar()
 search_lang = tk.IntVar()
-def create_search_window(event):
-    global search_window
-    if not search_window:
-        search_window = tk.Toplevel(root, name='search_window')
-        search_window.title('Search...')
-        search_window.resizable(False, False)
-        search_window.wm_attributes('-toolwindow', True)
-        
-        search_entry = tk.Entry(search_window, name='search_entry')
-        search_entry.pack()
-        search_entry.bind('<Return>', search_binding)
 
-        global search_case_var
-        search_case = tk.Checkbutton(search_window, text='Case sensitive', variable = search_case_var)
-        search_case.pack()
-
-        global search_regex_var
-        search_regex = tk.Checkbutton(search_window, text='Regular expression', variable = search_regex_var)
-        search_regex.pack()
+search_window = tk.Toplevel(root, name='search_window')
+search_window.title('Search...')
+search_window.wm_attributes('-toolwindow', True)
+#search_window.geometry('300x300')
+search_window.withdraw()
+search_window.grid_columnconfigure(0, weight=1)
         
-        global search_lang
-        search_radio1 = tk.Radiobutton(search_window, text='Translated', variable = search_lang, value = 0)
-        search_radio1.pack(side = tk.LEFT)
-        search_radio2 = tk.Radiobutton(search_window, text='Original', variable = search_lang, value = 1)
-        search_radio2.pack(side = tk.LEFT)
-        
-        search_window.bind('<Destroy>', destroy_search_window)
-    search_window.tk.call('focus', '.search_window.search_entry')
-tree.bind_class('Treeview', '<Control-f>', create_search_window)
+search_entry = tk.Entry(search_window, name='search_entry')
+search_entry.grid(row = 0, column = 0, sticky='EW', ipadx = 2)
 
-def focus(event):
+search_case = tk.Checkbutton(search_window, text='Case sensitive', variable = search_case_var)
+search_case.grid(row = 1, column = 0)
+
+search_regex = tk.Checkbutton(search_window, text='Regular expression', variable = search_regex_var)
+search_regex.grid(row = 2, column = 0)
+
+radio_frame = tk.Frame(search_window)
+radio_frame.grid(row = 3, column = 0)
+search_radio1 = tk.Radiobutton(radio_frame, text='Translated', variable = search_lang, value = 0)
+search_radio1.pack(side = tk.LEFT)
+search_radio2 = tk.Radiobutton(radio_frame, text='Original', variable = search_lang, value = 1)
+search_radio2.pack(side = tk.LEFT)
+
+search_results_lb = tk.Listbox(search_window)
+search_results_lb.grid(row = 4, column = 0, sticky='NSWE')
+search_window.grid_rowconfigure(4, weight=1)
+
+def reveal_search_window(event):
+    search_window.deiconify()
+    search_entry.focus()
+    search_entry.selection_range(0, tk.END)
+tree.bind_class('Treeview', '<Control-f>', reveal_search_window)
+
+def hide_search_window():
+    search_window.withdraw()
+search_window.protocol("WM_DELETE_WINDOW", hide_search_window)
+
+def search_start(event):
+    s = event.widget.get()
+    if s:
+        search_results_lb.delete(0, tk.END)
+        Tree.search_results = t.search(s)
+        for a in Tree.search_results:
+            if search_lang.get():
+                txt = a[0].item1[a[1]]
+            else:
+                txt = a[0][a[1]]
+            search_results_lb.insert(tk.END, txt.replace('\n', '\u21b5'))
+    else:
+        Tree.search_results = []
+search_entry.bind('<Return>', search_start)
+
+def search_lb_bind(event):
+    try:
+        t, i = Tree.search_results[search_results_lb.curselection()[0]]
+        tree.focus(t.children[i])
+        tree.selection_set(t.children[i])
+        tree.see(t.children[i])
+    except: pass
+search_results_lb.bind('<Return>', search_lb_bind)
+search_results_lb.bind('<Double-Button-1>', search_lb_bind)
+
+search_window.tk.call('focus', '.search_window.search_entry')
+
+def check_text_size(text=texts[0]):
+    height = text.count('1.0', 'end', 'ypixels')
+    height = (height or 0) and height[0]
+    width = 0
+    for a in range(int(text.index('end')[:-2])-1):
+        w = text.count(f'{a+1}.0', f'{a+1}.end', 'xpixels')
+        w = (w or 0) and w[0]
+        if w > width: width = w
+    a = {'width': width - 784, 'height': height - 156}
+    if a['width'] <= 0:
+        del a['width']
+    if a['height'] <= 0:
+        del a['height']
+    if a:
+        msg = 'The text exceeds the textbox by ' + ' and '.join([f'{a[b]}px in {b}' for b in a]) + '.\nUse it anyway?'
+        return tk.messagebox.showwarning('Warning', msg, type=tkinter.messagebox.YESNO) == tkinter.messagebox.YES
+    return True
+
+def focusOut(event):
     if tree.editing and root.focus_get() == tree:
-        cursor_moved(event)
-        t, i = Tree.ids[tree.editing]
-        t[i] = get_text(texts[0])
-        tree.editing = False
-        edit(True)
-root.bind_class('Text', '<FocusOut>', focus)
+        ed = tree.editing
+        txt = get_text(texts[0])
+        if check_text_size():
+            cursor_moved(event)
+            t, i = Tree.ids[ed]
+            t[i] = txt
+            tree.editing = False
+            edit(True)
+root.bind_class('Text', '<FocusOut>', focusOut)
 
 def open_dialog(event):
     if tree.tag_has('string', tree.focus()):
@@ -854,12 +930,11 @@ tree.tag_bind('string', '<Double-Button-1>', edit_dialog)
 
 def set_dialog(event):
     if tree.editing:
+        tree.focus_set()
         tree.focus(tree.next(tree.editing) or tree.editing)
         tree.see(tree.focus())
         tree.selection_set(tree.focus())
-        text = texts[0]
         cursor_moved(event)
-        tree.focus_set()
 root.bind_class('Text', '<Control-Return>', set_dialog)
 
 def esc_dialog(event):
@@ -915,6 +990,20 @@ def select_all(event):
     tree.focus(children[-1])
 tree.bind_class('Treeview', '<<SelectAll>>', select_all)
 
+def tree_home(event):
+    children = tree.get_children(tree.parent(tree.focus()))
+    tree.focus(children[0])
+    tree.see(tree.focus())
+    tree.selection_set(tree.focus())
+tree.bind_class('Treeview', '<Home>', tree_home)
+
+def tree_end(event):
+    children = tree.get_children(tree.parent(tree.focus()))
+    tree.focus(children[-1])
+    tree.see(tree.focus())
+    tree.selection_set(tree.focus())
+tree.bind_class('Treeview', '<End>', tree_end)
+
 #---------------------------#
 
 def save(*event):
@@ -940,13 +1029,6 @@ def on_close():
     if m is not None:
         if m is True:
             exported_save()
-
-        if sys.platform == 'win32':
-            from ctypes import windll
-            u32 = windll.user32
-            u32.OpenClipboard(0)
-            u32.GetClipboardData(1)
-            u32.CloseClipboard()
 
         root.destroy()
 root.protocol('WM_DELETE_WINDOW',on_close)
