@@ -7247,6 +7247,10 @@
     "14-5-choice": [
       "Niente\nHai scoperto qualcosa?\nCi stai provando con lei?"
     ],
+    "14-8-message": [
+      "\\.\"..........\"",
+      "\\.\\C[4](Sta pensando a qualcosa...?)"
+    ],
     "14-10-message": [
       "\"Diamine... Anche dopo tutte queste ricerche,\n non c'è traccia di una via di fuga...\"",
       "\\.\"Maledetto Gioco Principale...\n Non voglio rifare quella merda due volte...!!\""
@@ -7258,7 +7262,7 @@
     ],
     "15-3-message": [
       "\\.\"Hai capito?! Non ho alcuna intenzione di mangiare\n la zucca amara!!\"",
-      "\\.\"...Non avevi detto di volere una frittura?\"",
+      "\\.\"...Non avevi detto di voler mangiare fritto?\"",
       "\\.\"Avevo detto RISO fritto!!\"",
       "\\.\"...*sniff*...\n Ma il riso fritto non è\n troppo pesante a colazione...?\"",
       "\\.\"E la zucca amara fritta al salto sarebbe leggera?!\"",
@@ -7365,7 +7369,7 @@
       "\\.\"E inoltre la ragione è scritta chiaramente.\"",
       "\\.\\C[3]Dice... \"Senza uno dei membri, la cantante\nha dichiarato \"Non riesco più a cantare la canzoni\ndi questa band\" e il gruppo si è sciolto.\"",
       "\\.\"Avevo sempre pensato che Reko fosse\n un essere sovrumano con una volontà d'acciaio.\"",
-      "\\.\"Ma alla fine capii... che era umana anche lei.\n Non ho mai... provato tanto rimorso...\"",
+      "\\.\"Ma alla fine capii... che era umana anche lei.\n Non avevo mai... provato così tanto rimorso...\"",
       "\\.\"...\"",
       "\\.\"Questo articolo era il mio monito.\"",
       "\\.\"Ho ferito profondamente il cuore di Reko.\"",
@@ -7768,6 +7772,12 @@
       "\\.\"Ci si abitua a tutto, miao!\n ...Neanche questa stanza è poi così male, bau.\"",
       "\\.\"Se sei in difficoltà,\n dovresti riposare qui, miao.\""
     ],
+    "3-7-message": [
+      "\\.\"Questo è l'ultimo giorno.\n Alla fine, non sono riuscita\n a trovare indizi per scappare...\n e neanche Medaglie di superamento...\"",
+      "\\.\"...No, meglio non lamentarsi.\"",
+      "\\.\"Ho del tranquillante, se desideri...\"",
+      "\\.\"...N-Non fa niente.\""
+    ],
     "5-1-message": [
       "\\.\\C[3]Mosa sta guardando verso di me.",
       "\\.\"Fate pure con comodo...\""
@@ -8018,6 +8028,10 @@
     ],
     "7-1-message": [
       "\\.\\C[3]Una cassetta di primo soccorso\ncon delle attrezzature mediche."
+    ],
+    "48-7-message": [
+      "\\.\"Neanche la sorellona Nao si sente bene, miao...\"",
+      "\\.\"Devo fare qualcosa... Come mai gli unici allegri\n sono l'omicida effeminato e l'asociale, miao?\""
     ]
   },
   "map77": {
@@ -8357,7 +8371,7 @@
       "\\.\"Niente...\"",
       "\\.\"..........\"",
       "\\.\\C[4](Kanna...)",
-      "\\.\\C[4](Anche se avevamo riparato il nostro rapporto...\n È successo questo...)"
+      "\\.\\C[4](Anche se avevamo riparato il nostro rapporto...\n È andata a finire così...)"
     ],
     "64-1-message": [
       "\"Non farò fa' a Pongo quel che glie pare...!\""
@@ -8927,6 +8941,139 @@
     "5-2-message": [
       "\\.\\C[3]La porta è chiusa saldamente."
     ],
+    "6-1-message": [
+      "\\C[3]Sento il suono di gettoni che vengono inseriti.",
+      "\\.\"Q... Q-taro...?\"",
+      "\"S... Sara. Che c'è?\"",
+      "\\.\"C-Che c'è...\"",
+      "\"Che staresti facendo, Q-taro?!\"",
+      "\\.\"T... Tranquilla. Te preoccupi sempre troppo.\"",
+      "\"E-Ehm...\n Mi servirebbe il tuo aiuto per le attrazioni.\"",
+      "\\.\"Purtroppo... C'ho altro da fa'...\"",
+      "\\.\"F-Fermati...! Scendi da lì, per favore!\"",
+      "\\.\"Per favore... smetti di fare\n qualunque cosa stia facendo!\"",
+      "\\.\"Che accidenti... sarebbe quel distributore?!\"",
+      "\\.\"..........\"",
+      "\\.\"Non metterte in mezzo, Sara.\n ...So' arrivato a 200 gettoni!\"",
+      "\\.\"...200 gettoni...?\"",
+      "\\.\\C[3]Riesco a vedere il numero 200\nscritto in blu sopra la macchinetta.",
+      "\\.\\C[3]Proprio come al Banco cambiapremi.",
+      "\\.\"...Non dirmi che...\"",
+      "\\.\"Lì c'è... il biglietto di fuga...?!\"",
+      "\\.\"Ggh...!!\"",
+      "\\.\"Q-taro... Vuoi forse...?!\"",
+      "\\.\"Hai in mente di scappare da solo...?!\"",
+      "\\.\"N-No...! Te sbagli, Sara!\"",
+      "\"Stai cercando di comprare una bibita\n da quel distributore, vero...?!\"",
+      "\\.\"Non c'ho mica tutta 'sta sete!!\"",
+      "\\.\"Invece sì, Q-taro.\n Tu hai sete...\"",
+      "\\.\"Sete di libertà...!!\"",
+      "\\.\"A-Aspetta, Sara! Calmate, ok?!\"",
+      "\\.\"Voglio... indagar sulla via d'uscita...\n Così potremo ribellarce tutt'insieme!\"",
+      "\\.\"Così potremo scappa' tutti!!\"",
+      "\\.\"...!\"",
+      "\\.\"...No, stai mentendo.\"",
+      "\\.\"Tu dai grande importanza al gioco leale, Q-taro.\"",
+      "\\.\"Se davvero fosse stato quello il tuo intento...\n Me l'avresti detto prima del nostro scambio!!\"",
+      "\\.\"Eppure non hai detto niente...!\"",
+      "\\.\"Perché... Volevi scappare da solo!!\"",
+      "\\.\"..........\"",
+      "\\.\"E... che male c'è...?\"",
+      "\\.\"Non ho fatto niente de sleale!!\"",
+      "\\.\"Sto solo a usa' un diritto che\n me sono guadagnato onestamente...\n così che posso uscire prima!\"",
+      "\\.\"E così chiamerò aiuto!\n Me pare molto più realistico che ribellarse\n contro chissà quanti rapitori!\"",
+      "\\.\"Non c'ho alcuna intenzione de lasciarve qua a mori'!!\"",
+      "\\.\"Per voi non sarà un problema...!\n Dai, famme andare, Sara...!!\"",
+      "\\.\"Ma...!\"",
+      "\\.\"È una cosa subdola!! Non siamo tutti alleati?!\"",
+      "\\.\"Certo che lo siamo!! E infatti...\n Voglio anda' per chiamare aiuto!!\"",
+      "\\.\"E allora non devi farlo per forza tu, Q-taro!\n Per Keiji sarebbe più facile mobilitare la polizia!\"",
+      "\\.\"...\"",
+      "\\.\"Visto, Q-taro?! Vuoi... solo salvarti la pelle!!\"",
+      "\\.\"..........\"",
+      "\\.\"Non abbiamo superato le avversità insieme...?!\"",
+      "\\.\"...Ce lo so.\n Abbiam pure superato le morti dei nostri alleati...\"",
+      "\\.\"E allora se ce andremo, ce ne andremo tutti insieme...\n Giusto, Q-taro?!\"",
+      "\\.\"E che speranza ce starebbe?!\"",
+      "\\.\"Se pure superiamo 'sta roba qui,\n poi ce starà un altro Gioco Principale...\n Qualcuno morirà, sicuramente...!!\"",
+      "\\.\"Li ammazzeranno come Mishima o Joe...!\n O se uccideranno da soli come Kai!!\"",
+      "\\.\"So' queste le due opzioni!!\"",
+      "\\.\"Ma...!!\"",
+      "\\.\"Questa è la nostra occasione...!\n In questo modo uno de noi\n potrà sicuramente uscirne!!\"",
+      "\\.\"Q-taro...!!\"",
+      "\\.\"..........\"",
+      "\"Gin sta dando il massimo...!\n Un bambino, molto più giovane di te, Q-taro...!\"",
+      "\\.\"...!!\"",
+      "\\.\"E Kanna... fa le medie...!\n E nonostante ciò, resiste disperatamente!!\"",
+      "\\.\"...\"",
+      "\\.\"Non sei l'unico a soffrire, Q-taro!!\"",
+      "\\.\"...\"",
+      "\\.\"...I bambini...\"",
+      "\\.\"...\"",
+      "\\.\"...Me aspettano...\"",
+      "\\.\"...?!\"",
+      "\\.\"Non son mai salito sul monte de lancio\n come riserva...\"",
+      "\\.\"...Devo...\"",
+      "\\.\"Devo dimostra' che pure quelli senza genitori\n posson sognare, e rendere quei sogni realtà...\"",
+      "\\.\"Devo dimostrarlo ai bimbi dell'orfanotrofio!!\"",
+      "\\.\"Q-taro!!\"",
+      "\\.\\C[3]Le dita di Q-taro toccano l'ultimo gettone.",
+      "\"Scusa! Mi ero dimenticato un piccolo particolare!\"",
+      "\\.\"E-E ora che c'è?!\"",
+      "\\.\"Non te ne uscirai mica dicendo che non te aspettavi\n che saremmo arrivati a 200 e\n che quindi non se può scappare...?!\"",
+      "\\.\"Idiota. Certo che puoi scappare.\"",
+      "\\.\"Autentica libertà.\n Sarai libero dal giogo della morte.\"",
+      "\\.\"Ma, sai... Ciò che non avevo specificato è\n cosa avremmo fatto le persone rimaste.\"",
+      "\\.\"Questa è quella che chiamiamo \\C[10]una vittoria solitaria\\C[0].\"",
+      "\\.\\C[3]Vittoria solitaria...?\\.",
+      "\\.\"Che... significa...?!\"",
+      "\\.\\C[10]\"Significa che muoiono tutti a parte il fuggitivo.\"",
+      "\\.\"Non... Non m'era stato detto niente!!\"",
+      "\\.\\C[10]\"Ahahah... Scuuusa, mi era proprio passato di mente!\"",
+      "\\.\"E pensi de cavartela così, diamine?!\"",
+      "\\.\"Ho... Ho già usato tutti quei gettoni!\n Come puoi farme questo?!\"",
+      "\\.\"Già, non è molto corretto, eh?\"",
+      "\\.\"Facciamo così! Te li ridarò, solo per questa volta!\n Tutti i gettoni che hai usato!\"",
+      "\\.\"...!!\"",
+      "\\.\"...Grandioso, no? Buon per te.\n \\C[10]Non dovrai uccidere i tuoi alleati...\\C[0]\"",
+      "\\.\"...\"",
+      "\\.\"Eh? C'è qualche problema?\"",
+      "\\.\"Basta che ti fermi adesso e ti ridarò i gettoni, ok?\"",
+      "\\.\"...\"",
+      "\\.\\C[10]\"Nooooo... ma non mi dire!\n Vuoi sacrificarli solo per salvaaarti?\"",
+      "\\.\\C[10]\"Cooooosa?! Che pauuura!\"",
+      "\\.\"...\"",
+      "\\.\"Q-taro!! Non puoi...!!\"",
+      "\\.\"Siamo alleati, giusto?!\n Q-taro... non puoi farci questo...!\"",
+      "\\.\"...\"",
+      "\\.\"E... E che mi dici del desiderio di Kai?!\n Gin e Kanna... hanno i loro genitori ad aspettarli!\"",
+      "\\.\"...\"",
+      "\\.\"Basta con questa idiozia!!\"",
+      "\\.\"...\"",
+      "\\.\"Autentica libertà... Questa bambola bugiarda\n si sta inventando tutto!! Ti sta ingannando!!\"",
+      "\\.\"...\"",
+      "\\.\"...............\"",
+      "\\.\"..........\"",
+      "\\.\"...\"",
+      "\\.\\C[10]\\sp[10]\"...Scusa... Sara...\"",
+      "\\.\"...!!\"",
+      "\\.\"Fermati!! No!! Q-taro!!\"",
+      "\\C[10]*cla-cianc...*\\|\\^",
+      "\\C[3]Ah...",
+      "\\.\\C[3]Sento un suono insistente.",
+      "\\.\\C[3]Un suono inorganico, meccanico.",
+      "\\.\\C[3]Un suono lunghissimo, che continua all'infinito.",
+      "\\.\\C[3]Insieme a cui c'è il rumore indistinto\ndi una porta che si apre.",
+      "\\.\\C[3]Q-taro scompare nella luce dietro la porta.",
+      "\\.\\C[3]Fissando la luce di speranza a pochi metri da me...",
+      "\\.\\C[3]I miei sensi sono venuti meno."
+    ],
+    "6-1-choice": [
+      "Questo dovrei dirlo io\nAiutami con le attrazioni",
+      "Scappare da solo?!\nComprare una bibita?!",
+      "È una cosa subdola!\nDovremmo andarcene tutti insieme!\nCi sono anche dei bambini!",
+      "Aggrappati a lui\nCostringilo"
+    ],
     "8-1-message": [
       "\\.\"E ora che diavolo sarebbe quella macchinetta...\""
     ],
@@ -8936,6 +9083,10 @@
     ],
     "9-1-message": [
       "\"Che luogo avvilente...\n Lo apprezzo.\""
+    ],
+    "10-1-message": [
+      "\"..........\"",
+      "\\C[3]Q-taro sta gironzolando in modo instabile."
     ],
     "27-2-message": [
       "\\.\\C[3]C'è scritto \"200\" in blu sopra il distributore."
@@ -9584,6 +9735,12 @@
     "43-6-message": [
       "\\.\"...Ehi.\"",
       "\\.\"...Ciao...\""
+    ],
+    "43-7-message": [
+      "\\.\"...Non è servito a nulla.\"",
+      "\\.\"Tsk...! In tal caso,\n lo schermo è stato distrutto da...!\"",
+      "\\.\"...Ne sono praticamente certo.\n Ed è per questo che ho accettato lo scambio.\"",
+      "\\.\\C[4](Quei due sono nel mezzo\n di una losca riuniona tattica...)"
     ],
     "44-1-message": [
       "\\.\"Questo piano sembra avere ancora\n un sacco di aree nascoste...\""
@@ -10321,6 +10478,246 @@
     ],
     "19-1-choice": [
       "Riascolta la spiegazione\nProvaci"
+    ]
+  },
+  "map111": {
+    "2-1-message": [
+      "\\C[3]Lo schermo è rotto.",
+      "\\.\\C[4](Professor Mishima...)"
+    ],
+    "4-1-message": [
+      "\\C[3]Uno dei vari schermi.",
+      "\\.\\C[3]C'è una foto di Gin sul retro."
+    ],
+    "4-2-message": [
+      "\\.\\sw[564]\"Miaaawn...? Bau!\n Perché mi hai svegliato, sorellona Sara?\"\\sw[567]",
+      "\\.\\C[4](Questa è... un'IA di Gin...)",
+      "\\.\"Scusa. Possiamo parlare un po', Gin?\"",
+      "\\.\\sw[564]\"Certo che sì, miao!\n Urrà!!\"\\sw[567]",
+      "\\.\\C[4](Ihih, è così allegro...)",
+      "\\.\\sw[564]\"Vuoi chiedermi qualcos'altro, miao?\"\\sw[567]",
+      "\\.\\sw[564]\"...Storia? Di che dovrei parlare, bau?\"\\sw[567]",
+      "\\.\"Mh... Mi accontenterei di una semplice presentazione.\"",
+      "\\.\\sw[564]\"Gin Ibushi, classe 6-3 della Scuola Elementare Heiwa!\n Ho 12 anni, miao!\"\\sw[567]",
+      "\\.\\sw[564]\"Mi prendo cura degli animali, miao!!\"\\sw[567]",
+      "\\.\"Ti diverti a scuola?\"",
+      "\\.\\sw[564]\"Mmh... Non mi diverto tanto\n perché c'è qualcuno che non mi piace, miao.\"\\sw[567]",
+      "\\.\\sw[564]\"Ma mi diverto a fare amici, bau!\n Facciamo dei giochi insieme, miaaao!\"\\sw[567]",
+      "\\.\"Indossi quei vestiti anche a scuola?\"",
+      "\\.\\sw[564]\"No, gli altri si arrabbiano.\n Solo quando sono a casa, bau!\"\\sw[567]",
+      "\\.\\sw[564]\"...È più facile parlare quando lo indosso, miao.\n Ma visto che a scuola non posso, divento nervoso, bau.\"\\sw[567]",
+      "\\.\\sw[564]\"Quindi a scuola mi dicono che sono obbediente, bau!\n Ma non è vero... miao...\"\\sw[567]",
+      "\\.\\C[4](Forse... non è bravo a comunicare\n a meno che non indossa quei vestiti.)",
+      "\\.\\sw[564]\"Le mie aspirazioni sono di\n vivere con gli animali tutto il tempo, miao!\"\\sw[567]",
+      "\\.\"Ihih... Che tipo di animali?\"",
+      "\\.\\sw[564]\"Adesso sono nella fase degli alligatori, miao!\n Sono carini, bauuuuu!\"\\sw[567]",
+      "\\.\\C[4](O-Oh... Forse perché è un maschio...)",
+      "\\.\\sw[564]\"Sono alto 138 centimetri\n e peso 35,5 chilogrammi, miao!\"\\sw[567]",
+      "\\.\\sw[564]\"E sono cresciuto di 2 centimetri\n dal mio ultimo controllo, miao!\"\\sw[567]",
+      "\\.\"Il tuo scatto di crescita e il cambiamento della voce\n dovrebbero arrivare presto.\"",
+      "\\.\\sw[564]\"Ovviamente, miao!\n Diventerò più grande di te, sorellona Sara!\"\\sw[567]",
+      "\\.\"Ahahah, Sono sicura che sarai fichissimo.\n Ho grandi speranze per te.\"",
+      "\\.\\sw[564]\"Sì! Ti farò cadere ai miei piedi, miao!\n Sii grata, bau!\"\\sw[567]",
+      "\\.\"D'accordo, facciamo questa promessa.\"",
+      "\\.\\sw[564]\"Certo, miao!\n Una promessa per quando ti supererò, bau!\"\\sw[567]",
+      "\\.\\C[4](Una promessa per il futuro...)",
+      "\\.\\C[4](Gin e io abbiamo entrambi un futuro.)",
+      "\\.\\C[4](Non possiamo... assolutamente morire.)",
+      "\\.\\sw[564]\"Entrambi i miei genitori lavorano, miao!\"\\sw[567]",
+      "\\.\\sw[564]\"Sono figlio unico, quindi...\n Mi sento un po' solo quando non c'è nessuno, miao...\"\\sw[567]",
+      "\\.\\sw[564]\"Mia mamma è gentilissima anche quando è stanca, bau.\"\\sw[567]",
+      "\\.\\sw[564]\"Anche se torna a casa tardi,\n prepara sempre la cena... Anche se io\n le dico di non stancarsi troppo...\"\\sw[567]",
+      "\\.\"Vuoi bene alla tua mamma?\"",
+      "\\.\\sw[564]\"Tantissimo, miao!\n Sono preoccupato perché\n è sempre più impegnata, bau...\"\\sw[567]",
+      "\\.\"Che mi dici di tuo papà?\"",
+      "\\.\\sw[564]\"Ci sono alcune cose che non mi piacciono...\n ma in generale è un tipo a posta, miao.\"\\sw[567]",
+      "\\.\\sw[564]\"Ma odio tantissimo quando si ubriaca\n e fa casino, miao! È imbarazzante, bau!\"\\sw[567]",
+      "\\.\\sw[564]\"Mamma lo rimprovera sempre e lui si scusa,\n quindi praticamente non ha alcuna dignità, bau.\"\\sw[567]",
+      "\\.\\sw[564]\"Non voglio diventare un adulto\n così patetico, miaaao!\"\\sw[567]",
+      "\\.\\C[4](Ah... Quindi è una famiglia tutto sommato per bene...)",
+      "\\.\\sw[564]\"...Ma sono sicuro che non succederà, miao.\n Visto che non sono imparentato a papà, bau.\"\\sw[567]",
+      "\\.\"Eh...?\"",
+      "\\.\\sw[564]\"Ho sentito che si è sposato con mamma\n quando avevo 2 anni, miao!\n Quindi la genetica non mi farà\n diventare come lui, bau!\"\\sw[567]",
+      "\\.\"Davvero...?\"",
+      "\\.\\sw[564]\"Beh, non è che odi papà, bau.\n È vero però, miao!\"\\sw[567]",
+      "\\.\\sw[564]\"Non so, miao...\n Fa paura, bau...\"\\sw[567]",
+      "\\.\\sw[564]\"Cosa si prova a morire, miao...?\"\\sw[567]",
+      "\\.\"Non... lo so neanch'io.\"",
+      "\\.\\sw[564]\"Non voglio non incontrare\n mai più mamma è papà, miao...\"\\sw[567]",
+      "\\.\\sw[564]\"Sorellona Sara... hai paura anche tu, miao?\"\\sw[567]",
+      "\\.\"...Già.\n ...Ho molta paura...\"",
+      "\\.\\sw[564]\"..........\"\\sw[567]",
+      "\\.\\sw[564]\"Ti proteggerò sicuramente, miao!\n Vieni quando vuoi, bau!\"\\sw[567]",
+      "\\.\"Ihih... Grazie...\"",
+      "\\.\\sw[564]\"Cos'ho a cuore...? È difficile, miaooo.\"\\sw[567]",
+      "\\.\\sw[564]\"Mmh... Direi mamma e papà, miao!\n Sarei triste se andassero via, bau!\"\\sw[567]",
+      "\\.\\sw[564]\"Ah! E il cuscino Mià-chan che ho sempre con me!\n È preziosissimo per me, miao!\"\\sw[567]",
+      "\\.\\sw[564]\"Siamo sempre insieme, quindi mi ero dimenticato, miao!\n Scusami, Mià-chaaan! Bau...\"\\sw[567]",
+      "\\.\"Per te anche Mià-chan fa parte della famiglia, eh?\"",
+      "\\.\\sw[564]\"Esatto, miao!\n Mi sono arrabbiato sul serio quando papà\n stava per buttarlo via, miao! Imperdonabile, bau!\"\\sw[567]",
+      "\\.\\sw[564]\"Prenderne uno nuovo?! Mai, miao!!\n Sei uno stupido, bau!\"\\sw[567]",
+      "\\.\\sw[564]\"Mi infurio solo a ripensarci, bau!\n Mamma dovrebbe sgridarlo di nuovo, miaooo!\"\\sw[567]"
+    ],
+    "4-2-choice": [
+      "Storia\nInformazioni fisiche\nFamiglia\nInformazioni sul Gioco Mortale\nCos'ha a cuore\nAnnulla"
+    ],
+    "5-1-message": [
+      "\\C[3]Uno dei vari schermi.",
+      "\\.\\C[3]C'è una foto di Alice sul retro."
+    ],
+    "6-1-message": [
+      "\\C[3]Uno dei vari schermi.",
+      "\\.\\C[3]C'è una foto di Reko sul retro."
+    ],
+    "6-2-message": [
+      "\\.\\sw[560]\"Mh...? Ué, Sara. Come va?\"\\sw[565]",
+      "\\.\\C[4](Questa è... un'IA di Reko...)",
+      "\\.\\sw[560]\"Oh...? C'è qualcosa di strano.\n È vero, sono un'IA, giusto...?\"\\sw[565]",
+      "\\.\"...Posso farti qualche domanda?\"",
+      "\\.\\sw[560]\"Sì, cavolo, chiedi pure.\"\\sw[565]",
+      "\\.\\sw[560]\"Hai altro da chiedere?\"\\sw[565]",
+      "\\.\\sw[560]\"Ehm... Sono una cantautrice\n fighissima di 23 anni...\n Qualcosa del genere?\"\\sw[565]",
+      "\\.\\sw[560]\"Mi piace la musica da quando ero piccola.\n Classica, folk, heavy metal...\n Ho ascoltato di tutto.\"\\sw[565]",
+      "\\.\\sw[560]\"Penso che tipo alle elementari\n ho cominciato a comporre e scrivere testi.\n Era l'istinto a muovere il mio corpo.\"\\sw[565]",
+      "\\.\\sw[560]\"Era un bel periodo... Mi facevano tutti i complimenti\n e miei genitori erano felicissimi...\"\\sw[565]",
+      "\\.\\sw[560]\"Ma appena hanno cominciato\n a chiamarmi bambina prodigio...\n La faccenda ha cominciato a ingigantirsi.\"\\sw[565]",
+      "\\.\\sw[560]\"Vecchi bastardi delle industrie discografiche\n affamati di soldi... Il mio vecchio che voleva\n stare sotto i riflettori... Prima che me ne accorgessi,\n ero finita a fare musica in cui non mettevo il cuore.\"\\sw[565]",
+      "\\.\\sw[560]\"Alle medie, mi sono ribellata. Ero una rockettara!\n Ho fatto un sacco di canzoni\n che nessuno neanche voleva!\"\\sw[565]",
+      "\\.\\sw[560]\"Ma anche allora,\n tutte quelle sciocchezze mi perseguitavano.\n Cavolo, alla fine anche\n il mio animo ha dovuto arrendersi.\"\\sw[565]",
+      "\\.\\sw[560]\"Dalle superiori in poi, tutto l'energia si è spenta...\n Non avevo neanche rabbia...\n La mia produzione si è inaridita.\"\\sw[565]",
+      "\\.\\sw[560]\"Ho avuto un saccio di occasione per diventare famosa.\n Ma le ho mandate tutte in vacca. Ero proprio\n l'elemento problematico del settore.\"\\sw[565]",
+      "\\.\\sw[560]\"Tutto mantenevano le distanze da me.\n All'inizio non riuscivo neanche a trovare membri,\n quindi ho chiesto ad Alice di unirsi alla band...\n Ahahah.\"\\sw[565]",
+      "\\.\\sw[560]\"Poi, due anni e mezzo dopo...\n Ha provocato quell'incidente...\"\\sw[565]",
+      "\\.\\sw[560]\"...\"\\sw[565]",
+      "\\.\\sw[560]\"Beh, comunque sia, sono quella che sono\n a causa di quel passato di merda.\"\\sw[565]",
+      "\\.\\sw[560]\"Ti è stato utile, Sara?\"\\sw[565]",
+      "\\.\\sw[560]\"1 metro e 69, 55 chili.\n Sono piuttosto fiera dei miei riflessi!\n E mi ricordo le coreografie in un attimo, quindi...\n Ho una memoria fantastica!\"\\sw[565]",
+      "\\.\\sw[560]\"Beh... non sono un granché col baseball\n e quella roba lì...\n Cacchio, credo di non essere un granché in nulla\n al di fuori della musica.\"\\sw[565]",
+      "\\.\"A proposito, quali sono le tue misure?\"",
+      "\\.\\sw[560]\"N-Non ho ragione di dirtelo, giusto...?\"\\sw[565]",
+      "\\.\\C[4](Quindi non risponde a qualsiasi cosa...\n Anche la sua IA sa essere difficile.)",
+      "\\.\\sw[560]\"La famiglia... Beh, allora...\"\\sw[565]",
+      "\\.\\sw[560]\"...Voglio bene a mia mamma. Anche se è un po' strana.\n È affettuosa... e io le do un sacco di problemi.\n Già, dovrei dimostrarle di più la mia riconoscenza.\"\\sw[565]",
+      "\\.\\sw[560]\"Il mio vecchio... Beh, è un tipo a posto...\n Ma diciamo che cade in tentazione.\n Non è molto fedele alle sue convinzioni.\"\\sw[565]",
+      "\\.\\sw[560]\"Lo odiato per moltissimo tempo...\n Ma ora si è rimesso in sesto ed è tornato\n alla sua personalità blanda e semplice.\"\\sw[565]",
+      "\\.\\sw[560]\"E poi c'è... Alice, eh.\"\\sw[565]",
+      "\\.\\sw[560]\"Lui... che dovrei dire?\n Come ha potuto fare una cosa del genere...?\"\\sw[565]",
+      "\\.\\sw[560]\"Poco dopo il suo arresto...\n Ho lasciato la musica.\"\\sw[565]",
+      "\\.\\sw[560]\"Aah... Mi sono ricordata di una cosa.\n In quel periodo, ho scritto nel mio diario,\n cosa di per sé rara...\"\\sw[565]",
+      "\\.\\sw[560]\"Ho scritto che la musica, ciò in cui ho messo\n anima e corpo per tutto questo tempo...\n improvvisamente mi sembrava una fredda serie di note...\n una cosa inorganica.\"\\sw[565]",
+      "\\.\\sw[560]\"Mi sono chiesta, è così che sentono la musica\n quelli a cui non interessa...?\"\\sw[565]",
+      "\\.\\sw[560]\"..........\"\\sw[565]",
+      "\\.\\sw[560]\"Ho sempre pensato che non mi importasse\n di mio fratello, e non lo ascoltavo mai, eppure...\"\\sw[565]",
+      "\\.\\sw[560]\"A dire il vero... Forse ero soltanto un po' invidiosa\n del fatto che mio fratello fosse normale.\n E mi comportavo così per ripicca...\"\\sw[565]",
+      "\\.\\sw[560]\"...\"\\sw[565]",
+      "\\.\\sw[560]\"...Non avresti dovuto uccidere...\"\\sw[565]",
+      "\\.\\sw[560]\"Perché sono coinvolta anch'io in questa merda...?\"\\sw[565]",
+      "\\.\\sw[560]\"Abbiamo qualcosa in comune...?\"\\sw[565]",
+      "\\.\\sw[560]\"Non ne ho la minima idea...\"\\sw[565]",
+      "\\.\\C[4](Qualcosa in comune...?\n Mi domando se ci sia...)",
+      "\\.\\sw[560]\"Che tu ci creda o no...\n Credo che la famiglia sia importante, no?\n Voglio mostrare riconoscenza ai miei genitori.\"\\sw[565]",
+      "\\.\\sw[560]\"Ma tipo, in questo momento... La me originale\n è stata ficcata in questo Gioco Mortale, giusto?\"\\sw[565]",
+      "\\.\\sw[560]\"Se muore, non può fare... niente.\n Quindi vista in quest'ottica,\n la cosa più importante è la mia stessa vita, no?\"\\sw[565]",
+      "\\.\"...E invece i tuoi strumenti?\"",
+      "\\.\\sw[560]\"Strumenti...?\"\\sw[565]",
+      "\\.\"Quando ho conosciuto Reko...\n Ha detto che aveva a cuore i suoi bonghi.\"",
+      "\\.\\sw[560]\"Bonghi...?\"\\sw[565]",
+      "\\.\\sw[560]\"Beh, sì.\n Suono i bonghi nella mia nuova band, ma...\"\\sw[565]",
+      "\\.\\C[4](I bonghi non sembrano dire nulla\n a questa IA di Reko...)"
+    ],
+    "6-2-choice": [
+      "Storia\nInformazioni fisiche\nFamiglia\nInformazioni sul Gioco Mortale\nCos'ha a cuore\nAnnulla"
+    ],
+    "8-1-message": [
+      "\\C[3]Uno dei vari schermi.",
+      "\\.\\C[3]C'è una foto di Q-taro sul retro."
+    ],
+    "8-2-message": [
+      "\\.\\sw[562]\"Mh? Dov'è che siamo?\"\\sw[566]",
+      "\\.\\C[4](Questa è... un'IA di Q-taro...)",
+      "\\.\"Ehm, Q-taro, possiamo parlare?\"",
+      "\\.\\sw[562]\"Sì, vai pure.\n Se un'IA te va bene,\n possiamo fa' quattro chiacchiere.\"\\sw[566]",
+      "\\.\"Grazie mille.\"",
+      "\\.\\sw[562]\"Non esse' così formale!\n Sta' rilassata!\"\\sw[566]",
+      "\\.\\sw[562]\"Risponderò a qualunque domanda!\"\\sw[566]",
+      "\\.\\sw[562]\"So' cresciuto in un orfanotrofio\n che era un pochetto strano.\"\\sw[566]",
+      "\\.\\sw[562]\"Ce stava gente da tutto il mondo.\n Ho imparato tutto un mix de dialetti...\"\\sw[566]",
+      "\\.\\sw[562]\"Oltre all'istruzione obbligatoria,\n mi han pure fatto fa' le superiori...\n Non ringrazierò mai abbastanza quel posto.\"\\sw[566]",
+      "\\.\\sw[562]\"E ora, so' un giocatore de baseball professionista.\n ...Pure i bimbi dell'orfanotrofio tifano per me.\"\\sw[566]",
+      "\\.\\sw[562]\"Me voglio sbriga' e farglie vedere...\n Che pure quelli in situazioni come la nostra\n posson far impazzire lo stadio quando\n salgono sul monte de lancio...\"\\sw[566]",
+      "\\.\\C[4](Quindi è affezionato all'orfanotrofio...)",
+      "\\.\\sw[562]\"Beh, tutto questo per dire che ancora\n non c'ho una storia.\n Ma farò un sacco de splendidi record!\"\\sw[566]",
+      "\\.\\sw[562]\"Meglio se chiedi un autografo finché puoi, Sara!\"\\sw[566]",
+      "\\.\\C[4](Quando posso ne chiederò uno al vero Q-taro...)",
+      "\\.\\sw[562]\"1 metro e 93 centimetri! 105 chili!\n E sappicelo, son tutti muscoli, niente grasso!\"\\sw[566]",
+      "\\.\"U-Uao...\"",
+      "\\.\\sw[562]\"De base so' un lanciatore, ma me la cavo pure\n a battere, a correre e a difendere!\"\\sw[566]",
+      "\\.\\C[4](Non ne so molto, ma sembra molto forte...!)",
+      "\\.\\sw[562]\"Ma la mia arma più grossa è la testa.\n Devi esser sveglio per diventa'\n un atleta de prima classe.\"\\sw[566]",
+      "\\.\"Oh, davvero?\"",
+      "\\.\\sw[562]\"Certo, a volte ripenso a quella volta che\n ho spezzato gli anelli de quel rompicapo\n con la forza, ma...\"\\sw[566]",
+      "\\.\\C[4](Qualunque cosa faccia,\n le sue capacità fisiche torreggiano sopra al resto...)",
+      "\\.\\sw[562]\"..........\"\\sw[566]",
+      "\\.\"È un argomento delicato...?\"",
+      "\\.\\sw[562]\"No... è che non ce sta niente da di'.\"\\sw[566]",
+      "\\.\\sw[562]\"Visto che i miei genitori\n non so nemmeno che faccia hanno.\n L'unico posto che ho conosciuto è l'orfanotrofio.\"\\sw[566]",
+      "\\.\\sw[562]\"Ecco perché... erano quelli là dentro\n le mie mamme e i miei babbi.\n I legami de sangue non contano.\"\\sw[566]",
+      "\\.\\sw[562]\"Ma, ecco...\"\\sw[566]",
+      "\\.\\sw[562]\"A volte ce penso.\n Da che persone sono nato,\n che geni ho ereditato...?\"\\sw[566]",
+      "\\.\\sw[562]\"Ho iniziato col baseball per passatempo, ma...\n penso che se divento un lanciatore titolare...\n forse i miei genitori me vedrebbero.\"\\sw[566]",
+      "\\.\"...Vorresti conoscerli?\"",
+      "\\.\\sw[562]\"Se potessimo parlare e riderce su, sarebbe grandioso.\n In tranquillità, tipo \"ho una bella vita\"...\"\\sw[566]",
+      "\\.\\C[4](Q-taro...)",
+      "\\.\\sw[562]\"Oh, voi state a fa' un Gioco Mortale, giusto...?\"\\sw[566]",
+      "\\.\\sw[562]\"Conoscendome, dubito che morire\n me sia passato anche solo per la testa.\"\\sw[566]",
+      "\\.\\sw[562]\"Cacchio, per una riserva, il baseball\n è un Gioco Mortale con la mia carriera\n appesa a un filo!\"\\sw[566]",
+      "\\.\\C[4](Non scherzarci in questo modo...)",
+      "\\.\\sw[562]\"Ma facendo un po' de introspezione...\"\\sw[566]",
+      "\\.\\sw[562]\"Mi chiedo se magari proverei a vincere\n rispettando le regole del gioco...\"\\sw[566]",
+      "\\.\\sw[562]\"Da giocatore agonistico,\n tendi a dimenticarte che puoi infrangere le regole.\"\\sw[566]",
+      "\\.\\sw[562]\"Forse quelli come te, giovani e senza paura,\n son più inclini a trovare un modo per sopravvivere.\"\\sw[566]",
+      "\\.\"...Dici...?\"",
+      "\\.\\sw[562]\"...Scusa se lo dico come se non me riguardasse.\n Però sai, sono un'IA, no?\"\\sw[566]",
+      "\\.\\sw[562]\"A cuore, eh...\"\\sw[566]",
+      "\\.\\sw[562]\"Il personale dell'orfanotrofio, i bimbi...\n Ovviamente, il baseball, e...\"\\sw[566]",
+      "\\.\\sw[562]\"Me stesso... probabilmente.\"\\sw[566]",
+      "\\.\\sw[562]\"Te lo dico francamente.\n Non voglio morire, e non voglio\n che i miei cari muoiono.\"\\sw[566]",
+      "\\.\\sw[562]\"Non è che me piace sacrifica' gli altri...\n Ma se c'è da farlo, so' in grado.\"\\sw[566]",
+      "\\.\\sw[562]\"Ma odio quegli stronzi che\n hanno quello come primo pensiero!\"\\sw[566]",
+      "\\.\"..........\"",
+      "\\.\\sw[562]\"...Scusa se me so' infervorato.\"\\sw[566]",
+      "\\.\\sw[562]\"Non dovevo dirlo così convinto,\n visto che te ce stai dentro... Non farce caso.\"\\sw[566]",
+      "\\.\"...No, tranquillo.\""
+    ],
+    "8-2-choice": [
+      "Storia\nInformazioni fisiche\nFamiglia\nInformazioni sul Gioco Mortale\nCos'ha a cuore\nAnnulla"
+    ],
+    "9-1-message": [
+      "\\C[3]Lo schermo è rotto."
+    ],
+    "31-1-message": [
+      "\\C[3]Uno dei vari schermi.",
+      "\\.\\C[3]C'è una foto di Kanna sul retro."
+    ],
+    "37-1-message": [
+      "\\C[3]Uno dei vari schermi.",
+      "\\.\\C[3]C'è una foto di Keiji sul retro."
+    ],
+    "48-1-message": [
+      "\\C[3]Uno dei vari schermi.",
+      "\\.\\C[3]C'è una mia foto sul retro."
+    ],
+    "48-2-message": [
+      "\\C[3]Il video della vittima è collegato\nallo schermo centrale.",
+      "\\C[4](Non ho il Video 1...)",
+      "\\C[4](Video della vittima 1...\n Guardiamolo dall'inizio.)",
+      "\\C[4](Non ho il Video 2...)",
+      "\\C[4](Video della vittima 2...\n Guardiamolo dall'inizio.)",
+      "\\C[4](Non ho il Video 3...)",
+      "\\C[4](Video della vittima 3...\n Guardiamolo dall'inizio.)"
+    ],
+    "48-2-choice": [
+      "Guarda il Video della vittima 1\nGuarda il Video della vittima 2\nGuarda il Video della vittima 3\nAnnulla"
     ]
   },
   "map112": {
@@ -15417,6 +15814,11 @@
       "\\.\"...No, non importa.\"",
       "\\.\\C[4](Sarebbe difficile andare lì in questo momento...)"
     ],
+    "312-0-message": [
+      "\"...Eh? Dove sei...?\"",
+      "\\.\"...Voglio solo andare un po' in giro. Dai.\"",
+      "\"P-Perché stai...?! Non entrare!\""
+    ],
     "318-0-choice": [
       "Combatti con queste\nRiseleziona"
     ],
@@ -17580,70 +17982,76 @@
       "\\.\"Grazie, miao!\""
     ],
     "589-0-message": [
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
+      "\"Sara. Vuoi... scambia' dei gettoni...?\"",
+      "\"Quanti... ne vuoi?\"",
+      "\\.\"Te... Te ne do 40.\n A me bastano 10.\"",
+      "\\.\"Te... Te ne do 40.\n A me bastano 20.\"",
+      "\\.\"...Son sicuro che è un bell'affare per te.\"",
+      "\\.\\C[4](Eh...?\n Q-taro si comporta in modo strano...)",
+      "\"D... D'accordo. Parliamo, Sara.\"",
+      "\\.\"Ehmm... Sara.\n Hai 'che gettone...?\"",
+      "\\.\"Che te pare de... 10 gettoni!\n Almeno 10 ce li avrai, no...?\"",
+      "\\.\"Scusa... Non ce li ho...\"",
+      "\\.\"..........\"",
+      "\\.\"...Se è così, pace.\"",
+      "\\.\"Ci si vede... Sara.\"",
+      "\\C[4](...Se n'è andato...)",
+      "\\.\\C[4](Anche il suo passo sembra piuttosto instabile.)",
+      "\\.\\C[4](Chissà cos'ha...)",
+      "\\.\"Che te pare de... 20 gettoni!\n Almeno 20 ce li avrai, no...?\"",
+      "\\.\"Scusa... Non ce li ho...\"",
+      "\\.\"..........\"",
+      "\\.\"...Se è così, pace.\"",
+      "\\.\"Ci si vede... Sara.\"",
+      "\\C[4](...Se n'è andato...)",
+      "\\.\\C[4](Anche il suo passo sembra piuttosto instabile.)",
+      "\\.\\C[4](Chissà cos'ha...)",
+      "\\.\"S... Sì...?\"",
+      "\\.\"...!\"",
+      "\\.\"Van bene solo 10 gettoni! Scambiali con me.\"",
+      "\\.\"Van bene solo 20 gettoni! Scambiali con me.\"",
+      "\\.\"Te... Te ne do 40...\n Mica un brutto affare, no...?\"",
+      "\\.\"Q-taro...\"",
+      "\\.\"È vero... Va molto a mio favore.\"",
+      "\\.\"Direi de sì. C'hai tutto da guadagnarce.\"",
+      "\\.\\C[4](Che intenzioni ha...?)",
+      "\\.\"Quindi nulla da ridire, giusto, Sara?!\"",
+      "\\.\"Q-taro... Che succede?\n Ti comporti in modo molto strano.\"",
+      "\\.\"Strano? Ma no.\n ...So' solo un po' stanco, nient'altro.\"",
+      "\\.\"Cioè... Perché all'improvviso mi proponi\n uno scambio così impari?\"",
+      "\\.\"...I miei gettoni non valgon nulla.\n Meglio che ce li hai tu.\"",
+      "\\.\"Allora, cheddici, Sara?\"",
+      "\\.\"Aspetta un secondo...!\n È senza dubbio strano!\"",
+      "\\.\"Te lo stai a immagina'... È uno scambio normalissimo.\"",
+      "\\.\"Nessuna fregatura... Fidate.\"",
+      "\\.\"Ma...\"",
+      "\\.\"Per favore, Sara...\n Te do 40 gettoni, e tu solo 10.\n Vuoi scambia'?\"",
+      "\\.\"Per favore, Sara...\n Te do 40 gettoni, e tu solo 20.\n Vuoi scambia'?\"",
+      "\\.\\C[4](Q-taro non si comporta in modo normale...)",
+      "\\.\\C[4](Ma... è uno scambio vantaggioso per me...)",
+      "\\.\\C[4](Ho un brutto presentimento...\n Dovrei comunque accettare lo scambio?)",
+      "\"Ho capito. Accetto lo scambio, Q-taro.\"",
+      "\\.\"...Bene.\"",
+      "\\.\\C[3]Ricevuti 40 Auto-Gettoni da Q-taro.",
+      "\\.\"...Beh, ora devo fa' una cosa...\"",
       "\\C[4](Beh... Per ora basta con le contrattazioni.)",
-      null,
-      null,
-      null,
-      null,
-      null,
+      "\"Scusa, temo di non poter accettare.\"",
+      "\\.\"Sara...!\"",
+      "\\.\"...Credo che dovresti calmarti un attimo, Q-taro.\"",
+      "\\.\"..........\"",
+      "\\.\"...G-Giusto...\n Scusame, Sara...\"",
       "\\C[4](Beh... Per ora basta con le contrattazioni.)"
     ],
     "589-0-choice": [
       "Tratta\nSenti l'offerta in breve\nAnnulla",
-      null,
-      null
+      "In effetti è un buon affare\nChe succede?",
+      "Offrigli i gettoni\nRifiuta lo scambio"
+    ],
+    "590-0-message": [
+      "\\.\\C[4](Mmh...)",
+      "\\.\\C[4](Continuo a ripensare al comportamento di Q-taro...)",
+      "\\.\\C[4](Dall'incidente del portatile...\n Q-taro si comporta chiaramente in modo strano.)",
+      "\\.\\C[4](L'ho visto dirigersi verso la \\C[2]Lunga scalinata\\C[4].\n Forse dovrei dare un'occhiata...)"
     ],
     "593-0-choice": [
       "Tratta\nSenti l'offerta in breve\nAnnulla",
@@ -17696,6 +18104,209 @@
     "606-0-choice": [
       "\\C[10]Bene\n\\C[10]Male",
       "\\C[10]Ancora non posso\n\\C[10]Ti raggiungerò presto"
+    ],
+    "610-0-message": [
+      "Informazioni personali di Nao Egokoro",
+      "\\.\\C[4](C'è un sacco di roba scritta qui...\n Cosa dovrei leggere?)",
+      "\\.Scuola Elementare Egasaki ... Diplomata\nScuola Media Egasaki ... Diplomata\nTerza Scuola Superiore Privata Kurotsuki ... Diplomata\nAccademia di Belle Arti Privata Takesasa ... 1º anno",
+      "\\.Ceto medio, nata e cresciuta in una famiglia\nmolto ordinaria. Voti a scuola sotto la media.\nAppassionata d'arte dalle scuole superiori,\nora sembra quella l'unica strada che vuole seguire.",
+      "\\.Ammira un consulente del club d'arte incontrato\nalle scuole superiori, rimanendo in stretti rapporti\ncon lui anche dopo il diploma.\nÈ stata spesso vista andare nell'atelier dell'uomo.",
+      "\\.\\C[4](Dev'essere il professor Mishima...)",
+      "\\.Non sembrerebbe avere molti amici,\nma quelli che ha sono per la maggior parte\ndi lunga data, per cui si pensa che consideri\nimportanti le relazioni.",
+      "\\.Inoltre, evita di uscire fuori la notte,\nrimanendo generalmente a casa anche nei giorni liberi.",
+      "\\.Nessuna informazione pervenuta\nsu quali uomini frequenti.",
+      "\\.\\C[4](Sembra essere tutto.)",
+      "Nao Egokoro\nEtà: 19\nGenere: Femmina\nAltezza: 162cm  Peso: 55kg",
+      "\\.Ha poca esperienza nelle attività sportive,\nlimitata alle lezioni di educazione fisica previste\ndall'istruzione obbligatoria.\nCiononostante, i suoi riflessi sono lenti.",
+      "\\.Forse per via della sua vena artistica, ha una vista\nmolto buona. Le sue abilità di ricordare una scena per\nmolto tempo o di riconoscere i singoli battiti d'ala\ndi un uccello sono verosimili, ma comunque eccellenti.",
+      "\\.Siccome ciò deriva per buona parte dalla pratica,\nl'unica cosa di lei definibile un talento innato\nsi crede essere la sua devota passione per l'arte.",
+      "\\.Nessun'altra caratteristica degna di nota,\nse non si conta il petto molto pronunciato.",
+      "\\.\\C[4](Questa è una palese molestia sessuale...)",
+      "\\.\\C[3]Ho strappato l'ultima riga e l'ho buttata via.",
+      "\\.\\C[4](Sembra essere tutto.)",
+      "\\.Cresciuta in una famiglia molto comune di ceto medio.\nEntrambi i genitori sono in buona salute.\nEssendo con loro in buoni rapporti,\nla sua situazione è normale ma felice.",
+      "\\.Il padre fa un lavoro d'ufficio da 20 anni.\nLa madre ha fatto vari lavori.\nFiglia unica.",
+      "\\.Il padre è sottomesso dalla moglie.\nDurante i litigi, sembrerebbe che Nao Egokoro\ndifenda spesso il padre per risolvere il conflitto.",
+      "\\.\\C[4](L'hanno osservata fino a questo punto...?)",
+      "\\.Ha superato con scioltezza la Prima Prova.\nÈ sopravvissuta al primo Gioco Principale.",
+      "\\.Molto scossa dalla morte del suo professore.\nNe ha preso la testa ed è scappata via.",
+      "\\.Ciò potrebbe essere segno di debolezza mentale,\nma sopportare un grande trauma potrebbe renderla\nmolto più resistente in futuro.",
+      "\\.\\C[4](Nao non è affatto debole...)",
+      "\\.Con buona probabilità, Nao Egokoro fa tesoro\ndelle opere d'arte da lei realizzate,\ne dei pennelli ecc. ricevuti dal suo professore.",
+      "\\.Avendo molto poco interesse per i soldi,\nnon sembrerebbe il tipo da desiderare cose costose.",
+      "\\.\\C[4](Non dice altro...)"
+    ],
+    "610-0-choice": [
+      "Storia\nInformazioni fisiche\nFamiglia\nInformazioni sul Gioco Mortale\nCos'ha a cuore\nAnnulla"
+    ],
+    "620-0-message": [
+      "\\C[3]Video della vittima 1\n\nRegistrazione di una delle vittime del Gioco Mortale.\nVisualizzabile solo nella Sala degli schermi.",
+      "\\.\\C[3]Guardare il video?",
+      "\\.\\C[4](Dovrei aspettare un momento in cui non c'è nessuno...)",
+      "\\.\\C[4](Bene, questo sembra un buon momento...\n Lo guarderò dallo schermo centrale.)",
+      "\\.\\C[4](Non posso usarlo qui...)"
+    ],
+    "620-0-choice": [
+      "Sì\nNo"
+    ],
+    "621-0-message": [
+      "\\C[3]Video della vittima 2\n\nRegistrazione di una delle vittime del Gioco Mortale.\nVisualizzabile solo nella Sala degli schermi.",
+      "\\.\\C[3]Guardare il video?",
+      "\\.\\C[4](Dovrei aspettare un momento in cui non c'è nessuno...)",
+      "\\.\\C[4](Bene, questo sembra un buon momento...\n Lo guarderò dallo schermo centrale.)",
+      "\\.\\C[4](Non posso usarlo qui...)"
+    ],
+    "621-0-choice": [
+      "Sì\nNo"
+    ],
+    "622-0-message": [
+      "\\C[3]Video della vittima 3\n\nRegistrazione di una delle vittime del Gioco Mortale.\nVisualizzabile solo nella Sala degli schermi.",
+      "\\.\\C[3]Guardare il video?",
+      "\\.\\C[4](Dovrei aspettare un momento in cui non c'è nessuno...)",
+      "\\.\\C[4](Bene, questo sembra un buon momento...\n Lo guarderò dallo schermo centrale.)",
+      "\\.\\C[4](Non posso usarlo qui...)"
+    ],
+    "622-0-choice": [
+      "Sì\nNo"
+    ],
+    "623-0-message": [
+      "\\C[3]Informazioni personali di Q-taro Burgerberg\n\n\nVisualizzabili solo nella Sala degli schermi.",
+      "\\.\\C[3]Vedere le informazioni personali?",
+      "\\.\\C[4](Dovrei aspettare un momento in cui non c'è nessuno...)",
+      "\\.\\C[4](A quanto pare un'IA di Q-taro\n risponderà alle mie domande.)",
+      "\\.\\C[4](Non posso usarlo qui...)"
+    ],
+    "623-0-choice": [
+      "Sì\nNo"
+    ],
+    "624-0-message": [
+      "\\C[3]Informazioni personali di Reko Yabusame\n\n\nVisualizzabili solo nella Sala degli schermi.",
+      "\\.\\C[3]Vedere le informazioni personali?",
+      "\\.\\C[4](Dovrei aspettare un momento in cui non c'è nessuno...)",
+      "\\.\\C[4](A quanto pare un'IA di Reko\n risponderà alle mie domande.)",
+      "\\.\\C[4](Non posso usarlo qui...)"
+    ],
+    "624-0-choice": [
+      "Sì\nNo"
+    ],
+    "625-0-message": [
+      "\\C[3]Informazioni personali di Gin Ibushi\n\n\nVisualizzabili solo nella Sala degli schermi.",
+      "\\.\\C[3]Vedere le informazioni personali?",
+      "\\.\\C[4](Dovrei aspettare un momento in cui non c'è nessuno...)",
+      "\\.\\C[4](A quanto pare un'IA di Gin\n risponderà alle mie domande.)",
+      "\\.\\C[4](Non posso usarlo qui...)"
+    ],
+    "625-0-choice": [
+      "Sì\nNo"
+    ],
+    "626-0-message": [
+      "Un articolo sullo scioglimento dei \\rb[Sa,3]\\rb[mu,6-]\\rb[rai,Rai] \\rb[Ya,8]\\rb[i,1]\\rb[ba,8].\nCantante: \"Non riesco più a cantare\nle canzoni di questa band\"."
+    ],
+    "629-0-message": [
+      "\"..........\"",
+      "\"..........\""
+    ],
+    "630-0-message": [
+      "\"Nooo...!!\n Cos'è questo...?!\"",
+      "\"Non riesco a muovermi!! Le mie gambe...!!\"",
+      "\\.\"10 secondi alla fine della Prima Prova.\"",
+      "\\.\"Chi è?! Perché mi state facendo questo?!\"",
+      "\\.\"Ne ho abbastanza!!\n Questa prova... non ci ho capito niente!!\"",
+      "\\.\"Mamma!! Papà!! Aiutooo!!\"",
+      "\\.\"Aiu... tatemiii...!!\"",
+      "\\.\"...Il tempo è scaduto.\"",
+      "\\.\"Il dispositivo sarà attivato a breve.\"",
+      "\\.\"Per commemorare, puoi dire le tue ultime parole.\"",
+      "\\.\"Fermiii!! Non voglio morireeeee!!\"",
+      "\\sp[12]\"Ga... a... a...\"",
+      "\\.\\sp[12]\"Fa... male...\n \\sp[10]M... m... amma...\"",
+      "\\C[4](Orribile...)",
+      "\\.\\C[3]Una studentessa delle medie, forse delle superiori...\nUna ragazza quasi della mia età uccisa a sangua freddo.",
+      "\\.\\C[4](E... l'hanno reso uno spettacolo...!)",
+      "\\.\\C[4](Ci hanno giocato così da poter\n rendere questo video un \"premio\"...!!)",
+      "\\.\\C[4](..........)",
+      "\\.\\C[4](Non so neanche come si chiami, ma...)",
+      "\\.\\C[4](Voglio vendicarti...)"
+    ],
+    "631-0-message": [
+      "\"Diamine...!! Non prendetemi per il culo!!\"",
+      "\"Non provateci!! Dannazione!!\"",
+      "\\.\"Vi ammazzo!!\n Tutti voi bastardi che avete messo in piedi\n questa merda siete morti!!\"",
+      "\\.\"Mi sentite?! Vi massacro!!\"",
+      "\\.\"Diamine... diamine...\"",
+      "\\.\"Ammazzerò tutti quelli che\n mi stanno facendo questo...\"",
+      "\\.\"Arggh... pezzi di... merdaaa...!\"",
+      "\\.\"...\"",
+      "\\.\"Vi prego...\"",
+      "\\.\"Non riesco più a muovermi...!\n Fermate... le pareti...\"",
+      "\\.\"Le pareti...\"",
+      "\\C[4](Ugggh...!)",
+      "\\.\\C[3]Non riesco a guardarlo direttamente.",
+      "\\.\\C[3]Le pareti sono avanzate lentamente,\ne alla fine, l'uomo...",
+      "\\.\\C[4](Sono sicura... che questa fosse la Prima Prova.)",
+      "\\.\\C[4](Se fosse sopravvissuto,\n probabilmente l'avremmo conosciuto...)",
+      "\\.\\C[4](Sarebbe stato nostro alleato...?\n Sarebbe stato nostro nemico...?)",
+      "\\.\\C[4](Non lo so...)",
+      "\\.\\C[4](Ma in ogni caso, avremmo almeno dovuto\n poter vedere com'era...)",
+      "\\.\\C[4](Non posso dimenticarmi di questa persona...)"
+    ],
+    "632-0-message": [
+      "\"..........\"",
+      "\"..........\"",
+      "\\.\"..........\"",
+      "\\.\\C[10]\"Aaah, inutile...\n Sei morta così facilmente...\"",
+      "\\.\\C[10]\"Divincolati un altro po'...\n Lotta per la tua vita...\n Opponi una miserabile resistenza...!\"",
+      "\\.\\C[10]\"Un essere umano noioso... una vita inutile...\"",
+      "\\.\\C[10]\"...Non li voglio i tuoi cavolo di vestiti.\"",
+      "\\.\"..........\"",
+      "\\.\\sp[12]\"...ahah...\"",
+      "\\.\\C[10]\"...Eeh?\"",
+      "\\.\\sp[12]\"...sei... stato tu...?\"",
+      "\\.\\C[10]\"...Eheeheeh. Eh già.\n Ti senti umiliata? Rammaricata?\"",
+      "\\.\\sp[12]\"...è solo che..\"",
+      "\\.\\sp[12]\"...volevo morire...\"",
+      "\\.\\sp[10]\"...gra... zie...\"",
+      "\\.\\C[10]\"..........\"",
+      "\\.\\C[10]\"...Eh?\"",
+      "\\.\\C[10]\"Eeeh? Aaah?\"",
+      "\\.\\C[10]\"Dovresti sentirti AVVILITA...!!\n Disgustosa... disgustosa!!\"",
+      "\\.\\C[10]\"Mi sto arrabbiando!! Sono arrabbiato nero!!\"",
+      "\\.\\C[10]\"SOFFRI!!\"",
+      "\\.\\C[10]\"Vai al diavolo!! VAI AL DIAVOLO!!\"",
+      "\\.\\C[10]\"Ti farò PENTIRE di avermi ringraziato!!\"",
+      "\\C[4](Come può...?!)",
+      "\\.\\C[3]Ripetutamente, continua a tormentare\nil corpo già esanime.",
+      "\\.\\C[4](Cos'è questo odio così viscerale...?!)",
+      "\\.\\C[4](Perché... Pongo dovrebbe odiare qualcuno così tanto?)",
+      "\\.\\C[4](Nonostante sia lui a giocare\n con le vite degli altri...?\n Non ha alcun senso!)",
+      "\\.\\C[4](...)",
+      "\\.\\C[4](...Invidia?)",
+      "\\.\\C[3]Non so perché mi sia venuto in mente quello.",
+      "\\.\\C[3]Ma è una cosa a cui ho pensato intuitivamente.",
+      "\\.\\C[3]Ho percepito... una certa invidia da parte di Pongo.",
+      "\\.\\C[4](Chissà...\n Che sia invidia nei confronti degli umani...?)",
+      "\\.\\C[4](...Meglio se la smetto,\n Il solo pensare a uno come lui...\n mi sta facendo venire il mal di testa.)"
+    ],
+    "635-0-message": [
+      "\"..........\"",
+      "\"..........\""
+    ],
+    "635-0-choice": [
+      "Tratta\nTrafiggigli il corpo\nAnnulla"
+    ],
+    "636-0-message": [
+      "\"..........\"",
+      "\"..........\""
+    ],
+    "636-0-choice": [
+      "Tratta\nTagliagli i polsi\nAnnulla"
+    ],
+    "637-0-message": [
+      "\"..........\"",
+      "\"..........\""
+    ],
+    "637-0-choice": [
+      "Tratta\nBruciagli la testa\nAnnulla"
     ]
   },
   "actors-1": {
@@ -18280,6 +18891,10 @@
     "name": "★Entro i bordi",
     "description": ""
   },
+  "items-140": {
+    "name": "Smetti di vedere",
+    "description": "Smetti di vedere le informazioni personali o\ni video delle vittime nella Sala degli schermi."
+  },
   "items-141": {
     "name": "Vai all'inferno",
     "description": ""
@@ -18342,6 +18957,14 @@
   },
   "items-156": {
     "name": "Rete della felicità",
+    "description": ""
+  },
+  "items-157": {
+    "name": "Art. scioglimento band",
+    "description": "Un articolo sullo scioglimento\ndei 36-Rai 818 (Samurai Yaiba).\nCantante: \"Non riesco più a cantare\nle canzoni di questa band\"."
+  },
+  "items-158": {
+    "name": "Art. scioglimento band",
     "description": ""
   },
   "items-200": {
@@ -18519,6 +19142,7 @@
     "backlogpagenumber": "##Pagina {0}##",
     "firsttrialcode": "3141",
     "dtext_発言力：": "Carisma: ",
+    "dtext_精神：": "Mente: ",
     "name_サラ": "Sara",
     "name_サラ（モニター）": "Sara (schermo)",
     "name_\\c[10]サラ": "\\C[10]Sara",
@@ -18618,7 +19242,13 @@
     "name_ガキ": "Monello",
     "name_記憶の声": "Ricordo",
     "name_人工知能": "IA",
+    "name_映像の男性": "Uomo nel video",
     "name_怪物": "Mostro",
+    "name_おまわりさん": "Sig. Poliziotto",
+    "name_警察官": "Poliziotto",
+    "name_犯人": "Criminale",
+    "name_影": "Ombra",
+    "name_怒りのai": "IA arrabbiata",
     "name_資料": "Documenti",
     "name_パソコン": "Computer",
     "name_１通目のメール": "1ª e-mail",
@@ -18634,6 +19264,15 @@
     "name_背後の声": "Voce da dietro",
     "name_タブレット": "Tablet",
     "name_ファイル": "File",
+    "name_規約": "Regole",
+    "name_絵画？": "Dipinto?",
+    "name_モニター": "Schermo",
+    "name_音声": "Voce",
+    "name_紙": "Foglio",
+    "name_サラの父": "Padre di Sara",
+    "name_メール": "E-mail",
+    "name_リョーコ・ジョー": "Ryoko e Joe",
+    "name_書き置き": "Nota",
     "name_ヒヨリ": "Hiyori",
     "name_でば": "Debug",
     "itemextradesc39": "Se sono meno di 4 alle preliminari, verrano usati loro.\\nSe solo 1, sarà lui la vittima senza votazione finale.",
@@ -18669,6 +19308,7 @@
     "itemdesc97": "Una chiave dipinta di rosso.",
     "itemdesc99": "La chiave della camera di Sara.",
     "itemdesc156": "Una lunga corda bianca.\n...Non è chiaro in cosa consista la \"felicità\".",
+    "itemdesc158": "Un articolo sullo scioglimento\ndei 36-Rai 818 (Samurai Yaiba).\nCantante: \"Non riesco più a cantare\nle canzoni di questa band\".",
     "midoridefaultname": "Midori",
     "midori_ヒヨリソウ": "souhiyori",
     "midori_ヒヨリ": "hiyori",
