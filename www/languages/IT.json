@@ -7954,7 +7954,7 @@
       "\\.\\C[4](Richieste...)",
       "\\.\"U-Una seconda volta...?\n È pericoloso. Te lo sconsiglio.\"",
       "\\.\\C[4](Meglio di no, eh...)",
-      "\\.\"...Ti prego, Safalin. Solo un'altra volta.\"",
+      "\\.\"...Ti prego, Mosa. Solo un'altra volta.\"",
       "\\.\"Signorina Sara...\"",
       "\\.\"Capisco. Speriamo che la tua mente\n sia forte abbastanza da sopportarlo.\"",
       "\\.\"Beh, allora, ecco qua.\"",
@@ -7982,9 +7982,9 @@
       "\\.\\C[4](Vorrei che mi lasciasse almeno esplorare.)",
       "\\.\"N-No! Una terza volta è troppo pericoloso!!\"",
       "\\.\\C[4](Farlo ancora è pericoloso...?)",
-      "\\.\"Ti prego, Safalin!\n Sono sicura... che solo un'altra volta\n non mi farà nulla!\"",
+      "\\.\"Ti prego, Mosa!\n Sono sicura... che solo un'altra volta\n non mi farà nulla!\"",
       "\\.\"No, non posso più...!\"",
-      "\\.\"Ti prego, Safalin!\n Ti scongiuro!\"",
+      "\\.\"Ti prego, Mosa!\n Ti scongiuro!\"",
       "\\.\"Mi stai supplicando...?\"",
       "\\.\"...Signorina Sara.\"",
       "\\.\"Forse ormai sei già danneggiata da molto tempo...\"",
@@ -9777,7 +9777,7 @@
     ],
     "43-7-message": [
       "\\.\"...Non è servito a nulla.\"",
-      "\\.\"Tsk...! In tal caso,\n lo schermo è stato distrutto da...!\"",
+      "\\.\"Tsè...! In tal caso,\n lo schermo è stato distrutto da...!\"",
       "\\.\"...Ne sono praticamente certo.\n Ed è per questo che ho accettato lo scambio.\"",
       "\\.\\C[4](Quei due sono nel mezzo\n di una losca riuniona tattica...)"
     ],
@@ -10185,7 +10185,7 @@
       "\\.\"Che stai tramando?! Dimmelo!\"",
       "\\.\"E... Eeeh?! Aspetta...!\"",
       "\\.\"Dai, dai. Con la violenza non si risolve nulla, Reko.\"",
-      "\\.\"Tsk...!!\"",
+      "\\.\"Tsè...!!\"",
       "\\.\"C... Che succede...? Ve la prendete tutti con me...\"",
       "\\.\"Sou...\"",
       "\\.\"N... Non lo so... Mi hanno aggredito...?\"",
@@ -10783,7 +10783,7 @@
       "\\.\"Che guastafeste! Te lo spiego dopo.\"",
       "\\.\"Tutti gli altri non riceveranno alcun premio,\n li annuncerò in ordine di piazzamento!\"",
       "\\.\"Badah-badah-badah-badah-badah...\"",
-      "\\.\"Che sarebbe questo \"badah-badah\" fastidioso?\n Non mi interrompere, Safalin!\"",
+      "\\.\"Che sarebbe questo \"badah-badah\" fastidioso?\n Non mi interrompere, Mosa!\"",
       "\\.\"Aaah!! Ma mi avevi detto di fare\n come alle prove, no...?!\"",
       "\\.\"Annunciamo i primi tre!\"",
       "\\.\"Kanna Kizuchi!\"",
@@ -12100,7 +12100,7 @@
       "\\.\"Sara...!!\"",
       "\\.\\{\"Non ti intromettere, Sara!!\"",
       "\\.\"M-Ma...!\"",
-      "\\.\"Tsk...!!\"",
+      "\\.\"Tsè...!!\"",
       "\\.\\C[4](Reko!!)",
       "\\.\"Aspetta, per favore! Reko!\"",
       "\\.\\C[4](Per ora... la priorità è parlare con Alice.)",
@@ -12441,6 +12441,14 @@
     ]
   },
   "map123": {
+    "2-1-message": [
+      "*sniff sniff*...",
+      "\\.\"Mmh... Di norma, ti avrei già mandato via.\n Ma visto che sono di buon umore...\"",
+      "\\.\"Annusa pure quanto vuoooooi!!\"",
+      "\\.\"Ugh... Sto a posto così, miao. Ho paura, bau.\"",
+      "\\.\"Muahahah... Peggio per te.\n Non avrai altre occasioni...\"",
+      "\"Muahah... La mia mente è limpida\n come un mattino primaverile...\""
+    ],
     "3-1-message": [
       "\\.\"Se troverò qualcosa te lo farò sapere subito, Sara.\""
     ],
@@ -12469,6 +12477,24 @@
     "4-2-message": [
       "\\C[3]Non riesco a dire nulla sul cuore di Gashu.",
       "\"...Per leggere il cuore di qualcuno,\n devi averci passato del tempo assieme.\""
+    ],
+    "4-4-message": [
+      "\"C'è qualche problema di sorta?\"",
+      "\\.\"No, nulla.\"",
+      "\\.\"In caso abbiate qualche preoccupazione,\n non esitate a farmelo presente.\""
+    ],
+    "4-5-message": [
+      "*sniff sniff*...",
+      "\\.\"Uff... Odora come una villa di lusso, miao...\"",
+      "\\.\"Prego, annusi quanto vuole.\"",
+      "\\.\"Ne ho già abbastanza, bau!!\""
+    ],
+    "4-6-message": [
+      "\"Posso tentarvi con del tè?\"",
+      "\\.\"Spostati...!\""
+    ],
+    "4-7-message": [
+      "\"Non è il momento di annusare la gente, miao!!\""
     ],
     "6-1-message": [
       "\\.\"Cosa sta facendo?!\"",
@@ -12629,6 +12655,27 @@
       "\\.\\C[3]Non... riesco a leggere niente da Sou...",
       "\"Mpf... È troppo scaltro.\""
     ],
+    "6-6-message": [
+      "\\.\"Sara...\"",
+      "\\.\"Ah...\"",
+      "\\.\"...\"",
+      "\\.\"...Bene.\n Sembri già stare meglio.\"",
+      "\\.\"Keiji...\"",
+      "\\.\"Ehm, siamo un po' di fretta, quindi...\"",
+      "\\.\"...\"",
+      "\\.\"O-cappa.\n A dopo, allora.\"",
+      "\\.\"...Gashu ci guarda.\n Andiamocene senza dare nell'occhio.\"",
+      "\\.\"Ehm... È verso il Corridoio in rovina.\""
+    ],
+    "6-7-message": [
+      "\\.\"Andate, allora.\n Facciamo tutti quel che dobbiamo.\""
+    ],
+    "6-8-message": [
+      "*sniff sniff*...",
+      "\\.\"Odora di feromoni provocanti, miao!\"",
+      "\\.\"Sorellona Sara, non annusare! Scappa!\"",
+      "\\.\"...?\""
+    ],
     "7-1-message": [
       "\"Ohi, ragazzi.\n Dove andate, così di fretta?\"",
       "\\.\"...A un appuntamento.\"",
@@ -12645,6 +12692,14 @@
     "7-4-message": [
       "\\C[3]Reko è... diffidente nei confronti di Sou.",
       "\"Lo si sente solo dalla sua aura...\""
+    ],
+    "7-6-message": [
+      "*sniff sniff*...",
+      "\\.*sniff sniff*...",
+      "\\.\"Non copiarmi, miao!!\"",
+      "\\.\"Odori come un cane shiba, Gin.\"",
+      "\\.\"Davvero, bau...?\"",
+      "\"Di sicuro sarei molto più felice\n a dimenticare i ricordi dolorosi, ma...\""
     ],
     "15-1-message": [
       "\\C[4](Devo andare all'Infermeria...\n Dovrebbero stare tutti lì ad aspettare.)"
@@ -12705,6 +12760,16 @@
     "15-9-choice": [
       "Di cosa?\nNon voglio"
     ],
+    "15-12-message": [
+      "\\C[4](Nao è andata verso le camere...?!)\\.",
+      "\\.\"C'è qualche problema, gente?\"",
+      "\\.\"Mià!! Non intrometterti, bau!\n Siamo di fretta, miao!!\"",
+      "\\.\"Oh, chiedo venia.\"",
+      "\\.\"Ma vi avverto che rischiate\n di inciampare nella fretta.\"",
+      "\\.\"Spostati, Maestro di piano.\n ...Vuoi rallentarci o cosa?\"",
+      "\\.\"Certo che no.\n Esprimevo solo la mia preoccupazione.\n ...Andate pure.\"",
+      "\\.\\C[4](Dobbiamo andare verso la camera di Nao!)"
+    ],
     "56-1-message": [
       "\\C[3]Video della vittima\n\nIl video che aveva Nao. Mostra una poliziotta\nche muore nella Prima Prova. L'uomo di fronte è Keiji?"
     ],
@@ -12715,7 +12780,7 @@
       "\\C[3]Disco della vittima F\n\nUn disco della vittima trovato al 1º piano."
     ],
     "59-1-message": [
-      "\\C[3]Filmati di sicurezza del 1º piano\n\nDalle telecamere di sicurezza del 1º piano. Mostra le\nnostre azioni. Sou ha visto Q-taro posizionare le carte."
+      "\\C[3]Filmati di sorveglianza del 1º piano\n\nDalle telecamere di sorveglianza del 1º piano. Mostra le\nnostre azioni. Sou ha visto Q-taro posizionare le carte."
     ],
     "60-1-message": [
       "\\C[3]Tablet\n\nUn tablet utilizzabile per vedere il proprio ruolo.\nEra vicino a Q-taro svenuto nella Stanza delle macerie."
@@ -12724,10 +12789,155 @@
       "\\C[3]Arma stordente\n\nUn'arma monouso che può immobilizzare una persona.\nÈ pericolosa, Gin e io l'abbiamo presa in segreto."
     ],
     "83-1-message": [
-      "\\C[3]Circuito di Nosko\n\nUn piccolo circuito rimosso dalla testa di Rikon Nosko.\nIn grado di azzerare la sicurezza della struttura."
+      "\\C[3]Circuito di Nosko\n\nUn piccolo circuito rimosso dalla testa di Rikon Nosko.\nIn grado di distruggere la sicurezza della struttura."
     ]
   },
   "map124": {
+    "2-1-message": [
+      "\\.\"...Non c'è nessuno, vero?\"",
+      "\\.\"Già, ci siamo solo noi...\"",
+      "\\.\"..........\"",
+      "\\.\"Ehm... È la strada giusta?\"",
+      "\\.\"Eh...? M-Ma certo...\n In effetti non vi avevo detto qual era, giusto...?\"",
+      "\\.\"...\"",
+      "\\.\"La stanza segreta è davvero qui?\"",
+      "\\.\"...\"",
+      "\\.\"Sbrighiamoci, prima che arrivi qualcuno...!\"",
+      "\\.\"È-È vero...\"",
+      "\\.\"Ehm... Sara...\"",
+      "\\.\"Pensavo... Una volta entrati nella stanza,\n potremmo avere una sola occasione...\"",
+      "\\.\"Quindi... Potrei prima controllare il circuito?\"",
+      "\\.\"Controllarlo...?\"",
+      "\\.\"Sì. Se fosse rotto, il piano sarebbe un fallimento...\"",
+      "\\.\"Per favore, Sara.\"",
+      "\\.\"...\"",
+      "\\.\"Capisco.\"",
+      "\\.\\C[3]Consegnato il Circuito di Nosko.",
+      "\\.\"...Grazie mille.\"",
+      "\\.\\C[4](C'è qualcosa... che non va...)",
+      "\\.\"Scusa, Nao...\"",
+      "\\.\"Non ti... fidi di me...?\"",
+      "\\.\"Ecco...\"",
+      "\\.\"Mi... fido di te.\"",
+      "\\.\"Grazie mille, Sara...\"",
+      "\\.\\C[3]Consegnato il Circuito di Nosko.",
+      "\\.\"Scusa...\"",
+      "\\.\"Perché no...?\"",
+      "\\.\"È come se...\n fossi diversa dal solito...\"",
+      "\\.\"...*sniff*...\"",
+      "\\.\"*sniff*... Sara...\"",
+      "\\.\"Sorellona Nao...!\"",
+      "\\.\\C[4](Anch'io vorrei poterti credere, Nao!)",
+      "\\.\\C[4](Ma...!)",
+      "\\.\"Nao.\"",
+      "\\.\"...Sì?\"",
+      "\\.\\C[4](Nao sta nascondendo qualcosa...)",
+      "\\.\\C[4](Se chiudo gli occhi... e faccio un lungo respiro.)",
+      "\\.\\C[4](Vedrò di nuovo Nao con la mente lucida.)",
+      "\\.\\C[4](Nello stesso modo di quando ero con Keiji...!)",
+      "\\.\\C[4](Nao sta nascondendo qualcosa...!!)",
+      "\\.\\C[4](Se chiudo gli occhi... e faccio un lungo respiro.)",
+      "\\.\\C[4](Vedrò di nuovo Nao con la mente lucida.)",
+      "\\.\\C[4](Nello stesso modo di quando ero con Keiji...!)",
+      "\\.\\C[4](Posso sentirla... L'agitazione di Nao.)",
+      "\\.\\C[4](Che farebbe Keiji?\n Come posso arrivare a lei...?!)",
+      "\\.\\C[4](Posso in qualche modo \\C[2]toccarla nel cuore\\C[4]...?!)"
+    ],
+    "2-1-choice": [
+      "La stanza segreta è davvero qui?\nSbrighiamoci",
+      "Dalle il circuito\nNon darglielo",
+      "Mi fido di te\nNon mi fido di te"
+    ],
+    "2-3-message": [
+      "\"Nao, dimmi tutto, per favore.\"\\.\\.",
+      "\\.\"D-Di che parli...?\"",
+      "\\.\"Non siamo più sconosciuti.\"",
+      "\\.\"Siamo alleati. Se cerchi di ingannarmi,\n preferirei che restassimo uniti e\n condividessimo le nostre preoccupazioni.\"",
+      "\\.\"..........\"",
+      "\\.\"...L'hai capito subito, eh?\"",
+      "\\.\"Ti ho mentito...\"",
+      "\\.\"Non so nulla su questa stanza segreta.\"",
+      "\\.\"Sorellona Nao...\"",
+      "\\.\"Ma...\"",
+      "\\.\"So... come trovarla.\"",
+      "\\.\"In che senso...?!\"",
+      "\\.\"Sara...\"",
+      "\\.\"Scusa...!\"",
+      "\\.\"Che...\"",
+      "\\.\"Iah...?!\"",
+      "\\.\\C[3]Il Circuito di Nosko è stato rubato.",
+      "\\.\"N... Nao?!\"",
+      "\\.\"Grazie per il disturbo.\"",
+      "\\.\"Sei stata brava, signorina Nao.\"",
+      "\\.\"Sou...!!\"",
+      "\\.\"..........\"",
+      "\\.\"Che intenzione hai, miao?!! Asocialeee!!\"",
+      "\\.\"Mi piacerebbe sapere cosa\n avevate intenzione di fare VOI da qui in avanti.\"",
+      "\\.\"Che vorresti dire?!\"",
+      "\\.\"Andiamo... Almeno ci avete pensato a\n \\C[2]come usare questo circuito\\C[0]?\"",
+      "\\.\"Beh...\"",
+      "\\.\"Sì che lo sappiamo...! Ora ridaccelo, grazie!\"",
+      "\\.\"Sei proprio una gran bugiarda, signorina Sara.\"",
+      "\\.\"...!!\"",
+      "\"Io, potrei \\C[2]analizzarlo\\C[0].\n ...Con questo \\C[2]portatile\\C[0].\"",
+      "\\.\"Aspetta un attimo.\n Come fai a sapere di questo circuito...?!\"",
+      "\\.\"Ahahah, e chi lo sa? Che strano.\"",
+      "\\.\\C[4](Uff...!!)",
+      "\"Beh, io potrei \\C[2]analizzarlo\\C[0].\n ...Con questo \\C[2]portatile\\C[0].\"",
+      "\"Trafficcandoci un po',\n qualcosa salterà fuori!\"",
+      "\\.\"Invece no. I componenti di precisione\n sono molto più delicati di te, signorina Sara.\"",
+      "\\.\"Non insultare la sorellona Sara, asociale!!\"",
+      "\\.\"Mpf. Non c'è tempo per i battibecchi infantili.\"",
+      "\"Devo andare ad \\C[2]analizzare\\C[0] il circuito\n con questo \\C[2]portatile\\C[0].\"",
+      "\\.\"Non... lo so, ma...!!\"",
+      "\\.\"Ahahah. Perlomeno sei stata sincera, signorina Sara.\"",
+      "\\.\"Lasciarlo a te è come\n gettare le perle ai porci.\"",
+      "\"Io, potrei \\C[2]analizzarlo\\C[0].\n ...Con questo \\C[2]portatile\\C[0].\"",
+      "\\.\"Analizzarlo...?!\"",
+      "\"Sei terribile, miao!!\n È per questo che hai usato la sorellona Nao, bau?!\"",
+      "\\.\"Lei è una brava ragazza, a differenza di voi due.\"",
+      "\\.\"..........\"",
+      "\\.\"Allora, signorina Nao.\n Passami il circuito.\"",
+      "\\.\"..........\"",
+      "\\.\"...\"",
+      "\\.\"Signorina Nao...?\"",
+      "\\.\"Mi dispiace...\"",
+      "\\.\"Aah...?!\"\\.\\.\\.\\^",
+      "\\.\"Aaah...!! Il portatile!!\"",
+      "\\.\\C[3]Nao ha afferrato il portatile, ha spinto via Sou\ne si è messa a correre.",
+      "\\.\"Che succede, miao?!\"",
+      "\\.\"Aspetta! Il circuito e il portatile...?!\n Dove vuoi andare con quelli?!\"",
+      "\\.\"Sorellona Sara, inseguiamola, bau!\n È andata verso l'atrio, miao!!\""
+    ],
+    "2-3-choice": [
+      "Sappiamo come usarlo\nCome sai del circuito?\nQualcosa ci inventeremo\nNon lo sappiamo"
+    ],
+    "3-1-message": [
+      "\\.\"Hai in mente qualche modo per scappare, Sara?\"",
+      "\\.\"Sì.\"",
+      "\\.\"Eh...?\"",
+      "\\.\"Quindi, potreste seguirmi fino all'atrio?\"",
+      "\\.\"Dici davvero...?!\"",
+      "\\.\"...Sou sta provando a fare qualcosa.\"",
+      "\\.\"Sou...!\"",
+      "\\.\"O-cappa. Stento a crederci...\n Ma andrò all'atrio quando avrò finito qui.\"",
+      "\"Chissà quanto tempo ci rimane...\"",
+      "\\.\"...\""
+    ],
+    "3-2-message": [
+      "\\.\"Hai in mente qualche modo per scappare, Sara?\"",
+      "\\.\"Sì.\"",
+      "\\.\"Eh...?\"",
+      "\\.\"Quindi, potreste seguirmi fino all'atrio?\"",
+      "\\.\"Dici davvero...?!\"",
+      "\\.\"...Sou sta provando a fare qualcosa.\"",
+      "\\.\"Sou...!\"",
+      "\\.\"O-cappa. Stento a crederci...\n Ma andrò all'atrio quando avrò finito qui.\"",
+      "*sniff sniff*...",
+      "\\.\"Che fai...?\"",
+      "\\.\"Odora come uno sciupafemmine, miao!\"",
+      "\\.\"Dove hai imparato quella parola, eh?\""
+    ],
     "8-6-message": [
       "\\C[3]C'è una Cabina Squillo incassata alla parete.",
       "\\.\\C[4](Si può scambiare persino qui...?)"
@@ -12737,10 +12947,10 @@
       "\\.\\C[4](Si può scambiare persino qui...?)"
     ],
     "10-1-message": [
-      "\\C[3]Circuito di Nosko\n\nUn piccolo circuito rimosso dalla testa di Rikon Nosko.\nIn grado di azzerare la sicurezza della struttura."
+      "\\C[3]Circuito di Nosko\n\nUn piccolo circuito rimosso dalla testa di Rikon Nosko.\nIn grado di distruggere la sicurezza della struttura."
     ],
     "10-3-message": [
-      "\\C[3]Circuito di Nosko\n\nUn piccolo circuito rimosso dalla testa di Rikon Nosko.\nIn grado di azzerare la sicurezza della struttura."
+      "\\C[3]Circuito di Nosko\n\nUn piccolo circuito rimosso dalla testa di Rikon Nosko.\nIn grado di distruggere la sicurezza della struttura."
     ],
     "11-1-message": [
       "\\C[3]C'è una Cabina Squillo incassata alla parete.",
@@ -12773,10 +12983,10 @@
       "\\C[3]Disco della vittima F\n\nUn disco della vittima trovato al 1º piano."
     ],
     "18-1-message": [
-      "\\C[3]Filmati di sicurezza del 1º piano\n\nDalle telecamere di sicurezza del 1º piano. Mostra le\nnostre azioni. Sou ha visto Q-taro posizionare le carte."
+      "\\C[3]Filmati di sorveglianza del 1º piano\n\nDalle telecamere di sorveglianza del 1º piano. Mostra le\nnostre azioni. Sou ha visto Q-taro posizionare le carte."
     ],
     "18-3-message": [
-      "\\C[3]Filmati di sicurezza del 1º piano\n\nDalle telecamere di sicurezza del 1º piano. Mostra le\nnostre azioni. Sou ha visto Q-taro posizionare le carte."
+      "\\C[3]Filmati di sorveglianza del 1º piano\n\nDalle telecamere di sorveglianza del 1º piano. Mostra le\nnostre azioni. Sou ha visto Q-taro posizionare le carte."
     ],
     "19-1-message": [
       "\\C[3]Tablet\n\nUn tablet utilizzabile per vedere il proprio ruolo.\nEra vicino a Q-taro svenuto nella Stanza delle macerie."
@@ -12831,6 +13041,107 @@
       "\\C[3]Percepisco impazienza da Q-taro...",
       "\"Forse il motivo per cui non è ancora alla frutta...\n è perché ha un sacco di gettoni.\""
     ],
+    "3-1-message": [
+      "\\C[3]Reko sta conversando a voce bassa.",
+      "\"Non trovo mai il tempo per rimettermi il trucco...\"",
+      "\"Non ci credo, Kanna... Sou sta davvero...?\"",
+      "\\.\\C[4](Parlano di Sou...?)",
+      "\"Reko...\"",
+      "\\.\"...Ehi.\"",
+      "\\.\\C[3]Reko mi ha dato una pacca sulla spalla\ncon un sorriso aperto.",
+      "\\.\\C[4](Reko...)",
+      "\"..........\"",
+      "\\.\"Che?! Sara!! Mi hai guardata negli occhi, vero?!\"",
+      "\\.\"Scusa... Non volevo interrompervi.\"",
+      "\\.\"Ah, ecco perché...\n Mi stavo preoccupando...\"",
+      "\\.\"Vedo che hai riacquisito un po' di colorito.\n Sono contenta che stai bene, Sara.\"",
+      "\\.\"Mi dispiace... prima, non...\"",
+      "\\.\"Non importa, va tutto bene.\n Abbiamo continuato a guardare il portatile...\"",
+      "\\.\"Ma non c'era nulla di troppo importante.\"",
+      "\\.\"Capisco...\"",
+      "\\.\"Se ne sapessi un po' più di computer,\n forse qualcosa la potrei fare...\"",
+      "\\.\"Ma non è questo il caso.\n Meglio pensare a qualcos'altro...\""
+    ],
+    "3-1-choice": [
+      "Parlale\nIgnorala"
+    ],
+    "3-2-message": [
+      "*sniff sniff*...",
+      "\\.\"Mmh? Vuoi un abbraccio, Gin? Vieni qua.\"",
+      "\\.\"Mià?! Mià?!\"",
+      "\\.\"Ferma, bau!! Sto cercando sul serio, miao!!\"",
+      "\\.\"Ahahah! Certo, certo!\""
+    ],
+    "3-3-message": [
+      "\\C[3]Alice ascolta Kanna in silenzio.",
+      "\\C[3]Ogni qualvolta Kanna si sente a disagio,\nAlice abbassa un po' la testa.",
+      "\\.\\C[4](La sta ascoltando come si deve...)",
+      "\"..........\"",
+      "\\.\\C[4](Che occhi spaventosi...\n Eppure sta parlando con Kanna...)",
+      "\"Alice...\"",
+      "\\.\"Sara Chidouin...\"",
+      "\\.\"Mpf... Considerando quanto eri paonazza in volto\n quando sei scappata via, sembri star meglio ora.\"",
+      "\\.\"Quindi eri preoccupato per me...\"",
+      "\\.\"Io, preoccupato...? Non sono un tale allocco...\n Sciocca...\"",
+      "\"..........\"",
+      "\"..........\"",
+      "\\.\"Mi ignori, Sara Chidouin...?\"",
+      "\\.\"Meglio così, a dire il vero.\n Sei sempre stata fin troppo impicciona...\"",
+      "\\.\"Siamo destinati a litigare...\n Meglio se ti levi dalla testa\n idee di una nostra improbabile amicizia.\"",
+      "\\.\\C[4](Lo ignoro e all'improvviso\n diventa un chiacchierone...)",
+      "\\.\"Sara Chidouin, dopo che te ne sei andata,\n abbiamo continuato a studiare il portatile...\"",
+      "\\.\"Ma non c'erano grosse informazioni.\n ...Giusto perché tu lo sappia.\"",
+      "\\.\"Grazie mille...\"",
+      "\\.\"Passando a cose più importanti,\n mi sostituiresti come compagno\n di conversazione di Kanna?\"",
+      "\\.\"Mi tratta come un suo amico.\n Non si sarà dimenticata che sono un omicida...?\"",
+      "\\.\"Sto di fretta, quindi...\"",
+      "\\.\"...Mgh...\""
+    ],
+    "3-3-choice": [
+      "Parlagli\nIgnoralo"
+    ],
+    "3-4-message": [
+      "*sniff sniff*...",
+      "\\.\"Odora di prigione, miao!\"",
+      "\\.\\C[4](Chissà che tipo di odore sarebbe...)"
+    ],
+    "4-1-message": [
+      "\\C[3]Kanna sta conversando a voce bassa.",
+      "\"Anche Kanna... deve cercare più che può...!\"",
+      "\"Sì... Sou ha davvero fatto un sacco\n per aiutarci a scappare...\"",
+      "\\.\\C[4](Parlano di Sou...?)",
+      "\"Kanna...\"",
+      "\\.\"Sara!! Ora stai bene?\"",
+      "\\.\"Sì... Prima non mi sentivo molto bene.\"",
+      "\\.\"Siediti pure qui! Senza problemi!\"",
+      "\\.\"No, sto bene così... C'era seduta prima tu.\"",
+      "\\.\"A-Allora mi siederò sulle tue gambe, Sara!\"",
+      "\\.\"No, ma grazie... Comunque, che dicevi di Sou?\"",
+      "\\{\"KANNA!!\"",
+      "\\.\"IhaaaAAAaaaAAAaaah?!\"",
+      "\\.\"Parli di Sou? Voglio sentire anch'io.\"",
+      "\\.\"Aaah... Mi hai spaventato, sore...!!\"",
+      "\\.\"...!\"",
+      "\\.\"C-Cioè, Sara.\"",
+      "\\.\"Prima... Ho ridato a Sou il portatile...\"",
+      "\\.\"E sembrava aver fatto progressi\n su un piano di fuga...!\"",
+      "\\.\"D... Dici davvero?!\"",
+      "\\.\\C[4](Sou diceva la verità...?)",
+      "\\.\"Sono sicura che Sou può arrivare\n a un modo per farci andare via...!\"",
+      "\\.\"Quindi...\"",
+      "\\.\"...Qualunque carta tu abbia...\n Non cambia nulla, Sara.\"",
+      "\\.\"Eh...?\"",
+      "\\.\\C[4](Kanna...?)"
+    ],
+    "4-1-choice": [
+      "Parlale\nUrla a pieni polmoni"
+    ],
+    "4-2-message": [
+      "*sniff sniff*...",
+      "\\.\"Ihaaah!! Nooo!!\"",
+      "\\.\"Miaaao?! Mi hai fatto male, bau!!\"",
+      "\\.\"Eh...?! S-Scusa...\""
+    ],
     "23-1-message": [
       "\\C[3]Video della vittima\n\nIl video che aveva Nao. Mostra una poliziotta\nche muore nella Prima Prova. L'uomo di fronte è Keiji?"
     ],
@@ -12841,7 +13152,7 @@
       "\\C[3]Disco della vittima F\n\nUn disco della vittima trovato al 1º piano."
     ],
     "26-1-message": [
-      "\\C[3]Filmati di sicurezza del 1º piano\n\nDalle telecamere di sicurezza del 1º piano. Mostra le\nnostre azioni. Sou ha visto Q-taro posizionare le carte."
+      "\\C[3]Filmati di sorveglianza del 1º piano\n\nDalle telecamere di sorveglianza del 1º piano. Mostra le\nnostre azioni. Sou ha visto Q-taro posizionare le carte."
     ],
     "27-1-message": [
       "\\C[3]Tablet\n\nUn tablet utilizzabile per vedere il proprio ruolo.\nEra vicino a Q-taro svenuto nella Stanza delle macerie."
@@ -12850,7 +13161,7 @@
       "\\C[3]Arma stordente\n\nUn'arma monouso che può immobilizzare una persona.\nÈ pericolosa, Gin e io l'abbiamo presa in segreto."
     ],
     "30-1-message": [
-      "\\C[3]Circuito di Nosko\n\nUn piccolo circuito rimosso dalla testa di Rikon Nosko.\nIn grado di azzerare la sicurezza della struttura."
+      "\\C[3]Circuito di Nosko\n\nUn piccolo circuito rimosso dalla testa di Rikon Nosko.\nIn grado di distruggere la sicurezza della struttura."
     ]
   },
   "map126": {
@@ -12864,7 +13175,7 @@
       "\\C[3]Disco della vittima F\n\nUn disco della vittima trovato al 1º piano."
     ],
     "5-1-message": [
-      "\\C[3]Filmati di sicurezza del 1º piano\n\nDalle telecamere di sicurezza del 1º piano. Mostra le\nnostre azioni. Sou ha visto Q-taro posizionare le carte."
+      "\\C[3]Filmati di sorveglianza del 1º piano\n\nDalle telecamere di sorveglianza del 1º piano. Mostra le\nnostre azioni. Sou ha visto Q-taro posizionare le carte."
     ],
     "6-1-message": [
       "\\C[3]Tablet\n\nUn tablet utilizzabile per vedere il proprio ruolo.\nEra vicino a Q-taro svenuto nella Stanza delle macerie."
@@ -12873,7 +13184,7 @@
       "\\C[3]Arma stordente\n\nUn'arma monouso che può immobilizzare una persona.\nÈ pericolosa, Gin e io l'abbiamo presa in segreto."
     ],
     "9-1-message": [
-      "\\C[3]Circuito di Nosko\n\nUn piccolo circuito rimosso dalla testa di Rikon Nosko.\nIn grado di azzerare la sicurezza della struttura."
+      "\\C[3]Circuito di Nosko\n\nUn piccolo circuito rimosso dalla testa di Rikon Nosko.\nIn grado di distruggere la sicurezza della struttura."
     ]
   },
   "map127": {
@@ -12935,7 +13246,7 @@
       "Sì\nAnnulla"
     ],
     "8-1-message": [
-      "\\C[3]Circuito di Nosko\n\nUn piccolo circuito rimosso dalla testa di Rikon Nosko.\nIn grado di azzerare la sicurezza della struttura."
+      "\\C[3]Circuito di Nosko\n\nUn piccolo circuito rimosso dalla testa di Rikon Nosko.\nIn grado di distruggere la sicurezza della struttura."
     ],
     "9-1-message": [
       "\\C[3]Video della vittima\n\nIl video che aveva Nao. Mostra una poliziotta\nche muore nella Prima Prova. L'uomo di fronte è Keiji?"
@@ -12947,7 +13258,7 @@
       "\\C[3]Disco della vittima F\n\nUn disco della vittima trovato al 1º piano."
     ],
     "12-1-message": [
-      "\\C[3]Filmati di sicurezza del 1º piano\n\nDalle telecamere di sicurezza del 1º piano. Mostra le\nnostre azioni. Sou ha visto Q-taro posizionare le carte."
+      "\\C[3]Filmati di sorveglianza del 1º piano\n\nDalle telecamere di sorveglianza del 1º piano. Mostra le\nnostre azioni. Sou ha visto Q-taro posizionare le carte."
     ],
     "14-1-message": [
       "\\C[3]Tablet\n\nUn tablet utilizzabile per vedere il proprio ruolo.\nEra vicino a Q-taro svenuto nella Stanza delle macerie."
@@ -13192,7 +13503,7 @@
       "\\C[3]Disco della vittima F\n\nUn disco della vittima trovato al 1º piano."
     ],
     "16-1-message": [
-      "\\C[3]Filmati di sicurezza del 1º piano\n\nDalle telecamere di sicurezza del 1º piano. Mostra le\nnostre azioni. Sou ha visto Q-taro posizionare le carte."
+      "\\C[3]Filmati di sorveglianza del 1º piano\n\nDalle telecamere di sorveglianza del 1º piano. Mostra le\nnostre azioni. Sou ha visto Q-taro posizionare le carte."
     ],
     "17-1-message": [
       "\\C[3]Tablet\n\nUn tablet utilizzabile per vedere il proprio ruolo.\nEra vicino a Q-taro svenuto nella Stanza delle macerie."
@@ -13203,8 +13514,12 @@
     "33-1-message": [
       "\\C[3]Una luce fioca illumina la stanza."
     ],
+    "47-1-message": [
+      "\"...Ha un buon odore, come la sorellona Sara, miao.\"",
+      "\\.\\C[4](Non farti venire gusti strani, Gin...)"
+    ],
     "52-1-message": [
-      "\\C[3]Circuito di Nosko\n\nUn piccolo circuito rimosso dalla testa di Rikon Nosko.\nIn grado di azzerare la sicurezza della struttura."
+      "\\C[3]Circuito di Nosko\n\nUn piccolo circuito rimosso dalla testa di Rikon Nosko.\nIn grado di distruggere la sicurezza della struttura."
     ]
   },
   "map129": {
@@ -13218,7 +13533,7 @@
       "\\C[3]Video della vittima\n\nIl video che aveva Nao. Mostra una poliziotta\nche muore nella Prima Prova. L'uomo di fronte è Keiji?"
     ],
     "4-1-message": [
-      "\\C[3]Filmati di sicurezza del 1º piano\n\nDalle telecamere di sicurezza del 1º piano. Mostra le\nnostre azioni. Sou ha visto Q-taro posizionare le carte."
+      "\\C[3]Filmati di sorveglianza del 1º piano\n\nDalle telecamere di sorveglianza del 1º piano. Mostra le\nnostre azioni. Sou ha visto Q-taro posizionare le carte."
     ],
     "7-1-message": [
       "\\C[3]Tablet\n\nUn tablet utilizzabile per vedere il proprio ruolo.\nEra vicino a Q-taro svenuto nella Stanza delle macerie."
@@ -13227,7 +13542,7 @@
       "\\C[3]Arma stordente\n\nUn'arma monouso che può immobilizzare una persona.\nÈ pericolosa, Gin e io l'abbiamo presa in segreto."
     ],
     "10-1-message": [
-      "\\C[3]Circuito di Nosko\n\nUn piccolo circuito rimosso dalla testa di Rikon Nosko.\nIn grado di azzerare la sicurezza della struttura."
+      "\\C[3]Circuito di Nosko\n\nUn piccolo circuito rimosso dalla testa di Rikon Nosko.\nIn grado di distruggere la sicurezza della struttura."
     ]
   },
   "map130": {
@@ -13393,7 +13708,7 @@
       "\\.\\C[4](Senza dubbio Gin è ancora al 1º piano!)",
       "\"Oh-oh. Arriva qualcuno.\"",
       "\\.\"Eh...?!\"",
-      "\\.\"È Gashu... Spengo il sistema di sicurezza.\"",
+      "\\.\"È Gashu... Spengo il sistema di sorveglianza.\"",
       "\\.\"Fiu...\"",
       "\"Oh, cielo. Cosa ci fate voi due qui...?\"",
       "\\.\"Mh? Certo che ti piace impicciarti...\n Vorremmo stare un po' da soli.\"",
@@ -13476,7 +13791,7 @@
       "\\C[3]Disco della vittima F\n\nUn disco della vittima trovato al 1º piano."
     ],
     "74-1-message": [
-      "\\C[3]Filmati di sicurezza del 1º piano\n\nDalle telecamere di sicurezza del 1º piano. Mostra le\nnostre azioni. Sou ha visto Q-taro posizionare le carte."
+      "\\C[3]Filmati di sorveglianza del 1º piano\n\nDalle telecamere di sorveglianza del 1º piano. Mostra le\nnostre azioni. Sou ha visto Q-taro posizionare le carte."
     ],
     "75-1-message": [
       "\\C[3]Tablet\n\nUn tablet utilizzabile per vedere il proprio ruolo.\nEra vicino a Q-taro svenuto nella Stanza delle macerie."
@@ -13485,7 +13800,7 @@
       "\\C[3]Arma stordente\n\nUn'arma monouso che può immobilizzare una persona.\nÈ pericolosa, Gin e io l'abbiamo presa in segreto."
     ],
     "105-1-message": [
-      "\\C[3]Circuito di Nosko\n\nUn piccolo circuito rimosso dalla testa di Rikon Nosko.\nIn grado di azzerare la sicurezza della struttura."
+      "\\C[3]Circuito di Nosko\n\nUn piccolo circuito rimosso dalla testa di Rikon Nosko.\nIn grado di distruggere la sicurezza della struttura."
     ]
   },
   "map131": {
@@ -13539,7 +13854,7 @@
       "\\C[3]Disco della vittima F\n\nUn disco della vittima trovato al 1º piano."
     ],
     "54-1-message": [
-      "\\C[3]Filmati di sicurezza del 1º piano\n\nDalle telecamere di sicurezza del 1º piano. Mostra le\nnostre azioni. Sou ha visto Q-taro posizionare le carte."
+      "\\C[3]Filmati di sorveglianza del 1º piano\n\nDalle telecamere di sorveglianza del 1º piano. Mostra le\nnostre azioni. Sou ha visto Q-taro posizionare le carte."
     ],
     "55-1-message": [
       "\\C[3]Tablet\n\nUn tablet utilizzabile per vedere il proprio ruolo.\nEra vicino a Q-taro svenuto nella Stanza delle macerie."
@@ -13548,10 +13863,20 @@
       "\\C[3]Arma stordente\n\nUn'arma monouso che può immobilizzare una persona.\nÈ pericolosa, Gin e io l'abbiamo presa in segreto."
     ],
     "60-1-message": [
-      "\\C[3]Circuito di Nosko\n\nUn piccolo circuito rimosso dalla testa di Rikon Nosko.\nIn grado di azzerare la sicurezza della struttura."
+      "\\C[3]Circuito di Nosko\n\nUn piccolo circuito rimosso dalla testa di Rikon Nosko.\nIn grado di distruggere la sicurezza della struttura."
     ]
   },
   "map132": {
+    "4-1-message": [
+      "\"Per ora, dove siamo diretti, miao?\"",
+      "\\.\"Vediamo un po'...\"",
+      "\\.\"Ah! Che ne dici che chiediamo alla\n signora bibita al melone se c'è un'uscita, miao?!\"",
+      "\\.\"La faremo piangere sul serio\n col tuo fare coercitivo, bauuuuu!\"",
+      "\\.\\C[4](Ora che ci penso...)",
+      "\\.\\C[4](Dovrebbe essere stata Mosa a\n recuperare il corpo di Rikon Pongo.)",
+      "\\.\\C[4](Se ha già trovato il circuito,\n faremmo meglio a sbrigarci.)",
+      "\\.\"Eh...? La faremo davvero piangere, miao?\""
+    ],
     "5-1-message": [
       "\\C[3]Da questa parte c'è la Stanza delle bugie."
     ],
@@ -13579,6 +13904,21 @@
     "7-1-message": [
       "\\C[3]In cima alle scale è piazzato\nun distributore automatico sospetto."
     ],
+    "8-1-message": [
+      "\\C[3]C'è qualcosa per terra.",
+      "\"Questo cos'è, miao? Un video...?\"",
+      "\\.\\C[4](Mi ricorda qualcosa...)",
+      "\"Un video del Banco cambiapremi...?\"",
+      "\\.\\C[4](Ah...!)",
+      "\\.\"Questo è il \\C[2]video della vittima\\C[0]\n che aveva comprato Nao...!\"",
+      "\\.\\C[4](Se ricordo bene...)",
+      "\"Mostrava una donna incatenata\n con un'uniforme della polizia...\"",
+      "\"E mentre un uomo guardava la scena...\n si è attivata una trappola mortale...!!\"",
+      "\\.\\C[4](Da dietro, l'uomo sembrava proprio Keiji, ma...)",
+      "\"L'avrà perso la sorellona Nao, bau?\"",
+      "\\.\\C[4](Perché proprio qui...?)",
+      "\\.\\C[3]Ottenuto il Video della vittima."
+    ],
     "16-1-message": [
       "\\C[3]Video della vittima\n\nIl video che aveva Nao. Mostra una poliziotta\nche muore nella Prima Prova. L'uomo di fronte è Keiji?"
     ],
@@ -13589,7 +13929,7 @@
       "\\C[3]Disco della vittima F\n\nUn disco della vittima trovato al 1º piano."
     ],
     "19-1-message": [
-      "\\C[3]Filmati di sicurezza del 1º piano\n\nDalle telecamere di sicurezza del 1º piano. Mostra le\nnostre azioni. Sou ha visto Q-taro posizionare le carte."
+      "\\C[3]Filmati di sorveglianza del 1º piano\n\nDalle telecamere di sorveglianza del 1º piano. Mostra le\nnostre azioni. Sou ha visto Q-taro posizionare le carte."
     ],
     "20-1-message": [
       "\\C[3]Tablet\n\nUn tablet utilizzabile per vedere il proprio ruolo.\nEra vicino a Q-taro svenuto nella Stanza delle macerie."
@@ -13630,10 +13970,84 @@
       "\"Non promette nulla di buono...\n Sembra aver qualcosa per la testa.\""
     ],
     "32-1-message": [
-      "\\C[3]Circuito di Nosko\n\nUn piccolo circuito rimosso dalla testa di Rikon Nosko.\nIn grado di azzerare la sicurezza della struttura."
+      "\\C[3]Circuito di Nosko\n\nUn piccolo circuito rimosso dalla testa di Rikon Nosko.\nIn grado di distruggere la sicurezza della struttura."
     ]
   },
   "map133": {
+    "2-3-message": [
+      "\\C[4](Giusto... C'è stato uno scambio, eh.)",
+      "\\.\\C[3]Ho controllato il mio tablet girata dall'altra parte,\ncosì da non farmi notare da Gin e Nao.",
+      "\\C[4](Ancora il \\C[10]Sacrificio\\C[4]...)",
+      "\\.\\C[4](Direi... che c'era da aspettarselo...)",
+      "\"Dovremmo metterci a cercare\n quella stanza segreta, miao?\"",
+      "\\.\"G-Giusto! Dobbiamo trovarla...\"",
+      "\\.\"Ehm...\"",
+      "\\.\"Credo di avere una mezza idea di dove sia.\"",
+      "\\.\"Eh...?!\"",
+      "\\.\"Davvero...? Come lo sai, Nao?\"",
+      "\\.\"Ehm... Una certa persona me l'ha detto...\"",
+      "\\.\"Una certa persona?\"",
+      "\\.\"Non posso dirvi chi...\"",
+      "\\.\"Ma devi credermi, Sara.\"",
+      "\\.\"..........\"",
+      "\\.\"D'accordo? Andiamo.\"",
+      "\\.\"S-Sì...\"",
+      "\\.\"..........\"",
+      "\\.\"Fantastico, Nao!\n Portaci lì, per favore!\"",
+      "\\.\"S-Sì, certo.\"",
+      "\\.\"..........\"",
+      "\\.\"Che c'è, Gin?\"",
+      "\\.\"Ehmm... Niente.\"",
+      "\\.\"Prima di tutto, verso l'atrio...!\""
+    ],
+    "2-3-choice": [
+      "Davvero?\nPortaci lì"
+    ],
+    "3-1-message": [
+      "\"Miah! Sento un odore strano, bau!\"",
+      "\\.\"Un odore tipo?\"",
+      "\\.\"Boh... Dammi un altro po' di tempo, miao.\""
+    ],
+    "3-2-message": [
+      "\"Miah! Sento un odore strano, bau!\"",
+      "\\.\"Un odore tipo?\"",
+      "\\.\"Mhmiaooo...\"",
+      "\\.\"Ah...\"",
+      "\\.\"È tipo sangue... mischiato a\n qualcosa di bruciato, bau.\"",
+      "\\.\"C... Cosa?!\"",
+      "\\.\"S-State bene...?\"",
+      "\\.\"Credo che venga da quella porta di vetro...\"",
+      "\\.\\C[4](Dietro questa porta...?)",
+      "\\.\\C[4](Lì dovrebbe esserci... quella bambola di lui...)",
+      "\"La apro, bau!\"",
+      "\\.\"Ah... Gin...!\"",
+      "\\C[3]Non c'era nulla all'interno.",
+      "\\.\\C[4](Capisco...)",
+      "\\.\\C[4](Bene.\n Adesso non volevo vederlo.)",
+      "\\.\\C[4](...Ehi, aspetta un attimo.\n Ma allora dov'è sparita quella bambola?)",
+      "\"Ah...!\"",
+      "\\.\"Sorellona Sara!\n C'è una strada in fondo, bau!\"",
+      "\\.\"Come...?!\"",
+      "\\.\"F-Forse Mosa è passata di qui...\"",
+      "\\.\"Dovremmo andarci, miao?\"",
+      "\\.\"Se voi andate, vengo anch'io...!\""
+    ],
+    "3-2-choice": [
+      "Aah, bene\nC'è qualcosa di strano"
+    ],
+    "3-4-message": [
+      "\\C[3]Da qui si estende un sentiero buio.",
+      "\\.\\C[4](Che dovrei fare...?)"
+    ],
+    "3-4-choice": [
+      "Inoltrati dentro\nAnnulla"
+    ],
+    "3-5-message": [
+      "\\C[3]Da qui si estende un sentiero buio."
+    ],
+    "3-5-choice": [
+      "Vai al Deposito bambole\nAnnulla"
+    ],
     "4-1-message": [
       "\\C[3]Sou e Kanna parlano sottovoce nell'angolo.",
       "\\.\\C[4](Non posso certo intromettermi...)"
@@ -13813,8 +14227,51 @@
       "\\C[3]Q-taro chiacchiera allegramente con Gin e Keiji.",
       "\\.\\C[4](È... difficile immaginare che il Gioco Principale\n si stia avvicinando.)"
     ],
+    "7-1-message": [
+      "\"Ah... Sara, Gin.\"",
+      "\\.\"Sorellona Nao? Che fai, miao?\"",
+      "\\.\"Niente, cercavo Mosa...\"",
+      "\\.\\C[4](...?)",
+      "\"Perché Mosa...?\"",
+      "\\.\"Ah... ehm... Nessun motivo in particolare...\"",
+      "\\.\"Non stava qui, miao?\"",
+      "\\.\"Mmh...\n Mi sembrava di averla vista entrare nell'Infermeria...\"",
+      "\"L'hai trovata?\"",
+      "\\.\"No, non è da nessuna parte...\"",
+      "\\.\"Che strano...\n Mi sembrava di averla vista entrare nell'Infermeria...\""
+    ],
+    "7-1-choice": [
+      "Perché?\nL'hai trovata?"
+    ],
+    "7-2-message": [
+      "\"Chissà dov'è...\""
+    ],
+    "7-3-message": [
+      "\"Se volete entrate lì... vengo anche io con voi...!\""
+    ],
+    "7-4-message": [
+      "\"Miao... Ha un odore gradevole\n mischiato all'odore di un'aula d'arte, bau.\"",
+      "\\.\"Iiih...! Davvero?!\"",
+      "\\.\"Proprio un odore che grida \"sorellona Nao\", miao!\"",
+      "\\.\"*sniff*... Mi metti in imbarazzo...\""
+    ],
+    "48-1-message": [
+      "\\C[3]Disco della vittima E\n\nUn disco della vittima trovato al 1º piano."
+    ],
+    "55-1-message": [
+      "\\C[3]Disco della vittima F\n\nUn disco della vittima trovato al 1º piano."
+    ],
     "56-1-message": [
       "\\C[3]Video della vittima\n\nIl video che aveva Nao. Mostra una poliziotta\nche muore nella Prima Prova. L'uomo di fronte è Keiji?"
+    ],
+    "58-1-message": [
+      "\\C[3]Tablet\n\nUn tablet utilizzabile per vedere il proprio ruolo.\nEra vicino a Q-taro svenuto nella Stanza delle macerie."
+    ],
+    "59-1-message": [
+      "\\C[3]Arma stordente\n\nUn'arma monouso che può immobilizzare una persona.\nÈ pericolosa, Gin e io l'abbiamo presa in segreto."
+    ],
+    "60-1-message": [
+      "\\C[3]Filmati di sorveglianza del 1º piano\n\nDalle telecamere di sorveglianza del 1º piano. Mostra le\nnostre azioni. Sou ha visto Q-taro posizionare le carte."
     ],
     "66-1-message": [
       "\\C[3]C'è una Cabina Squillo installata qui.",
@@ -13822,6 +14279,9 @@
     ],
     "68-1-message": [
       "\\C[3]Una cassetta di primo soccorso\ncon delle attrezzature mediche."
+    ],
+    "73-1-message": [
+      "\\C[3]Circuito di Nosko\n\nUn piccolo circuito rimosso dalla testa di Rikon Nosko.\nIn grado di distruggere la sicurezza della struttura."
     ]
   },
   "map135": {
@@ -14114,7 +14574,7 @@
       "\\C[3]Disco della vittima F\n\nUn disco della vittima trovato al 1º piano."
     ],
     "5-1-message": [
-      "\\C[3]Filmati di sicurezza del 1º piano\n\nDalle telecamere di sicurezza del 1º piano. Mostra le\nnostre azioni. Sou ha visto Q-taro posizionare le carte."
+      "\\C[3]Filmati di sorveglianza del 1º piano\n\nDalle telecamere di sorveglianza del 1º piano. Mostra le\nnostre azioni. Sou ha visto Q-taro posizionare le carte."
     ],
     "6-1-message": [
       "\\C[3]Tablet\n\nUn tablet utilizzabile per vedere il proprio ruolo.\nEra vicino a Q-taro svenuto nella Stanza delle macerie."
@@ -14135,7 +14595,7 @@
       "\\C[3]Una lunga scalinata che va in alto."
     ],
     "50-1-message": [
-      "\\C[3]Circuito di Nosko\n\nUn piccolo circuito rimosso dalla testa di Rikon Nosko.\nIn grado di azzerare la sicurezza della struttura."
+      "\\C[3]Circuito di Nosko\n\nUn piccolo circuito rimosso dalla testa di Rikon Nosko.\nIn grado di distruggere la sicurezza della struttura."
     ]
   },
   "map142": {
@@ -14161,7 +14621,7 @@
       "\\.\"Vedo due persone.\"",
       "\\.\\C[4](Una di loro è... Tina?)",
       "\\.\\C[3]Li sento parlare a voce bassa.",
-      "\"Li hai lasciati scappare...?\"",
+      "\"Te li sei fatti scappare...?\"",
       "\"Chiedo scusa...\"",
       "\\.\"...? La chiave che stava qui è...\"",
       "\"Sparita...?\n *uff*... Sul serio, arrenditi.\"",
@@ -14197,7 +14657,7 @@
       "\\.\"Già. Qualcosa riguardo a\n \\C[2]un circuito nella testa di Pongo\\C[0]...\"",
       "\\.\"Più \\C[2]una modalità di sorveglianza\n nella Sala degli schermi\\C[0]...\"",
       "\\.\"Non so che tipo di funzionalità offra...\"",
-      "\\.\"Ma se potessimo guardare\n le telecamere di sicurezza di tutti i piani...!\"",
+      "\\.\"Ma se potessimo guardare\n le telecamere di sorveglianza di tutti i piani...!\"",
       "\\.\"Sembra molto meglio di intrufolarsi\n di nuovo nel primo piano e farsi catturare.\"",
       "\\.\"Ok, Sara, muoviamoci.\"",
       "\\.\"...Prima, però.\"",
@@ -14224,7 +14684,7 @@
       "\\.\"Già. Qualcosa riguardo a\n \\C[2]un circuito nella testa di Pongo\\C[0]...\"",
       "\\.\"Più \\C[2]una modalità di sorveglianza\n nella Sala degli schermi\\C[0]...\"",
       "\\.\"Non so che tipo di funzionalità offra...\"",
-      "\\.\"Ma se potessimo guardare\n le telecamere di sicurezza di tutti i piani...!\"",
+      "\\.\"Ma se potessimo guardare\n le telecamere di sorveglianza di tutti i piani...!\"",
       "\\.\"Sembra molto meglio di intrufolarsi\n di nuovo nel primo piano e farsi catturare.\"",
       "\\.\"Andiamo!\""
     ],
@@ -14255,7 +14715,7 @@
       "\\C[3]Disco della vittima F\n\nUn disco della vittima trovato al 1º piano."
     ],
     "8-1-message": [
-      "\\C[3]Filmati di sicurezza del 1º piano\n\nDalle telecamere di sicurezza del 1º piano. Mostra le\nnostre azioni. Sou ha visto Q-taro posizionare le carte."
+      "\\C[3]Filmati di sorveglianza del 1º piano\n\nDalle telecamere di sorveglianza del 1º piano. Mostra le\nnostre azioni. Sou ha visto Q-taro posizionare le carte."
     ],
     "9-1-message": [
       "\\C[3]Tablet\n\nUn tablet utilizzabile per vedere il proprio ruolo.\nEra vicino a Q-taro svenuto nella Stanza delle macerie."
@@ -14267,7 +14727,7 @@
       "\\C[3]Si riesce a vedere la cucina attraverso il vetro."
     ],
     "36-1-message": [
-      "\\C[3]Circuito di Nosko\n\nUn piccolo circuito rimosso dalla testa di Rikon Nosko.\nIn grado di azzerare la sicurezza della struttura."
+      "\\C[3]Circuito di Nosko\n\nUn piccolo circuito rimosso dalla testa di Rikon Nosko.\nIn grado di distruggere la sicurezza della struttura."
     ]
   },
   "map143": {
@@ -14300,7 +14760,7 @@
       "\\C[3]Disco della vittima F\n\nUn disco della vittima trovato al 1º piano."
     ],
     "6-1-message": [
-      "\\C[3]Filmati di sicurezza del 1º piano\n\nDalle telecamere di sicurezza del 1º piano. Mostra le\nnostre azioni. Sou ha visto Q-taro posizionare le carte."
+      "\\C[3]Filmati di sorveglianza del 1º piano\n\nDalle telecamere di sorveglianza del 1º piano. Mostra le\nnostre azioni. Sou ha visto Q-taro posizionare le carte."
     ],
     "7-1-message": [
       "\\C[3]Tablet\n\nUn tablet utilizzabile per vedere il proprio ruolo.\nEra vicino a Q-taro svenuto nella Stanza delle macerie."
@@ -14312,7 +14772,7 @@
       "\\C[3]Un'inquietante lampada rossa illumina la stanza."
     ],
     "18-1-message": [
-      "\\C[3]Circuito di Nosko\n\nUn piccolo circuito rimosso dalla testa di Rikon Nosko.\nIn grado di azzerare la sicurezza della struttura."
+      "\\C[3]Circuito di Nosko\n\nUn piccolo circuito rimosso dalla testa di Rikon Nosko.\nIn grado di distruggere la sicurezza della struttura."
     ],
     "28-1-message": [
       "\\C[3]È bloccata e non si apre.",
@@ -14436,7 +14896,7 @@
       "\\.\"..........\"",
       "\\.\"...Non va bene. Non lo sento più.\"",
       "\\.\\C[4](Gin...!)",
-      "\\.\"La situazione è cambiata.\n ...Mettendo la sicurezza in primo piano,\n tornare indietro per ora...\"",
+      "\\.\"La situazione è cambiata.\n ...Mettendo la sicurezza in primo piano,\n dovremmo tornare indietro per ora...\"",
       "\\.\"No...! Vuoi abbandonare Gin?!\"",
       "\\.\"Mi rifiuto di arrendermi...!!\"",
       "\\.\"..........\"",
@@ -14458,7 +14918,7 @@
       "\\C[3]Disco della vittima F\n\nUn disco della vittima trovato al 1º piano."
     ],
     "15-1-message": [
-      "\\C[3]Filmati di sicurezza del 1º piano\n\nDalle telecamere di sicurezza del 1º piano. Mostra le\nnostre azioni. Sou ha visto Q-taro posizionare le carte."
+      "\\C[3]Filmati di sorveglianza del 1º piano\n\nDalle telecamere di sorveglianza del 1º piano. Mostra le\nnostre azioni. Sou ha visto Q-taro posizionare le carte."
     ],
     "16-1-message": [
       "\\C[3]Tablet\n\nUn tablet utilizzabile per vedere il proprio ruolo.\nEra vicino a Q-taro svenuto nella Stanza delle macerie."
@@ -14473,7 +14933,7 @@
       "\\C[3]Non c'è nulla sugli scaffali."
     ],
     "56-1-message": [
-      "\\C[3]Circuito di Nosko\n\nUn piccolo circuito rimosso dalla testa di Rikon Nosko.\nIn grado di azzerare la sicurezza della struttura."
+      "\\C[3]Circuito di Nosko\n\nUn piccolo circuito rimosso dalla testa di Rikon Nosko.\nIn grado di distruggere la sicurezza della struttura."
     ]
   },
   "map145": {
@@ -14491,7 +14951,7 @@
       "\\C[3]Disco della vittima F\n\nUn disco della vittima trovato al 1º piano."
     ],
     "6-1-message": [
-      "\\C[3]Filmati di sicurezza del 1º piano\n\nDalle telecamere di sicurezza del 1º piano. Mostra le\nnostre azioni. Sou ha visto Q-taro posizionare le carte."
+      "\\C[3]Filmati di sorveglianza del 1º piano\n\nDalle telecamere di sorveglianza del 1º piano. Mostra le\nnostre azioni. Sou ha visto Q-taro posizionare le carte."
     ],
     "7-1-message": [
       "\\C[3]Tablet\n\nUn tablet utilizzabile per vedere il proprio ruolo.\nEra vicino a Q-taro svenuto nella Stanza delle macerie."
@@ -14506,7 +14966,7 @@
       "\\C[3]Una lampada illumina la scrivania dall'alto."
     ],
     "21-1-message": [
-      "\\C[3]Circuito di Nosko\n\nUn piccolo circuito rimosso dalla testa di Rikon Nosko.\nIn grado di azzerare la sicurezza della struttura."
+      "\\C[3]Circuito di Nosko\n\nUn piccolo circuito rimosso dalla testa di Rikon Nosko.\nIn grado di distruggere la sicurezza della struttura."
     ]
   },
   "map146": {
@@ -14568,7 +15028,7 @@
       "\\C[3]Disco della vittima F\n\nUn disco della vittima trovato al 1º piano."
     ],
     "32-1-message": [
-      "\\C[3]Filmati di sicurezza del 1º piano\n\nDalle telecamere di sicurezza del 1º piano. Mostra le\nnostre azioni. Sou ha visto Q-taro posizionare le carte."
+      "\\C[3]Filmati di sorveglianza del 1º piano\n\nDalle telecamere di sorveglianza del 1º piano. Mostra le\nnostre azioni. Sou ha visto Q-taro posizionare le carte."
     ],
     "33-1-message": [
       "\\C[3]Tablet\n\nUn tablet utilizzabile per vedere il proprio ruolo.\nEra vicino a Q-taro svenuto nella Stanza delle macerie."
@@ -14583,7 +15043,7 @@
       "\\C[3]Arma stordente\n\nUn'arma monouso che può immobilizzare una persona.\nÈ pericolosa, Gin e io l'abbiamo presa in segreto."
     ],
     "48-1-message": [
-      "\\C[3]Circuito di Nosko\n\nUn piccolo circuito rimosso dalla testa di Rikon Nosko.\nIn grado di azzerare la sicurezza della struttura."
+      "\\C[3]Circuito di Nosko\n\nUn piccolo circuito rimosso dalla testa di Rikon Nosko.\nIn grado di distruggere la sicurezza della struttura."
     ]
   },
   "map147": {
@@ -14597,7 +15057,7 @@
       "\\C[3]Disco della vittima F\n\nUn disco della vittima trovato al 1º piano."
     ],
     "5-1-message": [
-      "\\C[3]Filmati di sicurezza del 1º piano\n\nDalle telecamere di sicurezza del 1º piano. Mostra le\nnostre azioni. Sou ha visto Q-taro posizionare le carte."
+      "\\C[3]Filmati di sorveglianza del 1º piano\n\nDalle telecamere di sorveglianza del 1º piano. Mostra le\nnostre azioni. Sou ha visto Q-taro posizionare le carte."
     ],
     "6-1-message": [
       "\\C[3]Tablet\n\nUn tablet utilizzabile per vedere il proprio ruolo.\nEra vicino a Q-taro svenuto nella Stanza delle macerie."
@@ -14606,7 +15066,7 @@
       "\\C[3]Arma stordente\n\nUn'arma monouso che può immobilizzare una persona.\nÈ pericolosa, Gin e io l'abbiamo presa in segreto."
     ],
     "9-1-message": [
-      "\\C[3]Circuito di Nosko\n\nUn piccolo circuito rimosso dalla testa di Rikon Nosko.\nIn grado di azzerare la sicurezza della struttura."
+      "\\C[3]Circuito di Nosko\n\nUn piccolo circuito rimosso dalla testa di Rikon Nosko.\nIn grado di distruggere la sicurezza della struttura."
     ]
   },
   "map148": {
@@ -14626,7 +15086,7 @@
       "\\C[3]Disco della vittima F\n\nUn disco della vittima trovato al 1º piano."
     ],
     "27-1-message": [
-      "\\C[3]Filmati di sicurezza del 1º piano\n\nDalle telecamere di sicurezza del 1º piano. Mostra le\nnostre azioni. Sou ha visto Q-taro posizionare le carte."
+      "\\C[3]Filmati di sorveglianza del 1º piano\n\nDalle telecamere di sorveglianza del 1º piano. Mostra le\nnostre azioni. Sou ha visto Q-taro posizionare le carte."
     ],
     "28-1-message": [
       "\\C[3]Tablet\n\nUn tablet utilizzabile per vedere il proprio ruolo.\nEra vicino a Q-taro svenuto nella Stanza delle macerie."
@@ -14635,7 +15095,7 @@
       "\\C[3]Arma stordente\n\nUn'arma monouso che può immobilizzare una persona.\nÈ pericolosa, Gin e io l'abbiamo presa in segreto."
     ],
     "31-1-message": [
-      "\\C[3]Circuito di Nosko\n\nUn piccolo circuito rimosso dalla testa di Rikon Nosko.\nIn grado di azzerare la sicurezza della struttura."
+      "\\C[3]Circuito di Nosko\n\nUn piccolo circuito rimosso dalla testa di Rikon Nosko.\nIn grado di distruggere la sicurezza della struttura."
     ],
     "33-1-message": [
       "\\C[3]Si direbbe una lavagna.\nC'è qualcosa scritto sopra.",
@@ -14666,7 +15126,7 @@
       "\\C[3]Disco della vittima F\n\nUn disco della vittima trovato al 1º piano."
     ],
     "4-1-message": [
-      "\\C[3]Filmati di sicurezza del 1º piano\n\nDalle telecamere di sicurezza del 1º piano. Mostra le\nnostre azioni. Sou ha visto Q-taro posizionare le carte."
+      "\\C[3]Filmati di sorveglianza del 1º piano\n\nDalle telecamere di sorveglianza del 1º piano. Mostra le\nnostre azioni. Sou ha visto Q-taro posizionare le carte."
     ],
     "5-1-message": [
       "\\C[3]Tablet\n\nUn tablet utilizzabile per vedere il proprio ruolo.\nEra vicino a Q-taro svenuto nella Stanza delle macerie."
@@ -14675,7 +15135,7 @@
       "\\C[3]Arma stordente\n\nUn'arma monouso che può immobilizzare una persona.\nÈ pericolosa, Gin e io l'abbiamo presa in segreto."
     ],
     "8-1-message": [
-      "\\C[3]Circuito di Nosko\n\nUn piccolo circuito rimosso dalla testa di Rikon Nosko.\nIn grado di azzerare la sicurezza della struttura."
+      "\\C[3]Circuito di Nosko\n\nUn piccolo circuito rimosso dalla testa di Rikon Nosko.\nIn grado di distruggere la sicurezza della struttura."
     ]
   },
   "map150": {
@@ -14707,7 +15167,7 @@
       "\\C[3]Disco della vittima F\n\nUn disco della vittima trovato al 1º piano."
     ],
     "18-1-message": [
-      "\\C[3]Filmati di sicurezza del 1º piano\n\nDalle telecamere di sicurezza del 1º piano. Mostra le\nnostre azioni. Sou ha visto Q-taro posizionare le carte."
+      "\\C[3]Filmati di sorveglianza del 1º piano\n\nDalle telecamere di sorveglianza del 1º piano. Mostra le\nnostre azioni. Sou ha visto Q-taro posizionare le carte."
     ],
     "19-1-message": [
       "\\C[3]Tablet\n\nUn tablet utilizzabile per vedere il proprio ruolo.\nEra vicino a Q-taro svenuto nella Stanza delle macerie."
@@ -14716,7 +15176,7 @@
       "\\C[3]Arma stordente\n\nUn'arma monouso che può immobilizzare una persona.\nÈ pericolosa, Gin e io l'abbiamo presa in segreto."
     ],
     "22-1-message": [
-      "\\C[3]Circuito di Nosko\n\nUn piccolo circuito rimosso dalla testa di Rikon Nosko.\nIn grado di azzerare la sicurezza della struttura."
+      "\\C[3]Circuito di Nosko\n\nUn piccolo circuito rimosso dalla testa di Rikon Nosko.\nIn grado di distruggere la sicurezza della struttura."
     ]
   },
   "map151": {
@@ -14741,7 +15201,7 @@
       "\\C[3]Disco della vittima F\n\nUn disco della vittima trovato al 1º piano."
     ],
     "10-1-message": [
-      "\\C[3]Filmati di sicurezza del 1º piano\n\nDalle telecamere di sicurezza del 1º piano. Mostra le\nnostre azioni. Sou ha visto Q-taro posizionare le carte."
+      "\\C[3]Filmati di sorveglianza del 1º piano\n\nDalle telecamere di sorveglianza del 1º piano. Mostra le\nnostre azioni. Sou ha visto Q-taro posizionare le carte."
     ],
     "11-1-message": [
       "\\C[3]Tablet\n\nUn tablet utilizzabile per vedere il proprio ruolo.\nEra vicino a Q-taro svenuto nella Stanza delle macerie."
@@ -14750,19 +15210,120 @@
       "\\C[3]Arma stordente\n\nUn'arma monouso che può immobilizzare una persona.\nÈ pericolosa, Gin e io l'abbiamo presa in segreto."
     ],
     "29-1-message": [
-      "\\C[3]Circuito di Nosko\n\nUn piccolo circuito rimosso dalla testa di Rikon Nosko.\nIn grado di azzerare la sicurezza della struttura."
+      "\\C[3]Circuito di Nosko\n\nUn piccolo circuito rimosso dalla testa di Rikon Nosko.\nIn grado di distruggere la sicurezza della struttura."
     ]
   },
   "map152": {
+    "1-1-message": [
+      "\"Eh, Q-taro...?\"",
+      "\\.\\C[4](Sta dormendo?)",
+      "\\.\\C[3]Gli esce del sangue dalla bocca.",
+      "\"..........\"",
+      "\\.\"...Eh...?\"",
+      "\\.\\sp[15]\"Gorilla muscoloso...?\"",
+      "\\.\\C[4](..........)",
+      "\\.\"Non preoccuparti... Respira ancora!\"",
+      "\\.\"Ma è svenuto! Che accidenti...?!\""
+    ],
+    "1-2-message": [
+      "\\.\\C[3]C'è Q-taro svenuto sulla sedia.",
+      "\\.\\C[4](Che accidenti?!)"
+    ],
+    "1-3-message": [
+      "\\.\\C[3]C'è Q-taro svenuto sulla sedia.",
+      "\\.\"In ogni caso... Non possiamo lasciarlo qui.\"",
+      "\"Già...\n Ma ce la fai a portarlo, miao?\"",
+      "\\.\"Vediamo un po'...\"",
+      "\\.\"Bene... Oh, issa...!\"",
+      "\\.\\C[3]È talmente pesante che neanche si riesce a sollevare.",
+      "\\.\\C[4](Sono riuscita a portare Alice, però...!)",
+      "\"Già, meglio se chiamiamo qualcuno, miao...\"",
+      "\"Chiamo qualcuno.\"",
+      "\"Q-taro...!\"",
+      "\\.\"Che è successo qui...?!\"",
+      "\\.\"Lo spiegheremo dopo...\n Q-taro sta bene, vero...?\"",
+      "\\.\"Mmh... Da quel che vedo, potrebbe volerci\n un po' prima che riprenda conoscenza.\"",
+      "\\.\"Capisco...\"",
+      "\\.\"...Ci vediamo nell'atrio, Sara.\"",
+      "\\.\"Lo porterò a cavalluccio se proprio devo...\n Visto che hai un'idea per scappare, vero?\"",
+      "\\.\"Sì...!\"",
+      "\\.\"Si fa quel che si deve... eh?\"",
+      "\\.\"Keiji... Potresti portare con te Q-taro e Kanna,\n per poi ritrovarci tutti nell'atrio tra un po'?\"",
+      "\\.\"...?\"",
+      "\\.\"Potremmo... aver trovato una via di fuga.\"",
+      "\\.\"Cosa...?!\"",
+      "\\.\"D-Davvero...?!\"",
+      "\\.\"Già. Sou sta provando a fare qualcosa.\"",
+      "\\.\"Sou...!\"",
+      "\\.\"O-cappa. Stento a crederci.\n Ma se lo dici tu, mi fido.\"",
+      "\\.\"Grazie mille...!\""
+    ],
+    "1-3-choice": [
+      "Provo a portarlo io\nChiamo qualcuno"
+    ],
+    "1-4-message": [
+      "\\.\\C[3]C'è Q-taro svenuto sulla sedia.",
+      "\"Pesa più o meno 100 chili, vero...?\"",
+      "\\.\"Mi sembra più un wrestler professionista\n che un giocatore di baseball.\""
+    ],
+    "1-5-message": [
+      "*sniff sniff*...",
+      "\\.\"Sento un leggero odore di bruciato\n dai suoi vestiti, miao...\""
+    ],
+    "2-1-message": [
+      "\\C[3]A terra c'è un tablet.",
+      "\\.\\C[4](...?)"
+    ],
+    "2-2-message": [
+      "\\C[3]A terra c'è un tablet.",
+      "\\.\"Raccogliamolo...\"",
+      "\\.\\C[3]Ottenuto un Tablet.",
+      "\\.\\C[4](Questo è il tablet di Q-taro...?)",
+      "\\.\\C[4](Perché sta per terra?)"
+    ],
+    "3-1-message": [
+      "\\C[3]A terra c'è uno strano dispositivo.",
+      "\\.\\C[4](...?)"
+    ],
+    "3-2-message": [
+      "\\C[3]A terra c'è uno strano dispositivo.",
+      "\"Sorellona Sara!! Queste l'ho già vista in TV, miao!!\"",
+      "\\.\"È... un'arma stordente, bau!!\"",
+      "\\.\"Come...?!\"",
+      "\\.\"Se ti tocca,\n prendi la scossa e non ti muovi più, miao...\"",
+      "\\.\\C[3]Ottenuta un'Arma stordente.",
+      "\\.\"Inoltre...\n C'è un'etichetta che dice \"monouso\", miao.\"",
+      "\\.\"Ma allora... qualcuno l'ha usata\n per tramortire Q-taro?\"",
+      "\\.\"G-Già... È scarica, quindi credo di sì, bau.\"",
+      "\\.\\C[4](Cos'è successo qui...?!)"
+    ],
     "19-1-message": [
       "\\C[3]Video della vittima\n\nIl video che aveva Nao. Mostra una poliziotta\nche muore nella Prima Prova. L'uomo di fronte è Keiji?"
+    ],
+    "20-1-message": [
+      "\\C[3]Disco della vittima E\n\nUn disco della vittima trovato al 1º piano."
+    ],
+    "21-1-message": [
+      "\\C[3]Disco della vittima F\n\nUn disco della vittima trovato al 1º piano."
+    ],
+    "22-1-message": [
+      "\\C[3]Filmati di sorveglianza del 1º piano\n\nDalle telecamere di sorveglianza del 1º piano. Mostra le\nnostre azioni. Sou ha visto Q-taro posizionare le carte."
+    ],
+    "23-1-message": [
+      "\\C[3]Tablet\n\nUn tablet utilizzabile per vedere il proprio ruolo.\nEra vicino a Q-taro svenuto nella Stanza delle macerie."
+    ],
+    "24-1-message": [
+      "\\C[3]Arma stordente\n\nUn'arma monouso che può immobilizzare una persona.\nÈ pericolosa, Gin e io l'abbiamo presa in segreto."
+    ],
+    "25-1-message": [
+      "\\.\\C[3]Uno schermo scollegato."
     ],
     "31-1-message": [
       "\\.\\C[3]Un macchinario emette una luce rossa.",
       "\\.\\C[3]Non sembrerebbero esserci prese elettriche o il cavo\nnecessario per avviare un computer."
     ],
     "37-1-message": [
-      "\\C[3]Circuito di Nosko\n\nUn piccolo circuito rimosso dalla testa di Rikon Nosko.\nIn grado di azzerare la sicurezza della struttura."
+      "\\C[3]Circuito di Nosko\n\nUn piccolo circuito rimosso dalla testa di Rikon Nosko.\nIn grado di distruggere la sicurezza della struttura."
     ]
   },
   "map153": {
@@ -14945,7 +15506,7 @@
       "\\.\\C[5]Ero stato allenato come agente sin da giovane.\nNon conoscevo concetti come l'\"affetto\".",
       "\\.\\C[5]Avevo paura. Paura di cambiare.",
       "\\.\\C[5]Ma col passare del tempo, ho iniziato\na voler proteggere la sua famiglia.",
-      "\\.\\C[5]Desideravo vederti raggiungere la maturità\ncoi miei stessi occhi.",
+      "\\.\\C[5]Desideravo vederla raggiungere la maturità\ncoi miei stessi occhi.",
       "\\.\\C[5]Per la prima volta, avevo una ragione di vita.",
       "\\.\\C[5]Sono davvero lieto di aver potuto conoscere i Chidouin.",
       "\\.\\C[5]Grazie di cuore, signorina Sara.",
@@ -14959,7 +15520,7 @@
       "\\.\\C[5]Ero stato allenato come agente sin da giovane.\nNon conoscevo concetti come l'\"affetto\".",
       "\\.\\C[5]Avevo paura. Paura di cambiare.",
       "\\.\\C[5]Ma col passare del tempo, ho iniziato\na voler proteggere la sua famiglia.",
-      "\\.\\C[5]Desideravo vederti raggiungere la maturità\ncoi miei stessi occhi.",
+      "\\.\\C[5]Desideravo vederla raggiungere la maturità\ncoi miei stessi occhi.",
       "\\.\\C[5]Per la prima volta, avevo una ragione di vita.",
       "\\.\\C[5]Sono davvero lieto di aver potuto conoscere i Chidouin.",
       "\\.\\C[5]Grazie di cuore, signorina Sara.",
@@ -15103,7 +15664,7 @@
       "\\C[3]Disco della vittima F\n\nUn disco della vittima trovato al 1º piano."
     ],
     "59-1-message": [
-      "\\C[3]Filmati di sicurezza del 1º piano\n\nDalle telecamere di sicurezza del 1º piano. Mostra le\nnostre azioni. Sou ha visto Q-taro posizionare le carte."
+      "\\C[3]Filmati di sorveglianza del 1º piano\n\nDalle telecamere di sorveglianza del 1º piano. Mostra le\nnostre azioni. Sou ha visto Q-taro posizionare le carte."
     ],
     "60-1-message": [
       "\\C[3]Tablet\n\nUn tablet utilizzabile per vedere il proprio ruolo.\nEra vicino a Q-taro svenuto nella Stanza delle macerie."
@@ -15112,15 +15673,234 @@
       "\\C[3]Arma stordente\n\nUn'arma monouso che può immobilizzare una persona.\nÈ pericolosa, Gin e io l'abbiamo presa in segreto."
     ],
     "63-1-message": [
-      "\\C[3]Circuito di Nosko\n\nUn piccolo circuito rimosso dalla testa di Rikon Nosko.\nIn grado di azzerare la sicurezza della struttura."
+      "\\C[3]Circuito di Nosko\n\nUn piccolo circuito rimosso dalla testa di Rikon Nosko.\nIn grado di distruggere la sicurezza della struttura."
     ]
   },
   "map154": {
+    "1-1-message": [
+      "\"Nao!!\"",
+      "\\.\"Non entrate, per piacere!!\"",
+      "\\.\\sw[324]\"Oh? Abbiamo ospiti?\"\\sw[325]",
+      "\\.\\sw[324]\"Guarda chi si vede, la signorina Sara e gli altri!\"\\sw[325]",
+      "\\.\"Miaooo?! È lo schermo del vecchietto, bau!!\"",
+      "\\.\"Reko non l'aveva distrutto...?!\"",
+      "\\.\"Il professore è stato riportato tra noi!!\n Per proteggerci...!!\"",
+      "\\.\\sw[324]\"Potete stare tranquilli.\"\\sw[325]",
+      "\\.\\sw[324]\"Vi guiderò verso una via di fuga.\"\\sw[325]",
+      "\\.\"Guidarci...? E come, miao?!\"",
+      "\\.\\sw[324]\"In quanto intelligenza artificiale, posseggo...\"\\sw[325]",
+      "\\.\\sw[324]\"I dati di sicurezza di questa struttura.\"\\sw[325]",
+      "\\.\"Non... è possibile...!!\"",
+      "\\.\\sw[324]\"Fidatevi di me. Necessitate di una \\C[2]mappa\\C[0]\n della struttura, giusto?\"\\sw[325]",
+      "\\.\"Una mappa...!\"",
+      "\\.\"Forse ci mostrerà la stanza segreta!\"",
+      "\\.\"Forse ci mostrerà la dispozione della struttura!\"",
+      "\\.\\sw[324]\"Col portatile portato qui dalla signorina Nao,\n posso inoltrarvi i dati.\"\\sw[325]",
+      "\\.\"Ecco perché la sorellona Nao\n ha preso il portatile...!\"",
+      "\\.\"...\"",
+      "\\.\"Perché gliel'hai fatto rubare...?!\"",
+      "\\.\\sw[324]\"...Semplicemente, non c'era tempo.\"\\sw[325]",
+      "\\.\"Non credevo che il circuito di Nosko\n avesse qualcosa a che fare con questo...\"",
+      "\\.\\sw[324]\"...Posso analizzare anche quello.\n Pensavo fosse meglio prendere\n due piccioni con una fava...\"\\sw[325]",
+      "\\.\"Sara!\n Ti prego di non sospettare del professore, ok?!\"",
+      "\\.\\sw[324]\"Non c'è alcun problema, signorina Nao.\"\\sw[325]",
+      "\\.\\sw[324]\"Ora, connettilo in fretta.\n Non c'è più tempo.\"\\sw[325]",
+      "\\.\"A-Aspetta!!\"",
+      "\"Sei... davvero l'IA del professore Mishima?!\"",
+      "\\.\"Che dici?!\"",
+      "\"C'è qualcosa di losco in tutta questa faccenda, Nao!!\"",
+      "\\.\"Che dici?!\"",
+      "\"Grazie mille, professor Mishima!\"",
+      "\\.\"Sorellona Sara!!\n Mi sembra un po' troppo bello per essere vero, miao!!\"",
+      "\\.\"Sembra come... se non fosse\n davvero il vecchietto, bau!\"",
+      "\\.\"Che dici?!\"",
+      "\\.\"Dubitare della generosità del professore\n è imperdonabile!!\"",
+      "\\.\\sw[324]\"Avanti, signorina Nao.\n La signorina Sara e i suoi amici sono stanchi.\"\\sw[325]",
+      "\\.\\sw[324]\"Quindi... Collega quel cavo...\"\\sw[325]",
+      "\\.\"Non farlo, Nao!!\"",
+      "\"Ecco!\n Così va bene, professore?!\"",
+      "\\.\\sw[324]\"Sei stata brava, signorina Nao.\"\\sw[325]",
+      "\\.\\sw[324]\\C[10]\"Sei davvero facile da manipolare...\"\\sw[325]",
+      "\"P... Professore...?\"",
+      "\\.\\sw[324]\\C[10]\"Questo portatile...  questo circuito...\n Erano grandi ostacoli per il Gioco Mortale.\"\\sw[325]",
+      "\\.\\sw[324]\\C[10]\"Ma adesso, padron Gashu può dormire sonni tranquilli.\"\\sw[325]",
+      "\"Padron... Gashu...?\"",
+      "\"Nao! Dacci il portatile e il circuito...!!\"",
+      "\\.\"Quello non è il professor Mishima!!\"",
+      "\\.\\sw[324]\\C[10]\"È troppo tardi. Sono già stati collegati a me.\"\\sw[325]",
+      "\\.\\sw[324]\\C[10]\"Distruggerò tutti i dati che contengono.\n La fuga non rimarrà che un sogno per voi...!\"\\sw[325]",
+      "\\.\"Fe... Fermo!!\"",
+      "\\.\\sp[15]\\sw[324]\\C[10]\"Non scappate dal Gioco Principale, luridi umani...\"\\sw[325]",
+      "\\.\\sw[324]\"Gah...?!\"\\sw[325]",
+      "\\.\\sw[324]\"C-Cosa...?! Cosa succede?!\"\\sw[325]",
+      "\\C[10]\"Si è verificato un errore.\"",
+      "\\C[10]\"Si è verificato un errore.\"",
+      "\\C[10]\"Si è verificato un errore.\"",
+      "\\sw[324]\"Diamine!! Perché...?!\"\\sw[325]",
+      "\\.\\C[4](Che accidenti succede...?)",
+      "\"A quanto pare... ha funzionato a meraviglia.\"",
+      "\\.\"Sembrerebbe di sì, signorina Nao.\"",
+      "\\.\\sw[324]\"Nao...! Che cosa hai fatto?! Questo è...!!\"\\sw[325]",
+      "\"Non prenderti tante confidenze!!\"",
+      "\\.\"Non osare pronunciare il mio nome\n con la voce e la faccia del professore!!\"",
+      "\\.\\sw[324]\"Nao...\"\\sw[325]",
+      "\\.\\sw[324]\"Non dirmi che... Sin dall'inizio...?!\"\\sw[325]",
+      "\"Pensavi che il mio legame\n col professore fosse così insulso?!\"",
+      "\\.\\sw[324]\"...!!\"\\sw[325]",
+      "\"Ehi, signorina Sara.\n Ricordi quel programma misterioso nel portatile?\"",
+      "\\.\"Eh...?\"",
+      "\"Ahahah. Beh, ce n'era uno.\n Era chiamato \"S_EX\"...\"",
+      "\\.\"Esatto. Che ridere, eh?\n Si chiamava \"S_EX\"...\"",
+      "\\.\"Beh... Era l'ultima spiaggia preparata dai Kai.\"",
+      "\\.\"Quelle erano le iniziali di \"script di exploit\"...\n ossia un \\C[2]programma di hacking\\C[0]\n per carpire dati dall'organizzazione.\"",
+      "\\.\"Che...?!\"",
+      "\n\"H... Hacking...?!\"",
+      "\"Ahahah. Sei tu che verrai eliminato.\"",
+      "\\sp[12]\"Fermiiiii!!\"",
+      "\\.\\C[3]L'intelligenza artificiale... è svanita.",
+      "\\.\"Riesci ad alzarti, signorina Sara?\"",
+      "\\.\"E... Ehm...\"",
+      "\"...Sempre all'erta, eh.\"",
+      "\"...Sei abbastanza pesante.\"",
+      "\\.\\C[4](Oh, ma sta' zitto...)",
+      "\"Oh, ma davvero? Le tue gambe si sono arrese?\"",
+      "\\.\\C[4](...)",
+      "\\.\"Ora mi concentrerò ad analizzare queste informazioni,\n quindi fai anche tu la tua parte.\"",
+      "\\.\"Raduna tutti nell'atrio.\n Conto su di te.\"",
+      "\\.\"E... Eh...?\"",
+      "\\.\\C[3]Senza badare al fatto che faticavo a tenere il passo,\nSou ha cominciato a smanettare col portatile."
+    ],
+    "1-1-choice": [
+      "Possiamo trovare la stanza segreta\nPossiamo vedere la disposizione della struttura",
+      "Perché rubarlo?\nA che ti serve il circuito?",
+      "Sei davvero tu?\nC'è qualcosa di losco!\nGrazie mille",
+      "Non ricordo\nIl file S_EX",
+      "Posso alzarmi da sola\nPrendigli la mano\nNon ci riesco"
+    ],
+    "2-11-message": [
+      "\\C[3]Il falso professor Mishima è sparito."
+    ],
+    "2-12-message": [
+      "\"Non sento odori provenire dallo schermo, bau.\""
+    ],
+    "4-1-message": [
+      "\\.\"Scusa per averti ingannato, Sara...\"",
+      "\\.\"Ehm...\"",
+      "\\.\"Spiega tutto, per favore.\"",
+      "\\.\"...D'accordo.\"",
+      "\\.\"Ho ancora le idee confuse...\"",
+      "\\.\"Direi di sì...\"",
+      "\\.\"La tua recitazione era molto convincente, Nao.\"",
+      "\\.\"Avevi già capito tutto...?!\n Incredibile!!\"",
+      "\\.\\C[4](Beh, ci sono delle parti che non mi sono chiare...)",
+      "\\.\"Ti spiego. Allora...\"",
+      "\\.\"Quando è cominciata la fase di scambio\n e ci sono stati assegnati i ruoli...\n è apparso l'impostore su quello schermo.\"",
+      "\\.\"Ci ho creduto solo all'inizio.\n Che il professore fosse stato resuscitato...\"",
+      "\\.\"Ma non ci è voluto molto prima che tornassi in me.\"",
+      "\\.\"L'impostore mi ha ordinato di\n recuperare il portatile e il circuito di Pongo.\"",
+      "\\.\"E mi ha detto di farlo da sola,\n senza discuterne con nessun altro...\"",
+      "\\.\\C[4](Nao...)",
+      "\\.\"Hai obbedito agli ordini dell'impostore?\"",
+      "\\.\"No... Ma ho finto di obbedirgli.\"",
+      "\\.\"Quand'è che ti sei alleata con Sou?\"",
+      "\\.\"Poco fa...\n Prima di incontrare voi all'Infermeria.\"",
+      "\\.\"E poi il resto è venuto da sé, suppongo.\"",
+      "\\.\"H-Hai già capito tutto\n solo da questa parte della spiegazione?!\"",
+      "\\.\"Ehm... Spiegherò comunque tutto, per sicurezza.\"",
+      "\\.\"All'inizio, ho immediatamente pensato\n di discuterne con te, Sara.\"",
+      "\\.\"Ma ho pensato che l'impostore\n avrebbe potuto prevedere anche quello.\"",
+      "\\.\"Se avesse scoperto che non mi fidavo,\n ero sicura che l'impostore sarebbe scomparso...\"",
+      "\\.\"Quindi, ho pensato che avrei dovuto estrarre\n da lui più informazioni che potevo...!\"",
+      "\\.\"E quindi hai parlato con l'asociale, bau?!\"",
+      "\\.\"Sì! L'impostore non si sarebbe mai aspettato\n che ne avrei discusso con l'a... con Sou.\"",
+      "\\.\"E continuando a far finta di esserci cascata,\n abbiamo mandato all'impostore il coso di hacking!\"",
+      "\\.\\C[4](Chi avrebbe mai detto che Nao\n fosse capace di questo...)",
+      "\\.\"Il modo migliore per far sì\n che l'impostore mi credesse...\"",
+      "\\.\"Era mettermi contro di te di fronte a lui, Sara.\"",
+      "\\.\"E tutto questo piano l'ha fatto anche l'asociale, bau?\n Fantastico, miao!\"",
+      "\\.\"È-È vero. Immagino di essere anch'io una tipa cupa...\"",
+      "\\.\"No, la sorellona Nao è una tipa allegra, miao!\"",
+      "\\.\"Non credo proprio di esserlo!\"",
+      "\\.\\C[4](Ma ricevere aiuto da Sou, tra tutti...)",
+      "\\.\\C[4](Comunque la si guardi...)",
+      "\\.\"Voglio... credere a Sou.\"",
+      "\\.\\C[4](...!)",
+      "\\.\"Sou ha parlato... di un piano di fuga, giusto?\"",
+      "\\.\"Raduna tutti nell'atrio.\"",
+      "\\.\\C[4](Nao...)",
+      "*sniff sniff*...",
+      "\\.\"Ghiah?! S... Sono sudata?!\"",
+      "\\.\"No! Hai un buon odore, miao!\"",
+      "\\.\"O-Oh, davvero?! Eheheh...\"",
+      "\\.\"Per favore, fidatevi di Sou\n e radunate tutti nell'atrio!\""
+    ],
+    "4-1-choice": [
+      "Spiega tutto, per favore\nHo ancora le idee confuse\nSei una brava attrice",
+      "Hai obbedito?\nQuand'è che ti sei alleata con Sou?\nPoi tutto il resto è venuto da sé"
+    ],
+    "6-1-message": [
+      "\\.\"...\"",
+      "\\.\"Sou...\"",
+      "\\.\"Potresti evitare di parlarmi adesso?\"",
+      "\\.\"Mi fai arrabbiare, miao!!\"",
+      "\\.\\C[4](Mi sa che è meglio lasciarlo fare...)",
+      "\\.\\C[3]Sou è concentrato sul portatile.",
+      "\\.\"...\"",
+      "\\.\"Ehm... Sou.\"",
+      "\\.\"..........\"",
+      "\\.\"Ignorata, miao...\"",
+      "\\.\\C[4](Gli darò un colpetto...)",
+      "\\.\"..........\"",
+      "\\.\\C[4](Nessuna reazione...)",
+      "\\.\"...Testarda...\"",
+      "\\.\\C[4](Ah! Ha reagito!)",
+      "\\.\"...Potresti smetterla?\"",
+      "\\.\\C[4](Si sta scocciando...)",
+      "\\.\"Basta!\"",
+      "\\.\"L'asociale ha sbottato, miao... Che paura, bau...\"",
+      "\\.\\C[4](...No, meglio di no.\n Ho paura di cosa potrebbe succedere dopo.)"
+    ],
+    "6-1-choice": [
+      "Parlagli\nInfastidiscilo\nAnnulla"
+    ],
+    "6-2-message": [
+      "\\.\"...\"",
+      "\\.\"Sou...\"",
+      "\\.\"Potresti evitare di parlarmi adesso?\"",
+      "\\.\"Mi fai arrabbiare, miao!!\"",
+      "\\.\\C[4](Mi sa che è meglio lasciarlo fare...)",
+      "*sniff sniff*...",
+      "\\.\"Che odore cupo, miao! Mi dispiace per lui, bau!\"",
+      "\\.\"...Ti do del cibo se vai via.\"",
+      "\\.\"Non trattarmi come un gatto, miao!\""
+    ],
+    "7-1-message": [
+      "\"L'odore del portatile... Non è così male, miao.\"",
+      "\\C[3]Il portatile di Kai è collegato allo schermo."
+    ],
+    "8-1-message": [
+      "\"Il letto ha un buon odore,\n come la sorellona Nao, miao!\""
+    ],
     "33-1-message": [
       "\\C[3]Video della vittima\n\nIl video che aveva Nao. Mostra una poliziotta\nche muore nella Prima Prova. L'uomo di fronte è Keiji?"
     ],
+    "34-1-message": [
+      "\\C[3]Disco della vittima E\n\nUn disco della vittima trovato al 1º piano."
+    ],
+    "35-1-message": [
+      "\\C[3]Disco della vittima F\n\nUn disco della vittima trovato al 1º piano."
+    ],
+    "36-1-message": [
+      "\\C[3]Filmati di sorveglianza del 1º piano\n\nDalle telecamere di sorveglianza del 1º piano. Mostra le\nnostre azioni. Sou ha visto Q-taro posizionare le carte."
+    ],
+    "37-1-message": [
+      "\\C[3]Tablet\n\nUn tablet utilizzabile per vedere il proprio ruolo.\nEra vicino a Q-taro svenuto nella Stanza delle macerie."
+    ],
+    "38-1-message": [
+      "\\C[3]Arma stordente\n\nUn'arma monouso che può immobilizzare una persona.\nÈ pericolosa, Gin e io l'abbiamo presa in segreto."
+    ],
     "40-1-message": [
-      "\\C[3]Circuito di Nosko\n\nUn piccolo circuito rimosso dalla testa di Rikon Nosko.\nIn grado di azzerare la sicurezza della struttura."
+      "\\C[3]Circuito di Nosko\n\nUn piccolo circuito rimosso dalla testa di Rikon Nosko.\nIn grado di distruggere la sicurezza della struttura."
     ]
   },
   "map155": {
@@ -15128,23 +15908,313 @@
       "\\C[3]Video della vittima\n\nIl video che aveva Nao. Mostra una poliziotta\nche muore nella Prima Prova. L'uomo di fronte è Keiji?"
     ],
     "9-1-message": [
-      "\\C[3]Circuito di Nosko\n\nUn piccolo circuito rimosso dalla testa di Rikon Nosko.\nIn grado di azzerare la sicurezza della struttura."
+      "\\C[3]Circuito di Nosko\n\nUn piccolo circuito rimosso dalla testa di Rikon Nosko.\nIn grado di distruggere la sicurezza della struttura."
     ]
   },
   "map157": {
+    "4-1-message": [
+      "\\C[4](Dov'è?! Ho cercato dappertutto...\n ma non trovo il portafogli!)",
+      "\\.\\C[4](Perché...?!)",
+      "\\.\\C[4](Sono sicura di non averlo perso!!)",
+      "\\.\\sp[10]\"Sniff...\"",
+      "\\.\\sp[8]\"Argh... aaah...\"",
+      "\\.\\C[4](...)",
+      "\\.\\C[4](Non... voglio morire...)",
+      "\\.\\C[4](Non c'è... nessun altro modo...?)",
+      "\\.\"...!\"",
+      "\\.\\C[4](La Stanza delle bugie...)",
+      "\\.\\C[10](Se prendessi i gettoni di Alice...)",
+      "\\.\\C[4](Non c'è... nessun altro modo...?)",
+      "\\.\"...!\"",
+      "\\.\\C[4](La Stanza delle bugie...)",
+      "\\.\\C[10](Se prendessi i gettoni di Reko...)",
+      "\\.\\C[4](..........)",
+      "\\C[3]Mi sono rimessa a correre.",
+      "\\.\\C[3]Prima che recuperino il corpo.",
+      "\\.\\C[3]Per il mio futuro."
+    ],
+    "5-1-message": [
+      "\\.\\C[3]Il portafogli non è vicino alla sedia al centro."
+    ],
+    "7-1-message": [
+      "\\.\\C[3]Il portafogli non è vicino alla sedia a sinistra."
+    ],
+    "8-1-message": [
+      "\\.\\C[3]Il portafogli non è sotto al letto."
+    ],
+    "9-1-message": [
+      "\\.\\C[3]Il portafogli non è sul letto o lì vicino."
+    ],
     "49-1-message": [
       "\\C[3]Video della vittima\n\nIl video che aveva Nao. Mostra una poliziotta\nche muore nella Prima Prova. L'uomo di fronte è Keiji?"
     ],
+    "50-1-message": [
+      "\\C[3]Disco della vittima E\n\nUn disco della vittima trovato al 1º piano."
+    ],
+    "51-1-message": [
+      "\\C[3]Disco della vittima F\n\nUn disco della vittima trovato al 1º piano."
+    ],
+    "52-1-message": [
+      "\\C[3]Filmati di sorveglianza del 1º piano\n\nDalle telecamere di sorveglianza del 1º piano. Mostra le\nnostre azioni. Sou ha visto Q-taro posizionare le carte."
+    ],
+    "53-1-message": [
+      "\\C[3]Tablet\n\nUn tablet utilizzabile per vedere il proprio ruolo.\nEra vicino a Q-taro svenuto nella Stanza delle macerie."
+    ],
+    "54-1-message": [
+      "\\C[3]Arma stordente\n\nUn'arma monouso che può immobilizzare una persona.\nÈ pericolosa, Gin e io l'abbiamo presa in segreto."
+    ],
     "56-1-message": [
-      "\\C[3]Circuito di Nosko\n\nUn piccolo circuito rimosso dalla testa di Rikon Nosko.\nIn grado di azzerare la sicurezza della struttura."
+      "\\C[3]Circuito di Nosko\n\nUn piccolo circuito rimosso dalla testa di Rikon Nosko.\nIn grado di distruggere la sicurezza della struttura."
+    ]
+  },
+  "map159": {
+    "1-1-message": [
+      "\"*anf*... *gasp*...!!\"",
+      "\\.\"No...\"",
+      "\\.\\C[3]Il corpo di Alice è già stato completamente rimosso.",
+      "\\.\\C[3]Il corpo di Reko è già stato completamente rimosso.",
+      "\\.\"È uno scherzo...!!\"",
+      "\\.\"Perché...?! No...!!\"",
+      "\\.\\sp[20]\"Ora...\"",
+      "\\.\\sp[15]\"Cosa... faccio...\"",
+      "\\.\"...Signorina Sara.\"",
+      "\\.\\sp[15]\"...Mosa...\"",
+      "\\.\"Ho appena finito di pulire...\"",
+      "\\.\"Ovviamente... ho anche trasportato i corpi con cura.\"",
+      "\\.\"...\"",
+      "\\.\\C[4](...Forse questa è la mia ultima occasione.)",
+      "\"...È tutto finito... vero...?\"",
+      "\\.\"...?\"",
+      "\\.\"Eheh... ahahah...\"",
+      "\\.\"S-Signorina Sara...?\n Tutto beneee?\"",
+      "\\.\"Una rapitrice che si preoccupa per me...? Ahah...\"",
+      "\\.\"Aah...\"",
+      "\\.\"Mosa... ti diverte?\"",
+      "\\.\"Giocare con noi usando roba insensata\n come i gettoni e le Medaglie di superamento...\"",
+      "\\.\"E appena abbiamo un barlume di speranza,\n portarcelo via e ucciderci.\"",
+      "\\.\"Come ti fa sentire...\n essere in grado di fare cose del genere...?\"",
+      "\\.\"Beh...\"",
+      "\\.\"Le nostre vite... devono essere così infime...\"",
+      "\\.\"Quando moriamo, almeno li raccogliete\n tutti i gettoni che abbiamo ottenuto? Ahah...\"",
+      "\\.\"Ehm...\"",
+      "\\.\"Alice \\C[2]non aveva\\C[0] gettoni.\"",
+      "\\.\"Reko \\C[2]non aveva\\C[0] gettoni.\"",
+      "\"I miei gettoni sono qui da qualche parte...?\"",
+      "\\.\"Eh...?\"",
+      "\\.\"Hai perso il tuo portafogli?\n Non l'ho visto da nessuna parte...\"",
+      "\\.\"Oh, non in quel senso.\"",
+      "\\.\"Avevo affidato i miei gettoni ad Alice.\"",
+      "\\.\"Avevo affidato i miei gettoni a Reko.\"",
+      "\\.\"Tutti quanti, temporaneamente, per un certo piano...\"",
+      "\\.\"..........\"",
+      "\\.\"Avrei dovuto riprenderli, in caso di sopravvivenza...\"",
+      "\\.\"E non ci è mai stato detto che\n i gettoni dei defunti sarebbero stati confiscati.\"",
+      "\\.\"Quindi... potresti ridarmeli?\"",
+      "\\.\"Signorina Sara... ehmm...\"",
+      "\\.\"Alice \\C[2]non aveva\\C[0] gettoni.\"",
+      "\\.\"Reko \\C[2]non aveva\\C[0] gettoni.\"",
+      "\\.\"Eh...?\"",
+      "\\.\"Scusa... Sono occupata, quindi se permetti...\"",
+      "\\.\\C[4](Che storia è questa...?)",
+      "\\.\\C[4](Alice non aveva gettoni?)",
+      "\\.\\C[4](È impossibile...!\n Alice era tra quelli più in alto\n per numero di gettoni!!)",
+      "\\.\\C[4](Reko non aveva gettoni?)",
+      "\\.\\C[4](È impossibile...!\n Reko avrebbe dovuto avere almeno i suoi gettoni, no?!)",
+      "\\.\\C[4](Argh... Qualcuno ha fatto questo\n per tendermi una trappola...?)",
+      "\\.\"...\"",
+      "\\.\"Ahahah...\"",
+      "\\.\\C[4](Eh...? Perché sto ridendo?)",
+      "\\.\"Ahahahahahah...!!\"",
+      "\\.\\C[10]\"Ehilà. Ti diverti, Sara?\"",
+      "\\.\"Sì... Non riesco a raccogliere\n le forze per pensare più a nulla....\"",
+      "\\.\\C[10]\"Alla fin fine, mi sa che non ci credevi\n nemmeno tu di poter davvero scappare, eh?\"",
+      "\\.\"...Dici...?\"",
+      "\\.\\C[10]\"È l'idea che mi sono fatto. Trovi speranza per tutti\n gli altri... perché quelli senza speranza muoiono.\n Era questo il tuo ragionamento?\"",
+      "\\.\"Beh...\"",
+      "\\.\"Già... Non avevo mai pensato\n che sarei potuta essere io a morire.\"",
+      "\\.\\C[10]\"Egocentrica fino alla fine, eh?\"",
+      "\\.\"Ahahah... Già.\"",
+      "\\.\"Sinceramente, qualunque cosa io faccia,\n sono senza speranza.\"",
+      "\\.\"Ti sbagli, Joe...\"",
+      "\\.\"Ero io che avevo bisogno di speranza.\"",
+      "\\.\"Finché guardo avanti...\n Posso distogliere lo sguardo\n dal fatto di averti ucciso.\"",
+      "\\.\"Ma nel futuro che mi aspetta al mio ritorno...\n Non riesco a vedere alcuna luce.\"",
+      "\\.\\C[10]\"Ma che diavolo, Sara.\n Volevi morire così tanto?\"",
+      "\\.\"Forse... Da qualche parte, nel mio cuore, volevo...\"",
+      "\\.\"Ahahah...\"",
+      "\\.\"Joe... Finalmente, non dovrò più scappare da te.\"",
+      "\"Sorellona Sara!! Resta con noi, miao!!\"",
+      "\\.\"Gin...?\"",
+      "\\.\"Il fratellone Joe non è qui, miao!!\n Ignora le cose strane che vedi, bau!!\"",
+      "\\.\"Che ci fai qui, Gin...?\"",
+      "\\.\"Che ci faccio qui...?\"",
+      "\\.\"Tiro su la sorellona Sara, ovviamente!!!!\"",
+      "\\.\"G-Gin?!\"",
+      "\\.\"Per favore...! Torna in te!\"",
+      "\\.\"Credi nel vero Joe!!\n Per favore, sorellona Sara...!!\"",
+      "\\.\"Credere in...\\.\\. Joe...?\"",
+      "\\.\"Non sei l'unica che\n non ha potuto fare nulla, miao...!\"",
+      "\\.\"Io... e tutti noi...!!\"",
+      "\\.\"Ci siamo sentiti in colpa, bau...!!\n Abbiamo sofferto, miao!!\"",
+      "\\.\"Ma comunque... il fratellone Joe\n ha sorriso fino alla fine, miao...\"",
+      "\\.\"E tutti gli altri che sono morti...\n Pensavano a quelli che erano rimasti\n fino all'ultimo, bau!!\"",
+      "\\.\"Quindi sono sicuro che quello che vorrebbe davvero\n è che tutti tornino a casa sani e salvi!!\"",
+      "\\.\"Ecco perché...\"",
+      "\\.\"Devi credere nel vero Joe,\n sorellona Sara...!!\"",
+      "\\.\"..........\"",
+      "\\.\"Il vero Joe...\"",
+      "\\.\\C[4](Non so...)",
+      "\\.\\C[4](Mi sembra... di averlo già perso di vista...)",
+      "\\.\\C[4](Quel tipo che continua a perseguitarmi...)",
+      "\\C[4](Ho il coraggio di fare i conti con lui...?)"
+    ],
+    "1-1-choice": [
+      "Rinuncia ai gettoni\nInganna Mosa",
+      "Hai ragione\nHai torto"
+    ],
+    "4-2-message": [
+      "\"A... Aaaah...!!!!\"",
+      "\\C[10]Non potrai mai dimenticarmi, Sara.",
+      "\\C[10]Sei già rotta.",
+      "\"Resta con noi! Sorellona Sara!!\"",
+      "\\.\"Sorellona Sara...!!\""
+    ],
+    "4-3-message": [
+      "\\C[10]\"Tsè...\"",
+      "\\.\\C[10]\"Sei già rotta.\"",
+      "\\.\\C[10]\"È impossibile liberarsi di me una volta per tutte.\"",
+      "\\.\\C[10]\"...Alla prossima.\"",
+      "\"Sorellona Sara...?\"",
+      "\\.\"Gin...\"",
+      "\\.\"Grazie...\"",
+      "\\.\"Avevo... dimenticato una cosa importante.\"",
+      "\\.\"Sei... tornata normale, bau?\"",
+      "\\.\"Sì. Facciamo tutti ritorno... insieme.\"",
+      "\\.\"Non permetterò che qualcun altro perda la vita.\"",
+      "\\.\"Non la darò vinta ai rapitori!\"",
+      "\\.\"Sì!\"",
+      "\\.\\C[4](Sprizzo energia da tutti i pori...)",
+      "\\.\\C[4](Non si tratta solo della mia vita...!)",
+      "\\.\\C[4](Andrò avanti... Per proteggere tutti!)",
+      "\\.\"Sorellona Sara! Muoviamoci, bau!\""
     ]
   },
   "map160": {
+    "2-3-message": [
+      "*sniff sniff*...",
+      "\\.\"Miao! La sua testa ha un odore davvero dolce, bau!\"",
+      "\\.\"Eheheh... È delizioso proprio quanto sembra.\n Vorresti assaggiare?\"",
+      "\\.\"Che schifo, non ci tengo, miao!\"",
+      "\\.\"Aah... *sniff*... I-In tal caso...\"",
+      "\\.\"Che schifo, non ci tengo, miao!\"",
+      "\\.\"Aah... *sniff*...\"",
+      "\"Credo che questo macchinario sia\n l'unico modo per trovare la felicità.\"",
+      "\\.\"A prescindere da cosa ne pensiate...\""
+    ],
+    "3-1-message": [
+      "\\C[4](Eh? La luce è spenta...?)",
+      "\\.\\C[4](C'è qualcuno al buio...)",
+      "\"Capisco...\"",
+      "\"Hai... il cuore ferito...\"",
+      "\"...\"",
+      "\"Io...?\"",
+      "\\.\"Non solo tu.\"",
+      "\\.\"Tutti... sono a pezzi...\"",
+      "\\.\"Tutti...?\"",
+      "\\.\"A volte... è meglio dimenticare i ricordi\n che sono troppo dolorosi.\"",
+      "\\.\"E a dire il vero, il cervello umano\n è studiato per fare ciò.\"",
+      "\\.\"Siete tutti troppo forti...\n E non riuscite a cancellare i vostri ricordi.\"",
+      "\\.\"E quindi... Vorresti cancellarli tu...?!\"",
+      "\\.\"I miei ricordi di Alice...!!\"",
+      "\\.\"Solo i ricordi dolorosi, s'intende...\"",
+      "\\.\"I ricordi piacevoli di voi come fratello e sorella...\n Quelli rimarranno, mentre dimenticherai solo\n i ricordi brutti.\"",
+      "\\.\"Sono l'unica a poterti curare...\"",
+      "\\.\"..........\"",
+      "\\.\"...\"",
+      "\\.\"No...\"",
+      "\\.\"Di certo, non posso dimenticarmi di Alice...\"",
+      "\\.\"Non ho poi così tanti ricordi insieme a lui...\"",
+      "\\.\"Se perdessi i ricordi brutti...\n non ne resterebbe quasi nessuno.\"",
+      "\\.\"Quindi... non voglio dimenticare\n neanche un pezzetto...\"",
+      "\\.\"Signorina Reko...\"",
+      "\\.\"Capisco...\"",
+      "\"Oh...? Sara!\"",
+      "\\.\"Reko...\"",
+      "\\.\"Quindi... non hai usato il macchinario.\"",
+      "\\.\"...Già.\"",
+      "\\.\"Che facevi qui al buio?\"",
+      "\\.\"Ahah... Niente di che.\"",
+      "\\.\"...\"",
+      "\\.\"Forse ho preso la strada più difficile...\"",
+      "\\.\"Mi trovi nell'atrio, Sara.\n Vieni lì se ti serve qualcosa.\"",
+      "\"Io...?\"",
+      "\\.\"Non solo tu.\"",
+      "\\.\"Tutti... sono a pezzi...\"",
+      "\\.\"Umpf...\"",
+      "\\.\"A volte... è meglio dimenticare i ricordi\n che sono troppo dolorosi.\"",
+      "\\.\"E a dire il vero, il cervello umano\n è studiato per fare ciò.\"",
+      "\\.\"Siete tutti troppo forti...\n E non riuscite a cancellare i vostri ricordi.\"",
+      "\\.\"Dunque, con questo macchinario puoi\n davvero cancellarli.\"",
+      "\\.\"I miei ricordi di Reko...\"",
+      "\\.\"Solo i ricordi dolorosi, s'intende...\"",
+      "\\.\"I ricordi piacevoli di voi come fratello e sorella...\n Quelli rimarranno, mentre dimenticherai solo\n i ricordi brutti.\"",
+      "\\.\"Sono l'unica a poterti curare...\"",
+      "\\.\"..........\"",
+      "\\.\"...\"",
+      "\\.\"...D'accordo. Fallo.\"",
+      "\\.\"...Ne sei certo?\"",
+      "\\.\"Fai in fretta. Prima che cambi idea...\"",
+      "\\.\"...Ecco qui.\"",
+      "\\.\"Guaaaaah...!!\"",
+      "\\.\"Gaaaaaaah...!!\"",
+      "\\.\"Argggh... Aaaaaaaaaa...!!\"",
+      "\\.\"Uuuf...\"",
+      "\\.\"Come ti senti...?\"",
+      "\\.\"...\"",
+      "\\.\"O... Ooh?!\"",
+      "\\.\"Avevi ragione...!! Che bella sensazione!\n Mi sento la testa leggera...!\"",
+      "\\.\"A-Alice...\"",
+      "\\.\"Aah, Sara Chidouin.\n Da quant'è che eri lì?\"",
+      "\\.\"...\"",
+      "\\.\"Quindi... hai usato il macchinario.\"",
+      "\\.\"Beh, sì... Muahahah... L'avrei fatto prima\n se avessi saputo che mi sarei sentito così libero.\"",
+      "\\.\"Va davvero bene così, miao...?\n Anche i ricordi brutti...\n erano ricordi con la sorellona Reko...\"",
+      "\\.\"Mpf...?\n Ho più ricordi di cui so cosa fare.\"",
+      "\\.\"Dimenticare Reko è stata davvero la cosa giusta...?\"",
+      "\\.\"Mpf... Ma di che parli?\n Reko è la mia cara sorella.\n Non mi dimenticherei mai di lei.\"",
+      "\\.\"È una disgrazia che sia dovuta morire...\\!\n Ma sono certo che Reko vivrà per sempre nel mio cuore.\"",
+      "\\.\"Riuscire a parlare di cose del genere\n con tanta disinvoltura... Non è normale, bau...\"",
+      "\\.\"Cosa...?\"",
+      "\\.\"Gin... Smettila, per piacere.\n Se tutto ciò che si ha sono fardelli,\n non la si può considerare vita...\"",
+      "\\.\"Non direi... che Alice ha fatto una cosa sbagliata.\"",
+      "\\.\"Esatto. Non stroncare il mio umore rinvigorito.\n ...Credo che andrò a riposare nell'atrio.\"",
+      "\\.\"Andiamo, Gin.\"",
+      "\\.\"Ok...\""
+    ],
+    "3-1-choice": [
+      "Quindi non hai usato il macchinario\nChe facevi al buio?",
+      "Quindi hai usato il macchinario\nDimenticare Reko è la cosa giusta?"
+    ],
     "15-1-message": [
       "\\C[3]Video della vittima\n\nIl video che aveva Nao. Mostra una poliziotta\nche muore nella Prima Prova. L'uomo di fronte è Keiji?"
     ],
+    "16-1-message": [
+      "\\C[3]Disco della vittima E\n\nUn disco della vittima trovato al 1º piano."
+    ],
+    "17-1-message": [
+      "\\C[3]Disco della vittima F\n\nUn disco della vittima trovato al 1º piano."
+    ],
+    "18-1-message": [
+      "\\C[3]Filmati di sorveglianza del 1º piano\n\nDalle telecamere di sorveglianza del 1º piano. Mostra le\nnostre azioni. Sou ha visto Q-taro posizionare le carte."
+    ],
+    "19-1-message": [
+      "\\C[3]Tablet\n\nUn tablet utilizzabile per vedere il proprio ruolo.\nEra vicino a Q-taro svenuto nella Stanza delle macerie."
+    ],
+    "20-1-message": [
+      "\\C[3]Arma stordente\n\nUn'arma monouso che può immobilizzare una persona.\nÈ pericolosa, Gin e io l'abbiamo presa in segreto."
+    ],
     "23-1-message": [
-      "\\C[3]Circuito di Nosko\n\nUn piccolo circuito rimosso dalla testa di Rikon Nosko.\nIn grado di azzerare la sicurezza della struttura."
+      "\\C[3]Circuito di Nosko\n\nUn piccolo circuito rimosso dalla testa di Rikon Nosko.\nIn grado di distruggere la sicurezza della struttura."
     ]
   },
   "map161": {
@@ -15182,19 +16252,287 @@
     ]
   },
   "map163": {
+    "1-1-message": [
+      "\\.\\C[4](Ma che...?!)",
+      "\"Miaoooooh?! Che paura, bau!!\"",
+      "\\.\"Uuuh...\"",
+      "\\.\"Per caso sono...\"",
+      "\\.\"Bambole...?\"",
+      "\\.\"Ce n'è addirittura una uguale a me, bau!\"",
+      "\\.\"Umani...?\"",
+      "\\.\"Eeh?! No... Non può essere!!\"",
+      "\\.\"Sono tutte bambole, bau... È inquietante, miao...\""
+    ],
+    "1-1-choice": [
+      "Bambole?\nUmani?"
+    ],
+    "2-1-message": [
+      "\\C[3]Al centro ci sono numerose bambole,\ntra cui una di me, una di Keiji e una di Kanna.",
+      "\"Uuf... Sembra che potrebbero\n muoversi da un momento all'altro, miao...\"",
+      "\\.\\C[4](Mmh... Non credo che inizieranno a muoversi.)",
+      "\\.\"Ci sono anche bambole di persone\n che non abbiamo mai conosciuto...\"",
+      "\\.\\C[4](Probabilmente sono già cadute vittime...)",
+      "\"Sorellona Sara, anche la tua bambola è bella, miao!\"",
+      "\\.\"...Ahah. Grazie, Gin.\""
+    ],
+    "2-2-message": [
+      "\\C[3]Al centro ci sono numerose bambole,\ntra cui una di me, una di Keiji e una di Kanna."
+    ],
+    "3-1-message": [
+      "\\C[3]Sulla destra ci sono numerose bambole,\ntra cui una di Gin e una di Alice.",
+      "\"È come guardarsi allo specchio, bau...\"",
+      "\\.\"...\"",
+      "\\.\"Ehi, si è appena mossa una pochino.\"",
+      "\\.\"Mi-miroooooar?!\"",
+      "\\.\"Me lo sarò solo immaginato.\"",
+      "\\.\"Sorellona Sara!! Stai facendo\n una faccia cattiva, bau!!\"",
+      "\\.\"Strani vestiti.\"",
+      "\\.\"Così sei maleducata verso di me,\n sorellona Sara! Miao!\"",
+      "\\.\"Scherzavo, Gin.\"",
+      "\\.\"...\"",
+      "\\.\"...Ora sto un po' meglio, bau.\"",
+      "\\.\\C[4](Gin...)",
+      "\\.\"Che carino.\"",
+      "\\.\"Mraaao...\n Non puoi dire così di un ragazzo, sorellona Sara!\"",
+      "\\.\"Scusa. Volevo dire \"fico\".\"",
+      "\\.\"Sì! Tutto a posto, bau!\"",
+      "\\.\\C[4](Ahah...)",
+      "\"Fare una bambola di me senza permesso\n è furto della mia immagine, miao!\"",
+      "\\.\"...\"",
+      "\\.\"Anche se non è che i nostri diritti\n stiano venendo rispettati, bau...\""
+    ],
+    "3-1-choice": [
+      "Si è mossa un pochino\nStrani vestiti\nChe carino"
+    ],
+    "3-2-message": [
+      "\\C[3]Sulla destra ci sono numerose bambole,\ntra cui una di Gin e una di Alice."
+    ],
+    "4-1-message": [
+      "\\C[3]Sulla sinistra ci sono numerose bambole,\ntra cui una di Sou, una di Q-taro e\nuna del professor Mishima.",
+      "\"Anche l'asociale ha la sua bambola, miao.\n Che fastidio, bau.\"",
+      "\\.\"Sou, eh...\"",
+      "\\.\\C[4](La persona nella foto del portatile...)",
+      "\\.\\C[4](Indossava la stessa sciarpa di Sou.)",
+      "\\.\\C[4](Qual è la relazione tra loro...?)",
+      "\\.\\C[4](La persona nella foto del portatile...)",
+      "\\.\\C[4](Alice l'ha chiamato Sou Hiyori.)",
+      "\\.\\C[4](Qual è la relazione tra i due Sou...?)",
+      "\\.\"Sorellona Sara, che ne pensi dell'asociale, bau?\"",
+      "\\.\"Eh...?\"",
+      "\\.\"...È un nemico.\"",
+      "\\.\"Mià?!\"",
+      "\\.\"Non posso dirlo con certezza...\n Ma mi dà l'impressione di essere ostile.\"",
+      "\\.\"Miao...\"",
+      "\\.\"...È un alleato.\"",
+      "\\.\"Sorellona Sara... Sei gentile, miao.\"",
+      "\\.\"Sou mi ha fatto soffrire più e più volte...\"",
+      "\\.\"Ma prima di tutto voglio credere in lui.\"",
+      "\\.\"Miao...\"",
+      "\\.\"...Non lo so.\"",
+      "\\.\"Cosa vuole, a cosa pensa...\"",
+      "\\.\"Sento che ha qualcosa nel profondo\n che ancora non conosco.\"",
+      "\\.\"Miao...\"",
+      "\\.\"...Lo odio.\"",
+      "\\.\"Le bugie che dice e il modo in cui usa gli altri.\"",
+      "\\.\"Sorellona Sara...\"",
+      "\\.\"Ma il fatto che vuole che scappiamo...\n Non è una bugia.\"",
+      "\\.\"Di sicuro una volta liberi potrei aver l'occasione\n di conoscere il vero Sou.\"",
+      "\\.\"Miao...\"",
+      "\"Scarabocchiamo la bambola dell'asociale, miao!\"",
+      "\\.\"Gin...\"",
+      "\\.\"Mosa se ne accorgerebbe. Non toccarle.\"",
+      "\\.\"Miao! Vivrai un giorno in più, asociale!\"",
+      "\\.\"Ti capisco, ma non abbiamo una penna.\"",
+      "\\.\"Peccato, miao...!\""
+    ],
+    "4-1-choice": [
+      "È un nemico\nÈ un alleato\nNon lo so\nLo odio",
+      "Non farci scoprire\nNon abbiamo una penna"
+    ],
+    "4-2-message": [
+      "\\C[3]Sulla sinistra ci sono numerose bambole,\ntra cui una di Sou, una di Q-taro e\nuna del professor Mishima."
+    ],
+    "5-1-message": [
+      "\"Sento un odore anche più in là, miao!\"",
+      "\\.\\C[4](Va ancora avanti...?!)",
+      "\\.\\C[4](Una volta finito di cercare qui,\n direi che possiamo proseguire per di là...)"
+    ],
+    "5-2-message": [
+      "\"L'odore è più forte andando avanti, miao\"",
+      "\\.\\C[4](Ha il fiuto di un cane...)"
+    ],
     "112-1-message": [
       "\\C[3]Video della vittima\n\nIl video che aveva Nao. Mostra una poliziotta\nche muore nella Prima Prova. L'uomo di fronte è Keiji?"
     ],
+    "113-1-message": [
+      "\\C[3]Disco della vittima E\n\nUn disco della vittima trovato al 1º piano."
+    ],
+    "114-1-message": [
+      "\\C[3]Disco della vittima F\n\nUn disco della vittima trovato al 1º piano."
+    ],
+    "115-1-message": [
+      "\\C[3]Filmati di sorveglianza del 1º piano\n\nDalle telecamere di sorveglianza del 1º piano. Mostra le\nnostre azioni. Sou ha visto Q-taro posizionare le carte."
+    ],
+    "116-1-message": [
+      "\\C[3]Tablet\n\nUn tablet utilizzabile per vedere il proprio ruolo.\nEra vicino a Q-taro svenuto nella Stanza delle macerie."
+    ],
+    "117-1-message": [
+      "\\C[3]Arma stordente\n\nUn'arma monouso che può immobilizzare una persona.\nÈ pericolosa, Gin e io l'abbiamo presa in segreto."
+    ],
     "119-1-message": [
-      "\\C[3]Circuito di Nosko\n\nUn piccolo circuito rimosso dalla testa di Rikon Nosko.\nIn grado di azzerare la sicurezza della struttura."
+      "\\C[3]Circuito di Nosko\n\nUn piccolo circuito rimosso dalla testa di Rikon Nosko.\nIn grado di distruggere la sicurezza della struttura."
     ]
   },
   "map165": {
+    "3-1-message": [
+      "\\.\\C[3]C'è la testa di Pongo sopra a un tavolo.",
+      "\\.\\C[4](Ecco dov'era...!)",
+      "\"Iih... Questo è il cadavere di Pongo...?\"",
+      "\\.\\C[4](...)",
+      "\"Non è necessariamente morto...\"",
+      "\\.\"Ma ha un grosso buco in testa, miao...\"",
+      "\\.\\C[4](Un buco...!\n Chissà se il circuito si è rotto...)",
+      "\\.\\C[4](Però, aspetta...\n Nemmeno so come sia fatto questo circuito.)",
+      "\\.\\C[4](È un bel problema...! Non ci capisco nulla\n di macchinari complessi come questo...)",
+      "\"Cerchiamo il circuito finché possiamo.\"",
+      "\\.\"S-Sì...\"",
+      "\\.\"...?\"",
+      "\\.\\C[4](Aspetta... Nemmeno so come sia fatto questo circuito.)",
+      "\\.\\C[4](È un bel problema...! Non ci capisco nulla\n di macchinari complessi come questo...)",
+      "\\.\"..........\"",
+      "\\.\\sw[837]\"...Pa... pà...\"\\sw[838]",
+      "\\.\"Che...\"",
+      "\"Ha parlato, miao!!\"",
+      "\\.\"Gin! Non urlare...\"",
+      "\\C[4](Perché proprio ora...?!)",
+      "\"Chi va là?!\"",
+      "\"Andatevene subito, per piacere!!\"",
+      "\\.\"Mosa...!\"",
+      "\\.\"Signorina Sara...\"",
+      "\\.\"Bibita al melone dal gusto terribile!\n Cos'è questo, bau?!\"",
+      "\\.\"Ah...\"",
+      "\\.\"Hai ripreso conoscenza, Pongo...\"",
+      "\\.\\sp[15]\\sw[837]\"...Mo... sa...?\"\\sw[838]",
+      "\\.\\sp[15]\\sw[837]\"...Al... diavolo...\n ...Perché non... mi lasci... morire...\"\\sw[838]",
+      "\\.\"Infatti, bau!\n Un cattivo come lui andrebbe\n lasciato a sé stesso, bau!\"",
+      "\\.\"Invece... Non dirmi che vuoi ripararlo, bau?!\"",
+      "\\.\\sp[15]\\sw[837]\"Co... sa...?\"\\sw[838]",
+      "\\.\"..........\"",
+      "\\.\\sp[15]\\sw[837]\"...Verrò...\"\\sw[838]",
+      "\\.\\sp[15]\\sw[837]\"...ripa... rato...?\"\\sw[838]",
+      "\\.\"È impossibile ripararti.\"",
+      "\\.\\sp[15]\\sw[837]\"...eh...?\"\\sw[838]",
+      "\\.\"Sono state distrutte componenti importanti di te.\n ...Ti restano circa dieci minuti.\"",
+      "\\.\\sp[15]\\sw[837]\"...N...\"\\sw[838]",
+      "\\.\\sp[18]\\sw[837]\"...Non prendermi in giro, bastarda...!!\"\\sw[838]",
+      "\\.\\sp[18]\\sw[837]\"Ma allora... perché mi...!!\"\\sw[838]",
+      "\\.\"In modo tale da \\C[2]completarti\\C[0].\"",
+      "\\.\\sp[15]\\sw[837]\"...Completarmi...?\"\\sw[838]",
+      "\\.\"Quanto sai su di te, Pongo...?\"",
+      "\\.\\sp[15]\\sw[837]\"...Sono... il capolavoro di papà...\n Rikon Pongo...\"\\sw[838]",
+      "\\.\"...Non è quello il tuo vero nome.\"",
+      "\\.\"Sei un'opera incompleta...\"",
+      "\\.\\sp[15]\\sw[837]\"...Cosa...?\"\\sw[838]",
+      "\\.\"Gashu ti ha infuso una certa emozione.\"",
+      "\\.\"Una certa emozione...\"",
+      "\\.\"Superiorità...?\"",
+      "\\.\"Errato.\"",
+      "\\.\"Un forte senso di inferiorità...\n la quale ha generato invidia e odio.\n In un certo senso ti ha reso più umano...\"",
+      "\\.\"Inferiorità...?\"",
+      "\\.\"Sì... la quale ha generato invidia e odio.\n In un certo senso ti ha reso più umano...\"",
+      "\\.\"Posteriorità... giusto?\"",
+      "\\.\"Aaah, ehm... Che vorrebbe dire?\n Non è neanche un'emozione...\"",
+      "\\.\"Un forte senso di inferiorità...\n la quale ha generato invidia e odio.\n In un certo senso ti ha reso più umano...\"",
+      "\\.\"...E ha scartato ciò che possedevi in origine.\"",
+      "\\.\\sp[15]\\sw[837]\"...Scar... tato...?\"\\sw[838]",
+      "\\.\"Gentilezza... compassione... felicità...\"",
+      "\\.\"Praticamente tutte le tue emozioni positive.\"",
+      "\\.\\sp[15]\\sw[837]\"..........\"\\sw[838]",
+      "\\.\"Pur avendo i meccanismi per produrre espressioni,\n non riesci a produrre un sorriso di cuore.\"",
+      "\\.\"Perché non ha un cuore...\"",
+      "\\.\"...Originariamente era compito mio inserirlo.\"",
+      "\\.\"Gashu si occupava delle emozioni negative,\n mentre io delle emozioni positive.\"",
+      "\\.\"Ma Gashu mi ha fermato.\"",
+      "\\.\"Sostenendo che l'imperfezione fosse più umana...\n ti ha ricomposto in una bambola perversa.\"",
+      "\\.\\sp[15]\\sw[837]\"...Non... può...\"\\sw[838]",
+      "\\.\"Adesso, ti restituirò il tuo cuore.\"",
+      "\\.\"Ti perfezionerò fino a\n farti raggiungere tua vera forma.\"",
+      "\\.\\sp[15]\\sw[837]\"...Fer... ma...\"\\sw[838]",
+      "\\.\\C[3]Mosa ha cominciato a usare un macchinario.",
+      "\\.\\sp[15]\\sw[837]\"Fermati... Mosa...\"\\sw[838]",
+      "\\.\\sp[18]\\sw[837]\"Fermati... ti prego...!!\"\\sw[838]",
+      "\\.\\sp[18]\\sw[837]\"Non mi serve un cuore... ormai no...!!\"\\sw[838]",
+      "\\.\\sp[18]\\sw[837]\"Mi basta... solo morire... ma tu vuoi...!!\"\\sw[838]",
+      "\\sw[837]\"Ferma...!!\"\\sw[838]\\.\\.\\.\\^",
+      "\\sw[837]\"FERMAAAAAAAAAA...!!\"\\sw[838]\\.\\.\\.\\^",
+      "\\.\"Aaaaah...\"",
+      "\\.\\sp[18]\\sw[837]\"Stanno scorrendo dentro di me...\n tutte queste emozioni indesiderate...\"\\sw[838]",
+      "\\.\\sp[18]\\sw[837]\"No...!! Non è...!!\"\\sw[838]",
+      "\\.\\sp[18]\\sw[837]\"Perdonami... basta...!!\"\\sw[838]",
+      "\\.\"...Devi sapere...\n quanto ti abbiamo tolto.\"",
+      "\\.\\sp[18]\\sw[837]\"Non lo voglio sapere...!!\"\\sw[838]",
+      "\\.\"Adesso, verrai perfezionato.\"",
+      "\\.\"Dalla bambola senza cuore, Rikon Pongo...\"",
+      "\\.\"A quella umana con un cuore... \\C[2]Rikon Nosko\\C[0].\"",
+      "\\.\\sp[18]\\sw[837]\"...U... mana...?\"\\sw[838]",
+      "\\.\\sp[18]\\sw[837]\"A...\"\\sw[838]",
+      "\\.\\sp[10]\\sw[837]\"Aaaaaaaaaaaaaaaaaaah...!!!!\"\\sw[838]\\|\\^",
+      "\\.\\sp[10]\"Cosa... \\sp[9]ho \\sp[8]fat\\sp[6]to...\"",
+      "\\.\"..........\"",
+      "\\.\"...È terminato.\"",
+      "\\.\"...\"",
+      "\\.\"Un po'... mi dispiace, miao...\"",
+      "\\.\"...Sì... Suppongo di sì.\"",
+      "\\.\"Per favore... non dire così...\"",
+      "\\.\"È solo mio dovere...\"",
+      "\\C[3]Mosa ha cominciato a mettere le mani\nnella testa di Nosko.",
+      "\\.\"...Ecco il circuito.\"",
+      "\\.\"Eh...?\"",
+      "\\.\\C[3]Ottenuto il Circuito di Nosko.",
+      "\\.\"Siete venuti qui in cerca di questo, no...?\"",
+      "\\.\"...\"",
+      "\\.\"Se usato bene, può distruggere la sicurezza.\"",
+      "\\.\"Ma per fare ciò, dovrete trovare\n una \\C[2]stanza segreta\\C[0] di cui è a conoscenza solo Gashu.\"",
+      "\\.\"Non posso dire altro.\n Ora, andate...\""
+    ],
+    "3-1-choice": [
+      "Non necessariamente un cadavere\nCerchiamo il circuito",
+      "Superiorità\nInferiorità\nPosteriorità",
+      "...\nSei crudele\nBen fatto"
+    ],
+    "3-4-message": [
+      "\\.\\C[3]C'è la testa di Nosko sopra a un tavolo."
+    ],
+    "3-5-message": [
+      "\"Non voglio avvicinarmi, miao...\""
+    ],
+    "4-2-message": [
+      "\\C[3]Mosa sta guardando Nosko in silenzio."
+    ],
+    "4-3-message": [
+      "*sniff sniff*...",
+      "\\.\"Miaooo... Odora come un dentista, bauuu...\""
+    ],
     "15-1-message": [
       "\\C[3]Video della vittima\n\nIl video che aveva Nao. Mostra una poliziotta\nche muore nella Prima Prova. L'uomo di fronte è Keiji?"
     ],
+    "16-1-message": [
+      "\\C[3]Disco della vittima E\n\nUn disco della vittima trovato al 1º piano."
+    ],
+    "17-1-message": [
+      "\\C[3]Disco della vittima F\n\nUn disco della vittima trovato al 1º piano."
+    ],
+    "18-1-message": [
+      "\\C[3]Filmati di sorveglianza del 1º piano\n\nDalle telecamere di sorveglianza del 1º piano. Mostra le\nnostre azioni. Sou ha visto Q-taro posizionare le carte."
+    ],
+    "19-1-message": [
+      "\\C[3]Tablet\n\nUn tablet utilizzabile per vedere il proprio ruolo.\nEra vicino a Q-taro svenuto nella Stanza delle macerie."
+    ],
+    "20-1-message": [
+      "\\C[3]Arma stordente\n\nUn'arma monouso che può immobilizzare una persona.\nÈ pericolosa, Gin e io l'abbiamo presa in segreto."
+    ],
     "26-1-message": [
-      "\\C[3]Circuito di Nosko\n\nUn piccolo circuito rimosso dalla testa di Rikon Nosko.\nIn grado di azzerare la sicurezza della struttura."
+      "\\C[3]Circuito di Nosko\n\nUn piccolo circuito rimosso dalla testa di Rikon Nosko.\nIn grado di distruggere la sicurezza della struttura."
     ]
   },
   "map167": {
@@ -15511,8 +16849,8 @@
       "\\.\\C[3]Ci sono dei dischi nel cassetto.",
       "\\.\\C[4](Questi cosa sono? Non ne ho idea...)",
       "\\.\\C[4](Mh? Questo ha un'etichetta sopra...)",
-      "\\.\\C[3]Ottenuto il disco\n\"Filmati telecamere di sicurezza piano 1\".",
-      "\\.\"Telecamere di sicurezza...?!\"",
+      "\\.\\C[3]Ottenuto il disco\n\"Filmati telecamere di sorveglianza piano 1\".",
+      "\\.\"Telecamere di sorveglianza...?!\"",
       "\"Ma guarda... Mi sa che siamo stati registrati.\"",
       "\\.\"Vuoi dire... per tutto il tempo...?\"",
       "\\.\"Non è poi così strano... Siamo in troppi,\n i Maestri di piano non potrebbero sorvegliarci tutti.\"",
@@ -15522,7 +16860,7 @@
       "\"Possiamo vedere le registrazioni?\"",
       "\\.\"Sei curiosa, eh?\"",
       "\\.\"...Sì.\"",
-      "\"Non ho mai visto telecamere di sicurezza\n durante l'esplorazione...\"",
+      "\"Non ho mai visto telecamere di sorveglianza\n durante l'esplorazione...\"",
       "\\.\"Potrebbero trattarsi di telecamere nascoste.\n ...Probabilmente non volevano\n che venissero distrutte.\"",
       "\\.\"Mmh...\"",
       "\\.\"Credo che si possano vedere\n i filmati da quel computer.\"",
@@ -15530,7 +16868,7 @@
     ],
     "3-2-choice": [
       "Dai un'occhiata\nAnnulla",
-      "Qualcuno ci guardava da qui?\nSono curiosa di vedere le registrazioni\nC'era delle telecamere?"
+      "Qualcuno ci guardava da qui?\nSono curiosa di vedere le registrazioni\nC'erano delle telecamere?"
     ],
     "3-3-message": [
       "\\.\\C[3]L'interno del cassetto è un casino."
@@ -15547,7 +16885,7 @@
     ],
     "5-2-message": [
       "\\C[3]Dietro alla lastra di vetro spesso, riesco\na distinguere una figura che sembra star dormendo.",
-      "\\.\"Keiji! C'è una persona...!\"",
+      "\\.\"Keiji! C'è qualcuno...!\"",
       "\\.\"Mmh... Non dà cenni di movimento.\"",
       "\\.\\C[4](Non ci ha notati...?)",
       "\\.\"A questo punto dubito fortemente possa esserci\n un nuovo partecipante sopravvissuto...\"",
@@ -15565,10 +16903,10 @@
       "\\C[3]Disco della vittima F\n\nUn disco della vittima trovato al 1º piano."
     ],
     "36-1-message": [
-      "\\C[3]Un disco etichettato\n\"Filmati telecamere di sicurezza piano 1\"."
+      "\\C[3]Un disco etichettato\n\"Filmati telecamere di sorveglianza piano 1\"."
     ],
     "36-2-message": [
-      "\\C[3]Filmati di sicurezza del 1º piano\n\nDalle telecamere di sicurezza del 1º piano. Mostra le\nnostre azioni. Sou ha visto Q-taro posizionare le carte."
+      "\\C[3]Filmati di sorveglianza del 1º piano\n\nDalle telecamere di sorveglianza del 1º piano. Mostra le\nnostre azioni. Sou ha visto Q-taro posizionare le carte."
     ],
     "37-1-message": [
       "\\C[3]Tablet\n\nUn tablet utilizzabile per vedere il proprio ruolo.\nEra vicino a Q-taro svenuto nella Stanza delle macerie."
@@ -15616,7 +16954,7 @@
       "\\.\\C[4](Perché la luce si è accesa improvvisamente...?)"
     ],
     "66-1-message": [
-      "\\C[3]Circuito di Nosko\n\nUn piccolo circuito rimosso dalla testa di Rikon Nosko.\nIn grado di azzerare la sicurezza della struttura."
+      "\\C[3]Circuito di Nosko\n\nUn piccolo circuito rimosso dalla testa di Rikon Nosko.\nIn grado di distruggere la sicurezza della struttura."
     ]
   },
   "map168": {
@@ -15624,7 +16962,7 @@
       "\\C[3]Video della vittima\n\nIl video che aveva Nao. Mostra una poliziotta\nche muore nella Prima Prova. L'uomo di fronte è Keiji?"
     ],
     "27-1-message": [
-      "\\C[3]Circuito di Nosko\n\nUn piccolo circuito rimosso dalla testa di Rikon Nosko.\nIn grado di azzerare la sicurezza della struttura."
+      "\\C[3]Circuito di Nosko\n\nUn piccolo circuito rimosso dalla testa di Rikon Nosko.\nIn grado di distruggere la sicurezza della struttura."
     ]
   },
   "map169": {
@@ -15749,7 +17087,7 @@
       "\\C[3]Disco della vittima F\n\nUn disco della vittima trovato al 1º piano."
     ],
     "30-1-message": [
-      "\\C[3]Filmati di sicurezza del 1º piano\n\nDalle telecamere di sicurezza del 1º piano. Mostra le\nnostre azioni. Sou ha visto Q-taro posizionare le carte."
+      "\\C[3]Filmati di sorveglianza del 1º piano\n\nDalle telecamere di sorveglianza del 1º piano. Mostra le\nnostre azioni. Sou ha visto Q-taro posizionare le carte."
     ],
     "31-1-message": [
       "\\C[3]Tablet\n\nUn tablet utilizzabile per vedere il proprio ruolo.\nEra vicino a Q-taro svenuto nella Stanza delle macerie."
@@ -15758,7 +17096,7 @@
       "\\C[3]Arma stordente\n\nUn'arma monouso che può immobilizzare una persona.\nÈ pericolosa, Gin e io l'abbiamo presa in segreto."
     ],
     "34-1-message": [
-      "\\C[3]Circuito di Nosko\n\nUn piccolo circuito rimosso dalla testa di Rikon Nosko.\nIn grado di azzerare la sicurezza della struttura."
+      "\\C[3]Circuito di Nosko\n\nUn piccolo circuito rimosso dalla testa di Rikon Nosko.\nIn grado di distruggere la sicurezza della struttura."
     ]
   },
   "map175": {
@@ -15786,7 +17124,7 @@
       "\\C[3]Disco della vittima F\n\nUn disco della vittima trovato al 1º piano."
     ],
     "42-1-message": [
-      "\\C[3]Filmati di sicurezza del 1º piano\n\nDalle telecamere di sicurezza del 1º piano. Mostra le\nnostre azioni. Sou ha visto Q-taro posizionare le carte."
+      "\\C[3]Filmati di sorveglianza del 1º piano\n\nDalle telecamere di sorveglianza del 1º piano. Mostra le\nnostre azioni. Sou ha visto Q-taro posizionare le carte."
     ],
     "43-1-message": [
       "\\C[3]Tablet\n\nUn tablet utilizzabile per vedere il proprio ruolo.\nEra vicino a Q-taro svenuto nella Stanza delle macerie."
@@ -15795,7 +17133,7 @@
       "\\C[3]Arma stordente\n\nUn'arma monouso che può immobilizzare una persona.\nÈ pericolosa, Gin e io l'abbiamo presa in segreto."
     ],
     "46-1-message": [
-      "\\C[3]Circuito di Nosko\n\nUn piccolo circuito rimosso dalla testa di Rikon Nosko.\nIn grado di azzerare la sicurezza della struttura."
+      "\\C[3]Circuito di Nosko\n\nUn piccolo circuito rimosso dalla testa di Rikon Nosko.\nIn grado di distruggere la sicurezza della struttura."
     ]
   },
   "map176": {
@@ -15841,7 +17179,7 @@
       "\\C[3]Video della vittima\n\nIl video che aveva Nao. Mostra una poliziotta\nche muore nella Prima Prova. L'uomo di fronte è Keiji?"
     ],
     "73-1-message": [
-      "\\C[3]Circuito di Nosko\n\nUn piccolo circuito rimosso dalla testa di Rikon Nosko.\nIn grado di azzerare la sicurezza della struttura."
+      "\\C[3]Circuito di Nosko\n\nUn piccolo circuito rimosso dalla testa di Rikon Nosko.\nIn grado di distruggere la sicurezza della struttura."
     ]
   },
   "map177": {
@@ -15849,7 +17187,7 @@
       "\\C[3]Video della vittima\n\nIl video che aveva Nao. Mostra una poliziotta\nche muore nella Prima Prova. L'uomo di fronte è Keiji?"
     ],
     "71-1-message": [
-      "\\C[3]Circuito di Nosko\n\nUn piccolo circuito rimosso dalla testa di Rikon Nosko.\nIn grado di azzerare la sicurezza della struttura."
+      "\\C[3]Circuito di Nosko\n\nUn piccolo circuito rimosso dalla testa di Rikon Nosko.\nIn grado di distruggere la sicurezza della struttura."
     ]
   },
   "map178": {
@@ -15857,7 +17195,7 @@
       "\\C[3]Video della vittima\n\nIl video che aveva Nao. Mostra una poliziotta\nche muore nella Prima Prova. L'uomo di fronte è Keiji?"
     ],
     "28-1-message": [
-      "\\C[3]Circuito di Nosko\n\nUn piccolo circuito rimosso dalla testa di Rikon Nosko.\nIn grado di azzerare la sicurezza della struttura."
+      "\\C[3]Circuito di Nosko\n\nUn piccolo circuito rimosso dalla testa di Rikon Nosko.\nIn grado di distruggere la sicurezza della struttura."
     ]
   },
   "map179": {
@@ -15865,7 +17203,7 @@
       "\\C[3]Video della vittima\n\nIl video che aveva Nao. Mostra una poliziotta\nche muore nella Prima Prova. L'uomo di fronte è Keiji?"
     ],
     "44-1-message": [
-      "\\C[3]Circuito di Nosko\n\nUn piccolo circuito rimosso dalla testa di Rikon Nosko.\nIn grado di azzerare la sicurezza della struttura."
+      "\\C[3]Circuito di Nosko\n\nUn piccolo circuito rimosso dalla testa di Rikon Nosko.\nIn grado di distruggere la sicurezza della struttura."
     ]
   },
   "map180": {
@@ -15988,7 +17326,7 @@
       "\"Chissà che accidenti è successo...\""
     ],
     "36-1-message": [
-      "\\C[3]Circuito di Nosko\n\nUn piccolo circuito rimosso dalla testa di Rikon Nosko.\nIn grado di azzerare la sicurezza della struttura."
+      "\\C[3]Circuito di Nosko\n\nUn piccolo circuito rimosso dalla testa di Rikon Nosko.\nIn grado di distruggere la sicurezza della struttura."
     ],
     "38-1-message": [
       "\\C[3]Video della vittima\n\nIl video che aveva Nao. Mostra una poliziotta\nche muore nella Prima Prova. L'uomo di fronte è Keiji?"
@@ -16000,7 +17338,7 @@
       "\\C[3]Disco della vittima F\n\nUn disco della vittima trovato al 1º piano."
     ],
     "41-1-message": [
-      "\\C[3]Filmati di sicurezza del 1º piano\n\nDalle telecamere di sicurezza del 1º piano. Mostra le\nnostre azioni. Sou ha visto Q-taro posizionare le carte."
+      "\\C[3]Filmati di sorveglianza del 1º piano\n\nDalle telecamere di sorveglianza del 1º piano. Mostra le\nnostre azioni. Sou ha visto Q-taro posizionare le carte."
     ],
     "42-1-message": [
       "\\C[3]Tablet\n\nUn tablet utilizzabile per vedere il proprio ruolo.\nEra vicino a Q-taro svenuto nella Stanza delle macerie."
@@ -19175,7 +20513,7 @@
       "\\.\"C-Che diavolo t'è successo...?!\"",
       "\\.\"Mi sono arreso. Davanti a voi incompetenti.\"",
       "\\.\"Inutili... Tutti quanti...\"",
-      "\\.\"L'asociale ha perso le staffe, miao...\n Ho paura, bau...\"",
+      "\\.\"L'asociale ha sbottato, miao...\n Ho paura, bau...\"",
       "\\.\"Non posso più contare su nessuno di voi.\n Signorina Sara, finiamo noi due la discussione.\"",
       "\\.\"...!\"",
       "\\.\"È il modo più rapido. Ahahah...\""
@@ -20829,7 +22167,7 @@
       "\\.\"Eh? Mi pareva fosse così...\"",
       "\\.\"Quello è il nome della sua band attuale.\n Reko prima era in un'altra.\"",
       "\"Scusa... Non sono un'appassionata di queste cose...\"",
-      "\\.\"...Tsk.\n I ragazzi alle superiori non li comprano più i CD?\"",
+      "\\.\"...Tsè.\n I ragazzi alle superiori non li comprano più i CD?\"",
       "\\.\"L'attuale band di Reko...\n si chiama \"SkullNutz,\" ma...\"",
       "\\.\"Prima faceva parte di un'altra band.\"",
       "\\.\"\\rb[Sa,3]\\rb[mu,6-]\\rb[rai,Rai] \\rb[Ya,8]\\rb[i,1]\\rb[ba,8]...!\n La band leggendaria!!\"",
@@ -24305,7 +25643,7 @@
       "\\.\"Eh? Cioè... non mi sentirei al sicuro\n con nessun altro, Sara.\"",
       "\\.\"Farlo con Sou o con Alice, ehm...\n Farebbe abbastanza paura...\"",
       "\\.\"Ma, Sara... Ecco, con te non mi opporrei\n nemmeno se dovessimo scambiarci i vestiti!\"",
-      "\\.\\C[4](Non so davvero come le sia uscito QUELLO...\n Ma si fida così tanto di me?)",
+      "\\.\\C[4](Non so come abbia fatto a uscirsene con QUELLO...\n Ma si fida così tanto di me?)",
       "\\.\"...In realtà non mi importa\n se vedi le mie informazioni personali, Sara.\"",
       "\\.\"Anzi, quasi preferirei che le vedessi,\n così da poterti fidare più di me...!\"",
       "\\.\"Ma... la mia è una vita normalissima.\n Probabilmente ti annoieresti pure...\"",
@@ -25816,6 +27154,15 @@
       "Sì\nNo",
       "Sì\nNo"
     ],
+    "856-0-message": [
+      "\\C[4](Posso affrontare l'allucinazione...?)",
+      "\\C[10]\"Sara...\"",
+      "\\.\\C[4](Tu non sei Joe...!!)",
+      "\\C[4](Devo \\C[2]respingere\\C[4]\n le \\C[2]strette maligne\\C[4] che cercano di afferrarmi!!)"
+    ],
+    "856-0-choice": [
+      "Affrontala\nNon sono pronta"
+    ],
     "862-0-choice": [
       "Usa l'oggetto selezionato\nAnnulla",
       "Salva affermazione\nAnnulla",
@@ -26557,7 +27904,7 @@
     "description": ""
   },
   "items-125": {
-    "name": "Dentro deposito bambole",
+    "name": "Oltre deposito bambole",
     "description": ""
   },
   "items-126": {
@@ -26702,7 +28049,7 @@
   },
   "items-167": {
     "name": "Circuito di Nosko",
-    "description": "Un piccolo circuito rimosso dalla testa di Rikon Nosko.\nIn grado di azzerare la sicurezza della struttura."
+    "description": "Un piccolo circuito rimosso dalla testa di Rikon Nosko.\nIn grado di distruggere la sicurezza della struttura."
   },
   "items-168": {
     "name": "Circuito di Nosko",
@@ -26710,7 +28057,7 @@
   },
   "items-169": {
     "name": "Filmati del 1º piano",
-    "description": "Dalle telecamere di sicurezza del 1º piano.\nMostra le nostre azioni.\nSou ha visto Q-taro posizionare le carte."
+    "description": "Dalle telecamere di sorveglianza del 1º piano.\nMostra le nostre azioni.\nSou ha visto Q-taro posizionare le carte."
   },
   "items-170": {
     "name": "Filmati del 1º piano",
@@ -27105,8 +28452,8 @@
     "itemdesc156": "Una lunga corda bianca.\n...Non è chiaro in cosa consista la \"felicità\".",
     "itemdesc158": "Un articolo sullo scioglimento\ndei 36-Rai 818 (Samurai Yaiba).\nCantante: \"Non riesco più a cantare\nle canzoni di questa band\".",
     "itemdesc160": "Fogli che elencano i partecipanti\ndel Gioco Mortale. Ci sono solo 16 nomi scritti.",
-    "itemdesc168": "Un piccolo circuito rimosso\ndalla testa di Rikon Nosko.\nIn grado di azzerare\nla sicurezza della struttura.",
-    "itemdesc170": "Dalle telecamere di sicurezza del 1º piano.\nMostra le nostre azioni.\nSou ha visto Q-taro posizionare le carte.",
+    "itemdesc168": "Un piccolo circuito rimosso\ndalla testa di Rikon Nosko.\nIn grado di distruggere\nla sicurezza della struttura.",
+    "itemdesc170": "Dalle telecamere di sorveglianza del 1º piano.\nMostra le nostre azioni.\nSou ha visto Q-taro posizionare le carte.",
     "itemdesc172": "Una chiave misteriosa trovata\nnella cucina del 1º piano.",
     "itemdesc174": "Un tablet utilizzabile per vedere\nil proprio ruolo. Era vicino a Q-taro\nsvenuto nella Stanza delle macerie.",
     "itemdesc176": "Un'arma monouso che può immobilizzare\nuna persona. È pericolosa, Gin e io\nl'abbiamo presa in segreto.",
