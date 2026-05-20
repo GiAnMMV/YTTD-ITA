@@ -12765,10 +12765,31 @@
       "\\.\"C'è qualche problema, gente?\"",
       "\\.\"Mià!! Non intrometterti, bau!\n Siamo di fretta, miao!!\"",
       "\\.\"Oh, chiedo venia.\"",
-      "\\.\"Ma vi avverto che rischiate\n di inciampare nella fretta.\"",
+      "\\.\"Ma vi avverto che correndo\n rischiate di inciampare.\"",
       "\\.\"Spostati, Maestro di piano.\n ...Vuoi rallentarci o cosa?\"",
-      "\\.\"Certo che no.\n Esprimevo solo la mia preoccupazione.\n ...Andate pure.\"",
+      "\\.\"Certo che no.\n Esprimevo solo una mia preoccupazione.\n ...Procedete pure.\"",
       "\\.\\C[4](Dobbiamo andare verso la camera di Nao!)"
+    ],
+    "15-14-message": [
+      "\\C[4](Penso che ormai ho chiamato tutti...)",
+      "\"Ehi, Sara.\n Per cosa ci stiamo preparando?\"",
+      "\"Tu, Sara Chidouin.\n Cosa sta per avvenire qui?\"",
+      "\"Fiu... Cavolo, Q-taro è pesante, senza dubbio.\"",
+      "\"C'è davvero un'uscita...?\"",
+      "\"Crediamo in Sou...!\"",
+      "\\C[4](Tutti quanti sono riuniti...)"
+    ],
+    "15-16-message": [
+      "\"Bene, gente. Andiamo verso l'uscita!\"",
+      "\\.\"Un attimo...!! Prima voglio sapere i dettagli!\"",
+      "\\.\"Aspetta! Stai dicendo la verità?!\"",
+      "\\.\"Vi spiegherò più tardi... Ora non c'è tempo.\"",
+      "\\.\"Ragazzi...! Fidiamoci di Sou!\"",
+      "\\.\"Chiunque voglia scappare,\n mi segua fino alla scalinata.\"",
+      "\\.\"...Se volete rimanere, non sarò certo io a fermarvi.\"",
+      "\\.\"Tzè...! Va bene, vengo anch'io!\"",
+      "\\.\"Non ho mai detto di non voler venire!!\"",
+      "\\.\\C[4](Verso la Lunga scalinata...?)"
     ],
     "56-1-message": [
       "\\C[3]Video della vittima\n\nIl video che aveva Nao. Mostra una poliziotta\nche muore nella Prima Prova. L'uomo di fronte è Keiji?"
@@ -12808,7 +12829,7 @@
       "\\.\"Pensavo... Una volta entrati nella stanza,\n potremmo avere una sola occasione...\"",
       "\\.\"Quindi... Potrei prima controllare il circuito?\"",
       "\\.\"Controllarlo...?\"",
-      "\\.\"Sì. Se fosse rotto, il piano sarebbe un fallimento...\"",
+      "\\.\"Sì. Se fosse rotto,\n il piano si dimostrerebbe un fallimento...\"",
       "\\.\"Per favore, Sara.\"",
       "\\.\"...\"",
       "\\.\"Capisco.\"",
@@ -12823,7 +12844,7 @@
       "\\.\\C[3]Consegnato il Circuito di Nosko.",
       "\\.\"Scusa...\"",
       "\\.\"Perché no...?\"",
-      "\\.\"È come se...\n fossi diversa dal solito...\"",
+      "\\.\"Ho come la sensazione...\n che tu sia diversa dal solito...\"",
       "\\.\"...*sniff*...\"",
       "\\.\"*sniff*... Sara...\"",
       "\\.\"Sorellona Nao...!\"",
@@ -12871,10 +12892,10 @@
       "\\.\"Sei stata brava, signorina Nao.\"",
       "\\.\"Sou...!!\"",
       "\\.\"..........\"",
-      "\\.\"Che intenzione hai, miao?!! Asocialeee!!\"",
+      "\\.\"Che intenzioni hai, miao?!! Asocialeee!!\"",
       "\\.\"Mi piacerebbe sapere cosa\n avevate intenzione di fare VOI da qui in avanti.\"",
       "\\.\"Che vorresti dire?!\"",
-      "\\.\"Andiamo... Almeno ci avete pensato a\n \\C[2]come usare questo circuito\\C[0]?\"",
+      "\\.\"Andiamo... Almeno ci avevate pensato a\n \\C[2]come usare questo circuito\\C[0]?\"",
       "\\.\"Beh...\"",
       "\\.\"Sì che lo sappiamo...! Ora ridaccelo, grazie!\"",
       "\\.\"Sei proprio una gran bugiarda, signorina Sara.\"",
@@ -12911,6 +12932,11 @@
     ],
     "2-3-choice": [
       "Sappiamo come usarlo\nCome sai del circuito?\nQualcosa ci inventeremo\nNon lo sappiamo"
+    ],
+    "2-5-message": [
+      "\\C[3]Le mie gambe si muovono, come guidate da qualcosa.",
+      "\\.\\C[3]Una sorta di premonizione mi sta chiamando.",
+      "\\.\\C[4](..........)"
     ],
     "3-1-message": [
       "\\.\"Hai in mente qualche modo per scappare, Sara?\"",
@@ -13749,6 +13775,15 @@
     "19-1-choice": [
       "Torniamo al primo piano!\nDovremmo recuperare il circuito di Pongo"
     ],
+    "19-3-message": [
+      "\\C[4](Penso che ormai ho chiamato tutti...)",
+      "\"Ehi, Sara.\n Per cosa ci stiamo preparando?\"",
+      "\"Tu, Sara Chidouin.\n Cosa sta per avvenire qui?\"",
+      "\"Fiu... Cavolo, Q-taro è pesante, senza dubbio.\"",
+      "\"C'è davvero un'uscita...?\"",
+      "\"Crediamo in Sou...!\"",
+      "\\C[4](Tutti quanti sono riuniti...)"
+    ],
     "20-1-message": [
       "\\C[3]Non c'è nulla degno di nota\nnello schermo in alto a destra."
     ],
@@ -13877,6 +13912,11 @@
       "\\.\\C[4](Se ha già trovato il circuito,\n faremmo meglio a sbrigarci.)",
       "\\.\"Eh...? La faremo davvero piangere, miao?\""
     ],
+    "4-3-message": [
+      "\"Ahah... Alla fine siete venuti tutti.\"",
+      "\\.\"Davvero qui c'è una via di fuga...?\"",
+      "\\.\"Se non ti fidi, prova a esaminare\n ciò che ha un'aria sospetta!\""
+    ],
     "5-1-message": [
       "\\C[3]Da questa parte c'è la Stanza delle bugie."
     ],
@@ -13903,6 +13943,27 @@
     ],
     "7-1-message": [
       "\\C[3]In cima alle scale è piazzato\nun distributore automatico sospetto."
+    ],
+    "7-2-message": [
+      "\\C[3]In cima alle scale è piazzato\nun distributore automatico sospetto.",
+      "\\.\\C[4](Ah! Questo distributore automatico... si apre!)",
+      "\\C[3]È apparso un passaggio\ndietro al distributore automatico.",
+      "\\.\"...!\"",
+      "\\.\"Proprio così, signorina Sara.\"",
+      "\\.\"Da quel che vedo sulla mappa...\n Andando dritti da qui si raggiungerà l'uscita.\"",
+      "\\.\"Le uniche porte che ci separavano da essa\n sono questo distributore e l'ultima porta d'uscita.\"",
+      "\\.\"Che usano lo stesso identico tipo di sicurezza.\"",
+      "\\.\"Ma allora...!\"",
+      "\\.\"Non c'è motivo per cui non dovrebbe aprirsi...\"",
+      "\\.\"Avanti!\n Prima che i Maestri di piano si intromettano...!\""
+    ],
+    "7-3-message": [
+      "\\C[3]C'è un ampio passaggio\ndietro al distributore automatico.",
+      "\\.\\C[4](Oltre questa soglia...\n potrebbe esserci uno spiraglio di speranza.)",
+      "\\C[4](Non ci resta... che afferrare quella speranza...!)"
+    ],
+    "7-3-choice": [
+      "Avventurati nel passaggio\nPreparati"
     ],
     "8-1-message": [
       "\\C[3]C'è qualcosa per terra.",
@@ -15236,18 +15297,18 @@
       "\\.\"Vediamo un po'...\"",
       "\\.\"Bene... Oh, issa...!\"",
       "\\.\\C[3]È talmente pesante che neanche si riesce a sollevare.",
-      "\\.\\C[4](Sono riuscita a portare Alice, però...!)",
+      "\\.\\C[4](Alice ero riuscita a portarlo, però...!)",
       "\"Già, meglio se chiamiamo qualcuno, miao...\"",
       "\"Chiamo qualcuno.\"",
       "\"Q-taro...!\"",
       "\\.\"Che è successo qui...?!\"",
-      "\\.\"Lo spiegheremo dopo...\n Q-taro sta bene, vero...?\"",
+      "\\.\"Vi spiegheremo tutto dopo...\n Q-taro sta bene, vero...?\"",
       "\\.\"Mmh... Da quel che vedo, potrebbe volerci\n un po' prima che riprenda conoscenza.\"",
       "\\.\"Capisco...\"",
       "\\.\"...Ci vediamo nell'atrio, Sara.\"",
-      "\\.\"Lo porterò a cavalluccio se proprio devo...\n Visto che hai un'idea per scappare, vero?\"",
+      "\\.\"Lo porterò a cavalluccio se proprio devo...\n Visto che hai un'idea per scappare, giusto?\"",
       "\\.\"Sì...!\"",
-      "\\.\"Si fa quel che si deve... eh?\"",
+      "\\.\"Fa' quel che devi... ok?\"",
       "\\.\"Keiji... Potresti portare con te Q-taro e Kanna,\n per poi ritrovarci tutti nell'atrio tra un po'?\"",
       "\\.\"...?\"",
       "\\.\"Potremmo... aver trovato una via di fuga.\"",
@@ -15287,7 +15348,7 @@
     ],
     "3-2-message": [
       "\\C[3]A terra c'è uno strano dispositivo.",
-      "\"Sorellona Sara!! Queste l'ho già vista in TV, miao!!\"",
+      "\"Sorellona Sara!! Questa l'ho già vista in TV, miao!!\"",
       "\\.\"È... un'arma stordente, bau!!\"",
       "\\.\"Come...?!\"",
       "\\.\"Se ti tocca,\n prendi la scossa e non ti muovi più, miao...\"",
@@ -15694,7 +15755,7 @@
       "\\.\\sw[324]\"Fidatevi di me. Necessitate di una \\C[2]mappa\\C[0]\n della struttura, giusto?\"\\sw[325]",
       "\\.\"Una mappa...!\"",
       "\\.\"Forse ci mostrerà la stanza segreta!\"",
-      "\\.\"Forse ci mostrerà la dispozione della struttura!\"",
+      "\\.\"Forse ci mostrerà la pianta della struttura!\"",
       "\\.\\sw[324]\"Col portatile portato qui dalla signorina Nao,\n posso inoltrarvi i dati.\"\\sw[325]",
       "\\.\"Ecco perché la sorellona Nao\n ha preso il portatile...!\"",
       "\\.\"...\"",
@@ -15704,16 +15765,16 @@
       "\\.\\sw[324]\"...Posso analizzare anche quello.\n Pensavo fosse meglio prendere\n due piccioni con una fava...\"\\sw[325]",
       "\\.\"Sara!\n Ti prego di non sospettare del professore, ok?!\"",
       "\\.\\sw[324]\"Non c'è alcun problema, signorina Nao.\"\\sw[325]",
-      "\\.\\sw[324]\"Ora, connettilo in fretta.\n Non c'è più tempo.\"\\sw[325]",
+      "\\.\\sw[324]\"Ora, sbrigati e connettilo.\n Non c'è più tempo.\"\\sw[325]",
       "\\.\"A-Aspetta!!\"",
       "\"Sei... davvero l'IA del professore Mishima?!\"",
-      "\\.\"Che dici?!\"",
+      "\\.\"Ma che dici?!\"",
       "\"C'è qualcosa di losco in tutta questa faccenda, Nao!!\"",
-      "\\.\"Che dici?!\"",
+      "\\.\"Ma che dici?!\"",
       "\"Grazie mille, professor Mishima!\"",
       "\\.\"Sorellona Sara!!\n Mi sembra un po' troppo bello per essere vero, miao!!\"",
-      "\\.\"Sembra come... se non fosse\n davvero il vecchietto, bau!\"",
-      "\\.\"Che dici?!\"",
+      "\\.\"È come... se non fosse\n davvero il vecchietto, bau!\"",
+      "\\.\"Ma che dici?!\"",
       "\\.\"Dubitare della generosità del professore\n è imperdonabile!!\"",
       "\\.\\sw[324]\"Avanti, signorina Nao.\n La signorina Sara e i suoi amici sono stanchi.\"\\sw[325]",
       "\\.\\sw[324]\"Quindi... Collega quel cavo...\"\\sw[325]",
@@ -15722,7 +15783,7 @@
       "\\.\\sw[324]\"Sei stata brava, signorina Nao.\"\\sw[325]",
       "\\.\\sw[324]\\C[10]\"Sei davvero facile da manipolare...\"\\sw[325]",
       "\"P... Professore...?\"",
-      "\\.\\sw[324]\\C[10]\"Questo portatile...  questo circuito...\n Erano grandi ostacoli per il Gioco Mortale.\"\\sw[325]",
+      "\\.\\sw[324]\\C[10]\"Questo portatile...  questo circuito...\n Erano dei grossi ostacoli per il Gioco Mortale.\"\\sw[325]",
       "\\.\\sw[324]\\C[10]\"Ma adesso, padron Gashu può dormire sonni tranquilli.\"\\sw[325]",
       "\"Padron... Gashu...?\"",
       "\"Nao! Dacci il portatile e il circuito...!!\"",
@@ -15751,10 +15812,10 @@
       "\\.\"Eh...?\"",
       "\"Ahahah. Beh, ce n'era uno.\n Era chiamato \"S_EX\"...\"",
       "\\.\"Esatto. Che ridere, eh?\n Si chiamava \"S_EX\"...\"",
-      "\\.\"Beh... Era l'ultima spiaggia preparata dai Kai.\"",
-      "\\.\"Quelle erano le iniziali di \"script di exploit\"...\n ossia un \\C[2]programma di hacking\\C[0]\n per carpire dati dall'organizzazione.\"",
+      "\\.\"Beh... Era l'ultima spiaggia preparata da Kai.\"",
+      "\\.\"\"S_EX\" stava per \"script di exploit\"...\n ossia un \\C[2]programma di hacking\\C[0]\n per carpire dati dall'organizzazione.\"",
       "\\.\"Che...?!\"",
-      "\n\"H... Hacking...?!\"",
+      "\"H... Hacking...?!\"",
       "\"Ahahah. Sei tu che verrai eliminato.\"",
       "\\sp[12]\"Fermiiiii!!\"",
       "\\.\\C[3]L'intelligenza artificiale... è svanita.",
@@ -15765,13 +15826,13 @@
       "\\.\\C[4](Oh, ma sta' zitto...)",
       "\"Oh, ma davvero? Le tue gambe si sono arrese?\"",
       "\\.\\C[4](...)",
-      "\\.\"Ora mi concentrerò ad analizzare queste informazioni,\n quindi fai anche tu la tua parte.\"",
+      "\\.\"Per un po' sarò impegnato\n ad analizzare queste informazioni,\n quindi fai anche tu la tua parte.\"",
       "\\.\"Raduna tutti nell'atrio.\n Conto su di te.\"",
       "\\.\"E... Eh...?\"",
       "\\.\\C[3]Senza badare al fatto che faticavo a tenere il passo,\nSou ha cominciato a smanettare col portatile."
     ],
     "1-1-choice": [
-      "Possiamo trovare la stanza segreta\nPossiamo vedere la disposizione della struttura",
+      "Possiamo trovare la stanza segreta\nPossiamo vedere come è fatta la struttura",
       "Perché rubarlo?\nA che ti serve il circuito?",
       "Sei davvero tu?\nC'è qualcosa di losco!\nGrazie mille",
       "Non ricordo\nIl file S_EX",
@@ -16109,7 +16170,7 @@
       "\\.\"Che schifo, non ci tengo, miao!\"",
       "\\.\"Aah... *sniff*...\"",
       "\"Credo che questo macchinario sia\n l'unico modo per trovare la felicità.\"",
-      "\\.\"A prescindere da cosa ne pensiate...\""
+      "\\.\"A prescindere da cosa ne pensiate voi...\""
     ],
     "3-1-message": [
       "\\C[4](Eh? La luce è spenta...?)",
@@ -16118,8 +16179,8 @@
       "\"Hai... il cuore ferito...\"",
       "\"...\"",
       "\"Io...?\"",
-      "\\.\"Non solo tu.\"",
-      "\\.\"Tutti... sono a pezzi...\"",
+      "\\.\"Non solo tu, in realtà.\"",
+      "\\.\"Sono tutti... a pezzi...\"",
       "\\.\"Tutti...?\"",
       "\\.\"A volte... è meglio dimenticare i ricordi\n che sono troppo dolorosi.\"",
       "\\.\"E a dire il vero, il cervello umano\n è studiato per fare ciò.\"",
@@ -16148,8 +16209,8 @@
       "\\.\"Forse ho preso la strada più difficile...\"",
       "\\.\"Mi trovi nell'atrio, Sara.\n Vieni lì se ti serve qualcosa.\"",
       "\"Io...?\"",
-      "\\.\"Non solo tu.\"",
-      "\\.\"Tutti... sono a pezzi...\"",
+      "\\.\"Non solo tu, in realtà.\"",
+      "\\.\"Sono tutti... a pezzi...\"",
       "\\.\"Umpf...\"",
       "\\.\"A volte... è meglio dimenticare i ricordi\n che sono troppo dolorosi.\"",
       "\\.\"E a dire il vero, il cervello umano\n è studiato per fare ciò.\"",
@@ -17064,6 +17125,272 @@
       "\\C[4](Nao sembra molto affidabile.)"
     ]
   },
+  "map170": {
+    "1-1-message": [
+      "\\C[3]Sou sta smanettando con un computer\ncollocato nella stanza.",
+      "\\.\"...!\"",
+      "\"Che stai facendo?\"",
+      "\"Uff... Signorina Sara e Gin...?\"",
+      "\"È questa la stanza segreta...?\"",
+      "\"Già... Non c'è ombra di dubbio, è la stanza di Gashu.\"",
+      "\\.\"Sto usando il circuito di Pongo\n per neutralizzare i sistemi di sicurezza.\"",
+      "\\.\"Puoi farlo davvero?!\"",
+      "\\.\"Già... Questo circuito è fantastico.\"",
+      "\\.\"Contiene un sacco di dati importanti\n che potrebbero essere usati impropriamente.\"",
+      "\\.\"Mi viene da chiedermi se Pongo fosse\n destinato a ereditare tutti quei dati.\"",
+      "\\.\"Sarebbe dovuto essere un successore\n o qualcosa di simile...?\"",
+      "\\.\"Un successore...\"",
+      "\\.\"Chissà se era... un sostituto di un figlio...\"",
+      "\\.\"Beh... Non che abbia molta importanza.\"",
+      "\\.\"Di sicuro era solo un backup...\n L'avrebbero usato se fosse successo qualcosa a Gashu.\"",
+      "\\.\"Beh... Non che abbia molta importanza.\"",
+      "\\.\"Saperlo non ci è di molta utilità.\"",
+      "\\.\"Hai ragione...\"",
+      "\\.\"La procedura di hacking richiederà un po' di tempo.\n Potreste buttare un occhio là sotto\n per vedere se viene qualcuno?\"",
+      "\\.\"Faccio io la guardia, miao!\"",
+      "\\.\"Sorellona Sara, tu controlla l'asociale, bau!\"",
+      "\\C[4](\"Controlla Sou\", facile a dirsi...)"
+    ],
+    "1-1-choice": [
+      "Che stai facendo?\nÈ questa la stanza segreta?",
+      "Al posto di un figlio?\nÈ solo un backup\nNon ha importanza"
+    ],
+    "1-2-message": [
+      "\\C[3]Sou sta smanettando con un computer\ncollocato nella stanza.",
+      "\\.\\C[4](Non posso interromperlo ora...)"
+    ],
+    "1-3-message": [
+      "\\C[3]Sou sta smanettando con un computer\ncollocato nella stanza.",
+      "\"Ce l'ho fatta...!\"",
+      "\\.\"Ce l'ho fatta, ce l'ho fatta!\n È andata alla grande, signorina Sara!!\"",
+      "\\.\"Sono nel profondo del loro sistema di sicurezza!\"",
+      "\\.\"Sou...!\"",
+      "\\.\"Ce l'hai fatta!\"",
+      "\\.\"Ahahah. Non cantiamo vittoria troppo presto,\n signorina Sara.\"",
+      "\\.\"Sì!\"",
+      "\\.\\C[3]Un suono secco e soddisfacente è risuonato nella stanza.",
+      "\\.\"Ah...\"",
+      "\\.\"...Piantala con questa strana vivacità,\n signorina Sara.\"",
+      "\\.\\C[4](Non mi sembra tu ti sia tirato indietro...)",
+      "\\.\"...Certo che sei energico.\"",
+      "\\.\"...\"",
+      "\\.\\C[4](Ecco, come non detto.)",
+      "\\.\"Le cose si faranno un po' difficili da qui in avanti.\"",
+      "\\.\"Non hai ancora finito...?\"",
+      "\\.\"Non c'è da preoccuparsi. Tu aspetta lì.\"",
+      "\\.\\C[3]Sou si è chinato ancora di più\ne ha iniziato a lavorare col computer.",
+      "\\.\\C[4](Sembra così... pieno di vita.)",
+      "\\.\"Uoh...!!\"",
+      "\\.\"Che succede?!\"",
+      "\\.\"C'è un problemino...\"",
+      "\\.\"Signorina Sara, potresti darmi una mano?\"",
+      "\\.\"Eh...?\"",
+      "\\.\"Li vedi i quattro schermi in questa stanza?\"",
+      "\\.\"Appariranno delle schermate di errore rosse\n su di essi.\"",
+      "\\.\"Quando ne vedi uno, dimmelo immediatamente\n così che possa sistemarlo!\"",
+      "\\.\"Tutto chiaro!\"",
+      "\\.\"Fammi sapere quando sei pronta.\""
+    ],
+    "1-3-choice": [
+      "Ce l'hai fatta!\nBatti cinque!\nCerto che sei energico"
+    ],
+    "1-4-message": [
+      "\\C[3]Sou sta smanettando con un computer\ncollocato nella stanza.",
+      "\"Sei pronta?\n Quando appare una schermata di errore rossa,\n dimmi su quale schermo è.\"",
+      "\"Svelta, signorina Sara...!\"",
+      "\"Va bene! Fa' fare a me!\""
+    ],
+    "1-4-choice": [
+      "Sono pronta\nNon sono ancora pronta"
+    ],
+    "1-6-message": [
+      "\\C[3]Guardando lo schermo del computer,\nnon percepisco nessun cambiamento in particolare.",
+      "\\.\\C[4](Davvero ha hackerato il sistema con questo...?)"
+    ],
+    "2-1-message": [
+      "\\C[3]Il dipinto di un uomo.",
+      "\\.\\C[3]Si intitola \"Inaugurazione\"."
+    ],
+    "2-3-message": [
+      "\\C[3]Il dipinto di un uomo.",
+      "\\.\\C[3]Si intitola \"Inaugurazione\"."
+    ],
+    "3-1-message": [
+      "\\.\\C[3]Un memoriale intitolato \"L'incidente\".",
+      "\\.\\C[4](È un libro piuttosto vecchio...)",
+      "\\.\\C[5]Ormai è passato del tempo da allora.",
+      "\\.\\C[5]Eppure, quei ricordi infernali\nsono tuttora impressi a fuoco nella mia testa.",
+      "\\.\\C[5]Nella prima prova, uccisi una persona.",
+      "\\.\\C[4](Prima prova...?!)",
+      "\\.\\C[5]Non mi sarei mai fidato di nessuno.\nAvevo deciso così.",
+      "\\.\\C[5]In seguito si tenne la Roulette Russa,\na cui non partecipai.",
+      "\\.\\C[4](Sta descrivendo le stesse cose\n che abbiamo fatto noi...!!)",
+      "\\.\\C[5]Quando si misero d'accordo,\nfu scelto uno sfidante a dir poco sorprendente.",
+      "\\.\\C[5]Una studentessa diciassettenne.",
+      "\\.\\C[4](...!)",
+      "\\.\\C[5]Col suo carisma soverchiante,\ndimostrò un talento nel mettere in riga gli altri.",
+      "\\.\\C[5]E anche durante la prima \\C[2]conferenza della vittima\\C[5]\nfu una figura centrale.",
+      "\\.\\C[5]Ma fu lì che perse il suo migliore amico.",
+      "\\.\\C[5]Dopodiché ci fu la seconda conferenza della vittima.",
+      "\\.\\C[5]Un ragazzo persino più giovane di lei,\ne l'uomo le cui visioni più si avvicinavano alle sue.\nQuesti due...",
+      "\\.\\C[5]...morirono.",
+      "\\.\\C[5]Vedendola tanto provata, provai pietà.",
+      "\\.\\C[5]Per la prima volta, espressi i miei veri sentimenti.",
+      "\\.\\C[5]Quando finimmo di parlare,\navevo maturato un sentimento di ammirazione\nnei suoi confronti.",
+      "\\.\\C[5]Al punto tale che avrei accettato\npersino la mia stessa morte purché lei potesse vincere.",
+      "\\.\\C[5]Però, nella terza conferenza della vittima...",
+      "\\.\\C[5]Morì.",
+      "\\.\\C[5]Fu la prima volta che versai lacrime per un'estranea.",
+      "\\.\\C[5]Ancora oggi, continuo a vedere allucinazioni di lei.",
+      "\\.\\C[5]Per quante donne cerco di amare,\nnon sono mai soddisfatto.",
+      "\\.\\C[5]Ancora oggi, per me, lei è",
+      "\\.\\C[3]Il messaggio termina qui, incompiuto.",
+      "\\.\"..........\"",
+      "\\.\\C[4](Che accidenti è questo libro...?)"
+    ],
+    "3-1-choice": [
+      "Leggi\nNon leggere"
+    ],
+    "3-2-message": [
+      "\\.\\C[3]Un memoriale intitolato \"L'incidente\".",
+      "\\.\\C[4](È un libro piuttosto vecchio...)",
+      "\\.\\C[5]Ormai è passato del tempo da allora.",
+      "\\.\\C[5]Eppure, quei ricordi infernali\nsono tuttora impressi a fuoco nella mia testa.",
+      "\\.\\C[5]Nella prima prova, uccisi una persona.",
+      "\\.\\C[5]Non mi sarei mai fidato di nessuno.\nAvevo deciso così.",
+      "\\.\\C[5]In seguito si tenne la Roulette Russa,\na cui non partecipai.",
+      "\\.\\C[5]Quando si misero d'accordo,\nfu scelto uno sfidante a dir poco sorprendente.",
+      "\\.\\C[5]Una studentessa diciassettenne.",
+      "\\.\\C[5]Col suo carisma soverchiante,\ndimostrò un talento nel mettere in riga gli altri.",
+      "\\.\\C[5]E anche durante la prima \\C[2]conferenza della vittima\\C[5]\nfu una figura centrale.",
+      "\\.\\C[5]Ma fu lì che perse il suo migliore amico.",
+      "\\.\\C[5]Dopodiché ci fu la seconda conferenza della vittima.",
+      "\\.\\C[5]Un ragazzo persino più giovane di lei,\ne l'uomo le cui visioni più si avvicinavano alle sue.\nQuesti due...",
+      "\\.\\C[5]...morirono.",
+      "\\.\\C[5]Vedendola tanto provata, provai pietà.",
+      "\\.\\C[5]Per la prima volta, espressi i miei veri sentimenti.",
+      "\\.\\C[5]Quando finimmo di parlare,\navevo maturato un sentimento di ammirazione\nnei suoi confronti.",
+      "\\.\\C[5]Al punto tale che avrei accettato\npersino la mia stessa morte purché lei potesse vincere.",
+      "\\.\\C[5]Però, nella terza conferenza della vittima...",
+      "\\.\\C[5]Morì.",
+      "\\.\\C[5]Fu la prima volta che versai lacrime per un'estranea.",
+      "\\.\\C[5]Ancora oggi, continuo a vedere allucinazioni di lei.",
+      "\\.\\C[5]Per quante donne cerco di amare,\nnon sono mai soddisfatto.",
+      "\\.\\C[5]Ancora oggi, per me, lei è",
+      "\\.\\C[3]Il messaggio termina qui, incompiuto.",
+      "\\.\"..........\""
+    ],
+    "3-2-choice": [
+      "Leggi\nNon leggere"
+    ],
+    "3-4-message": [
+      "\\.\\C[3]Un memoriale intitolato \"L'incidente\".",
+      "\\.\\C[4](È un libro piuttosto vecchio...)",
+      "\\.\\C[5]Ormai è passato del tempo da allora.",
+      "\\.\\C[5]Eppure, quei ricordi infernali\nsono tuttora impressi a fuoco nella mia testa.",
+      "\\.\\C[5]Nella prima prova, uccisi una persona.",
+      "\\.\\C[5]Non mi sarei mai fidato di nessuno.\nAvevo deciso così.",
+      "\\.\\C[5]In seguito si tenne la Roulette Russa,\na cui non partecipai.",
+      "\\.\\C[5]Quando si misero d'accordo,\nfu scelto uno sfidante a dir poco sorprendente.",
+      "\\.\\C[5]Una studentessa diciassettenne.",
+      "\\.\\C[5]Col suo carisma soverchiante,\ndimostrò un talento nel mettere in riga gli altri.",
+      "\\.\\C[5]E anche durante la prima \\C[2]conferenza della vittima\\C[5]\nfu una figura centrale.",
+      "\\.\\C[5]Ma fu lì che perse il suo migliore amico.",
+      "\\.\\C[5]Dopodiché ci fu la seconda conferenza della vittima.",
+      "\\.\\C[5]Un ragazzo persino più giovane di lei,\ne l'uomo le cui visioni più si avvicinavano alle sue.\nQuesti due...",
+      "\\.\\C[5]...morirono.",
+      "\\.\\C[5]Vedendola tanto provata, provai pietà.",
+      "\\.\\C[5]Per la prima volta, espressi i miei veri sentimenti.",
+      "\\.\\C[5]Quando finimmo di parlare,\navevo maturato un sentimento di ammirazione\nnei suoi confronti.",
+      "\\.\\C[5]Al punto tale che avrei accettato\npersino la mia stessa morte purché lei potesse vincere.",
+      "\\.\\C[5]Però, nella terza conferenza della vittima...",
+      "\\.\\C[5]Morì.",
+      "\\.\\C[5]Fu la prima volta che versai lacrime per un'estranea.",
+      "\\.\\C[5]Ancora oggi, continuo a vedere allucinazioni di lei.",
+      "\\.\\C[5]Per quante donne cerco di amare,\nnon sono mai soddisfatto.",
+      "\\.\\C[5]Ancora oggi, per me, lei è",
+      "\\.\\C[3]Il messaggio termina qui, incompiuto.",
+      "\\.\"..........\""
+    ],
+    "3-4-choice": [
+      "Leggi\nNon leggere"
+    ],
+    "4-1-message": [
+      "\\C[3]Documenti intitolati \"Codice dei Maestri di piano\".",
+      "\\.\\C[4](Codice... dei Maestri di piano?)",
+      "\\C[5]■Maestri di piano, conduciamo\n  il Gioco Mortale con orgoglio!",
+      "\\.\\C[5][1] Se una prova necessita di una spiegazione,\n    fornitene in anticipo una ai partecipanti!",
+      "\\.\\C[5][2] I Maestri di piano non devono\n    uccidere direttamente i partecipanti!",
+      "\\.\\C[5][3] I Maestri di piano non possono mentire\n    con l'intento di sviare i partecipanti!",
+      "\\.\\C[5][4] In caso di cattiva condotta\n    durante il Gioco principale,\n    o si procede con la morte del trasgressore,\n    o \\C[2]si riprova 24 ore dopo\\C[5]!",
+      "\\.\\C[5][5] Trattate i partecipanti amorevolmente!",
+      "\\.\\C[4](Cattiva condotta durante il Gioco Principale...?\n Non avevo mai sentito parlare di nulla del genere.)",
+      "\\.\\C[4](Se un partecipante viola le regole,\n muore come penalità...\n Mentre se lo fa un Maestro di piano,\n c'è un rinvio di 24 ore?)",
+      "\\.\\C[4](Mi verrebbe da interpretarla così.)",
+      "\\.\\C[4](...Che regole ingiuste.)"
+    ],
+    "4-1-choice": [
+      "Leggi\nNon leggere"
+    ],
+    "4-2-message": [
+      "\\C[3]Documenti intitolati \"Codice dei Maestri di piano\".",
+      "\\C[5]■Maestri di piano, conduciamo\n  il Gioco Mortale con orgoglio!",
+      "\\.\\C[5][1] Se una prova necessita di una spiegazione,\n    fornitene in anticipo una ai partecipanti!",
+      "\\.\\C[5][2] I Maestri di piano non devono\n    uccidere direttamente i partecipanti!",
+      "\\.\\C[5][3] I Maestri di piano non possono mentire\n    con l'intento di sviare i partecipanti!",
+      "\\.\\C[5][4] In caso di cattiva condotta\n    durante il Gioco principale,\n    o si procede con la morte del trasgressore,\n    o \\C[2]si riprova 24 ore dopo\\C[5]!",
+      "\\.\\C[5][5] Trattate i partecipanti amorevolmente!"
+    ],
+    "4-2-choice": [
+      "Leggi\nNon leggere"
+    ],
+    "4-4-message": [
+      "\\C[3]Documenti intitolati \"Codice dei Maestri di piano\".",
+      "\\C[5]■Maestri di piano, conduciamo\n  il Gioco Mortale con orgoglio!",
+      "\\.\\C[5][1] Se una prova necessita di una spiegazione,\n    fornitene in anticipo una ai partecipanti!",
+      "\\.\\C[5][2] I Maestri di piano non devono\n    uccidere direttamente i partecipanti!",
+      "\\.\\C[5][3] I Maestri di piano non possono mentire\n    con l'intento di sviare i partecipanti!",
+      "\\.\\C[5][4] In caso di cattiva condotta\n    durante il Gioco principale,\n    o si procede con la morte del trasgressore,\n    o \\C[2]si riprova 24 ore dopo\\C[5]!",
+      "\\.\\C[5][5] Trattate i partecipanti amorevolmente!"
+    ],
+    "4-4-choice": [
+      "Leggi\nNon leggere"
+    ],
+    "7-1-message": [
+      "\\C[3]Qui è riflesso lo schermo del computer."
+    ],
+    "8-1-message": [
+      "\\C[3]Qui è riflesso lo schermo del computer."
+    ],
+    "13-1-message": [
+      "\\C[3]Qui è riflesso lo schermo del computer."
+    ],
+    "14-1-message": [
+      "\\C[3]Qui è riflesso lo schermo del computer."
+    ],
+    "15-2-message": [
+      "\"N... No...!\"",
+      "\\.\"Sou, non dirmi che...\"",
+      "\\.\"Bene, bene, siete stati voi due.\"",
+      "\"Non siete andati un po' troppo oltre\n con queste trasgressioni?\"",
+      "\\.\"Argh...\"",
+      "\\.\"In quanto Maestro di piano,\n non posso ignonare questa azione.\"",
+      "\\.\"È una vera disdetta... ma devo prendere provvedimenti.\"",
+      "\\C[3]Un gas bianco ha riempito la stanza.",
+      "\\.\"Ah...! Orgh...!! Non... respiro...!!\"",
+      "\\.\"Ggh...!! C'eravamo... così vicini... gaah...!!\""
+    ],
+    "15-3-message": [
+      "\"È... fatta...\"",
+      "\\.\"Ahahah...!! Ha funzionato!! Ha funzionato, Sara!!\"",
+      "\\.\"Ci sei riuscito?!\"",
+      "\\.\"Certo che sì! Ahahah!\"",
+      "\\.\"Probabilmente non lo si nota a prima vista...\n Ma si scatenerà un bel putiferio.\"",
+      "\\.\"Ahahah... Rimandiamo i festeggiamenti a dopo.\n Muoviamoci, Sara!\"",
+      "\\.\"Eh? Aspetta, muoviamoci... dove?!\"",
+      "\\.\\C[4](Mi tocca seguirlo e basta...!)"
+    ]
+  },
   "map174": {
     "2-1-message": [
       "\\C[3]La porta che conduce all'area\ndove si è svolto il Gioco Principale...\npresumibilmente."
@@ -17144,39 +17471,129 @@
       "\\C[3]Lo schermo è rotto.",
       "\\.\\C[4](Qui c'era l'IA del professor Mishima...)"
     ],
+    "3-1-message": [
+      "\\.\\C[4](Cosa...? C'è una scala dietro gli schermi!)",
+      "\"Sorellona Sara! Andiamo a vedere, miao!!\""
+    ],
+    "3-3-message": [
+      "\"Da questa parte.\"",
+      "\\.\"Non abbandonarci, bau! Asociaaale!!\"",
+      "\\.\"N-No che non vi lascio indietro...\n Dai, sbrigatevi...\"",
+      "\\C[3]Zz...\\. zzt...\\.\\.\\.      zzzt...\\.  zz...",
+      "\\.\\C[4](Che...)",
+      "\\.\\C[4](Che succede...?!)",
+      "\"Miaaao?! Ci sono tutti, bau!!\"",
+      "\\.\\sw[909]\"Eh...? Che succede, ragazzi?\"\\sw[910]",
+      "\\.\\sw[562]\"Yaaawn... Che barba...\n Ve va de fa' due chiacchiere?\"\\sw[566]",
+      "\\.\\sw[905]\"Umpf... Sembrate davvero occupati.\"\\sw[906]",
+      "\\.\"...Ah...\"",
+      "\\.\"Interessante...\n Anche il sistema di controllo delle IA\n sembra essere fuori uso.\"",
+      "\\.\"Un'ulteriore conferma che l'hacking\n è stato un successo a tutto tondo.\"",
+      "\\.\"Li lasciamo così, miao...?\"",
+      "\\.\"...Se volete fare un saluto, cercate di sbrigarvi.\n Io sarò nell'atrio.\""
+    ],
+    "4-1-message": [
+      "\\.\\C[3]La scala sale fino al soffitto.",
+      "\\.\\C[4](Dove siamo...?!)"
+    ],
+    "4-1-choice": [
+      "Arrampicati\nAnnulla"
+    ],
+    "4-2-message": [
+      "\\.\\C[3]La scala sale fino al soffitto."
+    ],
+    "4-2-choice": [
+      "Arrampicati\nAnnulla"
+    ],
     "5-1-message": [
       "\\C[3]Uno dei vari schermi.",
       "\\.\\C[3]C'è una foto di Alice sul retro."
+    ],
+    "5-2-message": [
+      "\\sw[905]\"Umpf... Oh, sei tu...\"\\sw[906]",
+      "\\.\\sw[905]\"Per tua informazione... Non ho tempo da dedicarti.\"\\sw[906]",
+      "\\.\\C[4](Sono di fretta...!)",
+      "\\.\\C[4](...Alice...)",
+      "\\.\\sw[905]\"Che problema c'è? Ti serve qualcosa?\"\\sw[906]",
+      "\\.\\C[4](Non posso farlo vedere a Reko...)"
     ],
     "6-1-message": [
       "\\C[3]Uno dei vari schermi.",
       "\\.\\C[3]C'è una foto di Reko sul retro."
     ],
+    "6-2-message": [
+      "\\sw[560]\"Mh...? Ué, Sara. Che si dice?\"\\sw[565]",
+      "\\.\\sw[560]\"Sembri parecchio occupata.\"\\sw[565]",
+      "\\.\\C[4](Non ho tempo per chiacchierare...!)",
+      "\\.\\C[4](...Reko...)",
+      "\\.\\sw[560]\"Cosa? Sembra che hai appena visto un fantasma.\"\\sw[565]",
+      "\\.\\C[4](Non posso farla vedere ad Alice...)"
+    ],
     "7-1-message": [
       "\\C[3]Uno dei vari schermi.",
       "\\.\\C[3]C'è una foto di Gin sul retro."
+    ],
+    "7-2-message": [
+      "\\sw[564]\"Myaaawn...? Bau!\n Che mi hai svegliato a fare, sorellona Sara?\"\\sw[567]",
+      "\\.\\sw[564]\"Parlerò solo se giochi con me, miao!\"\\sw[567]",
+      "\\.\\C[4](Scusa, ma non ho tempo per giocare...!)"
     ],
     "8-1-message": [
       "\\C[3]Uno dei vari schermi.",
       "\\.\\C[3]C'è una mia foto sul retro."
     ],
+    "8-2-message": [
+      "\\sw[911]\"Salve... ah. Beh, guarda chi c'è, me.\"\\sw[912]",
+      "\\.\\sw[911]\"Mmh... Hai delle grosse occhiaie.\n Hai problemi a dormire?\"\\sw[912]",
+      "\\.\\C[4](...La me nello schermo sembra molto più in salute.)"
+    ],
     "9-1-message": [
       "\\C[3]Uno dei vari schermi.",
       "\\.\\C[3]C'è una foto di Q-taro sul retro."
+    ],
+    "9-2-message": [
+      "\\sw[562]\"Mh? Ma dov'è che siamo?\"\\sw[566]",
+      "\\.\\sw[562]\"Quanta gente, ce se diverte!\n Beviamo! Ah ah ah!\"\\sw[566]",
+      "\\.\\C[4](Crede di essere a una festa...?)"
     ],
     "10-1-message": [
       "\\C[3]Uno dei vari schermi.",
       "\\.\\C[3]C'è una foto di Keiji sul retro."
     ],
+    "10-2-message": [
+      "\\sw[907]\"Mmh, si sente un bel casino.\"\\sw[908]",
+      "\\.\\sw[907]\"Hai bisogno di qualcosa, Sara...?\"\\sw[908]",
+      "\\.\\C[4](Eh...? ...Ha un che di diverso.)"
+    ],
     "11-1-message": [
       "\\C[3]Uno dei vari schermi.",
       "\\.\\C[3]C'è una foto di Kanna sul retro."
+    ],
+    "11-2-message": [
+      "\\.\\sw[909]\"Sara! Ti andrebbe di parlare con Kanna?\"\\sw[910]",
+      "\\.\\sw[909]\"Eheheh, allora, l'altro giorno\n mi ha detto una cosa, ma, ehm...\"\\sw[910]",
+      "\\.\\C[4](Scusa, Kanna...! Adesso non ho tempo...!)"
     ],
     "13-1-message": [
       "\\C[3]Uno dei vari schermi."
     ],
     "59-1-message": [
       "\\C[3]Video della vittima\n\nIl video che aveva Nao. Mostra una poliziotta\nche muore nella Prima Prova. L'uomo di fronte è Keiji?"
+    ],
+    "60-1-message": [
+      "\\C[3]Disco della vittima E\n\nUn disco della vittima trovato al 1º piano."
+    ],
+    "61-1-message": [
+      "\\C[3]Disco della vittima F\n\nUn disco della vittima trovato al 1º piano."
+    ],
+    "62-1-message": [
+      "\\C[3]Filmati di sorveglianza del 1º piano\n\nDalle telecamere di sorveglianza del 1º piano. Mostra le\nnostre azioni. Sou ha visto Q-taro posizionare le carte."
+    ],
+    "63-1-message": [
+      "\\C[3]Tablet\n\nUn tablet utilizzabile per vedere il proprio ruolo.\nEra vicino a Q-taro svenuto nella Stanza delle macerie."
+    ],
+    "64-1-message": [
+      "\\C[3]Arma stordente\n\nUn'arma monouso che può immobilizzare una persona.\nÈ pericolosa, Gin e io l'abbiamo presa in segreto."
     ],
     "73-1-message": [
       "\\C[3]Circuito di Nosko\n\nUn piccolo circuito rimosso dalla testa di Rikon Nosko.\nIn grado di distruggere la sicurezza della struttura."
@@ -27154,6 +27571,109 @@
       "Sì\nNo",
       "Sì\nNo"
     ],
+    "851-0-message": [
+      "*sniff sniff sniff*...",
+      "\\.\"Odora di gorilla, miao!\"",
+      "\\.\"...È perché ho un gorilla in spalla.\"",
+      "\"A quanto pare Q-taro ancora non si è svegliato.\"",
+      "\\.\"È come in un sonno profondo.\"",
+      "\\.\"Oh...\"",
+      "\"Sono preoccupata che possa non svegliarsi...\"",
+      "\\.\"Tranquilla. In quel caso,\n potremo provare a spruzzargli sopra dell'acqua.\"",
+      "\\.\\C[4](Cos'è questa, l'ora di educazione fisica?)",
+      "\"Che ne dici di scappare prima che Q-taro si svegli?\"",
+      "\\.\"Sarebbe uno spasso.\n Tipo quegli scherzi che si fanno a chi dorme.\"",
+      "\\.\\C[4](Sarebbe uno scherzo gioioso...)"
+    ],
+    "851-0-choice": [
+      "Sono preoccupata\nScappiamo prima che si svegli"
+    ],
+    "852-0-message": [
+      "*sniff sniff sniff*...",
+      "\\.\"A... Aaah!! Non mi annusare, per favore!!\"",
+      "\\.\"Non lo faccio perché mi va, miao!!\n Non trattarmi da pervertito, bau!!\"",
+      "\\.\"Gin... Non devi annusarla\n per dire a Kanna che ha un buon odore.\"",
+      "\\.\"C... Cacchio! Che ti prende?!\"",
+      "\"Ehm... Sara...\"",
+      "\\.\"Sou è all'opera per tirarci fuori di qui, giusto...?\"",
+      "\\.\"Kanna...\"",
+      "\"Proprio così. Ci siamo ritrovati\n a fare affidamento su Sou, ma...\"",
+      "\\.\"...Sono sicura che ce la farà.\"",
+      "\\.\\C[4](Kanna... Quindi gli credi.)",
+      "\"Potrebbe avere qualche secondo fine...\"",
+      "\\.\"Ma sei stata tu ad aver affidato questo a Sou, no?\"",
+      "\\.\"...!\"",
+      "\\.\"Sono sicura... che una parte di te\n vuole crederci, Sara...\"",
+      "\\.\\C[4](...)"
+    ],
+    "852-0-choice": [
+      "Proprio così\nC'è qualcosa sotto"
+    ],
+    "853-0-message": [
+      "*sniff sniff sniff*...",
+      "\\.\"Odora di sorellona Nao, miao!\"",
+      "\\.\"È una cosa buona, vero?!\"",
+      "\"Dovessi vedere Gashu... lo terrò occupato!\"",
+      "\"Spero che il Maestro di piano\n non scopra il nostro piano...\"",
+      "\\.\"Se Gashu dovesse vederci,\n sarebbe un vero guaio, vero...?\"",
+      "\\.\"Dopo l'incidente con la finta IA di Mishima...\n Potrebbero accorgersi presto che qualcosa non va...!\"",
+      "\\.\\C[4](Diventerebbero molto attenti in tal caso...)",
+      "\"Sou è ancora in camera tua?\"",
+      "\\.\"Ehm... Mi pare fosse diretto alla Sala degli schermi.\"",
+      "\\.\"Per caso la stanza segreta è lì?!\"",
+      "\\.\"Potrebbe...!\"",
+      "\\.\\C[4](Dovrei andare a controllare la Sala degli schermi!)",
+      "\"Teniamo Gashu occupato.\"",
+      "\\.\"Ora che ci penso... Quando ci siamo incrociati,\n stava cercando Mosa.\"",
+      "\\.\"Se si mettessero a parlare,\n potremmo avere del tempo.\"",
+      "\\.\\C[4](Capisco...)",
+      "\\.\"Ehm... Sara.\"",
+      "\\.\"Mi pare che Sou fosse diretto\n alla Sala degli schermi...\"",
+      "\\.\"Eh?! Per caso la stanza segreta è lì...?!\"",
+      "\\.\"Forse...! Non è che andresti a controllare?\"",
+      "\\.\\C[4](D'accordo... Alla Sala degli schermi!)"
+    ],
+    "853-0-choice": [
+      "Dov'è Sou?\nTeniamo Gashu occupato"
+    ],
+    "854-0-message": [
+      "*sniff sniff sniff*...",
+      "\\.\"Miao! Che odore rinfrescante!\n Come svegliarsi la mattina, bau!\"",
+      "\\.\"Un buon profumo, vero?\n Vuoi portarlo anche tu, Gin?\"",
+      "\\.\"C-Ci penserò su, miao.\"",
+      "\"Questa storia della fuga è vera?!\"",
+      "\\.\"...A dir la verità, non riesco a crederci...\"",
+      "\\.\"Reko...\"",
+      "\"È tutto vero... Abbiamo trovato una pista\n che potrebbe condurci alla fuga.\"",
+      "\\.\"Diamine, grandissima...!\n Puoi davvero fare tutto, Sara...\"",
+      "\\.\"Quindi ora non ci resta che aspettare... no?!\"",
+      "\\.\\C[4](Ho il presentimento che non sarà così facile...)",
+      "\"Scusa. Era solo uno scherzo.\"",
+      "\\.\"...............\"",
+      "\\.\"...Ah, quindi puoi permetterti\n di prenderci in giro?\n Devi aver trovato proprio un bell'indizio.\"",
+      "\\.\\C[4](Non se l'è bevuta...!)",
+      "*sniff sniff sniff*...",
+      "\\.\"Ma cheee... Ha un odore inutilmente buono, miao...\"",
+      "\\.\"Mpf... L'igiene è cruciale in un uomo.\"",
+      "\"Tu, Sara Chidouin.\"",
+      "\\.\"Ho sentito dire che possiamo scappare... È vero?\"",
+      "\\.\"...Alice.\"",
+      "\"È tutto vero... Abbiamo trovato una pista\n che potrebbe condurci alla fuga.\"",
+      "\\.\"...!!\"",
+      "\\.\"Capisco...!\"",
+      "\\.\\C[4](...)",
+      "\\.\"...Che c'è? Non sei felice?\"",
+      "\\.\"Oh, certo...\"",
+      "\\.\\C[4](Ormai non percepisco praticamente più\n nessun pensiero vendicativo provenire da Alice....)",
+      "\"Scusa. Era solo uno scherzo.\"",
+      "\\.\\{\"EEEEEEEH?! Che ti salta in testa?!\"",
+      "\\.\"A-Abbassa la voce...!\n Scusa, ma ti pare che farei una cosa del genere?!\"",
+      "\\.\"Come se il mio urlo non fosse per colpa tua!\n Non scherzare in momenti del genere, di grazia!!\""
+    ],
+    "854-0-choice": [
+      "È la verità\nÈ uno scherzo",
+      "È la verità\nÈ uno scherzo"
+    ],
     "856-0-message": [
       "\\C[4](Posso affrontare l'allucinazione...?)",
       "\\C[10]\"Sara...\"",
@@ -28407,6 +28927,7 @@
     "name_ドアからの声": "Voce dalla porta",
     "name_ファイル": "File",
     "name_規約": "Regole",
+    "name_手記": "Memoriale",
     "name_絵画？": "Dipinto?",
     "name_モニター": "Schermo",
     "name_音声": "Voce",
