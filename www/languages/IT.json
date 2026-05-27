@@ -12771,10 +12771,10 @@
       "\\.\\C[4](Dobbiamo andare verso la camera di Nao!)"
     ],
     "15-14-message": [
-      "\\C[4](Penso che ormai ho chiamato tutti...)",
+      "\\C[4](Ormai penso di aver chiamato tutti...)",
       "\"Ehi, Sara.\n Per cosa ci stiamo preparando?\"",
       "\"Tu, Sara Chidouin.\n Cosa sta per avvenire qui?\"",
-      "\"Fiu... Cavolo, Q-taro è pesante, senza dubbio.\"",
+      "\"Fiu... Cavolo, certo che Q-taro è pesante.\"",
       "\"C'è davvero un'uscita...?\"",
       "\"Crediamo in Sou...!\"",
       "\\C[4](Tutti quanti sono riuniti...)"
@@ -13776,10 +13776,10 @@
       "Torniamo al primo piano!\nDovremmo recuperare il circuito di Pongo"
     ],
     "19-3-message": [
-      "\\C[4](Penso che ormai ho chiamato tutti...)",
+      "\\C[4](Ormai penso di aver chiamato tutti...)",
       "\"Ehi, Sara.\n Per cosa ci stiamo preparando?\"",
       "\"Tu, Sara Chidouin.\n Cosa sta per avvenire qui?\"",
-      "\"Fiu... Cavolo, Q-taro è pesante, senza dubbio.\"",
+      "\"Fiu... Cavolo, certo che Q-taro è pesante.\"",
       "\"C'è davvero un'uscita...?\"",
       "\"Crediamo in Sou...!\"",
       "\\C[4](Tutti quanti sono riuniti...)"
@@ -15824,7 +15824,7 @@
       "\"...Sempre all'erta, eh.\"",
       "\"...Sei abbastanza pesante.\"",
       "\\.\\C[4](Oh, ma sta' zitto...)",
-      "\"Oh, ma davvero? Le tue gambe si sono arrese?\"",
+      "\"Oh, ma davvero? Ti sono cedute le gambe?\"",
       "\\.\\C[4](...)",
       "\\.\"Per un po' sarò impegnato\n ad analizzare queste informazioni,\n quindi fai anche tu la tua parte.\"",
       "\\.\"Raduna tutti nell'atrio.\n Conto su di te.\"",
@@ -15967,6 +15967,21 @@
   "map155": {
     "1-1-message": [
       "\\C[3]Video della vittima\n\nIl video che aveva Nao. Mostra una poliziotta\nche muore nella Prima Prova. L'uomo di fronte è Keiji?"
+    ],
+    "3-1-message": [
+      "\\C[3]Disco della vittima E\n\nUn disco della vittima trovato al 1º piano."
+    ],
+    "4-1-message": [
+      "\\C[3]Disco della vittima F\n\nUn disco della vittima trovato al 1º piano."
+    ],
+    "5-1-message": [
+      "\\C[3]Filmati di sorveglianza del 1º piano\n\nDalle telecamere di sorveglianza del 1º piano. Mostra le\nnostre azioni. Sou ha visto Q-taro posizionare le carte."
+    ],
+    "6-1-message": [
+      "\\C[3]Tablet\n\nUn tablet utilizzabile per vedere il proprio ruolo.\nEra vicino a Q-taro svenuto nella Stanza delle macerie."
+    ],
+    "7-1-message": [
+      "\\C[3]Arma stordente\n\nUn'arma monouso che può immobilizzare una persona.\nÈ pericolosa, Gin e io l'abbiamo presa in segreto."
     ],
     "9-1-message": [
       "\\C[3]Circuito di Nosko\n\nUn piccolo circuito rimosso dalla testa di Rikon Nosko.\nIn grado di distruggere la sicurezza della struttura."
@@ -17019,8 +17034,210 @@
     ]
   },
   "map168": {
+    "1-1-message": [
+      "\"È... finita, vero...?\"",
+      "\\.\"Nao...\"",
+      "\\.\"Nao...\"",
+      "\\.\"Non mi resta... neanche l'energia per muovermi.\"",
+      "\\.\"Se l'avessi saputo prima...\n nemmeno l'avrei voluta la speranza...\"",
+      "\\C[4](Non mi vengono le parole, ora come ora...)"
+    ],
+    "2-1-message": [
+      "\\C[3]All'interno del passaggio\nc'è una rampa di scale senza fine.",
+      "\\.\\C[3]Rapidi ma prudenti, siamo avanzati un passo alla volta.",
+      "\"Restate vicini a me, gente.\"",
+      "\\.\\C[3]Sou e Kanna stanno in testa al gruppo.",
+      "\\.\\C[3]Durante il tragitto, notiamo delle porte ai lati.",
+      "\\.\\C[3]Molte porte, distanziate tra loro.",
+      "\"Presumo che diano sugli altri piani...\"",
+      "\\.\"Queste probabilmente sono le scale della vittoria che\n solo i sopravvissuti hanno il permesso di salire...\"",
+      "\\.\"Saranno state costruite in modo tale da essere\n accessibili sempre, visto che il Gioco Mortale\n poteva finire in qualunque momento.\"",
+      "\\.\"Uahahah... Se dici così mi viene speranza,\n che mi piaccia o no.\"",
+      "\\.\"Che ci sia un'uscita...\"",
+      "\\.\\C[3]Un'uscita...",
+      "\\.\\C[3]Se davvero c'è un'uscita, come dice Sou...",
+      "\\.\\C[3]Siamo stati salvati...?",
+      "\\.\\C[3]Da... questo Gioco Mortale...",
+      "\\.\"Ehi, sorellona Sara...\"",
+      "\\.\"Che c'è, Gin?\"",
+      "\\.\"Anche quando torneremo a casa...\n Potremo continuare a vederci, miao?\"",
+      "\\.\"...!\"",
+      "\\.\"Beh, ovvio.\"",
+      "\\.\"Davvero, bau?! Meno male, miaaao!!\"",
+      "\\.\"Ma... Di sicuro ti farà ricordare...\"",
+      "\\.\"Però... Di certo, incontrandovi, ti ricorderai...\"",
+      "\\.\"..........\"",
+      "\\.\"Vuoi... dimenticare tutto, bau...?\"",
+      "\\.\"..........\"",
+      "\\.\"Beh... forse.\"",
+      "\\.\"..........\"",
+      "\\.\"Non potrei mai... dimenticare, miao.\"",
+      "\\.\"Gin...\"",
+      "\\.\"Gin...\"",
+      "\\.\"Miaaah...\"",
+      "\\.\"Non piangere, Gin.\"",
+      "\\.\"Ciò che abbiamo perso...\n la disperazione instillata in noi...\n Sono molte le cose non torneranno alla normalità...\"",
+      "\\.\"Ma noi ce le riprenderemo.\"",
+      "\\.\"Pace... Le nostre vite di tutti i giorni...\n È quella la vera vittoria.\"",
+      "\\.\"Sorellona Sara...\"",
+      "\\.\"Sono certa che sarebbe impossibile farlo da soli.\"",
+      "\\.\"Anch'io sono a conoscenza della mia debolezza...\"",
+      "\\.\"Ecco perché reclameremo queste cose insieme.\"",
+      "\\.\"Già...\"",
+      "\\.\"Reclamare...\"",
+      "\\.\"Proprio così...!\"",
+      "\\.\"I nostri rapporti non possono essere\n spezzati tanto facilmente...\"",
+      "\\.\"Sono... legami duraturi.\"",
+      "\\.\"No... Questo è un addio.\"",
+      "\\.\"P... Perché, bau?!\"",
+      "\\.\"Sono successe troppe cose dolorose qui.\"",
+      "\\.\"Incontrandoci... Sono sicura che ce le ricorderemmo...\"",
+      "\\.\"Sarebbe meglio dimenticare tutto...\"",
+      "\\.\"..........\"",
+      "\\.\"..........\"",
+      "\\.\"..........\"",
+      "\\.\"..........\"",
+      "\\.\"Non voglio, miao!!\"",
+      "\\.\"Gin...\"",
+      "\\.\"Rimanere con quei brutti ricordi...\n e non potervi vedere mai più...?\"",
+      "\\.\"Non lo voglio per niente, bau!!\"",
+      "\\.\"Non potrei mai dimenticare, miao...\\!\n Non voglio dimenticare... bau...\"",
+      "\\.\"..........\"",
+      "\\.\"Gin ha ragione, Sara.\"",
+      "\\.\"Quei ricordi non spariranno comunque.\n Non ha senso vivere nella disperazione\n per sempre, dico io.\"",
+      "\\.\"Miaaah...\"",
+      "\\.\"La vera vittoria non consiste solo nel tornare\n a casa sani e salvi.\"",
+      "\\.\"È riottenere la pace che ci spetta...\n Tornare alla vita di sempre... No?\"",
+      "\\.\"...\"",
+      "\\.\"...Che ne dite di riprenderci quella pace insieme?\"",
+      "\\.\"Riprendiamocela tutti insieme. La nostra pace...\"",
+      "\\.\"..........\"",
+      "\\.\"...Giusto...\"",
+      "\\.\"Ehm, ragazzi...\"",
+      "\\.\"Quando tornerete alla vostra vita di tutti i giorni...\n Cosa farete?\"",
+      "\\.\"...!\"",
+      "\\.\\C[3]Non ci avevo neanche pensato...",
+      "\\.\\C[3]Cosa volevo fare una volta fuori di qui?",
+      "\\.\"Voglio finire quel dipinto...!\"",
+      "\\.\"Voglio andare a casa e giocare ai videogiochi, miao!\n Dovrebbe venire pure la sorellona Sara, bau!\"",
+      "\\.\"Per prima cosa, beh... Voglio fare un mega concerto!\n La mia band non vedrà l'ora che torni.\"",
+      "\\.\"Oh! Ehm...! Posso venire anche io a vederlo?!\"",
+      "\\.\"Anch'io, anch'io!!\"",
+      "\\.\"Beh, secondo voi?!\n Vi farò vedere roba fantastica, Gin, Kanna!\"",
+      "\\.\"Non è giusto! Voglio venire anch'io!!\"",
+      "\\.\"Mmh? Ci devo pensare...\"",
+      "\\.\"Eh?!\n Perché all'improvviso sei così cattiva?!\"",
+      "\\.\"E tu, Sou...?\"",
+      "\\.\"Eh...?\"",
+      "\\.\"Ehm... Andare a vedere un film, magari...?\"",
+      "\\.\"Oh! Che bello! Kanna vuole venire con te!\"",
+      "\\.\"...Ehi, investigatore.\n Perché non ci vai anche tu con loro?\"",
+      "\\.\"...Non vedo perché no.\"",
+      "\\.\"Davvero?! Andiamo a vederci qualcosa tutti insieme!\"",
+      "\\.\"Eheheh, non vedo l'ora!\"",
+      "\\.\"..........\"",
+      "\\.\"Cosa voglio fare, eh...\"",
+      "\\.\"Miao? Non c'è proprio niente, sig. Poliziotto?\"",
+      "\\.\"...Mmh...\"",
+      "\\.\\C[4](...)",
+      "\"Prima di tutto, forse dovresti cercare\n qualcosa che ti appaghi fare...\"",
+      "\\.\"...Credo di sì...\"",
+      "\\.\"Magari penserò a una ragione di vita...\"",
+      "\\.\"Sarei felice di assistere, se ti sta bene.\"",
+      "\\.\"..........\"",
+      "\\.\"...Aah, l'hai preso alla lettera, vedo.\n Grazie, Sara.\"",
+      "\\.\"...?\"",
+      "\"Se non hai niente da fare,\n tieni sott'occhio la tua salute.\"",
+      "\\.\"Uff... Sì, certo... Forse mangerò più verdure.\"",
+      "\\.\"Bene! Forse troverai qualcosa\n che ti faccia sembrare più sveglio\n e che ti tolga quelle occhiaie.\"",
+      "\\.\"Più sveglio...\"",
+      "\\.\"...Tipo così?\"",
+      "\\.\\C[4](Che occhi stanchi...)",
+      "\"Visto che sarai libero e tutto il resto,\n dovresti soddisfare i tuoi desideri.\"",
+      "\\.\"Allora magari andrò a mangiare carne...\"",
+      "\\.\"I desideri degli adulti sono proprio barbosi, miaooo!\"",
+      "\\.\"Triste, eh?\n Diventa un adulto che sogna in grande, Gin.\"",
+      "\\.\"Va beeeeene!\"",
+      "\\.\"Mh... Vedo qualcosa...\"",
+      "\\.\"Eh?\"",
+      "\\.\"L'uscita...?\"",
+      "\\.\\C[4](È... una stanza giapponese tradizionale...)",
+      "\\.\"Secondo la mappa del piano, questa è...\"",
+      "\\.\"La Stanza dei vincitori.\"",
+      "\\.\\C[4](Stanza dei vincitori...)"
+    ],
+    "2-1-choice": [
+      "Ma certo\nSarebbe meglio di no",
+      "Troviamo qualcosa di appagante\nConcentrati sulla salute, forse?\nDovresti soddisfare i tuoi desideri"
+    ],
+    "2-3-message": [
+      "\"Sorellona Sara!\"",
+      "\"Ho cercato in giro, miao!\"",
+      "\\.\"Gin...\"",
+      "\\.\"Hai trovato nulla...?\"",
+      "\\.\"Non c'era un'uscita o che altro...\"",
+      "\\.\"...A fare cosa?\"",
+      "\\.\"Come, a fare cosa? A cercare una via di fuga, miao!\"",
+      "\\.\"Beh... Alla fine non ho trovato\n un'uscita o che altro...\"",
+      "\\.\"Ma ho trovato un cellulare sulle scale, miao.\"",
+      "\\.\"...Eh?\"",
+      "\\.\\C[4](Non c'era nulla del genere quando siamo saliti...)",
+      "\\.\"Cosa c'è dentro, di preciso...?\"",
+      "\"Miaooo?! Quel suono!!\"",
+      "\\.\"Uno scambio di carte?!\"",
+      "\\.\\C[4](A-Aspetta! Ce l'ho io il \\C[10]Sacrificio\\C[4], no?)",
+      "\\.\\C[4](Perché diamine hanno fatto uno scambio...?!)",
+      "\\.\\C[4](Eh?!)",
+      "\\C[4](Cosa...?)",
+      "\\.\\C[4](Che... è successo?)",
+      "\\.\\C[4](Come mai il mio \\C[10]Sacrificio\\C[4]...\n è diventato un \\C[5]Popolano\\C[4]...?)",
+      "\"Sorellona Sara...?\"",
+      "\"Ah, ehm, Gin... Che c'è?\"",
+      "\\.\"...Hai appena fatto un sorriso spaventoso, miao...\"",
+      "\\.\"S-Scusa. Non farci caso.\"",
+      "\\.\"Tornando alle cose importanti, Gin,\n riguardo al telefono che hai trovato...\"",
+      "\\.\"Miahiii...?!\"",
+      "\\.\"..........\"",
+      "\\.\"Gin...?\"",
+      "\\.\"Ghiah...?!\"",
+      "\\.\\C[3]Un dolore acuto al collo.",
+      "\\.\\C[3]Subito dopo averlo sentito, ho perso i sensi.",
+      "\"No!! Resta con noi!!\"",
+      "\"Sono... spacciato...\"",
+      "\"E-Ehi! Non lo possiam salvare in nessun modo?!\"",
+      "\"Mmrh... Dopo aver perso tanto sangue,\n temo non si possa fare più nulla...\"",
+      "\"..........\"",
+      "\"Nooo...!! Non puoi... Rispondi, ti prego!!\"",
+      "\"Uff...\"",
+      "\\.\\C[4](..........)",
+      "\\.\\C[4](Ho appena fatto... una specie di sogno?)",
+      "\\.\\C[4](..........)",
+      "\\.\"Questo posto...\""
+    ],
+    "2-3-choice": [
+      "Hai trovato niente?\nA fare cosa?"
+    ],
+    "3-1-message": [
+      "\"..........\"",
+      "\\C[3]Reko sta guardando Nao senza dire nulla."
+    ],
     "20-1-message": [
       "\\C[3]Video della vittima\n\nIl video che aveva Nao. Mostra una poliziotta\nche muore nella Prima Prova. L'uomo di fronte è Keiji?"
+    ],
+    "21-1-message": [
+      "\\C[3]Disco della vittima E\n\nUn disco della vittima trovato al 1º piano."
+    ],
+    "22-1-message": [
+      "\\C[3]Disco della vittima F\n\nUn disco della vittima trovato al 1º piano."
+    ],
+    "23-1-message": [
+      "\\C[3]Filmati di sorveglianza del 1º piano\n\nDalle telecamere di sorveglianza del 1º piano. Mostra le\nnostre azioni. Sou ha visto Q-taro posizionare le carte."
+    ],
+    "24-1-message": [
+      "\\C[3]Tablet\n\nUn tablet utilizzabile per vedere il proprio ruolo.\nEra vicino a Q-taro svenuto nella Stanza delle macerie."
+    ],
+    "25-1-message": [
+      "\\C[3]Arma stordente\n\nUn'arma monouso che può immobilizzare una persona.\nÈ pericolosa, Gin e io l'abbiamo presa in segreto."
     ],
     "27-1-message": [
       "\\C[3]Circuito di Nosko\n\nUn piccolo circuito rimosso dalla testa di Rikon Nosko.\nIn grado di distruggere la sicurezza della struttura."
@@ -17234,7 +17451,7 @@
       "\\.\\C[5]Dopodiché ci fu la seconda conferenza della vittima.",
       "\\.\\C[5]Un ragazzo persino più giovane di lei,\ne l'uomo le cui visioni più si avvicinavano alle sue.\nQuesti due...",
       "\\.\\C[5]...morirono.",
-      "\\.\\C[5]Vedendola tanto provata, provai pietà.",
+      "\\.\\C[5]Vedendola tanto provata, finii per compatirla.",
       "\\.\\C[5]Per la prima volta, espressi i miei veri sentimenti.",
       "\\.\\C[5]Quando finimmo di parlare,\navevo maturato un sentimento di ammirazione\nnei suoi confronti.",
       "\\.\\C[5]Al punto tale che avrei accettato\npersino la mia stessa morte purché lei potesse vincere.",
@@ -17267,7 +17484,7 @@
       "\\.\\C[5]Dopodiché ci fu la seconda conferenza della vittima.",
       "\\.\\C[5]Un ragazzo persino più giovane di lei,\ne l'uomo le cui visioni più si avvicinavano alle sue.\nQuesti due...",
       "\\.\\C[5]...morirono.",
-      "\\.\\C[5]Vedendola tanto provata, provai pietà.",
+      "\\.\\C[5]Vedendola tanto provata, finii per compatirla.",
       "\\.\\C[5]Per la prima volta, espressi i miei veri sentimenti.",
       "\\.\\C[5]Quando finimmo di parlare,\navevo maturato un sentimento di ammirazione\nnei suoi confronti.",
       "\\.\\C[5]Al punto tale che avrei accettato\npersino la mia stessa morte purché lei potesse vincere.",
@@ -17299,7 +17516,7 @@
       "\\.\\C[5]Dopodiché ci fu la seconda conferenza della vittima.",
       "\\.\\C[5]Un ragazzo persino più giovane di lei,\ne l'uomo le cui visioni più si avvicinavano alle sue.\nQuesti due...",
       "\\.\\C[5]...morirono.",
-      "\\.\\C[5]Vedendola tanto provata, provai pietà.",
+      "\\.\\C[5]Vedendola tanto provata, finii per compatirla.",
       "\\.\\C[5]Per la prima volta, espressi i miei veri sentimenti.",
       "\\.\\C[5]Quando finimmo di parlare,\navevo maturato un sentimento di ammirazione\nnei suoi confronti.",
       "\\.\\C[5]Al punto tale che avrei accettato\npersino la mia stessa morte purché lei potesse vincere.",
@@ -17325,7 +17542,7 @@
       "\\.\\C[5][4] In caso di cattiva condotta\n    durante il Gioco principale,\n    o si procede con la morte del trasgressore,\n    o \\C[2]si riprova 24 ore dopo\\C[5]!",
       "\\.\\C[5][5] Trattate i partecipanti amorevolmente!",
       "\\.\\C[4](Cattiva condotta durante il Gioco Principale...?\n Non avevo mai sentito parlare di nulla del genere.)",
-      "\\.\\C[4](Se un partecipante viola le regole,\n muore come penalità...\n Mentre se lo fa un Maestro di piano,\n c'è un rinvio di 24 ore?)",
+      "\\.\\C[4](Se un partecipante viola le regole,\n muore come penalità...\n Mentre se lo fa un Maestro di piano,\n viene rinviato di 24 ore?)",
       "\\.\\C[4](Mi verrebbe da interpretarla così.)",
       "\\.\\C[4](...Che regole ingiuste.)"
     ],
@@ -17472,7 +17689,7 @@
       "\\.\\C[4](Qui c'era l'IA del professor Mishima...)"
     ],
     "3-1-message": [
-      "\\.\\C[4](Cosa...? C'è una scala dietro gli schermi!)",
+      "\\.\\C[4](Cosa...? C'è una scala dietro agli schermi!)",
       "\"Sorellona Sara! Andiamo a vedere, miao!!\""
     ],
     "3-3-message": [
@@ -17600,24 +17817,295 @@
     ]
   },
   "map177": {
+    "1-1-message": [
+      "\\C[3]Due sedie basse rivolte l'una verso l'altra."
+    ],
+    "2-1-message": [
+      "\\C[3]Un tavolo lungo e bianco."
+    ],
+    "2-2-message": [
+      "\\C[3]Sou è concentrato al massimo sul portatile,\ncontinuando a smanettarci.",
+      "\"..........\"",
+      "\\.\\C[4](Non si è ancora arreso...?)",
+      "\\.\"S-Sou...\"",
+      "\\.\"..........\"",
+      "\\.\"Ti prego...\"",
+      "\\.\"Salva... ci...\"",
+      "\\.\\C[3]Quelle parole mi sono uscite inconsciamente.",
+      "\\.\\C[3]Non c'è più nulla che possa fare con le mie sole forze.",
+      "\\.\\C[3]Se c'è qualcuno che può fare qualcosa... quello è Sou.",
+      "\\.\"Non... mi basta il tempo...\"",
+      "\\.\"Ho il circuito di Pongo proprio qui!\n Se avessi anche solo un'ora in più... arggh...\"",
+      "\\.\\C[4](Sou...)",
+      "\\.\"L'unica cosa che potrei fare ora...\n è \\C[2]hackerare\\C[0] le \\C[2]carte dei ruoli\\C[0]...\"",
+      "\\.\\C[4](Eh...?)"
+    ],
+    "2-2-choice": [
+      "Parlagli\nAnnulla"
+    ],
+    "2-3-message": [
+      "\\C[3]Sou è concentrato al massimo sul portatile,\ncontinuando a smanettarci.",
+      "\"..........\""
+    ],
+    "3-1-message": [
+      "\\C[3]Una porta scorrevole bianca nasconde\nciò che c'è fuori dalle finestre."
+    ],
+    "4-1-message": [
+      "\\C[3]Piccoli scaffali di qualche tipo."
+    ],
+    "5-1-message": [
+      "\\C[3]Una luce calda illumina la stanza."
+    ],
+    "6-1-message": [
+      "\\C[3]Il corridoio prosegue.",
+      "\"Da questa parte... c'è l'uscita, signorina Sara.\"",
+      "\\.\\C[4](Alla fine...)",
+      "\\.\"Andiamo...!\"",
+      "\\.\"...Già.\"",
+      "\\.\\C[3]Abbiamo attraversato il corridoio.",
+      "\\.\\C[3]Il mio battito si fa sempre più intenso.",
+      "\\.\\C[3]Speranza. Futuro. Normalità.",
+      "\\.\\C[3]Convinti che ci fosse tutto questo davanti a noi.",
+      "\\C[3]Ad aspettarci... c'era un massiccio muro di roccia."
+    ],
+    "6-1-choice": [
+      "Dirigiti all'uscita\nAnnulla"
+    ],
+    "6-2-message": [
+      "\\C[3]Conduce all'uscita della struttura."
+    ],
+    "6-2-choice": [
+      "Dirigiti all'uscita\nAnnulla"
+    ],
+    "8-1-message": [
+      "\\C[3]Un lungo tavolo pulito."
+    ],
+    "8-2-message": [
+      "\\C[3]Una Cabina Squillo.",
+      "\\.\\C[4](Se avessi avuto dei gettoni...\n avrei potuto usarla pure qui...)"
+    ],
+    "43-1-message": [
+      "\\C[3]Piccoli scaffali di qualche tipo."
+    ],
+    "44-1-message": [
+      "\\C[3]Piccoli scaffali di qualche tipo."
+    ],
+    "45-1-message": [
+      "\\C[3]Piccoli scaffali di qualche tipo."
+    ],
+    "46-1-message": [
+      "\\C[3]Piccoli scaffali di qualche tipo."
+    ],
+    "47-1-message": [
+      "\\C[3]Piccoli scaffali di qualche tipo."
+    ],
     "64-1-message": [
       "\\C[3]Video della vittima\n\nIl video che aveva Nao. Mostra una poliziotta\nche muore nella Prima Prova. L'uomo di fronte è Keiji?"
+    ],
+    "65-1-message": [
+      "\\C[3]Disco della vittima E\n\nUn disco della vittima trovato al 1º piano."
+    ],
+    "66-1-message": [
+      "\\C[3]Disco della vittima F\n\nUn disco della vittima trovato al 1º piano."
+    ],
+    "67-1-message": [
+      "\\C[3]Filmati di sorveglianza del 1º piano\n\nDalle telecamere di sorveglianza del 1º piano. Mostra le\nnostre azioni. Sou ha visto Q-taro posizionare le carte."
+    ],
+    "68-1-message": [
+      "\\C[3]Tablet\n\nUn tablet utilizzabile per vedere il proprio ruolo.\nEra vicino a Q-taro svenuto nella Stanza delle macerie."
+    ],
+    "69-1-message": [
+      "\\C[3]Arma stordente\n\nUn'arma monouso che può immobilizzare una persona.\nÈ pericolosa, Gin e io l'abbiamo presa in segreto."
     ],
     "71-1-message": [
       "\\C[3]Circuito di Nosko\n\nUn piccolo circuito rimosso dalla testa di Rikon Nosko.\nIn grado di distruggere la sicurezza della struttura."
     ]
   },
   "map178": {
+    "1-1-message": [
+      "\\C[4](Non... non può essere...)",
+      "\"C... Che cavolo è questo...?!\"",
+      "\\.\\C[3]Uscita? Questa sarebbe l'uscita...?",
+      "\\.\\C[3]Ci sono solo pietre...\nQuasi come se ci fosse stata una frana...",
+      "\\.\"È ridicolo...!! Cioè, quindi significa...\"",
+      "\\.\"Che l'uscita è bloccata...?!\"",
+      "\\C[3]I sistemi di sicurezza erano stati\neffettivamente neutralizzati.",
+      "\\.\\C[3]Ma senza una porta... era comunque inutile.",
+      "\\.\\sp[15]\"Ahah... ah...\"",
+      "\\.\\C[3]Non c'era alcuna speranza.",
+      "\\.\"No...!!\"",
+      "\\.\"Aah... aaaaah...\"",
+      "\\.\"..........\"",
+      "\\.\"Non erano questi gli accordi...!!!!\"",
+      "\\.\"Non farmi ridere...!! Ma che accidentiii?!\"",
+      "\\.\"Non... possiamo tornare a casa... miao...?\"",
+      "\\.\"Non ci credo!! È tutta... una menzogna!!\"",
+      "\"Non è una menzogna.\"",
+      "\"...È la verità che stavate cercando.\"",
+      "\\.\"È stata usata un'esplosione esterna\n per creare una barriera fisica.\n\\! Molto prima dell'inizio del Gioco Mortale...\"",
+      "\\.\\{\"Brutto bastardo!!!! Gashu!!\"",
+      "\\.\"Ferma, Reko!!\"",
+      "\\.\"Ti ammazzo!! Ora sei...!!\"",
+      "\\.\"Sarebbe un atto vano.\"",
+      "\\.\"Che...?!\"",
+      "\\.\"M-Ma che... Quell'affare sul tuo collo...!!\"",
+      "\"Anche noi siamo tenuti prigionieri.\"",
+      "\\.\"Finché non sarà tutto finito...\n i nostri destini sarano interconnessi.\"",
+      "\\C[4](Un collare...! Anche i Maestri di piano sono...?!)",
+      "\"Merda...\"",
+      "\\.\"MERDA! Ma voi che diavolo siete?!\"",
+      "\\.\"..........\"",
+      "\\.\"Accidenti a te...!!\"",
+      "\\.\"...Ahem. Questa volta ce l'ho.\"",
+      "\\.\"...!!\"",
+      "\\.\"Perdoni lo sgarbo.\n Non vorrei fare uso della violenza.\"",
+      "\\.\"Ora, gente, è il momento di smettere di sognare.\"",
+      "\\.\"Dovete vincere...!\n Solo il vincitore vedrà il passaggio aprirsi!!\"",
+      "\\.\"Ormai vi resta poco tempo...\n Usate al meglio questi ultimi istanti\n prima del Gioco Principale.\"",
+      "\\C[4](È finita...)",
+      "\\.\\C[4](È tutto... finito...)",
+      "\\C[3]Non rimane altro... che quella carta...",
+      "\\.\\C[4](Eh...)",
+      "\\.\\C[4](Mi sa che è così, eh... ahah...)",
+      "\\.\\C[4](Avere speranza... vederla in frantumi...)",
+      "\\.\\C[4](Come un ciclo infinito...?)",
+      "\\.\\C[4](..........)",
+      "\\C[10]\"Sara...\"",
+      "\\.\\C[10]\"Credo che sia l'ora di un po' di sano realismo.\"",
+      "\\.\\C[10]\"La scelta è sempre stata una sola.\"",
+      "\\.\\C[10]\"Cosa decidi?\"",
+      "\\C[10]\"...\"",
+      "\\.\\C[10]\"Quindi hai scelto questo...\"",
+      "\\.\\C[10]\"Beh, in bocca al lupo...\"",
+      "\\C[4](...)",
+      "\\.\\C[3]Prima che potessi accorgermene,\nerano tutti andati via.",
+      "\\.\\C[3]A fare buon uso del tempo concessoci."
+    ],
+    "1-1-choice": [
+      "Fidati degli altri e accetta la morte\nInganna gli altri per poter vivere"
+    ],
+    "2-1-message": [
+      "\\C[3]Keiji sta spostando delle pietre.",
+      "\\.\"Keiji...?\"",
+      "\"Proprio non ce la faccio ad arrendermi...\"",
+      "\\.\"Sarà anche inutile... ma lotterò.\"",
+      "\"...Sciocco.\"",
+      "\\.\"Cosa pensi di fare senza\n un macchinario da costruzione...?\"",
+      "\\.\"Sei uno sciocco senza speranza...\"",
+      "\\C[3]Anche Alice ha cominciato a spostare le macerie.",
+      "\\C[4](Keiji...)"
+    ],
+    "2-2-message": [
+      "\"Chissà se si può aprire un passaggio.\n Anche un varco minuscolo...\"",
+      "\\.\"*anf*... *gasp*...\n Risparmia il fiato, muovi le braccia...!\"",
+      "\\C[4](Sembra un lavoro ben al di fuori\n della forza di un essere umano...)"
+    ],
+    "5-1-message": [
+      "\\C[3]Q-taro è ancora svenuto."
+    ],
     "21-1-message": [
       "\\C[3]Video della vittima\n\nIl video che aveva Nao. Mostra una poliziotta\nche muore nella Prima Prova. L'uomo di fronte è Keiji?"
     ],
+    "22-1-message": [
+      "\\C[3]Disco della vittima E\n\nUn disco della vittima trovato al 1º piano."
+    ],
+    "23-1-message": [
+      "\\C[3]Disco della vittima F\n\nUn disco della vittima trovato al 1º piano."
+    ],
+    "24-1-message": [
+      "\\C[3]Filmati di sorveglianza del 1º piano\n\nDalle telecamere di sorveglianza del 1º piano. Mostra le\nnostre azioni. Sou ha visto Q-taro posizionare le carte."
+    ],
+    "25-1-message": [
+      "\\C[3]Tablet\n\nUn tablet utilizzabile per vedere il proprio ruolo.\nEra vicino a Q-taro svenuto nella Stanza delle macerie."
+    ],
+    "26-1-message": [
+      "\\C[3]Arma stordente\n\nUn'arma monouso che può immobilizzare una persona.\nÈ pericolosa, Gin e io l'abbiamo presa in segreto."
+    ],
     "28-1-message": [
       "\\C[3]Circuito di Nosko\n\nUn piccolo circuito rimosso dalla testa di Rikon Nosko.\nIn grado di distruggere la sicurezza della struttura."
+    ],
+    "29-1-message": [
+      "\"Diamine! Diamine...!!\"",
+      "\\C[4](Puoi spostare quante pietre ti pare...\n non c'è tempo...)"
+    ],
+    "31-1-message": [
+      "\\C[3]Un cartello che indica l'uscita di emergenza.",
+      "\\.\\C[4](Sicuramente c'era una porta sotto queste pietre...)"
     ]
   },
   "map179": {
+    "1-1-message": [
+      "\\C[3]C'è Gashu sullo schermo.",
+      "\"Tutti voi... Come vi sentite?\"",
+      "\\.\"Vorrei ringraziarvi sinceramente\n per la vostra seconda partecipazione\n al \\C[2]Gioco Principale\\C[0].\"",
+      "\\.\"Ometterò spiegazioni dettagliate,\n ma stavolta ho un avviso da annunciare...\"",
+      "\\.\"Parrebbe che uno di voi\n abbia smarrito il proprio tablet.\"",
+      "\\.\"Essendo protetto con lettura delle impronte digitali,\n nessun altro può farne un uso improprio, tuttavia...\"",
+      "\\.\"Poiché non conoscere il proprio ruolo\n comporterebbe uno svantaggio,\n è stato posizionato un tablet di riserva sul tavolo.\"",
+      "\\.\"Invito la persona in questione a farne uso.\"",
+      "\\.\"Non ho altri avvisi da fare.\n Per procedere con le regole, toccate pure lo schermo.\"",
+      "\\C[4](Sta per cominciare... Un secondo Gioco Principale...)"
+    ],
+    "1-2-message": [
+      "\"Ordunque, permettetemi di spiegare\n le regole del Gioco Principale.\"",
+      "\\.\"La regola alla base è che verrà scelta una persona\n da sacrificare tramite votazione per maggioranza.\"",
+      "\\.\"La votazione sarà ripartita in due parti.\"",
+      "\\.\"Durante il primo turno, la \\C[2]votazione preliminare\\C[0],\n la metà di voi verranno scelti come candidati.\"",
+      "\\.\"In quanto al momento sono in vita 8 persone,\n ne verranno selezionati \\C[2]4\\C[0].\"",
+      "\\.\"Si terrà infine una \\C[2]votazione finale\\C[0] con questi ultimi,\n così da decidere la \\C[2]vittima\\C[0] definitiva.\"",
+      "\\.\"In altri termini, il sacrificio sarà deciso\n restringendo gradualmente il campo da 8 persone,\n a 4, fino a 1.\"",
+      "\\.\"Ad avere particolare rilevanza sono i \\C[2]ruoli\\C[0].\"",
+      "\\.\"Il primo è il \\C[5]Popolano\\C[0].\"",
+      "\\.\"Trattasi di un ruolo normale, senza potere alcuno.\"",
+      "\\.\"Il secondo è il \\C[2]Custode della Chiave\\C[0].\"",
+      "\\.\"Come ci si aspetterebbe, è la chiave.\n Se scelto come vittima, periranno tutti.\"",
+      "\\.\"Il terzo è il \\C[3]Saggio\\C[0].\"",
+      "\\.\"Tramite il potere della sacra divinazione,\n è in grado di sapere chi sia il \\C[2]Custode della Chiave\\C[0].\"",
+      "\\.\"Il quarto è il \\C[10]Sacrificio\\C[0].\"",
+      "\\.\"È una carta al contrario,\n che permette al suo detentore di vivere\n solo se scelto come vittima.\"",
+      "\\.\"Ma viceversa... se non venisse scelto, morirebbe.\n Perciò è anch'essa una carta temibile.\"",
+      "\\.\"In contraccambio, il \\C[10]Sacrificio\\C[0]\n può votare due volte...\"",
+      "\\.\"E in caso vincesse, potrebbe scappare\n insieme a una persona a sua scelta.\"",
+      "\\.\"In aggiunta, nell'eventualità in cui\n più persone si trovassero prime a pari merito...\"",
+      "\\.\"Se il \\C[10]Sacrificio\\C[0] fosse tra i primi,\n vincerebbe il \\C[10]Sacrificio\\C[0].\n Se il \\C[2]Custode della Chiave\\C[0] fosse tra i primi,\n perirebbero tutti.\"",
+      "\\.\"Se sia il \\C[10]Sacrificio\\C[0] che il \\C[2]Custode della Chiave\\C[0]\n fossero primi a pari merito...\n Il \\C[2]Custode della Chiave\\C[0] avrebbe la precedenza\n e perirebbero tutti.\"",
+      "\\.\"La distribuzione delle carte è tale che ci sono\n 1 \\C[2]Custode della Chiave\\C[0], 1 \\C[3]Saggio\\C[0] e 1 \\C[10]Sacrificio\\C[0].\n Tutti gli altri sono \\C[5]Popolani\\C[0].\"",
+      "\\.\"Buona fortuna... e possiate evitare\n la distruzione totale, a qualunque costo.\"",
+      "\\.\\C[4](Non c'era bisogno di dirlo...)",
+      "\\.\"Bene, gente, ancora un po' di pazienza,\n il gioco sta per com...\"",
+      "\\C[4](Eh...?)",
+      "\\{\"Ehi! Gashu!!\"",
+      "\\.\\C[4](Tina?!)",
+      "\\.\"Gashu, mi senti?!\n Hai davvero combinato un gran casino...!\"",
+      "\\.\"Hai commesso un tragressione flagrante...!!\n Di una tale portata da far vacillare\n le fondamenta del Gioco Principale!!\"",
+      "\\.\"Stai provando ad appropriarti del Gioco Principa...\"",
+      "\"...Mi scuso per il problema tecnico.\"",
+      "\\.\"Il Gioco Principale sta per avere inizio.\n Vi invito a entrare.\"",
+      "\\.\\C[4](C... Cos'è appena successo?!)"
+    ],
+    "1-4-message": [
+      "\"Abbiamo già aperto.\n Siete pregati di entrare rapidamente.\""
+    ],
+    "2-1-message": [
+      "\\C[3]Un banchetto sontuoso."
+    ],
     "37-1-message": [
       "\\C[3]Video della vittima\n\nIl video che aveva Nao. Mostra una poliziotta\nche muore nella Prima Prova. L'uomo di fronte è Keiji?"
+    ],
+    "38-1-message": [
+      "\\C[3]Disco della vittima E\n\nUn disco della vittima trovato al 1º piano."
+    ],
+    "39-1-message": [
+      "\\C[3]Disco della vittima F\n\nUn disco della vittima trovato al 1º piano."
+    ],
+    "40-1-message": [
+      "\\C[3]Filmati di sorveglianza del 1º piano\n\nDalle telecamere di sorveglianza del 1º piano. Mostra le\nnostre azioni. Sou ha visto Q-taro posizionare le carte."
+    ],
+    "41-1-message": [
+      "\\C[3]Tablet\n\nUn tablet utilizzabile per vedere il proprio ruolo.\nEra vicino a Q-taro svenuto nella Stanza delle macerie."
+    ],
+    "42-1-message": [
+      "\\C[3]Arma stordente\n\nUn'arma monouso che può immobilizzare una persona.\nÈ pericolosa, Gin e io l'abbiamo presa in segreto."
     ],
     "44-1-message": [
       "\\C[3]Circuito di Nosko\n\nUn piccolo circuito rimosso dalla testa di Rikon Nosko.\nIn grado di distruggere la sicurezza della struttura."
@@ -25182,7 +25670,7 @@
       "\\.\"...Sì... Capisco...\n ...Era senz'altro... una bambola...\"",
       "\\.\"Ma allora... Dov'è la vera Reko...?\"",
       "\\.\"Pongo! Dov'è la vera...\"",
-      "\\.\\C[3]Pongo e Mosa erano già scomparsi.",
+      "\\.\\C[3]Pongo e Mosa si erano già dileguati.",
       "\\.\"La Stanza delle bugie...!!\n No! Reko!!\"",
       "\\.\\C[3]Alice si è messo a correre.",
       "\\.\\C[3]Infine, la Stanza dell'impressione\nè sprofondata fino al suolo.",
@@ -27575,11 +28063,11 @@
       "*sniff sniff sniff*...",
       "\\.\"Odora di gorilla, miao!\"",
       "\\.\"...È perché ho un gorilla in spalla.\"",
-      "\"A quanto pare Q-taro ancora non si è svegliato.\"",
-      "\\.\"È come in un sonno profondo.\"",
+      "\"A quanto pare Q-taro non si è ancora svegliato.\"",
+      "\\.\"È come immerso in un sonno profondo.\"",
       "\\.\"Oh...\"",
       "\"Sono preoccupata che possa non svegliarsi...\"",
-      "\\.\"Tranquilla. In quel caso,\n potremo provare a spruzzargli sopra dell'acqua.\"",
+      "\\.\"Tranquilla. In quel caso,\n potremmo provare a spruzzargli dell'acqua addosso.\"",
       "\\.\\C[4](Cos'è questa, l'ora di educazione fisica?)",
       "\"Che ne dici di scappare prima che Q-taro si svegli?\"",
       "\\.\"Sarebbe uno spasso.\n Tipo quegli scherzi che si fanno a chi dorme.\"",
@@ -27601,7 +28089,7 @@
       "\\.\"...Sono sicura che ce la farà.\"",
       "\\.\\C[4](Kanna... Quindi gli credi.)",
       "\"Potrebbe avere qualche secondo fine...\"",
-      "\\.\"Ma sei stata tu ad aver affidato questo a Sou, no?\"",
+      "\\.\"Ma sei tu che ti sei affidata a Sou, no?\"",
       "\\.\"...!\"",
       "\\.\"Sono sicura... che una parte di te\n vuole crederci, Sara...\"",
       "\\.\\C[4](...)"
@@ -27612,12 +28100,12 @@
     "853-0-message": [
       "*sniff sniff sniff*...",
       "\\.\"Odora di sorellona Nao, miao!\"",
-      "\\.\"È una cosa buona, vero?!\"",
-      "\"Dovessi vedere Gashu... lo terrò occupato!\"",
+      "\\.\"È una cosa positiva, vero?!\"",
+      "\"Se vedrò Gashu... lo terrò occupato!\"",
       "\"Spero che il Maestro di piano\n non scopra il nostro piano...\"",
-      "\\.\"Se Gashu dovesse vederci,\n sarebbe un vero guaio, vero...?\"",
+      "\\.\"Se Gashu dovesse vederci,\n sarebbe un bel guaio, vero...?\"",
       "\\.\"Dopo l'incidente con la finta IA di Mishima...\n Potrebbero accorgersi presto che qualcosa non va...!\"",
-      "\\.\\C[4](Diventerebbero molto attenti in tal caso...)",
+      "\\.\\C[4](Diventerebbero molto cauti in tal caso...)",
       "\"Sou è ancora in camera tua?\"",
       "\\.\"Ehm... Mi pare fosse diretto alla Sala degli schermi.\"",
       "\\.\"Per caso la stanza segreta è lì?!\"",
@@ -27651,7 +28139,7 @@
       "\"Scusa. Era solo uno scherzo.\"",
       "\\.\"...............\"",
       "\\.\"...Ah, quindi puoi permetterti\n di prenderci in giro?\n Devi aver trovato proprio un bell'indizio.\"",
-      "\\.\\C[4](Non se l'è bevuta...!)",
+      "\\.\\C[4](Non c'è cascata...!)",
       "*sniff sniff sniff*...",
       "\\.\"Ma cheee... Ha un odore inutilmente buono, miao...\"",
       "\\.\"Mpf... L'igiene è cruciale in un uomo.\"",
